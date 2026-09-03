@@ -7,9 +7,9 @@ site_author: kwonsu kim
 
 # GitHub Pages 공개 주소와 저장소 연결 정보.
 # GitHub Pages 주소 형식: https://<사용자명>.github.io/<저장소명>/
-site_url: https://ju-sic.github.io/stock/
-repo_url: https://github.com/ju-sic/stock
-repo_name: ju-sic/stock
+site_url: https://ju-sic.github.io/
+repo_url: https://github.com/ju-sic/ju-sic
+repo_name: ju-sic/ju-sic
 
 copyright: 'Copyright &copy; 2026 지식저장소. All rights reserved.'
 
@@ -173,7 +173,6 @@ nav:
       - 종목상담:
           - 2026년 08월:
               - "브로드컴(AVGO) 비중 확대 및 분할 매수 전략": questions/stock-consulting/2026/08/broadcom-position-strategy.md
-
 
 
 
