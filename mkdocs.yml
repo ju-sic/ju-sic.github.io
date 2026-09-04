@@ -72,6 +72,11 @@ extra_css:
   - https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+
 extra:
   # Material 하단 "Made with Material for MkDocs" 문구 유지 여부
   generator: false
@@ -94,6 +99,7 @@ plugins:
       # 주의: lunr에는 한글 형태소 분석기가 없어 조사가 붙은 검색어("문서를")는
       #       원형("문서")과 완전히 매칭되지 않는다. 완화일 뿐 완전 해결은 아니다.
       separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])|(?<=[가-힣])(?=[A-Za-z0-9])|(?<=[A-Za-z0-9])(?=[가-힣])'
+  - charts
 
 ## ---------------------------------------------------------------------------
 ## 마크다운 확장
@@ -137,6 +143,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
   - pymdownx.tabbed:
       alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
@@ -164,8 +173,8 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
-              - "어플라이드 머티어리얼즈(AMAT)": stocks/2026/09/applied-materials.md
-              - "아간(Argan)": stocks/2026/09/argan.md
+              - "어플라이드 머티어리얼즈": stocks/2026/09/applied-materials.md
+              - "아간": stocks/2026/09/argan.md
           - 08월:
               - 브로드컴: stocks/2026/08/broadcom.md
   - 주식투자 Q&A:
