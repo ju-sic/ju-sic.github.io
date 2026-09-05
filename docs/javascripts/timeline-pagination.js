@@ -75,6 +75,45 @@ function initTimelinePagination() {
 }
 
 /**
+ * 체결 대장 표 탐색
+ *
+ * `#trade-log ~ table` 같은 후행 형제 선택자는 범위의 끝이 없어서, 체결 대장 헤딩
+ * 뒤에 오는 '현재 보유 포지션'과 '월별 성과 요약' 표까지 함께 잡힌다. 지금은 두 표가
+ * 14행 이하라 증상이 없지만, 월별 요약이 15행을 넘기면 그 표에도 '체결 대장 더보기'
+ * 버튼이 붙는다.
+ *
+ * 그래서 선택자 대신 형제 순회로 섹션 경계를 명시한다.
+ * 체결 대장 헤딩 다음부터 훑되, 다음 헤딩(H1~H6)을 만나면 중단하고, 그 사이에서
+ * 처음 발견한 표 하나만 대상으로 삼는다.
+ *
+ * Material 테마는 표를 실행 시점에 .md-typeset__scrollwrap > .md-typeset__table 로
+ * 감싸므로, 형제가 표 자신인 경우와 래퍼인 경우를 모두 처리한다.
+ */
+function findTradeLogTables() {
+  const tables = [];
+
+  // 1) 클래스로 직접 지정한 표 (HTML로 직접 작성한 경우)
+  document.querySelectorAll(".kb-trade-log-table").forEach((table) => {
+    tables.push(table);
+  });
+
+  // 2) #trade-log 헤딩이 여는 섹션 안의 첫 번째 표
+  const heading = document.getElementById("trade-log");
+  if (heading) {
+    for (let el = heading.nextElementSibling; el; el = el.nextElementSibling) {
+      if (/^H[1-6]$/.test(el.tagName)) break; // 다음 섹션에 진입하면 중단
+      const table = el.tagName === "TABLE" ? el : el.querySelector("table");
+      if (table) {
+        tables.push(table);
+        break;
+      }
+    }
+  }
+
+  return tables;
+}
+
+/**
  * 실전 체결 대장 (Trade Log) 페이징 (더보기) 스크립트
  *
  * - 초기 로드 시 최신 14개만 표시
@@ -85,11 +124,7 @@ function initTradeLogPagination() {
   const INITIAL_LIMIT = 14;
   const BATCH_SIZE = 10;
 
-  const tables = document.querySelectorAll(
-    ".kb-trade-log-table, #trade-log ~ .md-typeset__scrollwrap table, #trade-log ~ .md-typeset__table table, #trade-log ~ table"
-  );
-
-  tables.forEach((table) => {
+  findTradeLogTables().forEach((table) => {
     // 중복 초기화 방지
     if (table.dataset.paginated === "true") return;
     table.dataset.paginated = "true";
