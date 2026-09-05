@@ -1276,3 +1276,228 @@ body {
     gap: 0.2rem;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * 11. 투자 트랙레코드 & 시계열 컴포넌트
+ * ------------------------------------------------------------------------- */
+
+/* 메트릭 요약 그리드 */
+.kb-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr));
+  gap: 0.8rem;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.kb-metric-card {
+  background-color: var(--kb-bg-subtle);
+  border: 1px solid var(--kb-border);
+  border-radius: var(--kb-radius-md);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.kb-metric-card__label {
+  font-size: 0.68rem;
+  color: var(--kb-text-muted);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.kb-metric-card__value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--kb-text-strong);
+  line-height: 1.2;
+}
+
+.kb-metric-card__sub {
+  font-size: 0.65rem;
+  color: var(--kb-text-muted);
+}
+
+/* 뱃지 & 태그 */
+.kb-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: var(--kb-radius-sm);
+  border: 1px solid var(--kb-border);
+  background-color: transparent;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.kb-badge--buy {
+  color: var(--kb-sem-note);
+  border-color: var(--kb-sem-note);
+}
+
+.kb-badge--sell {
+  color: var(--kb-sem-warn);
+  border-color: var(--kb-sem-warn);
+}
+
+.kb-badge--gain {
+  color: var(--kb-sem-tip);
+  border-color: var(--kb-sem-tip);
+}
+
+.kb-badge--loss {
+  color: var(--kb-sem-danger);
+  border-color: var(--kb-sem-danger);
+}
+
+/* 수직 시계열 타임라인 */
+.kb-timeline {
+  position: relative;
+  margin: 1.4rem 0 2rem;
+  padding-left: 1.6rem;
+  border-left: 1px solid var(--kb-border-strong);
+}
+
+.kb-timeline-item {
+  position: relative;
+  margin-bottom: 1.6rem;
+}
+
+.kb-timeline-item:last-child {
+  margin-bottom: 0.5rem;
+}
+
+.kb-timeline-marker {
+  position: absolute;
+  left: -2.05rem;
+  top: 0.35rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--kb-bg);
+  border: 2px solid var(--kb-accent);
+}
+
+.kb-timeline-marker--buy {
+  border-color: var(--kb-sem-note);
+}
+
+.kb-timeline-marker--sell {
+  border-color: var(--kb-sem-warn);
+}
+
+.kb-timeline-marker--close {
+  border-color: var(--kb-sem-tip);
+}
+
+.kb-timeline-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.kb-timeline-date {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--kb-text-muted);
+}
+
+.kb-timeline-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--kb-text-strong);
+  margin: 0;
+}
+
+.kb-timeline-body {
+  background-color: var(--kb-bg-subtle);
+  border: 1px solid var(--kb-border);
+  border-radius: var(--kb-radius-md);
+  padding: 0.85rem 1rem;
+}
+
+.kb-timeline-table {
+  width: 100%;
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
+}
+
+.kb-timeline-table td {
+  padding: 0.2rem 0.5rem 0.2rem 0;
+  border-bottom: 1px solid var(--kb-border);
+}
+
+.kb-timeline-desc {
+  font-size: 0.74rem;
+  line-height: 1.6;
+  color: var(--kb-text);
+  margin: 0;
+}
+
+/* 타임라인 및 체결 대장 페이징 (더보기 / 숨김) */
+.kb-timeline-item--hidden,
+.kb-table-row--hidden {
+  display: none !important;
+}
+
+.kb-empty-state {
+  text-align: center;
+  padding: 2.2rem 1.2rem;
+  color: var(--kb-text-muted);
+  font-size: 0.78rem;
+  border: 1px dashed var(--kb-border-strong);
+  border-radius: var(--kb-radius-md);
+  margin: 1rem 0;
+  background-color: var(--kb-bg-subtle);
+}
+
+.kb-timeline:has(.kb-empty-state) {
+  border-left: none;
+  padding-left: 0;
+}
+
+.kb-timeline-more-wrap,
+.kb-table-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 1.2rem 0 2.2rem;
+}
+
+.kb-timeline-more-btn,
+.kb-table-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.45rem 1.2rem;
+  border-radius: var(--kb-radius-md);
+  border: 1px solid var(--kb-border-strong);
+  background-color: var(--kb-bg-subtle);
+  color: var(--kb-text-strong);
+  cursor: pointer;
+  transition: background-color 0.15s var(--kb-ease), border-color 0.15s var(--kb-ease), transform 0.1s var(--kb-ease);
+}
+
+.kb-timeline-more-btn:hover,
+.kb-table-more-btn:hover {
+  background-color: var(--kb-hover);
+  border-color: var(--kb-accent);
+}
+
+.kb-timeline-more-btn:active,
+.kb-table-more-btn:active {
+  transform: scale(0.98);
+}
+
+.kb-timeline-more-btn--collapse,
+.kb-table-more-btn--collapse {
+  color: var(--kb-text-muted);
+  border-style: dashed;
+}
+
+

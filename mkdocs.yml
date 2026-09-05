@@ -76,6 +76,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
   - https://cdn.jsdelivr.net/npm/vega-lite@5
   - https://cdn.jsdelivr.net/npm/vega-embed@6
+  - javascripts/timeline-pagination.js
 
 extra:
   # Material 하단 "Made with Material for MkDocs" 문구 유지 여부
@@ -185,3 +186,8 @@ nav:
               - "반도체 조정 국면과 대안 섹터 투자 전략": questions/2026/09/semiconductor-vs-other-sectors.md
           - 08월:
               - "브로드컴(AVGO) 비중 확대 및 분할 매수 전략": questions/2026/08/broadcom-position-strategy.md
+  - 투자 트랙레코드:
+      - 2026년:
+          - "투자 성과": records/2026/trade-track-record.md
+
+
