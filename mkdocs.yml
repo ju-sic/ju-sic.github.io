@@ -175,6 +175,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "테이크-투 인터랙티브(TTWO)": stocks/2026/09/take-two-interactive.md
               - "SK하이닉스(000660.KS)": stocks/2026/09/sk-hynix.md
               - "어플라이드 머티어리얼즈(AMAT)": stocks/2026/09/applied-materials.md
               - "아간(AGX)": stocks/2026/09/argan.md
@@ -187,6 +188,7 @@ nav:
   - 주식투자 Q&A:
       - 2026년:
           - 09월:
+              - "현금 100% 빈 계좌 첫 매수 종목 선별 전략 (AVGO vs AGX)": questions/2026/09/empty-account-first-stock.md
               - "반도체 조정 국면과 대안 섹터 투자 전략": questions/2026/09/semiconductor-vs-other-sectors.md
           - 08월:
               - "브로드컴(AVGO) 비중 확대 및 분할 매수 전략": questions/2026/08/broadcom-position-strategy.md
