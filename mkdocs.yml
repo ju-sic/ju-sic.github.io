@@ -175,6 +175,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "토로(TTC)": stocks/2026/09/toro.md
               - "테이크-투 인터랙티브(TTWO)": stocks/2026/09/take-two-interactive.md
               - "SK하이닉스(000660.KS)": stocks/2026/09/sk-hynix.md
               - "어플라이드 머티어리얼즈(AMAT)": stocks/2026/09/applied-materials.md
