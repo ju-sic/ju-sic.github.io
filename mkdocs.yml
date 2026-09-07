@@ -175,6 +175,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "엔비디아(NVDA)": stocks/2026/09/nvidia.md
               - "알파벳(GOOGL)": stocks/2026/09/alphabet.md
               - "테슬라(TSLA)": stocks/2026/09/tesla.md
               - "토로(TTC)": stocks/2026/09/toro.md
