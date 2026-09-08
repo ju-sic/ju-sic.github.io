@@ -176,6 +176,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "크레도 테크놀로지(CRDO)": stocks/2026/09/credo.md
               - "엔비디아(NVDA)": stocks/2026/09/nvidia.md
               - "알파벳(GOOGL)": stocks/2026/09/alphabet.md
               - "테슬라(TSLA)": stocks/2026/09/tesla.md
