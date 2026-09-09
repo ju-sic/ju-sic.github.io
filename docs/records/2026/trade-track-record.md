@@ -22,7 +22,7 @@
           <td><strong>투입 금액</strong>: $1,112.00</td>
         </tr>
       </table>
-      <p class="kb-timeline-desc">사유 미기재</p>
+      <p class="kb-timeline-desc">AI 추천주면서 가격 매력이 있어서 조금 사봄. 빠질 때마다 모아갈 예정. 엄청 많이 살 생각은 없음.</p>
     </div>
   </div>
   <div class="kb-timeline-item">
