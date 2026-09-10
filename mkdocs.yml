@@ -164,6 +164,7 @@ nav:
   - 하루치 뉴스정리:
       - 2026년:
           - 09월:
+              - "11(금)": news/2026/09/11.md
               - "10(목)": news/2026/09/10.md
               - "09(수)": news/2026/09/09.md
               - "08(화)": news/2026/09/08.md
@@ -178,6 +179,8 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "KLA(KLAC)": stocks/2026/09/kla.md
+              - "팔로알토 네트웍스(PANW)": stocks/2026/09/palo-alto-networks.md
               - "노바티스(NVS)": stocks/2026/09/novartis.md
               - "스트라이커(SYK)": stocks/2026/09/stryker.md
               - "케이든스 디자인 시스템(CDNS)": stocks/2026/09/cadence-design-systems.md
@@ -208,4 +211,3 @@ nav:
   - 투자 트랙레코드:
       - 2026년:
           - "투자 성과": records/2026/trade-track-record.md
-
