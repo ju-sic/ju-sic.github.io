@@ -178,6 +178,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "노바티스(NVS)": stocks/2026/09/novartis.md
               - "스트라이커(SYK)": stocks/2026/09/stryker.md
               - "케이든스 디자인 시스템(CDNS)": stocks/2026/09/cadence-design-systems.md
               - "하우멧 에어로스페이스(HWM)": stocks/2026/09/howmet-aerospace.md
