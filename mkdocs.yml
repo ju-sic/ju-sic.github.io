@@ -179,6 +179,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "지스케일러(ZS)": stocks/2026/09/zscaler.md
               - "KLA(KLAC)": stocks/2026/09/kla.md
               - "팔로알토 네트웍스(PANW)": stocks/2026/09/palo-alto-networks.md
               - "노바티스(NVS)": stocks/2026/09/novartis.md
@@ -204,6 +205,7 @@ nav:
   - 주식투자 Q&A:
       - 2026년:
           - 09월:
+              - "젠슨 황 AI 사이버보안 수혜주 선별 전략 (ZS vs S vs CSCO)": questions/2026/09/ai-cybersecurity-stocks.md
               - "현금 100% 빈 계좌 첫 매수 종목 선별 전략 (AVGO vs AGX)": questions/2026/09/empty-account-first-stock.md
               - "반도체 조정 국면과 대안 섹터 투자 전략": questions/2026/09/semiconductor-vs-other-sectors.md
           - 08월:
