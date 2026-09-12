@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-12(토) 06:10
+- **업데이트** : 2026-09-12(토) 10:33
 
 
 ## 시계열 매매 타임라인
@@ -100,6 +100,126 @@
 | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 4주 | $364.24 | $361.99 | -$9.00 (-0.62%) |
 | [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $275.56 | -$9.76 (-0.88%) |
 | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 2026-09-11 | 8주 | $164.22 | $164.54 | +$2.56 (+0.19%) |
+
+### 일자별 총 투자 규모 추이 (Daily Capital Allocation)
+
+<div class="kb-portfolio-metrics">
+  <div class="kb-portfolio-metric-card">
+    <span class="label">현재 총 투자원금</span>
+    <span class="value">$3,882.72</span>
+    <span class="sub">약 5,358,000원 (총 3개 종목)</span>
+  </div>
+  <div class="kb-portfolio-metric-card">
+    <span class="label">최대 비중 종목</span>
+    <span class="value">AVGO (37.5%)</span>
+    <span class="sub">브로드컴 4주 ($1,456.96)</span>
+  </div>
+  <div class="kb-portfolio-metric-card">
+    <span class="label">최장기 보유 종목</span>
+    <span class="value">브로드컴 (AVGO)</span>
+    <span class="sub">2026-09-08 진입 (5일차)</span>
+  </div>
+  <div class="kb-portfolio-metric-card">
+    <span class="label">현재 총 평가금액</span>
+    <span class="value">$3,866.52</span>
+    <span class="sub">평가손익 -$16.20 (-0.42%)</span>
+  </div>
+</div>
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "width": "container",
+  "height": 280,
+  "data": {
+    "values": [
+      {"date": "09-08 (화)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
+      {"date": "09-08 (화)", "stock": "스트라이커 (SYK)", "amount": 0},
+      {"date": "09-08 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-09 (수)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
+      {"date": "09-09 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-09 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-10 (목)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
+      {"date": "09-10 (목)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-10 (목)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-11 (금)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
+      {"date": "09-11 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-11 (금)", "stock": "지스케일러 (ZS)", "amount": 657.76},
+      {"date": "09-12 (토)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
+      {"date": "09-12 (토)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-12 (토)", "stock": "지스케일러 (ZS)", "amount": 1313.76}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "area",
+        "line": true,
+        "point": true,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "nominal",
+          "axis": {
+            "title": null,
+            "labelAngle": 0,
+            "labelPadding": 8
+          }
+        },
+        "y": {
+          "field": "amount",
+          "type": "quantitative",
+          "axis": {
+            "title": "총 투자금 ($)",
+            "format": "$,.0f",
+            "grid": true,
+            "gridDash": [2, 2]
+          }
+        },
+        "color": {
+          "field": "stock",
+          "type": "nominal",
+          "scale": {
+            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)"],
+            "range": ["#2563eb", "#059669", "#7c3aed"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "date", "title": "일자"},
+          {"field": "stock", "title": "종목명"},
+          {"field": "amount", "title": "해당 종목 투자원금", "format": "$,.2f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontWeight": "bold",
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {"field": "date", "type": "nominal"},
+        "y": {
+          "aggregate": "sum",
+          "field": "amount",
+          "type": "quantitative"
+        },
+        "text": {
+          "aggregate": "sum",
+          "field": "amount",
+          "type": "quantitative",
+          "format": "$,.0f"
+        }
+      }
+    }
+  ]
+}
+```
 
 ---
 

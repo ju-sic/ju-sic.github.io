@@ -179,6 +179,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "웨스턴 디지털(WDC)": stocks/2026/09/western-digital.md
               - "지스케일러(ZS)": stocks/2026/09/zscaler.md
               - "KLA(KLAC)": stocks/2026/09/kla.md
               - "팔로알토 네트웍스(PANW)": stocks/2026/09/palo-alto-networks.md
