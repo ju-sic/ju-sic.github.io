@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    /* Material instant loading(SPA 네비게이션) 시 mkdocs_chart_plugin 전역 객체 부재로 인한 렌더링 중단 방지 */
+    window.mkdocs_chart_plugin = window.mkdocs_chart_plugin || {
+      data_path: '',
+      use_data_path: 'True',
+      vega_theme: 'deprecated',
+      vega_theme_light: 'default',
+      vega_theme_dark: 'dark',
+      vega_renderer: 'svg',
+      vega_width: 'container',
+      fallback_width: '800',
+      integrations: {
+        mkdocs_material: {
+          themes_light: ['default'],
+          themes_dark: ['slate']
+        }
+      },
+      path_to_homepage: ''
+    };
+  </script>
+{% endblock %}

@@ -1553,6 +1553,14 @@ vegachart {
   background: transparent !important;
 }
 
+/* 렌더링 전 원본 JSON 텍스트가 화면에 노출(FOUC)되는 현상 방지 */
+vegachart:not(.vega-embed) {
+  display: block;
+  min-height: 280px;
+  color: transparent !important;
+  user-select: none;
+}
+
 .vega-embed svg {
   background: transparent !important;
 }
