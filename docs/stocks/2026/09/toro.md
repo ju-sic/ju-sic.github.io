@@ -27,10 +27,10 @@
 ```mermaid
 flowchart TD
     TTC["토로 (The Toro Company / NYSE: TTC)<br>최근 12개월 매출 47.5억 달러 / 시가총액 88.3억 달러"]
-    
+
     TTC --> Pro["프로페셔널 부문 (Professional)<br>전체 매출의 약 80% / 압도적 캐시카우"]
     TTC --> Res["레지덴셜 부문 (Residential)<br>전체 매출의 약 20% / 마진 턴어라운드"]
-    
+
     Pro --> Golf["골프장 & 스포츠 경기장 솔루션<br>• Lynx 중앙 관수 소프트웨어<br>• Greensmaster 정밀 예초기<br>• 주요 토너먼트 코스 공급 레퍼런스"]
     Pro --> Infra["지하 인프라 & 유틸리티<br>• Ditch Witch 수평 방향성 굴착기<br>• AI 데이터센터 광케이블·전력 매설<br>• 다년 수주 파이프라인"]
     Pro --> Comm["상업용 조경 & 특수 제설<br>• 관공서·대형 캠퍼스 조경 관리<br>• BOSS 제설 시스템"]

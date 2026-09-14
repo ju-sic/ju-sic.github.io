@@ -1,11 +1,53 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-14(월) 09:32
+- **업데이트** : 2026-09-15(화) 05:25
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-15 (화)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 브로드컴 (AVGO)</td>
+          <td><strong>체결 단가</strong>: $345.42 (평균)</td>
+          <td><strong>체결 수량</strong>: 4주 (분할 2주/2주)</td>
+          <td><strong>투입 금액</strong>: $1,381.68</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">브로드컴 비중을 더 늘렸다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-15 (화)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$223.60 (+17.02%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 지스케일러 (ZS)</td>
+          <td><strong>체결 단가</strong>: $192.17</td>
+          <td><strong>체결 수량</strong>: 8주 (전량)</td>
+          <td><strong>정산 금액</strong>: $1,537.36</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $164.22</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$223.60 (약 +300,900원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 4일 (수익률 <strong>+17.02%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">단기간에 큰 수익이 나서 일단 차익실현 후 추후 재진입할 예정이다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -104,6 +146,9 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **09-15** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $345.40 | 2주 | $690.80 | — | (미실현) | — | — |
+| **09-15** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $345.44 | 2주 | $690.88 | — | (미실현) | — | — |
+| **09-15** | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 매도 (청산) | $164.22 | 8주 | $1,313.76 | $192.17 | **+$223.60 (약 +300,900원)** | **+17.02%** | **4일** |
 | **09-14** | [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 매수 (1차) | $435.54 | 4주 | $1,742.16 | — | (미실현) | — | — |
 | **09-12** | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 매수 (2차) | $164.00 | 4주 | $656.00 | — | (미실현) | — | — |
 | **09-11** | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 매수 (1차) | $164.44 | 4주 | $657.76 | — | (미실현) | — | — |
@@ -116,33 +161,32 @@
 
 | 종목명 (티커) | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 4주 | $364.24 | $361.99 | -$9.00 (-0.62%) |
-| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $275.56 | -$9.76 (-0.88%) |
-| [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 2026-09-11 | 8주 | $164.22 | $164.54 | +$2.56 (+0.19%) |
-| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $447.18 | +$46.56 (+2.67%) |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 8주 | $354.83 | $344.72 | -$80.88 (-2.85%) |
+| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $281.87 | +$15.48 (+1.39%) |
+| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $426.94 | -$34.40 (-1.97%) |
 
 ### 일자별 총 투자 규모 추이 (Daily Capital Allocation)
 
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$5,624.88</span>
-    <span class="sub">약 7,567,000원 (총 4개 종목)</span>
+    <span class="value">$5,692.80</span>
+    <span class="sub">약 7,661,000원 (총 3개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">WDC (31.0%)</span>
-    <span class="sub">웨스턴 디지털 4주 ($1,742.16)</span>
+    <span class="value">AVGO (49.9%)</span>
+    <span class="sub">브로드컴 8주 ($2,838.64)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-09-08 진입 (7일차)</span>
+    <span class="sub">2026-09-08 진입 (8일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$5,655.24</span>
-    <span class="sub">평가손익 +$30.36 (+0.54%)</span>
+    <span class="value">$5,593.00</span>
+    <span class="sub">평가손익 -$99.80 (-1.75%)</span>
   </div>
 </div>
 
@@ -177,7 +221,11 @@
       {"date": "09-14 (월)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-14 (월)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-14 (월)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
-      {"date": "09-14 (월)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16}
+      {"date": "09-14 (월)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
+      {"date": "09-15 (화)", "stock": "브로드컴 (AVGO)", "amount": 2838.64},
+      {"date": "09-15 (화)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-15 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-15 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16}
     ]
   },
   "layer": [
@@ -256,8 +304,8 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-09** | 5건 | 0건 | 0건 | — | 0원 | — |
-| **누적 합계** | **5건** | **0건** | **0건** | **—** | **0원** | **—** |
+| **2026-09** | 8건 | 1건 | 0건 | 100% | +300,900원 | +17.02% |
+| **누적 합계** | **8건** | **1건** | **0건** | **100%** | **+300,900원** | **+17.02%** |
 
 ---
 
