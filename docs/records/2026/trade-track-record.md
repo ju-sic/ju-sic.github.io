@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-12(토) 10:33
+- **업데이트** : 2026-09-14(월) 09:32
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-14 (월)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 웨스턴 디지털 (WDC)</td>
+          <td><strong>체결 단가</strong>: $435.54</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $1,742.16</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">니어라인 HDD 수요는 아직 견고한데 전고점 대비 주가가 많이 폭락했어서 일단 선발대로 사봤다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -86,6 +104,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **09-14** | [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 매수 (1차) | $435.54 | 4주 | $1,742.16 | — | (미실현) | — | — |
 | **09-12** | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 매수 (2차) | $164.00 | 4주 | $656.00 | — | (미실현) | — | — |
 | **09-11** | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 매수 (1차) | $164.44 | 4주 | $657.76 | — | (미실현) | — | — |
 | **09-09** | [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 매수 (1차) | $278.00 | 4주 | $1,112.00 | — | (미실현) | — | — |
@@ -100,29 +119,30 @@
 | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 4주 | $364.24 | $361.99 | -$9.00 (-0.62%) |
 | [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $275.56 | -$9.76 (-0.88%) |
 | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 2026-09-11 | 8주 | $164.22 | $164.54 | +$2.56 (+0.19%) |
+| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $447.18 | +$46.56 (+2.67%) |
 
 ### 일자별 총 투자 규모 추이 (Daily Capital Allocation)
 
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$3,882.72</span>
-    <span class="sub">약 5,358,000원 (총 3개 종목)</span>
+    <span class="value">$5,624.88</span>
+    <span class="sub">약 7,567,000원 (총 4개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">AVGO (37.5%)</span>
-    <span class="sub">브로드컴 4주 ($1,456.96)</span>
+    <span class="value">WDC (31.0%)</span>
+    <span class="sub">웨스턴 디지털 4주 ($1,742.16)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-09-08 진입 (5일차)</span>
+    <span class="sub">2026-09-08 진입 (7일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$3,866.52</span>
-    <span class="sub">평가손익 -$16.20 (-0.42%)</span>
+    <span class="value">$5,655.24</span>
+    <span class="sub">평가손익 +$30.36 (+0.54%)</span>
   </div>
 </div>
 
@@ -137,18 +157,27 @@
       {"date": "09-08 (화)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-08 (화)", "stock": "스트라이커 (SYK)", "amount": 0},
       {"date": "09-08 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-08 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-09 (수)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-09 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-09 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-09 (수)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-10 (목)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-10 (목)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-10 (목)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-10 (목)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-11 (금)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-11 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-11 (금)", "stock": "지스케일러 (ZS)", "amount": 657.76},
+      {"date": "09-11 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-12 (토)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-12 (토)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-12 (토)", "stock": "지스케일러 (ZS)", "amount": 1313.76}
+      {"date": "09-12 (토)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
+      {"date": "09-12 (토)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
+      {"date": "09-14 (월)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
+      {"date": "09-14 (월)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-14 (월)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
+      {"date": "09-14 (월)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16}
     ]
   },
   "layer": [
@@ -183,8 +212,8 @@
           "field": "stock",
           "type": "nominal",
           "scale": {
-            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)"],
-            "range": ["#2563eb", "#059669", "#7c3aed"]
+            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)", "웨스턴 디지털 (WDC)"],
+            "range": ["#2563eb", "#059669", "#7c3aed", "#d97706"]
           },
           "legend": null
         },
@@ -227,8 +256,8 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-09** | 4건 | 0건 | 0건 | — | 0원 | — |
-| **누적 합계** | **4건** | **0건** | **0건** | **—** | **0원** | **—** |
+| **2026-09** | 5건 | 0건 | 0건 | — | 0원 | — |
+| **누적 합계** | **5건** | **0건** | **0건** | **—** | **0원** | **—** |
 
 ---
 
