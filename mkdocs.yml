@@ -181,6 +181,8 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "램 리서치(LRCX)": stocks/2026/09/lam-research.md
+              - "아스테라 랩스(ALAB)": stocks/2026/09/astera-labs.md
               - "CDW(CDW)": stocks/2026/09/cdw.md
               - "웨스턴 디지털(WDC)": stocks/2026/09/western-digital.md
               - "지스케일러(ZS)": stocks/2026/09/zscaler.md

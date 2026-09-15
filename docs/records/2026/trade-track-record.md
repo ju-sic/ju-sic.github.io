@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-15(화) 05:25
+- **업데이트** : 2026-09-15(화) 14:02
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-15 (화)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 어플라이드 머티어리얼즈 (AMAT)</td>
+          <td><strong>체결 단가</strong>: $424.05</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $1,696.20</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">좋은 손익비 자리라 선발대를 보냈다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -146,6 +164,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **09-15** | [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 매수 (1차) | $424.05 | 4주 | $1,696.20 | — | (미실현) | — | — |
 | **09-15** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $345.40 | 2주 | $690.80 | — | (미실현) | — | — |
 | **09-15** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $345.44 | 2주 | $690.88 | — | (미실현) | — | — |
 | **09-15** | [지스케일러 (`ZS`)](../../stocks/2026/09/zscaler.md) | 매도 (청산) | $164.22 | 8주 | $1,313.76 | $192.17 | **+$223.60 (약 +300,900원)** | **+17.02%** | **4일** |
@@ -164,18 +183,19 @@
 | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 8주 | $354.83 | $344.72 | -$80.88 (-2.85%) |
 | [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $281.87 | +$15.48 (+1.39%) |
 | [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $426.94 | -$34.40 (-1.97%) |
+| [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 2026-09-15 | 4주 | $424.05 | $424.21 | +$0.64 (+0.04%) |
 
 ### 일자별 총 투자 규모 추이 (Daily Capital Allocation)
 
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$5,692.80</span>
-    <span class="sub">약 7,661,000원 (총 3개 종목)</span>
+    <span class="value">$7,389.00</span>
+    <span class="sub">약 10,000,000원 (총 4개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">AVGO (49.9%)</span>
+    <span class="value">AVGO (38.4%)</span>
     <span class="sub">브로드컴 8주 ($2,838.64)</span>
   </div>
   <div class="kb-portfolio-metric-card">
@@ -185,8 +205,8 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$5,593.00</span>
-    <span class="sub">평가손익 -$99.80 (-1.75%)</span>
+    <span class="value">$7,289.84</span>
+    <span class="sub">평가손익 -$99.16 (-1.34%)</span>
   </div>
 </div>
 
@@ -202,30 +222,37 @@
       {"date": "09-08 (화)", "stock": "스트라이커 (SYK)", "amount": 0},
       {"date": "09-08 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-08 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
+      {"date": "09-08 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
       {"date": "09-09 (수)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-09 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-09 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-09 (수)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
+      {"date": "09-09 (수)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
       {"date": "09-10 (목)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-10 (목)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-10 (목)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-10 (목)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
+      {"date": "09-10 (목)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
       {"date": "09-11 (금)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-11 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-11 (금)", "stock": "지스케일러 (ZS)", "amount": 657.76},
       {"date": "09-11 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
+      {"date": "09-11 (금)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
       {"date": "09-12 (토)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-12 (토)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-12 (토)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
       {"date": "09-12 (토)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
+      {"date": "09-12 (토)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
       {"date": "09-14 (월)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-14 (월)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-14 (월)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
       {"date": "09-14 (월)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
+      {"date": "09-14 (월)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
       {"date": "09-15 (화)", "stock": "브로드컴 (AVGO)", "amount": 2838.64},
       {"date": "09-15 (화)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-15 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-15 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16}
+      {"date": "09-15 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
+      {"date": "09-15 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20}
     ]
   },
   "layer": [
@@ -260,8 +287,8 @@
           "field": "stock",
           "type": "nominal",
           "scale": {
-            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)", "웨스턴 디지털 (WDC)"],
-            "range": ["#2563eb", "#059669", "#7c3aed", "#d97706"]
+            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)", "웨스턴 디지털 (WDC)", "어플라이드 머티어리얼즈 (AMAT)"],
+            "range": ["#2563eb", "#059669", "#7c3aed", "#d97706", "#0891b2"]
           },
           "legend": null
         },
@@ -304,8 +331,8 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-09** | 8건 | 1건 | 0건 | 100% | +300,900원 | +17.02% |
-| **누적 합계** | **8건** | **1건** | **0건** | **100%** | **+300,900원** | **+17.02%** |
+| **2026-09** | 9건 | 1건 | 0건 | 100% | +300,900원 | +17.02% |
+| **누적 합계** | **9건** | **1건** | **0건** | **100%** | **+300,900원** | **+17.02%** |
 
 ---
 
