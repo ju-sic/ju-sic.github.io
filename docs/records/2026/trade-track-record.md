@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-16(수) 10:46
+- **업데이트** : 2026-09-18(금) 06:55
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-18 (금)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 아간 (AGX)</td>
+          <td><strong>체결 단가</strong>: $391.00</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $1,564.00</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">일단 선발대로 조금 사봤다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -182,6 +200,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **09-18** | [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 매수 (1차) | $391.00 | 4주 | $1,564.00 | — | (미실현) | — | — |
 | **09-16** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (3차) | $339.61 | 6주 | $2,037.66 | — | (미실현) | — | — |
 | **09-15** | [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 매수 (1차) | $424.05 | 4주 | $1,696.20 | — | (미실현) | — | — |
 | **09-15** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $345.40 | 2주 | $690.80 | — | (미실현) | — | — |
@@ -199,33 +218,34 @@
 
 | 종목명 (티커) | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $339.27 | -$126.52 (-2.59%) |
-| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $281.50 | +$14.00 (+1.26%) |
-| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $411.96 | -$94.32 (-5.41%) |
-| [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 2026-09-15 | 4주 | $424.05 | $421.17 | -$11.52 (-0.68%) |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $347.30 | -$14.10 (-0.29%) |
+| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $280.13 | +$8.52 (+0.77%) |
+| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $423.87 | -$46.68 (-2.68%) |
+| [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 2026-09-15 | 4주 | $424.05 | $417.40 | -$26.60 (-1.57%) |
+| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $383.00 | -$32.00 (-2.05%) |
 
 ### 일자별 총 투자 규모 추이 (Daily Capital Allocation)
 
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$9,426.66</span>
-    <span class="sub">약 12,923,000원 (총 4개 종목)</span>
+    <span class="value">$10,990.66</span>
+    <span class="sub">약 15,167,000원 (총 5개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">AVGO (51.7%)</span>
+    <span class="value">AVGO (44.4%)</span>
     <span class="sub">브로드컴 14주 ($4,876.30)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-09-08 진입 (9일차)</span>
+    <span class="sub">2026-09-08 진입 (11일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$9,208.30</span>
-    <span class="sub">평가손익 -$218.36 (-2.32%)</span>
+    <span class="value">$10,879.80</span>
+    <span class="sub">평가손익 -$110.86 (-1.01%)</span>
   </div>
 </div>
 
@@ -242,41 +262,55 @@
       {"date": "09-08 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-08 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-08 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
+      {"date": "09-08 (화)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-09 (수)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-09 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-09 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-09 (수)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-09 (수)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
+      {"date": "09-09 (수)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-10 (목)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-10 (목)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-10 (목)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-10 (목)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-10 (목)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
+      {"date": "09-10 (목)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-11 (금)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-11 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-11 (금)", "stock": "지스케일러 (ZS)", "amount": 657.76},
       {"date": "09-11 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-11 (금)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
+      {"date": "09-11 (금)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-12 (토)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-12 (토)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-12 (토)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
       {"date": "09-12 (토)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
       {"date": "09-12 (토)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
+      {"date": "09-12 (토)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-14 (월)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
       {"date": "09-14 (월)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-14 (월)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
       {"date": "09-14 (월)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
       {"date": "09-14 (월)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
+      {"date": "09-14 (월)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-15 (화)", "stock": "브로드컴 (AVGO)", "amount": 2838.64},
       {"date": "09-15 (화)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-15 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-15 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
       {"date": "09-15 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
+      {"date": "09-15 (화)", "stock": "아간 (AGX)", "amount": 0},
       {"date": "09-16 (수)", "stock": "브로드컴 (AVGO)", "amount": 4876.30},
       {"date": "09-16 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
       {"date": "09-16 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
       {"date": "09-16 (수)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-16 (수)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20}
+      {"date": "09-16 (수)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
+      {"date": "09-16 (수)", "stock": "아간 (AGX)", "amount": 0},
+      {"date": "09-18 (금)", "stock": "브로드컴 (AVGO)", "amount": 4876.30},
+      {"date": "09-18 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
+      {"date": "09-18 (금)", "stock": "지스케일러 (ZS)", "amount": 0},
+      {"date": "09-18 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
+      {"date": "09-18 (금)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
+      {"date": "09-18 (금)", "stock": "아간 (AGX)", "amount": 1564.00}
     ]
   },
   "layer": [
@@ -311,8 +345,8 @@
           "field": "stock",
           "type": "nominal",
           "scale": {
-            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)", "웨스턴 디지털 (WDC)", "어플라이드 머티어리얼즈 (AMAT)"],
-            "range": ["#2563eb", "#059669", "#7c3aed", "#d97706", "#0891b2"]
+            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)", "웨스턴 디지털 (WDC)", "어플라이드 머티어리얼즈 (AMAT)", "아간 (AGX)"],
+            "range": ["#2563eb", "#059669", "#7c3aed", "#d97706", "#0891b2", "#e11d48"]
           },
           "legend": null
         },
@@ -355,8 +389,8 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-09** | 10건 | 1건 | 0건 | 100% | +300,900원 | +17.02% |
-| **누적 합계** | **10건** | **1건** | **0건** | **100%** | **+300,900원** | **+17.02%** |
+| **2026-09** | 11건 | 1건 | 0건 | 100% | +300,900원 | +17.02% |
+| **누적 합계** | **11건** | **1건** | **0건** | **100%** | **+300,900원** | **+17.02%** |
 
 ---
 
