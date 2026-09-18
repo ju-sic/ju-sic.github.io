@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-18(금) 06:55
+- **업데이트** : 2026-09-19(토) 08:25
 
 
 ## 시계열 매매 타임라인
@@ -218,11 +218,11 @@
 
 | 종목명 (티커) | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $347.30 | -$14.10 (-0.29%) |
-| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $280.13 | +$8.52 (+0.77%) |
-| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $423.87 | -$46.68 (-2.68%) |
-| [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 2026-09-15 | 4주 | $424.05 | $417.40 | -$26.60 (-1.57%) |
-| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $383.00 | -$32.00 (-2.05%) |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $357.61 | +$130.24 (+2.67%) |
+| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $275.12 | -$11.52 (-1.04%) |
+| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $441.36 | +$23.28 (+1.34%) |
+| [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 2026-09-15 | 4주 | $424.05 | $444.57 | +$82.08 (+4.84%) |
+| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $389.85 | -$4.60 (-0.29%) |
 
 ### 일자별 총 투자 규모 추이 (Daily Capital Allocation)
 
@@ -230,7 +230,7 @@
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
     <span class="value">$10,990.66</span>
-    <span class="sub">약 15,167,000원 (총 5개 종목)</span>
+    <span class="sub">약 15,233,000원 (총 5개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
@@ -240,12 +240,12 @@
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-09-08 진입 (11일차)</span>
+    <span class="sub">2026-09-08 진입 (12일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$10,879.80</span>
-    <span class="sub">평가손익 -$110.86 (-1.01%)</span>
+    <span class="value">$11,210.14</span>
+    <span class="sub">평가손익 +$219.48 (+2.00%)</span>
   </div>
 </div>
 
