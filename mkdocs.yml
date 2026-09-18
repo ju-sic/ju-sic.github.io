@@ -164,6 +164,7 @@ nav:
   - 하루치 뉴스정리:
       - 2026년:
           - 09월:
+              - "19(토)": news/2026/09/19.md
               - "18(금)": news/2026/09/18.md
               - "17(목)": news/2026/09/17.md
               - "16(수)": news/2026/09/16.md
@@ -184,6 +185,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "유나이티드헬스 그룹(UNH)": stocks/2026/09/unitedhealth-group.md
               - "LG이노텍(011070.KS)": stocks/2026/09/lg-innotek.md
               - "버티브(VRT)": stocks/2026/09/vertiv.md
               - "GE 에어로스페이스(GE)": stocks/2026/09/ge-aerospace.md
