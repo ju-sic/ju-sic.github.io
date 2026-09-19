@@ -2,6 +2,7 @@
 
 {% block extrahead %}
   {{ super() }}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/apple-touch-icon.png' | url }}">
   <script>
     /* Material instant loading(SPA 네비게이션) 시 mkdocs_chart_plugin 전역 객체 부재로 인한 렌더링 중단 방지 */
     window.mkdocs_chart_plugin = window.mkdocs_chart_plugin || {
