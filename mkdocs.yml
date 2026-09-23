@@ -1,0 +1,239 @@
+## ---------------------------------------------------------------------------
+## 사이트 정보
+## ---------------------------------------------------------------------------
+site_name: 지식저장소
+site_description: 업무 지식을 모으고 나누는 공간
+site_author: kwonsu kim
+
+# GitHub Pages 사용자 사이트 주소.
+site_url: https://ju-sic.github.io/
+
+copyright: 'Copyright &copy; 2026 지식저장소. All rights reserved.'
+
+## ---------------------------------------------------------------------------
+## 테마
+## ---------------------------------------------------------------------------
+theme:
+  name: material
+  custom_dir: overrides
+  language: ko
+
+  # Material 기본 Roboto(Google Fonts) 로딩을 끈다.
+  # 폰트는 extra_css의 Pretendard로 일원화 — 불필요한 네트워크 왕복과 FOUT 제거.
+  font: false
+
+  # overrides/.icons/custom/logo.svg 를 인라인 SVG로 삽입 → currentColor 동작
+  icon:
+    logo: custom/logo
+  favicon: assets/favicon.svg
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+
+  features:
+    # 네비게이션
+    - navigation.tabs           # 상단 탭바 (대분류)
+    - navigation.tabs.sticky    # 스크롤해도 탭바 고정
+    - navigation.sections       # 사이드바 2단계를 굵은 섹션 라벨로
+    - navigation.indexes        # 섹션의 index.md를 섹션 자체 링크로
+    - navigation.tracking       # 스크롤에 따라 URL 앵커 갱신
+    - navigation.top            # 맨 위로 버튼
+    - navigation.footer         # 이전/다음 문서 링크
+    - navigation.instant        # SPA 방식 페이지 전환
+    - navigation.instant.progress
+    # 목차
+    - toc.follow                # 스크롤에 따라 우측 TOC 자동 추적
+    # 검색
+    - search.highlight
+    - search.share
+    # 콘텐츠
+    - content.code.copy         # 코드블록 복사 버튼
+    - content.code.annotate
+    - content.tooltips
+
+## ---------------------------------------------------------------------------
+## 스타일
+## ---------------------------------------------------------------------------
+extra_css:
+  # Pretendard Variable — 동적 서브셋(unicode-range 분할)이라 필요한 글자만 내려받음
+  - https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+  - javascripts/timeline-pagination.js
+
+extra:
+  # Material 하단 "Made with Material for MkDocs" 문구 유지 여부
+  generator: false
+  social: []
+  analytics:
+    provider: google
+    property: G-T62YZHHN9P
+
+## ---------------------------------------------------------------------------
+## 플러그인
+## ---------------------------------------------------------------------------
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+      # 한글 검색 튜닝.
+      # 기본 구분자(공백/문장부호)에 더해 한글↔영숫자 경계에서도 토큰을 분리한다.
+      # 예) "API문서" → "API" + "문서" 로 각각 검색 가능.
+      # 주의: lunr에는 한글 형태소 분석기가 없어 조사가 붙은 검색어("문서를")는
+      #       원형("문서")과 완전히 매칭되지 않는다. 완화일 뿐 완전 해결은 아니다.
+      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])|(?<=[가-힣])(?=[A-Za-z0-9])|(?<=[A-Za-z0-9])(?=[가-힣])'
+  - charts
+
+## ---------------------------------------------------------------------------
+## 마크다운 확장
+## ---------------------------------------------------------------------------
+markdown_extensions:
+  # 기본
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: 이 위치로 이동
+      toc_depth: 3
+      # Python-Markdown 기본 slugify는 non-ASCII를 버려서 한글 제목의 id가
+      # "_1", "_2" 로 뭉개진다. 유니코드를 보존하는 pymdownx 버전을 쓴다.
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+  # PyMdown
+  # Note: pymdownx.betterem은 영문 CommonMark right-flanking delimiter 규칙을 적용하여
+  # 특수문자/따옴표/괄호 직후 한국어 조사가 붙는 경우(**'단어'**는, **단어(X)**다 등)
+  # 닫는 delimiter로 인식하지 못하고 **가 그대로 노출되는 치명적인 결함을 유발하므로 비활성화.
+  # Python-Markdown 기본 인라인 파서가 한국어 구두점-조사 강조를 완벽하게 정상 처리함.
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+## ---------------------------------------------------------------------------
+## 목차 구조
+## ---------------------------------------------------------------------------
+nav:
+  - 홈: index.md
+  - 하루치 뉴스정리:
+      - 2026년:
+          - 09월:
+              - "23(수)": news/2026/09/23.md
+              - "22(화)": news/2026/09/22.md
+              - "19(토)": news/2026/09/19.md
+              - "18(금)": news/2026/09/18.md
+              - "17(목)": news/2026/09/17.md
+              - "16(수)": news/2026/09/16.md
+              - "15(화)": news/2026/09/15.md
+              - "14(월)": news/2026/09/14.md
+              - "11(금)": news/2026/09/11.md
+              - "10(목)": news/2026/09/10.md
+              - "09(수)": news/2026/09/09.md
+              - "08(화)": news/2026/09/08.md
+              - "05(토)": news/2026/09/05.md
+              - "04(금)": news/2026/09/04.md
+              - "03(목)": news/2026/09/03.md
+              - "02(수)": news/2026/09/02.md
+              - "01(화)": news/2026/09/01.md
+          - 08월:
+              - "31(월)": news/2026/08/31.md
+              - "30(일)": news/2026/08/30.md
+  - 종목분석:
+      - 2026년:
+          - 09월:
+              - "엣시(ETSY)": stocks/2026/09/etsy.md
+              - "유나이티드헬스 그룹(UNH)": stocks/2026/09/unitedhealth-group.md
+              - "LG이노텍(011070.KS)": stocks/2026/09/lg-innotek.md
+              - "버티브(VRT)": stocks/2026/09/vertiv.md
+              - "GE 에어로스페이스(GE)": stocks/2026/09/ge-aerospace.md
+              - "램 리서치(LRCX)": stocks/2026/09/lam-research.md
+              - "아스테라 랩스(ALAB)": stocks/2026/09/astera-labs.md
+              - "CDW(CDW)": stocks/2026/09/cdw.md
+              - "웨스턴 디지털(WDC)": stocks/2026/09/western-digital.md
+              - "지스케일러(ZS)": stocks/2026/09/zscaler.md
+              - "KLA(KLAC)": stocks/2026/09/kla.md
+              - "팔로알토 네트웍스(PANW)": stocks/2026/09/palo-alto-networks.md
+              - "노바티스(NVS)": stocks/2026/09/novartis.md
+              - "스트라이커(SYK)": stocks/2026/09/stryker.md
+              - "케이든스 디자인 시스템(CDNS)": stocks/2026/09/cadence-design-systems.md
+              - "하우멧 에어로스페이스(HWM)": stocks/2026/09/howmet-aerospace.md
+              - "크레도 테크놀로지(CRDO)": stocks/2026/09/credo.md
+              - "엔비디아(NVDA)": stocks/2026/09/nvidia.md
+              - "알파벳(GOOGL)": stocks/2026/09/alphabet.md
+              - "테슬라(TSLA)": stocks/2026/09/tesla.md
+              - "토로(TTC)": stocks/2026/09/toro.md
+              - "테이크-투 인터랙티브(TTWO)": stocks/2026/09/take-two-interactive.md
+              - "SK하이닉스(000660.KS)": stocks/2026/09/sk-hynix.md
+              - "어플라이드 머티어리얼즈(AMAT)": stocks/2026/09/applied-materials.md
+              - "아간(AGX)": stocks/2026/09/argan.md
+          - 08월:
+              - "브로드컴(AVGO)": stocks/2026/08/broadcom.md
+  - 낙폭과대:
+      - 2026년:
+          - 09월:
+              - "10(목)": oversold/2026/09/10.md
+              - "06(일)": oversold/2026/09/06.md
+  - 주식투자 Q&A:
+      - 2026년:
+          - 09월:
+              - "AI 전력주 호황 속 아간(AGX) 주가 급락 원인과 2차 매수 진입 시점": questions/2026/09/argan-ai-power-drop-and-entry-strategy.md
+              - "브로드컴 밸류에이션 매력과 NPU·추론 ASIC 대세론": questions/2026/09/broadcom-valuation-and-npu-shift.md
+              - "스탠리 드러켄밀러 13F 시장 진단 및 상승 확신 종목": questions/2026/09/druckenmiller-13f-market-outlook.md
+              - "키미·딥시크 '가짜' 논란과 앤트로픽 증류 폭로 전모": questions/2026/09/kimi-deepseek-anthropic-scandal.md
+              - "젠슨 황 AI 사이버보안 수혜주 선별 전략 (ZS vs S vs CSCO)": questions/2026/09/ai-cybersecurity-stocks.md
+              - "현금 100% 빈 계좌 첫 매수 종목 선별 전략 (AVGO vs AGX)": questions/2026/09/empty-account-first-stock.md
+              - "반도체 조정 국면과 대안 섹터 투자 전략": questions/2026/09/semiconductor-vs-other-sectors.md
+          - 08월:
+              - "브로드컴(AVGO) 비중 확대 및 분할 매수 전략": questions/2026/08/broadcom-position-strategy.md
+  - 투자 트랙레코드:
+      - 2026년:
+          - "투자 성과": records/2026/trade-track-record.md
