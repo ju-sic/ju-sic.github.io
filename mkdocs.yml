@@ -190,6 +190,8 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "오리온(271560.KS)": stocks/2026/09/orion.md
+              - "제너럴 다이내믹스(GD)": stocks/2026/09/general-dynamics.md
               - "엣시(ETSY)": stocks/2026/09/etsy.md
               - "유나이티드헬스 그룹(UNH)": stocks/2026/09/unitedhealth-group.md
               - "LG이노텍(011070.KS)": stocks/2026/09/lg-innotek.md
