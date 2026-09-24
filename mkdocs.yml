@@ -191,6 +191,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "부킹 홀딩스(BKNG)": stocks/2026/09/booking-holdings.md
               - "올스테이트(ALL)": stocks/2026/09/allstate.md
               - "오리온(271560.KS)": stocks/2026/09/orion.md
               - "제너럴 다이내믹스(GD)": stocks/2026/09/general-dynamics.md
