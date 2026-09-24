@@ -99,6 +99,20 @@ body {
   --md-shadow-z1: none;
   --md-shadow-z2: 0 2px 8px rgba(0, 0, 0, 0.08);
   --md-shadow-z3: 0 4px 14px rgba(0, 0, 0, 0.12);
+
+  /* Pretty Mermaid 토큰 (Zinc Light 테마 기반) */
+  --kb-mermaid-bg: #fbfcfd;
+  --kb-mermaid-border: #e2e8f0;
+  --kb-mermaid-node-fill: #ffffff;
+  --kb-mermaid-node-stroke: #cbd5e1;
+  --kb-mermaid-node-text: #1e293b;
+  --kb-mermaid-edge-line: #64748b;
+  --kb-mermaid-edge-arrow: #475569;
+  --kb-mermaid-edge-label-bg: #f1f5f9;
+  --kb-mermaid-edge-label-text: #334155;
+  --kb-mermaid-cluster-fill: #f8fafc;
+  --kb-mermaid-cluster-stroke: #cbd5e1;
+  --kb-mermaid-cluster-text: #0f172a;
 }
 
 /* --- 다크 ---------------------------------------------------------------- */
@@ -156,6 +170,20 @@ body {
   --md-shadow-z1: none;
   --md-shadow-z2: 0 2px 8px rgba(0, 0, 0, 0.32);
   --md-shadow-z3: 0 4px 14px rgba(0, 0, 0, 0.48);
+
+  /* Pretty Mermaid 토큰 (Tokyo Night / Zinc Dark 테마 기반) */
+  --kb-mermaid-bg: #141620;
+  --kb-mermaid-border: #24283b;
+  --kb-mermaid-node-fill: #1a1b26;
+  --kb-mermaid-node-stroke: #3b4261;
+  --kb-mermaid-node-text: #c0caf5;
+  --kb-mermaid-edge-line: #565f89;
+  --kb-mermaid-edge-arrow: #7aa2f7;
+  --kb-mermaid-edge-label-bg: #1f2335;
+  --kb-mermaid-edge-label-text: #a9b1d6;
+  --kb-mermaid-cluster-fill: #16161e;
+  --kb-mermaid-cluster-stroke: #292e42;
+  --kb-mermaid-cluster-text: #7aa2f7;
 }
 
 /* ---------------------------------------------------------------------------
@@ -1616,6 +1644,166 @@ vegachart:not(.vega-embed) {
 [data-md-color-scheme="default"] .vega-embed svg g.mark-text text {
   fill: #181818 !important;
 }
+
+/* ---------------------------------------------------------------------------
+ * 11. Mermaid 다이어그램 (Pretty Mermaid 시스템 & 모바일 가독성 최적화)
+ * ------------------------------------------------------------------------- */
+
+/* 컨테이너 카드 액자 프레임 */
+.mermaid {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 1.75rem 0;
+  padding: 1.5rem 1.25rem;
+  background-color: var(--kb-mermaid-bg);
+  border: 1px solid var(--kb-mermaid-border);
+  border-radius: var(--kb-radius-lg);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--kb-border-strong) transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s var(--kb-ease), box-shadow 0.2s var(--kb-ease);
+}
+
+.mermaid:hover {
+  border-color: var(--kb-border-strong);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* 스크롤바 미려화 */
+.mermaid::-webkit-scrollbar {
+  height: 5px;
+}
+.mermaid::-webkit-scrollbar-track {
+  background: transparent;
+}
+.mermaid::-webkit-scrollbar-thumb {
+  background-color: var(--kb-border-strong);
+  border-radius: 9999px;
+}
+
+/* SVG 자체 크기 및 반응형 */
+.mermaid svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* 타이포그래피 통일 */
+.mermaid,
+.mermaid svg,
+.mermaid text,
+.mermaid .nodeLabel,
+.mermaid .edgeLabel,
+.mermaid .label,
+.mermaid .cluster-label {
+  font-family: var(--md-text-font-family) !important;
+  letter-spacing: -0.012em;
+}
+
+/* 노드 기본 스타일링 (모던 라운드 카드) */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+  fill: var(--kb-mermaid-node-fill);
+  stroke: var(--kb-mermaid-node-stroke);
+  stroke-width: 1.25px;
+}
+
+/* 일반 사각 노드 모서리 둥글게 */
+.mermaid .node rect:not([rx="15"]):not([rx="18.45"]):not([rx="20"]) {
+  rx: 6px !important;
+  ry: 6px !important;
+}
+
+/* 노드 텍스트 가독성 */
+.mermaid .node .label,
+.mermaid .node .nodeLabel,
+.mermaid .node foreignObject div,
+.mermaid .node text {
+  color: var(--kb-mermaid-node-text) !important;
+  fill: var(--kb-mermaid-node-text) !important;
+  font-size: 0.72rem !important;
+  line-height: 1.45 !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+/* 엣지 / 연결선 / 화살표 */
+.mermaid .edgePath .path,
+.mermaid .flowchart-link {
+  stroke: var(--kb-mermaid-edge-line) !important;
+  stroke-width: 1.5px !important;
+}
+
+.mermaid marker path,
+.mermaid marker polygon {
+  fill: var(--kb-mermaid-edge-arrow) !important;
+  stroke: var(--kb-mermaid-edge-arrow) !important;
+}
+
+/* 엣지 라벨 (말풍선 배지) */
+.mermaid .edgeLabel rect {
+  fill: var(--kb-mermaid-edge-label-bg) !important;
+  stroke: var(--kb-mermaid-border) !important;
+  stroke-width: 1px !important;
+  rx: 4px !important;
+  ry: 4px !important;
+}
+
+.mermaid .edgeLabel,
+.mermaid .edgeLabel span,
+.mermaid .edgeLabel text,
+.mermaid .edgeLabel foreignObject div {
+  background-color: var(--kb-mermaid-edge-label-bg) !important;
+  color: var(--kb-mermaid-edge-label-text) !important;
+  fill: var(--kb-mermaid-edge-label-text) !important;
+  font-size: 0.62rem !important;
+  font-weight: 500 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+/* 서브그래프 / 클러스터 */
+.mermaid .cluster rect {
+  fill: var(--kb-mermaid-cluster-fill) !important;
+  stroke: var(--kb-mermaid-cluster-stroke) !important;
+  stroke-width: 1px !important;
+  rx: 8px !important;
+  ry: 8px !important;
+}
+
+.mermaid .cluster text,
+.mermaid .cluster-label span {
+  color: var(--kb-mermaid-cluster-text) !important;
+  fill: var(--kb-mermaid-cluster-text) !important;
+  font-weight: 600 !important;
+  font-size: 0.7rem !important;
+}
+
+/* --- 모바일 최적화 (@media screen and (max-width: 45em)) --- */
+@media screen and (max-width: 45em) {
+  .mermaid {
+    margin: 1.25rem -0.5rem;
+    padding: 1.25rem 0.5rem;
+    border-radius: var(--kb-radius-md);
+    justify-content: flex-start; /* 가로 스크롤 시 좌측 기준 정렬 */
+  }
+
+  .mermaid svg {
+    /* 폰트가 극단적으로 축소되지 않도록 최소 폭을 보장하고 부드러운 가로 스크롤 허용 */
+    min-width: 300px;
+    max-width: none;
+  }
+}
+
 
 
 
