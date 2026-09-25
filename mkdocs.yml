@@ -193,6 +193,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "현대차(005380.KS)": stocks/2026/09/hyundai-motor.md
               - "페덱스(FDX)": stocks/2026/09/fedex.md
               - "CVS 헬스(CVS)": stocks/2026/09/cvs-health.md
               - "에이온(AON)": stocks/2026/09/aon.md
