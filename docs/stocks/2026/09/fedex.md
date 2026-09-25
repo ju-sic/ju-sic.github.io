@@ -25,23 +25,6 @@
 
 페덱스는 항공 특송(Express), 지상 배송(Ground), 그리고 2026년 6월 성공적으로 독립 분할을 완료한 화물(Freight) 부문까지, 어느 신규 진입자도 넘볼 수 없는 3대 물류 장벽을 구축했다.
 
-```mermaid
-flowchart TD
-    GlobalBiz["글로벌 220개국 기업 · 이커머스 셀러<br>(대체 불가능한 공급망 의존)"] --> HubAir["① 항공 화물 인프라: FedEx Express<br>(700대 화물기 선단 · 멤피스 슈퍼허브 독점)"]
-    
-    HubAir --> HubGround["② 대륙 내 육상 라스트마일: FedEx Ground<br>(One FedEx 단일 통합 · 중복 배송망 제거)"]
-    
-    HubGround --> DriveEngine["③ 구조조정 및 AI 동맹: DRIVE & 엔비디아<br>(연간 40억 달러 영구 비용 절감 · 원레일 배송 최적화)"]
-    
-    DriveEngine --> CashResult["연간 매출 $947억 · 현금성 자산 $133억 · FCF $51억+<br>(경쟁사가 모방 불가능한 자본적 진입장벽)"]
-
-    style GlobalBiz stroke:#2563eb,stroke-width:2px
-    style HubAir stroke:#0284c7,stroke-width:2.5px
-    style HubGround stroke:#10b981,stroke-width:2.5px
-    style DriveEngine stroke:#f59e0b,stroke-width:2.5px
-    style CashResult stroke:#16a34a,stroke-width:3px
-```
-
 ### 1.1 돈 버는 구조: 하늘과 땅을 묶은 초격차 인프라의 위력
 
 - **① 전 세계 최대 규모 민간 화물 항공 선단 (FedEx Express)**:
@@ -110,23 +93,6 @@ flowchart TD
 
 페덱스는 2026년 6월 1일 프레이트 분할 완료 2주 뒤인 6월 15일 장중 52주 최고가 **$345.37을** 기록했다. 이후 6~8월 $303~$345의 고점 박스권을 오가다 9월에 무너지며 9월 24일 종가 $279.54까지 **-19.06%의** 날카로운 조정을 받았다. 이 하락 파동은 분할 직후의 가이던스 오독부터 IB 목표가 조정 노이즈, 매크로 공포, 그리고 9월 200일선 붕괴에 이르는 4단계 연쇄 충격으로 전개되었다.
 
-```mermaid
-flowchart TD
-    Peak["6/15 52주 최고가 $345.37<br>(프레이트 분할 상장 2주 뒤)"] --> Stage1["1단계 (6월 하순): 어닝 서프라이즈 후 가이던스 오독<br>시간외 급락 후 6월 말 $313 마감"]
-    
-    Stage1 --> Stage2["2단계 (7~8월): IB 목표가 하향 & 고점 재도전 실패<br>7월 $303~$322 박스 ➔ 8/13 $339.35 반등 후 되밀림"]
-    
-    Stage2 --> Stage3["3단계 (9월 초중순): 글로벌 교역 둔화 & 만기일 수급 이탈<br>제조업 PMI 둔화 불안 및 패시브 펀드 리밸런싱 ($327 ➔ $304)"]
-    
-    Stage3 --> Stage4["4단계 (9월 하순): 200일선 붕괴 & 기계적 손절 투매<br>200일선($294.64) 이탈 ➔ $279.54 (RSI 24.80 과매도)"]
-
-    style Peak stroke:#0284c7,stroke-width:2px
-    style Stage1 stroke:#f59e0b,stroke-width:2.5px
-    style Stage2 stroke:#ea580c,stroke-width:2px
-    style Stage3 stroke:#dc2626,stroke-width:2px
-    style Stage4 stroke:#ef4444,stroke-width:3px
-```
-
 - **① 1단계 (6월 하순): Q4 어닝 서프라이즈 후 'CY26 가이던스 오독'과 시간외 급락 ($345 ➔ $313)**:
     - 4분기 실적은 매출 250.1억 달러, 조정 EPS $6.31로 시장 컨센서스를 여유 있게 따돌렸다.
     - 그러나 회계연도를 12월 결산으로 전환하면서 제시한 CY26 가이던스($16.90~$18.10)를 월가가 기존 FY27 추정치($18.90)와 기계적으로 비교하면서 '가이던스 미달'로 오인했고, 주가는 6월 23일 장 마감 후 시간외 거래에서 6%대 급락했다.
@@ -146,25 +112,6 @@ flowchart TD
 ### 2.4 최근 9월 주가 급락($325 ➔ $279.54)의 5대 복합 원인 심층 해부
 
 9월 1일 $324.88이던 주가가 불과 3주 만에 **$279.54까지 약 -14% 수직 낙하하며 200일선($294.64)을 깨뜨린 진짜 이유는 무엇인가?** 대중은 단순한 '실적 부진'이나 '경기 침체'라는 막연한 단어로 퉁치려 하지만, 데이터가 증명하는 실체는 **매크로 에너지 충격, 채권 금리 발작, 지수 리밸런싱, 그리고 퀀트 알고리즘의 손절매가 한 지점에 집중된 5대 복합 연쇄 폭발이다**.
-
-```mermaid
-flowchart TD
-    MacroShock["① 매크로 에너지 & 금리 충격<br>(WTI $94 · 브렌트 $106 돌파 + 10년물 국채 5.1% 발작)"] --> CostMargin["항공유 원가 급증 & 유류할증료 전가 시차<br>+ 자본집약 기업 멀티플 강제 압축"]
-    
-    SpinoffNoise["② 프레이트 분할 전환기 노이즈<br>(10월 실적 앞두고 고정비 잔존 및 B2B 둔화 경계)"] --> EarningsFear["소화물 단독 본체의 마진 방어 의구심"]
-    
-    CostMargin --> SeptemberSqueeze["9월 수급 왜곡: 쿼드러플 위칭데이<br>(패시브 펀드의 분할 지분 기계적 리밸런싱 출회)"]
-    EarningsFear --> SeptemberSqueeze
-    
-    SeptemberSqueeze --> TechnicalBreak["③ 기술적 지지선 붕괴<br>(200일선 $294.64 & $300 라운드넘버 하향 이탈)"]
-    TechnicalBreak --> CTAPanic["④ CTA 퀀트 알고리즘 손절 폭발<br>(9/24 거래량 257만 주 급증 ➔ $279.54 RSI 24.80 과매도)"]
-
-    style MacroShock stroke:#dc2626,stroke-width:2.5px
-    style SpinoffNoise stroke:#ea580c,stroke-width:2px
-    style SeptemberSqueeze stroke:#2563eb,stroke-width:2px
-    style TechnicalBreak stroke:#ef4444,stroke-width:2.5px
-    style CTAPanic stroke:#dc2626,stroke-width:3px
-```
 
 - **① 국제유가 폭등(WTI $94 · 브렌트 $106)에 따른 '마진 래그(Margin Lag)' 충격**:
     - 700대의 화물 항공기(FedEx Express)와 수만 대의 육상 배송 차량을 굴리는 페덱스에게 제트유(항공유)와 디젤 연료비는 전체 영업비용의 10% 이상을 차지하는 최대 변동비 항목이다.
@@ -215,20 +162,6 @@ flowchart TD
 ## 4. 기술적 사이클 위치 (4단계 사이클 모델)
 
 스탠 와인스타인의 4단계 사이클(1단계 매집 ➔ 2단계 상승 ➔ 3단계 과열·분산 ➔ 4단계 공포·하락) 모델을 적용하면, 현재 페덱스의 주가는 **'4단계 공포 하락 및 지지선 붕괴 국면'에** 위치해 있다.
-
-```mermaid
-flowchart TD
-    Stage3["3단계 천장 분산 (2026년 6~8월)<br>$303~$345 고점 박스 · 6/15 $345.37 ➔ 8/13 $339.35 쌍봉"] --> Breakdown["50일선 이탈 및 하락 전환 (9월 초)<br>9/8 $314.13으로 50일선(당시 $318) 하회"]
-    
-    Breakdown --> DeathCross["200일선($294.64) 하향 이탈 (9월 23~24일)<br>장기 생명선 붕괴 및 거래량 257만 주 폭발"]
-    
-    DeathCross --> Stage4["현재: 4단계 공포 하락 투매 진행형 ($279.54)<br>RSI 24.80 과매도 진입 · $270~$275 매물대 접근 중"]
-
-    style Stage3 stroke:#ea580c,stroke-width:2.5px
-    style Breakdown stroke:#dc2626,stroke-width:2px
-    style DeathCross stroke:#ef4444,stroke-width:3px
-    style Stage4 stroke:#dc2626,stroke-width:2.5px
-```
 
 ### 냉혹한 차트 팩트 점검
 

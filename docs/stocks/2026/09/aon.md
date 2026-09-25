@@ -25,28 +25,6 @@
 
 에이온은 일반 보험회사(Allstate, Travelers 등)와 완전히 다른 차원에서 돈을 번다.
 
-```mermaid
-flowchart TD
-    Client["다국적 기업 · 금융기관 · 공공기관<br>(재해 · 소송 · 사이버 · 기후 리스크 직면)"] --> AonCore["에이온 (Aon plc)<br>글로벌 리스크 & 인적자본 통합 플랫폼"]
-    
-    AonCore --> Cap1["리스크 자본 (Risk Capital)<br>기업 리스크 진단 · 상업용 보험 & 재보험 중개"]
-    AonCore --> Cap2["인적 자본 (Human Capital)<br>퇴직연금 · 복리후생 설계 · 인재 데이터 컨설팅"]
-    
-    Cap1 --> Reins["글로벌 재보험사 (Reinsurers)<br>뮌헨리 · 스위스리 등 전 세계 자본 연결"]
-    Cap2 --> RetFund["글로벌 퇴직연금 & 자산운용사<br>임직원 복지 락인 및 장기 자문 계약"]
-    
-    Reins --> TollFee["중개 수수료 & 자문료 (통행세)<br>손해율 위험 없이 순수 수수료 수취"]
-    RetFund --> TollFee
-    
-    TollFee --> CashEngine["연간 영업현금흐름 $3.53B<br>➔ FCF $3.19B 현금 창출"]
-
-    style AonCore stroke:#0284c7,stroke-width:2.5px
-    style Cap1 stroke:#10b981,stroke-width:2px
-    style Cap2 stroke:#f59e0b,stroke-width:2px
-    style TollFee stroke:#8b5cf6,stroke-width:2px
-    style CashEngine stroke:#2563eb,stroke-width:2px
-```
-
 ### 1.1 돈 버는 구조: 손해율 위험을 지지 않는 '무위험 통행세 징수기'
 
 - **① 언더라이팅 리스크 제로(Zero Underwriting Risk)**:
@@ -117,20 +95,6 @@ flowchart TD
 
 에이온은 2026년 7월 28일 사상 최고가 종가 **$381.26(장중 $382.34)을** 기록한 이후, 두 달 만에 **$276.09까지** 곤두박질쳤다. 고점 대비 총 낙폭은 **-27.58%에** 달한다. 이 하락은 단번에 일어난 것이 아니라, 8월의 완만한 수급 이탈(Slow Bleed)에 이어 8월 말 인수 쇼크와 9월 채권 폭탄이 결합된 **4단계 연쇄 충격**으로 전개되었다.
 
-```mermaid
-flowchart TD
-    Peak["7/28 사상 최고가 종가 $381.26<br>(52주 신고가 $382.34)"] --> Stage1["1단계 (8월 내내): 호실적 후 '뉴스에 팔아라'<br>거래량 감소 속 $355선까지 완만한 하락 (Slow Bleed)"]
-    Stage1 --> Stage2["2단계 (8/31): USI 170억 달러 인수 기습 발표<br>-9.53% 폭락 ($321.52) · 50일선·200일선 동시 이탈"]
-    Stage2 --> Stage3["3단계 (9월 중순): 135억 달러 채권 폭탄 발행<br>피치 'Rating Watch Negative' 지정 ➔ 9/17 $300선 붕괴"]
-    Stage3 --> Stage4["4단계 (9월 하순): 8거래일 연속 하락<br>손절 매물 연쇄 ➔ 52주 최저점 부근 $276.09 (RSI 23.01)"]
-
-    style Peak stroke:#0284c7,stroke-width:2px
-    style Stage1 stroke:#f59e0b,stroke-width:2px
-    style Stage2 stroke:#ea580c,stroke-width:2.5px
-    style Stage3 stroke:#dc2626,stroke-width:2.5px
-    style Stage4 stroke:#ef4444,stroke-width:3px
-```
-
 #### ① 1단계 (7월 말~8월 말): 호실적 후 '뉴스에 팔아라(Sell the News)'와 밸류에이션 피로감 ($381 ➔ $355)
 - 주가는 2분기 실적 발표를 앞두고 7월 28일 사상 최고가인 **$381.26까지** 치솟으며 연초 대비 가파른 랠리를 펼쳤다.
 - 그러나 7월 29일 발표된 2분기 실적이 컨센서스에 부합(조정 EPS $3.81 vs $3.80)하는 수준에 그치자, "호재가 주가에 다 반영되었다"는 판단 하에 차익 실현 매물이 쏟아졌다. 7월 30일 하루에만 3개월 평균의 2.7배인 **423만 주의** 매도 거래가 터지며 주가는 $366.57로 1차 조정을 받았다.
@@ -185,19 +149,6 @@ flowchart TD
 
 스탠 와인스타인의 4단계 사이클 모델로 진단할 때, 현재 에이온은 **4단계(공포 및 하락 지속 국면)의** 막바지에서 투매 물량을 받아내며 **1단계(바닥 매집 국면)로**의 전환을 시험하는 위험한 경계선에 서 있다.
 
-```mermaid
-flowchart TD
-    S3["3단계: 천장 분산 국면<br>(7월 $380 신고가 부근 대량 거래 횡보)"] --> S4["4단계: 공포 및 하락 추세<br>(8/31 갭하락 ➔ 50일선·200일선 완전 붕괴)"]
-    S4 --> Test["52주 최저점 시험 ($275.38)<br>RSI 23.01 과매도 도달"]
-    Test --> S1{"1단계 매집 전환 여부<br>하락 거래량 소멸 & 반등 종가"}
-    S1 -->|성공| Base["1단계: 지루한 바닥 다지기<br>$275~$290 박스권 매집"]
-    S1 -->|실패| Under["언더슈팅 패닉셀<br>$260선 장기 지지대 시험"]
-
-    style S4 stroke:#dc2626,stroke-width:2.5px
-    style Test stroke:#ea580c,stroke-width:2px
-    style Base stroke:#10b981,stroke-width:2px
-    style Under stroke:#dc2626,stroke-width:2px
-```
 
 - **이동평균선 완전 붕괴**:
     - 현재가 **$276.09는** 50일 이동평균선(**$340.65**)과 200일 장기 생명선(**$333.23**)을 아득히 밑돌고 있다. 두 선은 8월 31일 갭하락 때 동시에 이탈했다.

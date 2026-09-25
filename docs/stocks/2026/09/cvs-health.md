@@ -25,23 +25,6 @@ CVS 헬스(CVS Health Corporation)를 단순히 '골목길에서 처방전이나
 
 CVS 헬스는 3개의 상호 결합된 핵심 축을 통해 돈이 시스템 밖으로 빠져나가지 못하도록 완벽한 폐쇄형 생태계를 구축했다.
 
-```mermaid
-flowchart TD
-    Citizen["미국 시민 · 기업 임직원<br>(3,600만 명 피보험자)"] --> Aetna["① 앤드유저 건강보험: Aetna<br>(보험료 수취 및 리스크 인수)"]
-    
-    Aetna --> Caremark["② 의약품 처방 관리: Caremark (PBM)<br>(빅파마 약가 협상 · 리베이트 통제 · 미국 점유율 1위)"]
-    
-    Caremark --> Pharmacy["③ 물리적 라스트마일: CVS Pharmacy & MinuteClinic<br>(전국 9,000개 오프라인 약국 · 24시간 가상 진료)"]
-    
-    Pharmacy --> CashEngine["연간 매출 $4,126억 · 영업현금흐름 $115억+<br>(시스템 밖으로 돈이 새나가지 않는 내부 순환)"]
-
-    style Citizen stroke:#2563eb,stroke-width:2px
-    style Aetna stroke:#0284c7,stroke-width:2.5px
-    style Caremark stroke:#10b981,stroke-width:2.5px
-    style Pharmacy stroke:#f59e0b,stroke-width:2.5px
-    style CashEngine stroke:#16a34a,stroke-width:3px
-```
-
 ### 1.1 돈 버는 구조: 3각 편대의 수직 계열화 빨대
 
 - **① 대형 건강보험사 (Aetna)**:
@@ -108,20 +91,6 @@ CVS 헬스는 전통적인 약국에 안주하지 않고 2026년 하반기 들�
 
 CVS 헬스는 2026년 3월 30일 52주 최저가 $69.51에서 출발하여 7월 22일 52주 최고가 **$110.68까지** +59.2% 수직 랠리를 펼쳤다. 그러나 이후 주가는 $85.05까지 **-23.16%** 조정을 받았다. 이 하락은 단순한 하나의 이유가 아니라, 8월의 호실적 후 차익실현부터 2027 메디케어 수가 불충분 우려, 프론트스토어 소비 둔화, 그리고 9월 선물옵션 만기일과 맞물린 **8거래일 연속 하락 투매**가 결합된 4단계 연쇄 충격으로 전개되었다.
 
-```mermaid
-flowchart TD
-    Peak["7/22 52주 최고가 $110.68<br>(3월 $69.51 저점 대비 +59.2% 수직 랠리)"] --> Stage1["1단계 (7월 말~8월 중순): 어닝 후 'Sell the News'<br>8/5 -5.1% · 50일선 이탈 ($110 ➔ $93.50)"]
-    Stage1 --> Stage2["2단계 (8월 중하순): 2027 MA 수가 불충분 논란<br>+2.48% 미흡 평가 · 일부 카운티 축소 ($92~$97 횡보)"]
-    Stage2 --> Stage3["3단계 (9/1~9/15): 반등 실패 & 프론트스토어 침체<br>9/1 $97.60 반등 후 50일선 아래서 되밀림 ($97.60 ➔ $94.49)"]
-    Stage3 --> Stage4["4단계 (9/16~9/24): 만기일 투매 & 8일 연속 하락<br>9/18 2,188만 주 · 옴니케어 헤드라인 ➔ 200일선 이탈 $85.05 (RSI 23.39)"]
-
-    style Peak stroke:#0284c7,stroke-width:2px
-    style Stage1 stroke:#f59e0b,stroke-width:2px
-    style Stage2 stroke:#ea580c,stroke-width:2.5px
-    style Stage3 stroke:#dc2626,stroke-width:2.5px
-    style Stage4 stroke:#ef4444,stroke-width:3px
-```
-
 #### ① 1단계 (7월 말~8월 중순): 2분기 어닝 서프라이즈 후 '호재 소멸(Sell the News)'과 경영진의 의료비용 경고 ($110 ➔ $93.50)
 - 주가는 3월 30일 $69.51에서 출발해 2분기 실적 발표를 2주 앞둔 7월 22일 52주 최고가 **$110.68까지** 가파르게 치솟았다.
 - 8월 5일 발표된 2분기 실적은 조정 EPS $2.58(예상 대비 +39.4%)로 시장을 압도했고 연간 가이던스도 $7.30~$7.50에서 $7.90~$8.10으로 상향되었다. 그러나 단기 차익을 노리고 들어온 스마트머니는 "이미 호재가 주가에 모두 반영되었다(Priced In)"며 차익 실현에 나섰다. 주가는 이날 1,851만 주의 대량 거래 속에 -5.1%($99.12) 급락하며 50일선(당시 약 $101)을 하향 이탈했다.
@@ -170,25 +139,6 @@ flowchart TD
 ## 4. 기술적 사이클 위치 (4단계 사이클 모델)
 
 스탠 와인스타인의 4단계 사이클 모델로 현재 주가의 정확한 기술적 위치를 해부한다.
-
-```mermaid
-flowchart TD
-    S4["4단계: 공포 하락 국면 (2022~2024)<br>메디케어 손해율 쇼크로 $111 ➔ $43.56 폭락"] --> S1["1단계: 바닥 매집 국면 (2025.09~2026.04)<br>$69.5~$85 박스권 횡보 & 스마트머니 매집"]
-    
-    S1 --> S2["2단계: 상승 마크업 국면 (2026.04~07)<br>어닝 서프라이즈 폭발하며 $69.51 ➔ $110.68 수직 랠리"]
-    
-    S2 --> Test{"현재: 200일선($86.57) 종가 이탈 2일째<br>옛 박스 상단($85) 부근 공방"}
-    
-    Test -->|200일선 회복 & 반등 양봉| S2Resume["2단계 중기 상승 랠리 재개<br>목표가 $105~$110 회귀"]
-    Test -->|$85 붕괴 & 투매 지속| BoxDown["5월 저점($80.40) 시험<br>$78 종가 이탈 시 손절"]
-
-    style S4 stroke:#dc2626,stroke-width:2px
-    style S1 stroke:#f59e0b,stroke-width:2px
-    style S2 stroke:#16a34a,stroke-width:2.5px
-    style Test stroke:#2563eb,stroke-width:3px
-    style S2Resume stroke:#10b981,stroke-width:2px
-    style BoxDown stroke:#ef4444,stroke-width:2px
-```
 
 ### 4.1 국면 판정: **2단계 상승 추세의 훼손 여부가 갈리는 '200일선 소폭 이탈 및 과매도 눌림목 국면'**
 
