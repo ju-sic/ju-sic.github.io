@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-25(금) 20:00
+- **업데이트** : 2026-09-26(토) 07:05
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-26 (토)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 에이온 (AON)</td>
+          <td><strong>체결 단가</strong>: $278.41</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $1,113.64</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">선발대로 매수해 봤다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -260,6 +278,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **09-26** | [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 매수 (1차) | $278.41 | 4주 | $1,113.64 | — | (미실현) | — | — |
 | **09-25** | [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 매도 (청산) | $424.05 | 4주 | $1,696.20 | $484.44 | **+$241.56 (약 +327,100원)** | **+14.24%** | **10일** |
 | **09-22** | [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 매수 (1차) | $73.44 | 14주 | $1,028.16 | — | (미실현) | — | — |
 | **09-22** | [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 매수 (1차) | $378.44 | 4주 | $1,513.76 | — | (미실현) | — | — |
@@ -284,23 +303,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$11,836.38</span>
-    <span class="sub">약 16,030,000원 (총 6개 종목)</span>
+    <span class="value">$12,950.02</span>
+    <span class="sub">약 17,550,000원 (총 7개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">AVGO (41.2%)</span>
+    <span class="value">AVGO (37.7%)</span>
     <span class="sub">브로드컴 14주 ($4,876.30)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-09-08 진입 (18일차)</span>
+    <span class="sub">2026-09-08 진입 (19일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$11,695.28</span>
-    <span class="sub">평가손익 -$141.10 (-1.19%)</span>
+    <span class="value">$12,889.66</span>
+    <span class="sub">평가손익 -$60.36 (-0.47%)</span>
   </div>
 </div>
 
@@ -308,182 +327,14 @@
 
 | 종목명 (티커) | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $350.36 | +$28.74 (+0.59%) |
-| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $269.75 | -$33.00 (-2.97%) |
-| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $450.31 | +$59.08 (+3.39%) |
-| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $361.06 | -$119.76 (-7.66%) |
-| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 2026-09-22 | 4주 | $378.44 | $375.01 | -$13.72 (-0.91%) |
-| [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 2026-09-22 | 14주 | $73.44 | $68.98 | -$62.44 (-6.07%) |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $352.81 | +$63.04 (+1.29%) |
+| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $272.36 | -$22.56 (-2.03%) |
+| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $456.81 | +$85.08 (+4.88%) |
+| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $364.29 | -$106.84 (-6.83%) |
+| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 2026-09-22 | 4주 | $378.44 | $376.59 | -$7.40 (-0.49%) |
+| [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 2026-09-22 | 14주 | $73.44 | $68.44 | -$70.00 (-6.81%) |
+| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 2026-09-26 | 4주 | $278.41 | $277.99 | -$1.68 (-0.15%) |
 
-### 일자별 포지션 변경 추이(최근 1개월만 표시)
-
-```vegalite
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "background": "transparent",
-  "width": "container",
-  "height": 280,
-  "data": {
-    "values": [
-      {"date": "09-08 (화)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
-      {"date": "09-08 (화)", "stock": "스트라이커 (SYK)", "amount": 0},
-      {"date": "09-08 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-08 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
-      {"date": "09-08 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-08 (화)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-08 (화)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-08 (화)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-09 (수)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
-      {"date": "09-09 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-09 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-09 (수)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
-      {"date": "09-09 (수)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-09 (수)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-09 (수)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-09 (수)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-10 (목)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
-      {"date": "09-10 (목)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-10 (목)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-10 (목)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
-      {"date": "09-10 (목)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-10 (목)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-10 (목)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-10 (목)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-11 (금)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
-      {"date": "09-11 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-11 (금)", "stock": "지스케일러 (ZS)", "amount": 657.76},
-      {"date": "09-11 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
-      {"date": "09-11 (금)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-11 (금)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-11 (금)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-11 (금)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-12 (토)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
-      {"date": "09-12 (토)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-12 (토)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
-      {"date": "09-12 (토)", "stock": "웨스턴 디지털 (WDC)", "amount": 0},
-      {"date": "09-12 (토)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-12 (토)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-12 (토)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-12 (토)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-14 (월)", "stock": "브로드컴 (AVGO)", "amount": 1456.96},
-      {"date": "09-14 (월)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-14 (월)", "stock": "지스케일러 (ZS)", "amount": 1313.76},
-      {"date": "09-14 (월)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-14 (월)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-14 (월)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-14 (월)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-14 (월)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-15 (화)", "stock": "브로드컴 (AVGO)", "amount": 2838.64},
-      {"date": "09-15 (화)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-15 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-15 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-15 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
-      {"date": "09-15 (화)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-15 (화)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-15 (화)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-16 (수)", "stock": "브로드컴 (AVGO)", "amount": 4876.30},
-      {"date": "09-16 (수)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-16 (수)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-16 (수)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-16 (수)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
-      {"date": "09-16 (수)", "stock": "아간 (AGX)", "amount": 0},
-      {"date": "09-16 (수)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-16 (수)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-18 (금)", "stock": "브로드컴 (AVGO)", "amount": 4876.30},
-      {"date": "09-18 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-18 (금)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-18 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-18 (금)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
-      {"date": "09-18 (금)", "stock": "아간 (AGX)", "amount": 1564.00},
-      {"date": "09-18 (금)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 0},
-      {"date": "09-18 (금)", "stock": "엣시 (ETSY)", "amount": 0},
-      {"date": "09-22 (화)", "stock": "브로드컴 (AVGO)", "amount": 4876.30},
-      {"date": "09-22 (화)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-22 (화)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-22 (화)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-22 (화)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 1696.20},
-      {"date": "09-22 (화)", "stock": "아간 (AGX)", "amount": 1564.00},
-      {"date": "09-22 (화)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 1513.76},
-      {"date": "09-22 (화)", "stock": "엣시 (ETSY)", "amount": 1028.16},
-      {"date": "09-25 (금)", "stock": "브로드컴 (AVGO)", "amount": 4876.30},
-      {"date": "09-25 (금)", "stock": "스트라이커 (SYK)", "amount": 1112.00},
-      {"date": "09-25 (금)", "stock": "지스케일러 (ZS)", "amount": 0},
-      {"date": "09-25 (금)", "stock": "웨스턴 디지털 (WDC)", "amount": 1742.16},
-      {"date": "09-25 (금)", "stock": "어플라이드 머티어리얼즈 (AMAT)", "amount": 0},
-      {"date": "09-25 (금)", "stock": "아간 (AGX)", "amount": 1564.00},
-      {"date": "09-25 (금)", "stock": "유나이티드헬스 그룹 (UNH)", "amount": 1513.76},
-      {"date": "09-25 (금)", "stock": "엣시 (ETSY)", "amount": 1028.16}
-    ]
-  },
-  "layer": [
-    {
-      "mark": {
-        "type": "area",
-        "line": true,
-        "point": true,
-        "opacity": 0.8
-      },
-      "encoding": {
-        "x": {
-          "field": "date",
-          "type": "nominal",
-          "axis": {
-            "title": null,
-            "labelAngle": 0,
-            "labelPadding": 8
-          }
-        },
-        "y": {
-          "field": "amount",
-          "type": "quantitative",
-          "axis": {
-            "title": "총 투자금 ($)",
-            "format": "$,.0f",
-            "grid": true,
-            "gridDash": [2, 2]
-          }
-        },
-        "color": {
-          "field": "stock",
-          "type": "nominal",
-          "scale": {
-            "domain": ["브로드컴 (AVGO)", "스트라이커 (SYK)", "지스케일러 (ZS)", "웨스턴 디지털 (WDC)", "어플라이드 머티어리얼즈 (AMAT)", "아간 (AGX)", "유나이티드헬스 그룹 (UNH)", "엣시 (ETSY)"],
-            "range": ["#2563eb", "#059669", "#7c3aed", "#d97706", "#0891b2", "#e11d48", "#0d9488", "#ea580c"]
-          },
-          "legend": null
-        },
-        "tooltip": [
-          {"field": "date", "title": "일자"},
-          {"field": "stock", "title": "종목명"},
-          {"field": "amount", "title": "해당 종목 투자원금", "format": "$,.2f"}
-        ]
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "dy": -12,
-        "fontWeight": "bold",
-        "fontSize": 12
-      },
-      "encoding": {
-        "x": {"field": "date", "type": "nominal"},
-        "y": {
-          "aggregate": "sum",
-          "field": "amount",
-          "type": "quantitative"
-        },
-        "text": {
-          "aggregate": "sum",
-          "field": "amount",
-          "type": "quantitative",
-          "format": "$,.0f"
-        }
-      }
-    }
-  ]
-}
-```
 
 ---
 
@@ -491,8 +342,8 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-09** | 14건 | 2건 | 0건 | 100% | +628,000원 | +15.45% |
-| **누적 합계** | **14건** | **2건** | **0건** | **100%** | **+628,000원** | **+15.45%** |
+| **2026-09** | 15건 | 2건 | 0건 | 100% | +628,000원 | +15.45% |
+| **누적 합계** | **15건** | **2건** | **0건** | **100%** | **+628,000원** | **+15.45%** |
 
 ---
 
