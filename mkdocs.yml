@@ -231,11 +231,13 @@ nav:
   - 낙폭과대:
       - 2026년:
           - 09월:
+              - "27(일)": oversold/2026/09/27.md
               - "10(목)": oversold/2026/09/10.md
               - "06(일)": oversold/2026/09/06.md
   - 주식투자 Q&A:
       - 2026년:
           - 09월:
+              - "2027년 코스피 1만 도달 가능성과 메모리 비주도 시나리오": questions/2026/09/kospi-10000-in-2027.md
               - "AI 전력주 호황 속 아간(AGX) 주가 급락 원인과 2차 매수 진입 시점": questions/2026/09/argan-ai-power-drop-and-entry-strategy.md
               - "브로드컴 밸류에이션 매력과 NPU·추론 ASIC 대세론": questions/2026/09/broadcom-valuation-and-npu-shift.md
               - "스탠리 드러켄밀러 13F 시장 진단 및 상승 확신 종목": questions/2026/09/druckenmiller-13f-market-outlook.md
