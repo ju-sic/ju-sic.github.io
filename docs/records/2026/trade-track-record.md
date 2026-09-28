@@ -1,11 +1,35 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-09-26(토) 07:05
+- **업데이트** : 2026-09-29(화) 06:15
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-09-29 (화)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$68.24 (+3.92%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 웨스턴 디지털 (WDC)</td>
+          <td><strong>체결 단가</strong>: $452.60</td>
+          <td><strong>체결 수량</strong>: 4주 (전량)</td>
+          <td><strong>정산 금액</strong>: $1,810.40</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $435.54</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$68.24 (약 +92,800원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 15일 (수익률 <strong>+3.92%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">차트 그림이 불안해서 그냥 정리했다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -278,6 +302,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **09-29** | [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 매도 (청산) | $435.54 | 4주 | $1,742.16 | $452.60 | **+$68.24 (약 +92,800원)** | **+3.92%** | **15일** |
 | **09-26** | [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 매수 (1차) | $278.41 | 4주 | $1,113.64 | — | (미실현) | — | — |
 | **09-25** | [어플라이드 머티어리얼즈 (`AMAT`)](../../stocks/2026/09/applied-materials.md) | 매도 (청산) | $424.05 | 4주 | $1,696.20 | $484.44 | **+$241.56 (약 +327,100원)** | **+14.24%** | **10일** |
 | **09-22** | [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 매수 (1차) | $73.44 | 14주 | $1,028.16 | — | (미실현) | — | — |
@@ -303,23 +328,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$12,950.02</span>
-    <span class="sub">약 17,550,000원 (총 7개 종목)</span>
+    <span class="value">$11,207.86</span>
+    <span class="sub">약 15,240,000원 (총 6개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">AVGO (37.7%)</span>
+    <span class="value">AVGO (43.5%)</span>
     <span class="sub">브로드컴 14주 ($4,876.30)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-09-08 진입 (19일차)</span>
+    <span class="sub">2026-09-08 진입 (22일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$12,889.66</span>
-    <span class="sub">평가손익 -$60.36 (-0.47%)</span>
+    <span class="value">$10,980.66</span>
+    <span class="sub">평가손익 -$227.20 (-2.03%)</span>
   </div>
 </div>
 
@@ -327,13 +352,12 @@
 
 | 종목명 (티커) | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $352.81 | +$63.04 (+1.29%) |
-| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $272.36 | -$22.56 (-2.03%) |
-| [웨스턴 디지털 (`WDC`)](../../stocks/2026/09/western-digital.md) | 2026-09-14 | 4주 | $435.54 | $456.81 | +$85.08 (+4.88%) |
-| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $364.29 | -$106.84 (-6.83%) |
-| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 2026-09-22 | 4주 | $378.44 | $376.59 | -$7.40 (-0.49%) |
-| [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 2026-09-22 | 14주 | $73.44 | $68.44 | -$70.00 (-6.81%) |
-| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 2026-09-26 | 4주 | $278.41 | $277.99 | -$1.68 (-0.15%) |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 2026-09-08 | 14주 | $348.31 | $349.57 | +$17.68 (+0.36%) |
+| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 2026-09-09 | 4주 | $278.00 | $275.31 | -$10.76 (-0.97%) |
+| [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 2026-09-18 | 4주 | $391.00 | $355.21 | -$143.16 (-9.15%) |
+| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 2026-09-22 | 4주 | $378.44 | $377.83 | -$2.44 (-0.16%) |
+| [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 2026-09-22 | 14주 | $73.44 | $68.92 | -$63.28 (-6.15%) |
+| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 2026-09-26 | 4주 | $278.41 | $272.10 | -$25.24 (-2.27%) |
 
 
 ---
@@ -342,8 +366,8 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-09** | 15건 | 2건 | 0건 | 100% | +628,000원 | +15.45% |
-| **누적 합계** | **15건** | **2건** | **0건** | **100%** | **+628,000원** | **+15.45%** |
+| **2026-09** | 16건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
+| **누적 합계** | **16건** | **3건** | **0건** | **100%** | **+720,800원** | **+11.20%** |
 
 ---
 
