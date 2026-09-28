@@ -194,6 +194,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 09월:
+              - "모건스탠리(MS)": stocks/2026/09/morgan-stanley.md
               - "현대차(005380.KS)": stocks/2026/09/hyundai-motor.md
               - "페덱스(FDX)": stocks/2026/09/fedex.md
               - "CVS 헬스(CVS)": stocks/2026/09/cvs-health.md
