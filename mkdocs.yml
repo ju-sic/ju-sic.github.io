@@ -195,6 +195,9 @@ nav:
               - "30(일)": news/2026/08/30.md
   - 종목분석:
       - 2026년:
+          - 10월:
+              - "애보트 래보라토리(ABT)": stocks/2026/10/abbott.md
+              - "골드만삭스(GS)": stocks/2026/10/goldman-sachs.md
           - 09월:
               - "뱅크오브아메리카(BAC)": stocks/2026/09/bank-of-america.md
               - "모건스탠리(MS)": stocks/2026/09/morgan-stanley.md
