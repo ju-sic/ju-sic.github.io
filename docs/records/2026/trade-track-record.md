@@ -1,11 +1,35 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-07(수) 18:22
+- **업데이트** : 2026-10-07(수) 22:45
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-07 (수)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$12.00 (+1.08%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 스트라이커 (SYK)</td>
+          <td><strong>체결 단가</strong>: $281.00</td>
+          <td><strong>체결 수량</strong>: 4주 (전량)</td>
+          <td><strong>정산 금액</strong>: $1,124.00</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $278.00</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$12.00 (약 +16,100원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 28일 (수익률 <strong>+1.08%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">애매해서 정리했다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -416,6 +440,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-07** | [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 매도 (청산) | $278.00 | 4주 | $1,112.00 | $281.00 | **+$12.00 (약 +16,100원)** | **+1.08%** | **28일** |
 | **10-07** | [아간 (`AGX`)](../../stocks/2026/09/argan.md) | 매도 (청산) | $391.00 | 4주 | $1,564.00 | $419.30 | **+$113.20 (약 +151,500원)** | **+7.24%** | **19일** |
 | **10-02** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (4차) | $53.70 | 10주 | $537.00 | — | (미실현) | — | — |
 | **10-02** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (4차) | $344.88 | 4주 | $1,379.52 | — | (미실현) | — | — |
@@ -448,12 +473,12 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$13,413.30</span>
-    <span class="sub">약 17,950,000원 (총 6개 종목)</span>
+    <span class="value">$12,301.30</span>
+    <span class="sub">약 16,470,000원 (총 5개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">AVGO (46.6%)</span>
+    <span class="value">AVGO (50.9%)</span>
     <span class="sub">브로드컴 18주 ($6,255.82)</span>
   </div>
   <div class="kb-portfolio-metric-card">
@@ -463,8 +488,8 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$13,858.04</span>
-    <span class="sub">평가손익 +$444.74 (+3.32%)</span>
+    <span class="value">$12,613.20</span>
+    <span class="sub">평가손익 +$311.90 (+2.54%)</span>
   </div>
 </div>
 
@@ -472,14 +497,13 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **46.6%** | 2026-09-08 | 18주 | $347.55 | $375.81 | +$508.76 (+8.13%) |
-| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **17.8%** | 2026-09-30 | 44주 | $54.32 | $54.09 | -$9.96 (-0.42%) |
-| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | **11.3%** | 2026-09-22 | 4주 | $378.44 | $376.32 | -$8.48 (-0.56%) |
-| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | **8.3%** | 2026-09-26 | 4주 | $278.41 | $273.99 | -$17.68 (-1.59%) |
-| [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | **8.3%** | 2026-09-09 | 4주 | $278.00 | $278.20 | +$0.80 (+0.07%) |
-| [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | **7.7%** | 2026-09-22 | 14주 | $73.44 | $71.39 | -$28.70 (-2.79%) |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **50.9%** | 2026-09-08 | 18주 | $347.55 | $370.81 | +$418.76 (+6.69%) |
+| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **19.4%** | 2026-09-30 | 44주 | $54.32 | $53.04 | -$56.16 (-2.35%) |
+| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | **12.3%** | 2026-09-22 | 4주 | $378.44 | $377.27 | -$4.68 (-0.31%) |
+| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | **9.1%** | 2026-09-26 | 4주 | $278.41 | $272.26 | -$24.60 (-2.21%) |
+| [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | **8.4%** | 2026-09-22 | 14주 | $73.44 | $71.91 | -$21.42 (-2.08%) |
 
-> *비중은 현재 총 투자원금($13,413.30) 기준 비중이며, 현재 평가금액 기준 비중은 AVGO 48.8%, BAC 17.2%, UNH 10.9%, SYK 8.0%, AON 7.9%, ETSY 7.2%입니다.*
+> *비중은 현재 총 투자원금($12,301.30) 기준 비중이며, 현재 평가금액 기준 비중은 AVGO 52.9%, BAC 18.5%, UNH 12.0%, AON 8.6%, ETSY 8.0%입니다.*
 
 
 ---
@@ -488,9 +512,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 5건 | 1건 | 0건 | 100% | +151,500원 | +7.24% |
+| **2026-10** | 6건 | 2건 | 0건 | 100% | +167,600원 | +4.68% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **22건** | **4건** | **0건** | **100%** | **+872,300원** | **+10.24%** |
+| **누적 합계** | **23건** | **5건** | **0건** | **100%** | **+888,400원** | **+8.87%** |
 
 ---
 
