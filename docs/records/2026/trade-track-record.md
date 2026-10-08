@@ -27,7 +27,7 @@
           <td colspan="2"><strong>보유 기간</strong>: 16일 (수익률 <strong>+0.23%</strong>)</td>
         </tr>
       </table>
-      <p class="kb-timeline-desc">본전 오자말자 그냥 정리했다. 장 분위기 심상치 않아도 빨간불 들어오면 일단 다 팔고 있다.</p>
+      <p class="kb-timeline-desc">본전 오자말자 그냥 정리했다. 장 분위기 심상치 않아서 빨간불 들어오면 일단 다 팔고 있다.</p>
     </div>
   </div>
   <div class="kb-timeline-item">
