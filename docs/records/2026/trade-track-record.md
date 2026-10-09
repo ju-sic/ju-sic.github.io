@@ -1,11 +1,35 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-09(금) 08:42
+- **업데이트** : 2026-10-10(토) 06:55
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-10 (토)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$4.00 (+0.26%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 유나이티드헬스 그룹 (UNH)</td>
+          <td><strong>체결 단가</strong>: $379.44</td>
+          <td><strong>체결 수량</strong>: 4주 (전량)</td>
+          <td><strong>정산 금액</strong>: $1,517.76</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $378.44</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$4.00 (약 +5,400원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 18일 (수익률 <strong>+0.26%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">이것도 본전에 던졌다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -488,6 +512,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-10** | [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 매도 (청산) | $378.44 | 4주 | $1,513.76 | $379.44 | **+$4.00 (약 +5,400원)** | **+0.26%** | **18일** |
 | **10-08** | [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 매도 (청산) | $73.44 | 14주 | $1,028.16 | $73.61 | **+$2.38 (약 +3,200원)** | **+0.23%** | **16일** |
 | **10-07** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매도 (청산) | $347.55 | 18주 | $6,255.82 | $370.61 | **+$415.16 (약 +555,900원)** | **+6.64%** | **29일** |
 | **10-07** | [스트라이커 (`SYK`)](../../stocks/2026/09/stryker.md) | 매도 (청산) | $278.00 | 4주 | $1,112.00 | $281.00 | **+$12.00 (약 +16,100원)** | **+1.08%** | **28일** |
@@ -523,23 +548,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$5,017.32</span>
-    <span class="sub">약 6,730,000원 (총 3개 종목)</span>
+    <span class="value">$3,503.56</span>
+    <span class="sub">약 4,690,000원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">BAC (47.6%)</span>
+    <span class="value">BAC (68.2%)</span>
     <span class="sub">뱅크오브아메리카 44주 ($2,389.92)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">유나이티드헬스 그룹 (UNH)</span>
-    <span class="sub">2026-09-22 진입 (17일차)</span>
+    <span class="value">에이온 (AON)</span>
+    <span class="sub">2026-09-26 진입 (15일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$4,951.12</span>
-    <span class="sub">평가손익 -$66.20 (-1.32%)</span>
+    <span class="value">$3,483.96</span>
+    <span class="sub">평가손익 -$19.60 (-0.56%)</span>
   </div>
 </div>
 
@@ -547,11 +572,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **47.6%** | 2026-09-30 | 44주 | $54.32 | $53.61 | -$31.08 (-1.30%) |
-| [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | **30.2%** | 2026-09-22 | 4주 | $378.44 | $370.95 | -$29.96 (-1.98%) |
-| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | **22.2%** | 2026-09-26 | 4주 | $278.41 | $277.12 | -$5.16 (-0.46%) |
+| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **68.2%** | 2026-09-30 | 44주 | $54.32 | $54.32 | $0.00 (0.00%) |
+| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | **31.8%** | 2026-09-26 | 4주 | $278.41 | $273.47 | -$19.76 (-1.77%) |
 
-> *비중은 현재 총 투자원금($5,017.32) 기준 비중이며, 현재 평가금액 기준 비중은 BAC 47.6%, UNH 30.0%, AON 22.4%입니다.*
+> *비중은 현재 총 투자원금($3,503.56) 기준 비중이며, 현재 평가금액 기준 비중은 BAC 68.6%, AON 31.4%입니다.*
 
 
 ---
@@ -560,9 +584,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 8건 | 4건 | 0건 | 100% | +726,700원 | +5.45% |
+| **2026-10** | 9건 | 5건 | 0건 | 100% | +732,100원 | +4.77% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **25건** | **7건** | **0건** | **100%** | **+1,447,500원** | **+7.31%** |
+| **누적 합계** | **26건** | **8건** | **0건** | **100%** | **+1,452,900원** | **+6.66%** |
 
 ---
 
