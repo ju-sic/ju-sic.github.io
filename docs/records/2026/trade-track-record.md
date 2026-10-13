@@ -1,11 +1,59 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-10(토) 06:55
+- **업데이트** : 2026-10-13(화) 10:25
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-13 (화)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$11.17 (+0.47%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뱅크오브아메리카 (BAC)</td>
+          <td><strong>체결 단가</strong>: $54.57</td>
+          <td><strong>체결 수량</strong>: 44주 (전량)</td>
+          <td><strong>정산 금액</strong>: $2,401.09</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $54.32</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$11.17 (약 +14,900원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 13일 (수익률 <strong>+0.47%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">장 분위기가 이상해서 보유종목 전체를 다 정리했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-13 (화)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--loss">실현손익 -$14.32 (-1.29%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 에이온 (AON)</td>
+          <td><strong>체결 단가</strong>: $274.83</td>
+          <td><strong>체결 수량</strong>: 4주 (전량)</td>
+          <td><strong>정산 금액</strong>: $1,099.32</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $278.41</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-danger);">-$14.32 (약 -19,100원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 17일 (수익률 <strong>-1.29%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">장 분위기가 이상해서 보유종목 전체를 다 정리했다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -512,6 +560,8 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-13** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매도 (청산) | $54.32 | 44주 | $2,389.92 | $54.57 | **+$11.17 (약 +14,900원)** | **+0.47%** | **13일** |
+| **10-13** | [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 매도 (청산) | $278.41 | 4주 | $1,113.64 | $274.83 | **-$14.32 (약 -19,100원)** | **-1.29%** | **17일** |
 | **10-10** | [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 매도 (청산) | $378.44 | 4주 | $1,513.76 | $379.44 | **+$4.00 (약 +5,400원)** | **+0.26%** | **18일** |
 | **10-08** | [엣시 (`ETSY`)](../../stocks/2026/09/etsy.md) | 매도 (청산) | $73.44 | 14주 | $1,028.16 | $73.61 | **+$2.38 (약 +3,200원)** | **+0.23%** | **16일** |
 | **10-07** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매도 (청산) | $347.55 | 18주 | $6,255.82 | $370.61 | **+$415.16 (약 +555,900원)** | **+6.64%** | **29일** |
@@ -548,23 +598,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$3,503.56</span>
-    <span class="sub">약 4,690,000원 (총 2개 종목)</span>
+    <span class="value">$0.00</span>
+    <span class="sub">0원 (전량 현금화 완료)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">BAC (68.2%)</span>
-    <span class="sub">뱅크오브아메리카 44주 ($2,389.92)</span>
+    <span class="value">—</span>
+    <span class="sub">보유 포지션 없음 (현금 100%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">에이온 (AON)</span>
-    <span class="sub">2026-09-26 진입 (15일차)</span>
+    <span class="value">—</span>
+    <span class="sub">보유 포지션 없음</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$3,483.96</span>
-    <span class="sub">평가손익 -$19.60 (-0.56%)</span>
+    <span class="value">$0.00</span>
+    <span class="sub">평가손익 $0.00 (0.00%)</span>
   </div>
 </div>
 
@@ -572,10 +622,9 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **68.2%** | 2026-09-30 | 44주 | $54.32 | $54.32 | $0.00 (0.00%) |
-| [에이온 (`AON`)](../../stocks/2026/09/aon.md) | **31.8%** | 2026-09-26 | 4주 | $278.41 | $273.47 | -$19.76 (-1.77%) |
+| **현금성 자산 (예수금/CMA)** | **100.0%** | — | — | — | — | **전량 현금 보유 (보유종목 없음)** |
 
-> *비중은 현재 총 투자원금($3,503.56) 기준 비중이며, 현재 평가금액 기준 비중은 BAC 68.6%, AON 31.4%입니다.*
+> *현재 모든 보유종목을 전량 청산하여 100% 현금 상태로 대기 중입니다.*
 
 
 ---
@@ -584,9 +633,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 9건 | 5건 | 0건 | 100% | +732,100원 | +4.77% |
+| **2026-10** | 11건 | 6건 | 1건 | 85.7% | +727,900원 | +3.63% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **26건** | **8건** | **0건** | **100%** | **+1,452,900원** | **+6.66%** |
+| **누적 합계** | **28건** | **9건** | **1건** | **90.0%** | **+1,448,700원** | **+5.47%** |
 
 ---
 
