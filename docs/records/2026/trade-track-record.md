@@ -1,11 +1,71 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-13(화) 10:25
+- **업데이트** : 2026-10-14(수) 12:35
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-14 (수)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$15.04 (+0.34%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뱅크오브아메리카 (BAC)</td>
+          <td><strong>체결 단가</strong>: $53.14</td>
+          <td><strong>체결 수량</strong>: 84주 (전량)</td>
+          <td><strong>정산 금액</strong>: $4,463.76</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $52.96</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$15.04 (약 +20,100원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 0일 (수익률 <strong>+0.34%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사자말자 몇시간만에 정리했다. 10월말에나 다시 매매해야겠다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-14 (수)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뱅크오브아메리카 (BAC)</td>
+          <td><strong>체결 단가</strong>: $52.665</td>
+          <td><strong>체결 수량</strong>: 40주</td>
+          <td><strong>투입 금액</strong>: $2,106.60</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">추가 매수 진행.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-14 (수)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뱅크오브아메리카 (BAC)</td>
+          <td><strong>체결 단가</strong>: $53.23</td>
+          <td><strong>체결 수량</strong>: 44주</td>
+          <td><strong>투입 금액</strong>: $2,342.12</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">선발대 매수 진입.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -560,6 +620,9 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-14** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매도 (청산) | $52.96 | 84주 | $4,448.72 | $53.14 | **+$15.04 (약 +20,100원)** | **+0.34%** | **0일** |
+| **10-14** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (2차) | $52.665 | 40주 | $2,106.60 | — | (미실현) | — | — |
+| **10-14** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $53.23 | 44주 | $2,342.12 | — | (미실현) | — | — |
 | **10-13** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매도 (청산) | $54.32 | 44주 | $2,389.92 | $54.57 | **+$11.17 (약 +14,900원)** | **+0.47%** | **13일** |
 | **10-13** | [에이온 (`AON`)](../../stocks/2026/09/aon.md) | 매도 (청산) | $278.41 | 4주 | $1,113.64 | $274.83 | **-$14.32 (약 -19,100원)** | **-1.29%** | **17일** |
 | **10-10** | [유나이티드헬스 그룹 (`UNH`)](../../stocks/2026/09/unitedhealth-group.md) | 매도 (청산) | $378.44 | 4주 | $1,513.76 | $379.44 | **+$4.00 (약 +5,400원)** | **+0.26%** | **18일** |
@@ -633,9 +696,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 11건 | 6건 | 1건 | 85.7% | +727,900원 | +3.63% |
+| **2026-10** | 14건 | 7건 | 1건 | 87.5% | +748,000원 | +2.88% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **28건** | **9건** | **1건** | **90.0%** | **+1,448,700원** | **+5.47%** |
+| **누적 합계** | **31건** | **10건** | **1건** | **90.9%** | **+1,468,800원** | **+4.53%** |
 
 ---
 
