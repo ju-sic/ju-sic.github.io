@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-14(수) 12:35
+- **업데이트** : 2026-10-15(목) 10:48
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-15 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뱅크오브아메리카 (BAC)</td>
+          <td><strong>체결 단가</strong>: $50.31 (평균)</td>
+          <td><strong>체결 수량</strong>: 44주 (분할 4/10/10/20주)</td>
+          <td><strong>투입 금액</strong>: $2,213.84</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">쓰레기를 바닥에서 주웠는지 금덩이를 주웠는지 모르겠으나 선발대 나눠서 오늘 새벽에 샀다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -620,6 +638,10 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $49.44 | 20주 | $988.80 | — | (미실현) | — | — |
+| **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $50.44 | 10주 | $504.40 | — | (미실현) | — | — |
+| **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $51.44 | 10주 | $514.40 | — | (미실현) | — | — |
+| **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $51.56 | 4주 | $206.24 | — | (미실현) | — | — |
 | **10-14** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매도 (청산) | $52.96 | 84주 | $4,448.72 | $53.14 | **+$15.04 (약 +20,100원)** | **+0.34%** | **0일** |
 | **10-14** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (2차) | $52.665 | 40주 | $2,106.60 | — | (미실현) | — | — |
 | **10-14** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $53.23 | 44주 | $2,342.12 | — | (미실현) | — | — |
@@ -661,23 +683,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$0.00</span>
-    <span class="sub">0원 (전량 현금화 완료)</span>
+    <span class="value">$2,213.84</span>
+    <span class="sub">약 2,993,000원 (총 1개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">—</span>
-    <span class="sub">보유 포지션 없음 (현금 100%)</span>
+    <span class="value">BAC (100.0%)</span>
+    <span class="sub">뱅크오브아메리카 44주 ($2,213.84)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">—</span>
-    <span class="sub">보유 포지션 없음</span>
+    <span class="value">뱅크오브아메리카 (BAC)</span>
+    <span class="sub">2026-10-15 진입 (1일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$0.00</span>
-    <span class="sub">평가손익 $0.00 (0.00%)</span>
+    <span class="value">$2,261.16</span>
+    <span class="sub">평가손익 +$47.32 (+2.14%)</span>
   </div>
 </div>
 
@@ -685,9 +707,9 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **현금성 자산 (예수금/CMA)** | **100.0%** | — | — | — | — | **전량 현금 보유 (보유종목 없음)** |
+| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **100.0%** | 2026-10-15 | 44주 | $50.31 | $51.39 | +$47.32 (+2.14%) |
 
-> *현재 모든 보유종목을 전량 청산하여 100% 현금 상태로 대기 중입니다.*
+> *비중은 현재 총 투자원금($2,213.84) 기준 비중이며, 현재 평가금액 기준 비중은 BAC 100.0%입니다.*
 
 
 ---
@@ -696,9 +718,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 14건 | 7건 | 1건 | 87.5% | +748,000원 | +2.88% |
+| **2026-10** | 18건 | 7건 | 1건 | 87.5% | +748,000원 | +2.88% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **31건** | **10건** | **1건** | **90.9%** | **+1,468,800원** | **+4.53%** |
+| **누적 합계** | **35건** | **10건** | **1건** | **90.9%** | **+1,468,800원** | **+4.53%** |
 
 ---
 
