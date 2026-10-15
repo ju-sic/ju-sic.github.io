@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-15(목) 10:48
+- **업데이트** : 2026-10-15(목) 13:46
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-15 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: SK하이닉스 (000660)</td>
+          <td><strong>체결 단가</strong>: 1,270,500원 (평균)</td>
+          <td><strong>체결 수량</strong>: 2주 (분할 1주/1주)</td>
+          <td><strong>투입 금액</strong>: 2,541,000원</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">단기 급락으로 야금야금 모아갈 생각이다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -638,6 +656,8 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-15** | [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | 매수 (1차) | 1,264,000원 | 1주 | 1,264,000원 | — | (미실현) | — | — |
+| **10-15** | [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | 매수 (1차) | 1,277,000원 | 1주 | 1,277,000원 | — | (미실현) | — | — |
 | **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $49.44 | 20주 | $988.80 | — | (미실현) | — | — |
 | **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $50.44 | 10주 | $504.40 | — | (미실현) | — | — |
 | **10-15** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $51.44 | 10주 | $514.40 | — | (미실현) | — | — |
@@ -683,23 +703,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$2,213.84</span>
-    <span class="sub">약 2,993,000원 (총 1개 종목)</span>
+    <span class="value">약 5,524,000원</span>
+    <span class="sub">해외 $2,213.84 + 국내 2,541,000원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">BAC (100.0%)</span>
+    <span class="value">BAC (54.0%)</span>
     <span class="sub">뱅크오브아메리카 44주 ($2,213.84)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">뱅크오브아메리카 (BAC)</span>
+    <span class="value">BAC / SK하이닉스</span>
     <span class="sub">2026-10-15 진입 (1일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$2,261.16</span>
-    <span class="sub">평가손익 +$47.32 (+2.14%)</span>
+    <span class="value">약 5,591,000원</span>
+    <span class="sub">평가손익 약 +67,000원 (+1.21%)</span>
   </div>
 </div>
 
@@ -707,9 +727,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **100.0%** | 2026-10-15 | 44주 | $50.31 | $51.39 | +$47.32 (+2.14%) |
+| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **54.0%** | 2026-10-15 | 44주 | $50.31 | $51.39 | +$47.32 (+2.14%) |
+| [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | **46.0%** | 2026-10-15 | 2주 | 1,270,500원 | 1,272,000원 | +3,000원 (+0.12%) |
 
-> *비중은 현재 총 투자원금($2,213.84) 기준 비중이며, 현재 평가금액 기준 비중은 BAC 100.0%입니다.*
+> *비중은 원화 환산 총 투자원금(약 5,524,000원, 환율 1,347.5원 기준) 기준 비중이며, 현재 평가금액 기준 비중은 BAC 54.5%, SK하이닉스 45.5%입니다.*
 
 
 ---
@@ -718,9 +739,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 18건 | 7건 | 1건 | 87.5% | +748,000원 | +2.88% |
+| **2026-10** | 20건 | 7건 | 1건 | 87.5% | +748,000원 | +2.88% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **35건** | **10건** | **1건** | **90.9%** | **+1,468,800원** | **+4.53%** |
+| **누적 합계** | **37건** | **10건** | **1건** | **90.9%** | **+1,468,800원** | **+4.53%** |
 
 ---
 
