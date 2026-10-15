@@ -207,6 +207,9 @@ nav:
   - 종목분석:
       - 2026년:
           - 10월:
+              - "HD현대중공업(329180.KS)": stocks/2026/10/hd-hyundai-heavy-industries.md
+              - "한화에어로스페이스(012450.KS)": stocks/2026/10/hanwha-aerospace.md
+              - "HD현대일렉트릭(267260.KS)": stocks/2026/10/hd-hyundai-electric.md
               - "삼성바이오로직스(207940.KS)": stocks/2026/10/samsung-biologics.md
               - "리얼티 인컴(O)": stocks/2026/10/realty-income.md
               - "애보트 래보라토리(ABT)": stocks/2026/10/abbott.md
