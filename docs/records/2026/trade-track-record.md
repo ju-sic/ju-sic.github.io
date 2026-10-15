@@ -1,11 +1,35 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-15(목) 15:10
+- **업데이트** : 2026-10-16(금) 08:52
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-16 (금)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$63.60 (+2.87%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뱅크오브아메리카 (BAC)</td>
+          <td><strong>체결 단가</strong>: $51.76</td>
+          <td><strong>체결 수량</strong>: 44주 (전량)</td>
+          <td><strong>정산 금액</strong>: $2,277.44</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $50.31</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$63.60 (약 +85,200원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 1일 (수익률 <strong>+2.87%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">장이 애매해서 단타만 쳐야겠다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -656,6 +680,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-16** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매도 (청산) | $50.31 | 44주 | $2,213.84 | $51.76 | **+$63.60 (약 +85,200원)** | **+2.87%** | **1일** |
 | **10-15** | [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | 매수 (1차) | 1,244,000원 | 1주 | 1,244,000원 | — | (미실현) | — | — |
 | **10-15** | [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | 매수 (1차) | 1,254,000원 | 1주 | 1,254,000원 | — | (미실현) | — | — |
 | **10-15** | [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | 매수 (1차) | 1,264,000원 | 1주 | 1,264,000원 | — | (미실현) | — | — |
@@ -705,23 +730,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 8,022,000원</span>
-    <span class="sub">해외 $2,213.84 + 국내 5,039,000원 (총 2개 종목)</span>
+    <span class="value">5,039,000원</span>
+    <span class="sub">국내 5,039,000원 (총 1개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">SK하이닉스 (62.8%)</span>
+    <span class="value">SK하이닉스 (100.0%)</span>
     <span class="sub">SK하이닉스 4주 (5,039,000원)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">BAC / SK하이닉스</span>
-    <span class="sub">2026-10-15 진입 (1일차)</span>
+    <span class="value">SK하이닉스 (000660)</span>
+    <span class="sub">2026-10-15 진입 (2일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 8,047,000원</span>
-    <span class="sub">평가손익 약 +25,000원 (+0.31%)</span>
+    <span class="value">5,048,000원</span>
+    <span class="sub">평가손익 +9,000원 (+0.18%)</span>
   </div>
 </div>
 
@@ -729,10 +754,9 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | **62.8%** | 2026-10-15 | 4주 | 1,259,750원 | 1,250,000원 | -39,000원 (-0.77%) |
-| [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | **37.2%** | 2026-10-15 | 44주 | $50.31 | $51.39 | +$47.32 (+2.14%) |
+| [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | **100.0%** | 2026-10-15 | 4주 | 1,259,750원 | 1,262,000원 | +9,000원 (+0.18%) |
 
-> *비중은 원화 환산 총 투자원금(약 8,022,000원, 환율 1,347.5원 기준) 기준 비중이며, 현재 평가금액 기준 비중은 SK하이닉스 62.1%, BAC 37.9%입니다.*
+> *비중은 총 투자원금(5,039,000원) 기준 비중이며, 현재 평가금액 기준 비중은 SK하이닉스 100.0%입니다.*
 
 
 ---
@@ -741,9 +765,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 22건 | 7건 | 1건 | 87.5% | +748,000원 | +2.88% |
+| **2026-10** | 23건 | 8건 | 1건 | 88.9% | +833,200원 | +2.88% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **39건** | **10건** | **1건** | **90.9%** | **+1,468,800원** | **+4.53%** |
+| **누적 합계** | **40건** | **11건** | **1건** | **91.7%** | **+1,554,000원** | **+4.39%** |
 
 ---
 
