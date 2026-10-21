@@ -1,11 +1,29 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-21(수) 13:40
+- **업데이트** : 2026-10-22(목) 06:17
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-22 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 브로드컴 (AVGO)</td>
+          <td><strong>체결 단가</strong>: $338.44</td>
+          <td><strong>체결 수량</strong>: 1주</td>
+          <td><strong>투입 금액</strong>: $338.44</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">1주만 선발대 보내봤다. 장이 크게 빠질 것 같기도 하다. 이상하게 불안하다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -788,6 +806,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-22** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (1차) | $338.44 | 1주 | $338.44 | — | (미실현) | — | — |
 | **10-21** | [SK하이닉스 (`000660`)](../../stocks/2026/09/sk-hynix.md) | 매도 (청산) | 1,211,000원 | 4주 | 4,844,000원 | 1,267,000원 | **+224,000원** | **+4.62%** | **2일** |
 | **10-21** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매도 (청산) | $50.44 | 44주 | $2,219.36 | $50.64 | **+$8.80 (약 +11,700원)** | **+0.40%** | **1일** |
 | **10-20** | [뱅크오브아메리카 (`BAC`)](../../stocks/2026/09/bank-of-america.md) | 매수 (1차) | $50.44 | 44주 | $2,219.36 | — | (미실현) | — | — |
@@ -843,23 +862,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">0원</span>
-    <span class="sub">0원 (전량 현금화 완료)</span>
+    <span class="value">$338.44</span>
+    <span class="sub">약 449,000원 (총 1개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">—</span>
-    <span class="sub">보유 포지션 없음 (현금 100%)</span>
+    <span class="value">브로드컴 (100.0%)</span>
+    <span class="sub">브로드컴 1주 ($338.44)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">—</span>
-    <span class="sub">보유 포지션 없음</span>
+    <span class="value">브로드컴 (AVGO)</span>
+    <span class="sub">2026-10-22 진입 (1일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">0원</span>
-    <span class="sub">평가손익 0원 (0.00%)</span>
+    <span class="value">$337.80</span>
+    <span class="sub">평가손익 -$0.64 (-0.19%)</span>
   </div>
 </div>
 
@@ -867,9 +886,9 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **현금성 자산 (예수금/CMA)** | **100.0%** | — | — | — | — | **전량 현금 보유 (보유종목 없음)** |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **100.0%** | 2026-10-22 | 1주 | $338.44 | $337.80 | **-$0.64 (-0.19%)** |
 
-> *현재 모든 보유종목을 전량 청산하여 100% 현금 상태로 대기 중입니다.*
+> *비중은 총 투자원금($338.44, 약 449,000원, 환율 1,326.1원 기준) 기준 비중입니다.*
 
 
 ---
@@ -878,9 +897,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 28건 | 11건 | 1건 | 91.7% | +1,097,900원 | +2.63% |
+| **2026-10** | 29건 | 11건 | 1건 | 91.7% | +1,097,900원 | +2.63% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **45건** | **14건** | **1건** | **93.3%** | **+1,818,700원** | **+3.77%** |
+| **누적 합계** | **46건** | **14건** | **1건** | **93.3%** | **+1,818,700원** | **+3.77%** |
 
 ---
 
