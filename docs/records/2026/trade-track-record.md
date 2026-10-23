@@ -1,11 +1,125 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-22(목) 16:25
+- **업데이트** : 2026-10-23(금) 16:35
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-23 (금)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +22,000원 (+1.91%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 현대차 (005380)</td>
+          <td><strong>체결 단가</strong>: 293,500원</td>
+          <td><strong>체결 수량</strong>: 4주 (전량)</td>
+          <td><strong>정산 금액</strong>: 1,174,000원</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: 288,000원</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+22,000원</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 0일 (수익률 <strong>+1.91%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">현대차는 모아갈려고 했는데 바닥 아닌 것 같아서 그냥 정리했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-23 (금)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대 분할)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 현대차 (005380)</td>
+          <td><strong>체결 단가</strong>: 288,000원</td>
+          <td><strong>체결 수량</strong>: 3주</td>
+          <td><strong>투입 금액</strong>: 864,000원</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">모아가려고 선발대 추가 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-23 (금)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 현대차 (005380)</td>
+          <td><strong>체결 단가</strong>: 288,000원</td>
+          <td><strong>체결 수량</strong>: 1주</td>
+          <td><strong>투입 금액</strong>: 288,000원</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">모아가려고 1주 먼저 선발대로 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-23 (금)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수 (분할)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 브로드컴 (AVGO)</td>
+          <td><strong>체결 단가</strong>: $324.44</td>
+          <td><strong>체결 수량</strong>: 1주</td>
+          <td><strong>투입 금액</strong>: $324.44</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">주가가 추가 하락하여 걸어둔 분할 매수가 체결되었다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-23 (금)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수 (분할)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 브로드컴 (AVGO)</td>
+          <td><strong>체결 단가</strong>: $325.44</td>
+          <td><strong>체결 수량</strong>: 1주</td>
+          <td><strong>투입 금액</strong>: $325.44</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">주가가 추가 하락하여 걸어둔 분할 매수가 체결되었다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-23 (금)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 브로드컴 (AVGO)</td>
+          <td><strong>체결 단가</strong>: $326.44</td>
+          <td><strong>체결 수량</strong>: 1주</td>
+          <td><strong>투입 금액</strong>: $326.44</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">주가가 추가 하락하여 걸어둔 분할 매수가 체결되었다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -860,6 +974,12 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-23** | [현대차 (`005380`)](../../stocks/2026/09/hyundai-motor.md) | 매도 (청산) | 288,000원 | 4주 | 1,152,000원 | 293,500원 | **+22,000원** | **+1.91%** | **0일** |
+| **10-23** | [현대차 (`005380`)](../../stocks/2026/09/hyundai-motor.md) | 매수 (1차) | 288,000원 | 3주 | 864,000원 | — | (미실현) | — | — |
+| **10-23** | [현대차 (`005380`)](../../stocks/2026/09/hyundai-motor.md) | 매수 (1차) | 288,000원 | 1주 | 288,000원 | — | (미실현) | — | — |
+| **10-23** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $324.44 | 1주 | $324.44 | — | (미실현) | — | — |
+| **10-23** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $325.44 | 1주 | $325.44 | — | (미실현) | — | — |
+| **10-23** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (2차) | $326.44 | 1주 | $326.44 | — | (미실현) | — | — |
 | **10-22** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (1차) | $329.44 | 1주 | $329.44 | — | (미실현) | — | — |
 | **10-22** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (1차) | $330.44 | 1주 | $330.44 | — | (미실현) | — | — |
 | **10-22** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (1차) | $331.44 | 1주 | $331.44 | — | (미실현) | — | — |
@@ -919,23 +1039,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$1,329.76</span>
-    <span class="sub">약 1,758,000원 (총 1개 종목)</span>
+    <span class="value">$2,306.08</span>
+    <span class="sub">약 3,057,000원 (총 1개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
     <span class="value">브로드컴 (100.0%)</span>
-    <span class="sub">브로드컴 4주 ($1,329.76)</span>
+    <span class="sub">브로드컴 7주 ($2,306.08)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-10-22 진입 (1일차)</span>
+    <span class="sub">2026-10-22 진입 (2일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$1,351.20</span>
-    <span class="sub">평가손익 +$21.44 (+1.61%)</span>
+    <span class="value">$2,262.68</span>
+    <span class="sub">평가손익 -$43.40 (-1.88%)</span>
   </div>
 </div>
 
@@ -943,9 +1063,9 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **100.0%** | 2026-10-22 | 4주 | $332.44 | $337.80 | **+$21.44 (+1.61%)** |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **100.0%** | 2026-10-22 | 7주 | $329.44 | $323.24 | **-$43.40 (-1.88%)** |
 
-> *비중은 총 투자원금($1,329.76, 약 1,758,000원, 환율 1,322.3원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금($2,306.08, 약 3,057,000원, 환율 1,325.6원 기준) 기준 비중입니다.*
 
 
 ---
@@ -954,9 +1074,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 32건 | 11건 | 1건 | 91.7% | +1,097,900원 | +2.63% |
+| **2026-10** | 38건 | 12건 | 1건 | 92.3% | +1,119,900원 | +2.61% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **49건** | **14건** | **1건** | **93.3%** | **+1,818,700원** | **+3.77%** |
+| **누적 합계** | **55건** | **15건** | **1건** | **93.8%** | **+1,840,700원** | **+3.73%** |
 
 ---
 
