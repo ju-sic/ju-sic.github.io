@@ -157,7 +157,8 @@ markdown_extensions:
           case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde
+  - pymdownx.tilde:
+      subscript: false
 
 ## ---------------------------------------------------------------------------
 ## 목차 구조
