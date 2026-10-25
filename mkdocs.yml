@@ -212,6 +212,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 10월:
+              - "HD현대(267250.KS)": stocks/2026/10/hd-hyundai.md
               - "HD현대중공업(329180.KS)": stocks/2026/10/hd-hyundai-heavy-industries.md
               - "한화에어로스페이스(012450.KS)": stocks/2026/10/hanwha-aerospace.md
               - "HD현대일렉트릭(267260.KS)": stocks/2026/10/hd-hyundai-electric.md
