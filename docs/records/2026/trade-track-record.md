@@ -1,11 +1,47 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-24(토) 07:15
+- **업데이트** : 2026-10-26(월) 14:25
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-26 (월)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대 분할)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대 (267250)</td>
+          <td><strong>체결 단가</strong>: 133,400원</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: 1,334,000원</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">저평가 매력으로 소액 분할 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-26 (월)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대 (267250)</td>
+          <td><strong>체결 단가</strong>: 137,200원</td>
+          <td><strong>체결 수량</strong>: 14주</td>
+          <td><strong>투입 금액</strong>: 1,920,800원</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">저평가 매력으로 선발대 소액 매수했다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -992,6 +1028,8 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-26** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 매수 (1차) | 133,400원 | 10주 | 1,334,000원 | — | (미실현) | — | — |
+| **10-26** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 매수 (1차) | 137,200원 | 14주 | 1,920,800원 | — | (미실현) | — | — |
 | **10-24** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매수 (3차) | $324.10 | 7주 | $2,268.70 | — | (미실현) | — | — |
 | **10-23** | [현대차 (`005380`)](../../stocks/2026/09/hyundai-motor.md) | 매도 (청산) | 288,000원 | 4주 | 1,152,000원 | 293,500원 | **+22,000원** | **+1.91%** | **0일** |
 | **10-23** | [현대차 (`005380`)](../../stocks/2026/09/hyundai-motor.md) | 매수 (1차) | 288,000원 | 3주 | 864,000원 | — | (미실현) | — | — |
@@ -1058,23 +1096,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">$4,574.78</span>
-    <span class="sub">약 6,056,000원 (총 1개 종목)</span>
+    <span class="value">약 9,301,000원</span>
+    <span class="sub">해외 $4,574.78 + 국내 3,254,800원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">브로드컴 (100.0%)</span>
+    <span class="value">브로드컴 (65.0%)</span>
     <span class="sub">브로드컴 14주 ($4,574.78)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">브로드컴 (AVGO)</span>
-    <span class="sub">2026-10-22 진입 (3일차)</span>
+    <span class="sub">2026-10-22 진입 (5일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">$4,503.52</span>
-    <span class="sub">평가손익 -$71.26 (-1.56%)</span>
+    <span class="value">약 9,151,000원</span>
+    <span class="sub">평가손익 약 -150,000원 (-1.61%)</span>
   </div>
 </div>
 
@@ -1082,9 +1120,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **100.0%** | 2026-10-22 | 14주 | $326.77 | $321.68 | **-$71.26 (-1.56%)** |
+| [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | **65.0%** | 2026-10-22 | 14주 | $326.77 | $321.68 | **-$71.26 (-1.56%)** |
+| [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | **35.0%** | 2026-10-26 | 24주 | 135,617원 | 133,300원 | **-55,600원 (-1.71%)** |
 
-> *비중은 총 투자원금($4,574.78, 약 6,056,000원, 환율 1,323.7원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 9,301,000원, 환율 1,321.6원 기준) 기준 비중입니다.*
 
 
 ---
@@ -1093,9 +1132,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 39건 | 12건 | 1건 | 92.3% | +1,119,900원 | +2.61% |
+| **2026-10** | 41건 | 12건 | 1건 | 92.3% | +1,119,900원 | +2.61% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **56건** | **15건** | **1건** | **93.8%** | **+1,840,700원** | **+3.73%** |
+| **누적 합계** | **58건** | **15건** | **1건** | **93.8%** | **+1,840,700원** | **+3.73%** |
 
 ---
 
