@@ -1614,23 +1614,40 @@ body {
 /* Vega 차트 테마 배경 투명화 및 다크/라이트 텍스트 대비 */
 .vega-embed,
 vegachart {
-  background: transparent !important;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  margin: 1rem 0 1.6rem;
+  background-color: var(--kb-bg-subtle) !important;
+  border: 1px solid var(--kb-border);
+  border-radius: var(--kb-radius-lg);
 }
 
 /* 렌더링 전 원본 JSON 텍스트가 화면에 노출(FOUC)되는 현상 방지 */
 vegachart:not(.vega-embed) {
   display: block;
-  min-height: 280px;
+  min-height: 240px;
   color: transparent !important;
   user-select: none;
 }
 
 .vega-embed svg {
   background: transparent !important;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.vega-embed svg text {
+  font-family: var(--md-text-font-family) !important;
 }
 
 .vega-embed svg rect.background {
   fill: transparent !important;
+}
+
+[data-md-color-scheme="default"] .vega-embed svg text {
+  fill: var(--kb-text, #2e2e2e);
 }
 
 [data-md-color-scheme="slate"] .vega-embed svg text {
