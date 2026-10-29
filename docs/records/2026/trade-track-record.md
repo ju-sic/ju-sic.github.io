@@ -1,11 +1,107 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-27(화) 16:25
+- **업데이트** : 2026-10-29(목) 09:36
 
 
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-29 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대 완료)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 알파벳 A (GOOGL)</td>
+          <td><strong>체결 단가</strong>: $291.94</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $2,919.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">램 리서치를 정리하고 알파벳 A를 분할 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-29 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대 분할)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 알파벳 A (GOOGL)</td>
+          <td><strong>체결 단가</strong>: $295.44</td>
+          <td><strong>체결 수량</strong>: 6주</td>
+          <td><strong>투입 금액</strong>: $1,772.64</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">램 리서치를 정리하고 알파벳 A를 분할 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-29 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대 분할)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 알파벳 A (GOOGL)</td>
+          <td><strong>체결 단가</strong>: $295.89</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $1,183.56</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">램 리서치를 정리하고 알파벳 A를 분할 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-29 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 알파벳 A (GOOGL)</td>
+          <td><strong>체결 단가</strong>: $297.44</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $1,189.76</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">램 리서치를 정리하고 알파벳 A를 선발대로 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-10-29 (목)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$66.40 (+7.11%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 램 리서치 (LRCX)</td>
+          <td><strong>체결 단가</strong>: $249.93</td>
+          <td><strong>체결 수량</strong>: 4주 (전량)</td>
+          <td><strong>정산 금액</strong>: $999.72</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $233.33</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$66.40 (약 +88,700원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 2일 (수익률 <strong>+7.11%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">램 리서치는 애매해서 전량 정리했다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -1112,6 +1208,11 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **10-29** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 매수 (1차) | $291.94 | 10주 | $2,919.40 | — | (미실현) | — | — |
+| **10-29** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 매수 (1차) | $295.44 | 6주 | $1,772.64 | — | (미실현) | — | — |
+| **10-29** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 매수 (1차) | $295.89 | 4주 | $1,183.56 | — | (미실현) | — | — |
+| **10-29** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 매수 (1차) | $297.44 | 4주 | $1,189.76 | — | (미실현) | — | — |
+| **10-29** | [램 리서치 (`LRCX`)](../../stocks/2026/10/lam-research.md) | 매도 (청산) | $233.33 | 4주 | $933.32 | $249.93 | **+$66.40 (약 +88,700원)** | **+7.11%** | **2일** |
 | **10-27** | [램 리서치 (`LRCX`)](../../stocks/2026/10/lam-research.md) | 매수 (1차) | $233.33 | 4주 | $933.32 | — | (미실현) | — | — |
 | **10-27** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 매수 (2차) | 133,500원 | 20주 | 2,670,000원 | — | (미실현) | — | — |
 | **10-27** | [브로드컴 (`AVGO`)](../../stocks/2026/08/broadcom.md) | 매도 (청산) | $326.77 | 4주 | $1,307.08 | $330.15 | **+$13.52 (약 +17,900원)** | **+1.03%** | **5일** |
@@ -1184,23 +1285,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 7,161,000원</span>
-    <span class="sub">해외 $933.32 + 국내 5,924,800원 (총 2개 종목)</span>
+    <span class="value">약 15,365,000원</span>
+    <span class="sub">해외 $7,065.36 + 국내 5,924,800원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">HD현대 (82.7%)</span>
-    <span class="sub">HD현대 44주 (5,924,800원)</span>
+    <span class="value">알파벳 A (61.4%)</span>
+    <span class="sub">알파벳 A 24주 ($7,065.36)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">HD현대 (267250)</span>
-    <span class="sub">2026-10-26 진입 (1일차)</span>
+    <span class="sub">2026-10-26 진입 (3일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 7,251,000원</span>
-    <span class="sub">평가손익 약 +90,000원 (+1.26%)</span>
+    <span class="value">약 15,597,000원</span>
+    <span class="sub">평가손익 약 +232,000원 (+1.51%)</span>
   </div>
 </div>
 
@@ -1208,10 +1309,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | **82.7%** | 2026-10-26 | 44주 | 134,655원 | 136,200원 | **+68,000원 (+1.15%)** |
-| [램 리서치 (`LRCX`)](../../stocks/2026/10/lam-research.md) | **17.3%** | 2026-10-27 | 4주 | $233.33 | $237.50 | **+$16.68 (+1.79%)** |
+| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **61.4%** | 2026-10-29 | 24주 | $294.39 | $292.50 | **-$45.36 (-0.64%)** |
+| [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | **38.6%** | 2026-10-26 | 44주 | 134,655원 | 141,300원 | **+292,400원 (+4.94%)** |
 
-> *비중은 총 투자원금(약 7,161,000원, 환율 1,324.4원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 15,365,000원, 환율 1,336.1원 기준) 기준 비중입니다.*
 
 
 ---
@@ -1220,9 +1321,9 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-10** | 45건 | 14건 | 1건 | 93.3% | +1,146,700원 | +2.34% |
+| **2026-10** | 50건 | 15건 | 1건 | 93.8% | +1,235,400원 | +2.46% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **62건** | **17건** | **1건** | **94.4%** | **+1,867,500원** | **+3.37%** |
+| **누적 합계** | **67건** | **18건** | **1건** | **94.7%** | **+1,956,200원** | **+3.45%** |
 
 ---
 
