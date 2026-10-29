@@ -9,6 +9,9 @@
  *   5. 상단 탭바        10. 푸터 / 기타
  *
  * 원칙: 강조색을 쓰지 않는다. 위계는 명도 대비와 여백으로 만든다.
+ * 스타일: OpenAI 계열 — 불투명한 순백/순흑 바탕, 헤어라인, 큰 글자 대비.
+ *         장식(블러·후광·그라데이션·의미 없는 hover)을 쓰지 않는다.
+ *         모서리는 4/8/12px 세 단계만 쓴다.
  * =========================================================================== */
 
 /* ---------------------------------------------------------------------------
@@ -35,8 +38,8 @@ body {
 
 :root {
   --kb-radius-sm: 4px;
-  --kb-radius-md: 6px;
-  --kb-radius-lg: 8px;
+  --kb-radius-md: 8px;
+  --kb-radius-lg: 12px;
 
   --kb-ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -44,13 +47,13 @@ body {
 /* --- 라이트 -------------------------------------------------------------- */
 [data-md-color-scheme="default"] {
   --kb-bg: #ffffff;
-  --kb-bg-subtle: #f7f7f8;
-  --kb-text-strong: #181818;
-  --kb-text: #2e2e2e;
-  --kb-text-muted: #6e6e6e;
-  --kb-border: #e5e5e5;
-  --kb-border-strong: #d0d0d0;
-  --kb-hover: #f2f2f2;
+  --kb-bg-subtle: #f9f9f9;
+  --kb-text-strong: #0d0d0d;
+  --kb-text: #262626;
+  --kb-text-muted: #5d5d5d;
+  --kb-border: #ececec;
+  --kb-border-strong: #d9d9d9;
+  --kb-hover: #f3f3f3;
   --kb-active: #ececec;
   --kb-accent: #0d0d0d;
   --kb-accent-contrast: #ffffff;
@@ -97,35 +100,39 @@ body {
   --md-footer-fg-color--lighter: var(--kb-text-muted);
 
   --md-shadow-z1: none;
-  --md-shadow-z2: 0 2px 8px rgba(0, 0, 0, 0.08);
-  --md-shadow-z3: 0 4px 14px rgba(0, 0, 0, 0.12);
+  --md-shadow-z2: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --md-shadow-z3: 0 4px 12px rgba(0, 0, 0, 0.1);
 
-  /* Pretty Mermaid 토큰 (Zinc Light 테마 기반) */
-  --kb-mermaid-bg: #fbfcfd;
-  --kb-mermaid-border: #e2e8f0;
+  /* 차트 시리즈 팔레트 — 스펙이 색을 지정하지 않은 차트에만 쓰인다 (chart-theme.js) */
+  --kb-chart-1: #10a37f;
+  --kb-chart-2: #3b82f6;
+  --kb-chart-3: #f59e0b;
+  --kb-chart-4: #ef4444;
+  --kb-chart-5: #8b5cf6;
+  --kb-chart-6: #64748b;
+
+  /* Mermaid 토큰 — 본문과 같은 무채색 계열. 노드는 흰 카드, 연결선은 중간 회색 */
+  --kb-mermaid-bg: var(--kb-bg-subtle);
+  --kb-mermaid-border: var(--kb-border);
   --kb-mermaid-node-fill: #ffffff;
-  --kb-mermaid-node-stroke: #cbd5e1;
-  --kb-mermaid-node-text: #1e293b;
-  --kb-mermaid-edge-line: #64748b;
-  --kb-mermaid-edge-arrow: #475569;
-  --kb-mermaid-edge-label-bg: #f1f5f9;
-  --kb-mermaid-edge-label-text: #334155;
-  --kb-mermaid-cluster-fill: #f8fafc;
-  --kb-mermaid-cluster-stroke: #cbd5e1;
-  --kb-mermaid-cluster-text: #0f172a;
+  --kb-mermaid-node-stroke: #c9c9c9;
+  --kb-mermaid-node-text: #0d0d0d;
+  --kb-mermaid-edge-line: #8f8f8f;
+  --kb-mermaid-edge-label-bg: #ffffff;
+  --kb-mermaid-edge-label-text: #5d5d5d;
 }
 
 /* --- 다크 ---------------------------------------------------------------- */
 [data-md-color-scheme="slate"] {
   --kb-bg: #0d0d0d;
-  --kb-bg-subtle: #1a1a1a;
-  --kb-text-strong: #f5f5f5;
-  --kb-text: #d4d4d4;
-  --kb-text-muted: #9b9b9b;
-  --kb-border: #2a2a2a;
-  --kb-border-strong: #3d3d3d;
-  --kb-hover: #1f1f1f;
-  --kb-active: #262626;
+  --kb-bg-subtle: #171717;
+  --kb-text-strong: #ffffff;
+  --kb-text: #e3e3e3;
+  --kb-text-muted: #a3a3a3;
+  --kb-border: #262626;
+  --kb-border-strong: #383838;
+  --kb-hover: #212121;
+  --kb-active: #2a2a2a;
   --kb-accent: #ffffff;
   --kb-accent-contrast: #0d0d0d;
 
@@ -159,7 +166,7 @@ body {
   --md-typeset-mark-color: rgba(255, 214, 0, 0.25);
 
   --md-code-bg-color: var(--kb-bg-subtle);
-  --md-code-fg-color: #d4d4d4;
+  --md-code-fg-color: #e3e3e3;
 
   --md-footer-bg-color: var(--kb-bg);
   --md-footer-bg-color--dark: var(--kb-bg);
@@ -168,22 +175,52 @@ body {
   --md-footer-fg-color--lighter: var(--kb-text-muted);
 
   --md-shadow-z1: none;
-  --md-shadow-z2: 0 2px 8px rgba(0, 0, 0, 0.32);
-  --md-shadow-z3: 0 4px 14px rgba(0, 0, 0, 0.48);
+  --md-shadow-z2: 0 2px 6px rgba(0, 0, 0, 0.4);
+  --md-shadow-z3: 0 4px 12px rgba(0, 0, 0, 0.5);
 
-  /* Pretty Mermaid 토큰 (Tokyo Night / Zinc Dark 테마 기반) */
-  --kb-mermaid-bg: #141620;
-  --kb-mermaid-border: #24283b;
-  --kb-mermaid-node-fill: #1a1b26;
-  --kb-mermaid-node-stroke: #3b4261;
-  --kb-mermaid-node-text: #c0caf5;
-  --kb-mermaid-edge-line: #565f89;
-  --kb-mermaid-edge-arrow: #7aa2f7;
-  --kb-mermaid-edge-label-bg: #1f2335;
-  --kb-mermaid-edge-label-text: #a9b1d6;
-  --kb-mermaid-cluster-fill: #16161e;
-  --kb-mermaid-cluster-stroke: #292e42;
-  --kb-mermaid-cluster-text: #7aa2f7;
+  --kb-chart-1: #19c37d;
+  --kb-chart-2: #60a5fa;
+  --kb-chart-3: #fbbf24;
+  --kb-chart-4: #f87171;
+  --kb-chart-5: #a78bfa;
+  --kb-chart-6: #94a3b8;
+
+  --kb-mermaid-bg: var(--kb-bg-subtle);
+  --kb-mermaid-border: var(--kb-border);
+  --kb-mermaid-node-fill: #1c1c1c;
+  --kb-mermaid-node-stroke: #474747;
+  --kb-mermaid-node-text: #f2f2f2;
+  --kb-mermaid-edge-line: #7a7a7a;
+  --kb-mermaid-edge-label-bg: #1c1c1c;
+  --kb-mermaid-edge-label-text: #b4b4b4;
+}
+
+/* Material은 Mermaid를 닫힌(closed) Shadow DOM 안에 그린다.
+ * 바깥 CSS 선택자(.mermaid .node rect 등)는 경계를 넘지 못하고,
+ * 상속되는 CSS 변수만 전달된다. 그래서 다이어그램 내부 색은 반드시 이 변수로 바꾼다. */
+[data-md-color-scheme] {
+  --md-mermaid-font-family: var(--md-text-font-family);
+  --md-mermaid-node-bg-color: var(--kb-mermaid-node-fill);
+  --md-mermaid-node-fg-color: var(--kb-mermaid-node-stroke);
+  --md-mermaid-label-fg-color: var(--kb-mermaid-node-text);
+  --md-mermaid-label-bg-color: var(--kb-mermaid-edge-label-bg);
+  --md-mermaid-edge-color: var(--kb-mermaid-edge-line);
+  --md-mermaid-sequence-actor-bg-color: var(--kb-mermaid-node-fill);
+  --md-mermaid-sequence-actor-fg-color: var(--kb-mermaid-node-text);
+  --md-mermaid-sequence-actor-border-color: var(--kb-mermaid-node-stroke);
+  --md-mermaid-sequence-actor-line-color: var(--kb-border-strong);
+  --md-mermaid-sequence-message-fg-color: var(--kb-text);
+  --md-mermaid-sequence-message-line-color: var(--kb-mermaid-edge-line);
+  --md-mermaid-sequence-note-bg-color: var(--kb-bg-subtle);
+  --md-mermaid-sequence-note-fg-color: var(--kb-text);
+  --md-mermaid-sequence-note-border-color: var(--kb-border-strong);
+  --md-mermaid-sequence-label-bg-color: var(--kb-mermaid-node-fill);
+  --md-mermaid-sequence-label-fg-color: var(--kb-text);
+  --md-mermaid-sequence-loop-bg-color: var(--kb-bg-subtle);
+  --md-mermaid-sequence-loop-fg-color: var(--kb-text-muted);
+  --md-mermaid-sequence-loop-border-color: var(--kb-border-strong);
+  --md-mermaid-sequence-number-bg-color: var(--kb-text-strong);
+  --md-mermaid-sequence-number-fg-color: var(--kb-bg);
 }
 
 /* ---------------------------------------------------------------------------
@@ -215,11 +252,13 @@ body {
 /* 한글 최적화
    · line-height 1.75 — 한글은 x-height가 커서 라틴 기준 1.6이면 답답하다
    · word-break: keep-all — 어절 중간에서 줄바꿈되는 것을 막는다 (한글 필수)
-   · letter-spacing -0.003em — 제목용 -0.02em을 본문에 쓰면 글자가 붙어 보인다 */
+   · letter-spacing -0.006em — Pretendard(Inter 기반)를 살짝 조여 OpenAI 본문 질감에 맞춘다.
+     제목용 -0.03em을 본문에 쓰면 글자가 붙어 보인다
+   · 17px — 한글은 16px이면 획이 촘촘해 장문에서 피로도가 높다 */
 .md-typeset {
-  font-size: 0.8rem; /* 16px */
-  line-height: 1.75;
-  letter-spacing: -0.003em;
+  font-size: 0.85rem; /* 17px */
+  line-height: 1.78;
+  letter-spacing: -0.006em;
   word-break: keep-all;
   overflow-wrap: break-word;
 }
@@ -271,14 +310,14 @@ body {
 }
 
 /* 본문 열은 한 줄이 지나치게 길어지지 않게 상한을 두고 남는 공간에서 가운데 정렬한다.
- * 한글은 글자폭이 넓어 1240px 정도가 상한선이다.
+ * OpenAI 문서처럼 읽기 열을 좁게 두되, 표가 많은 리포트 특성상 1040px로 잡는다.
  *
  * Material이 아래 선택자를 (0,5,0) 특이도로 선언해 margin-left/right: 1.2rem 을 고정하므로
  * 같은 길이의 선택자로 맞춰야 auto 마진이 먹는다. */
 @media screen and (min-width: 76.25em) {
   [dir="ltr"] .md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner,
   [dir="ltr"] .md-sidebar--secondary:not([hidden]) ~ .md-content > .md-content__inner {
-    max-width: 62rem; /* 1240px */
+    max-width: 52rem; /* 1040px */
     margin-left: auto;
     margin-right: auto;
   }
@@ -308,6 +347,14 @@ body {
   border-bottom: 1px solid var(--kb-border);
 }
 
+/* 탭바가 보이는 데스크톱에서는 헤더와 탭바를 한 덩어리로 보이게
+ * 헤더 하단선을 없애고 탭바 하단선 하나만 남긴다. */
+@media screen and (min-width: 76.25em) {
+  .md-header {
+    border-bottom-color: transparent;
+  }
+}
+
 /* 스크롤 시 Material이 붙이는 그림자 제거 */
 .md-header--shadow {
   box-shadow: none;
@@ -315,9 +362,9 @@ body {
 }
 
 .md-header__title {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: -0.012em;
+  letter-spacing: -0.02em;
   margin-left: 0.4rem;
 }
 
@@ -346,30 +393,29 @@ body {
   stroke: currentColor;
 }
 
-/* 검색창 — 다른 입력 요소와 같은 작은 모서리 */
+/* 검색창 — 다른 입력 요소와 같은 8px 모서리의 평범한 입력창 */
 .md-search__form {
   background-color: var(--kb-bg-subtle);
   border: 1px solid var(--kb-border);
   border-radius: var(--kb-radius-md);
   box-shadow: none;
-  height: 1.7rem;
+  height: 1.8rem;
   transition: background-color 0.15s var(--kb-ease), border-color 0.15s var(--kb-ease);
 }
 
 .md-search__form:hover {
-  background-color: var(--kb-hover);
   border-color: var(--kb-border-strong);
 }
 
 [data-md-toggle="search"]:checked ~ .md-header .md-search__form {
   background-color: var(--kb-bg);
   border-color: var(--kb-border-strong);
-  border-radius: var(--kb-radius-lg) var(--kb-radius-lg) 0 0;
+  border-radius: var(--kb-radius-md) var(--kb-radius-md) 0 0;
   box-shadow: var(--md-shadow-z2);
 }
 
 .md-search__input {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   color: var(--kb-text);
 }
 
@@ -387,7 +433,7 @@ body {
 }
 
 .md-search__output {
-  border-radius: 0 0 var(--kb-radius-lg) var(--kb-radius-lg);
+  border-radius: 0 0 var(--kb-radius-md) var(--kb-radius-md);
   box-shadow: var(--md-shadow-z2);
 }
 
@@ -483,7 +529,7 @@ body {
  * 100%가 auto로 무너진다. 그러면 아이템은 Material 기본 2.4rem 을 유지한 채
  * 더 낮은 .md-tabs 밖으로 넘치고, 글자는 띠 위쪽에 붙는다. 각 단계에 높이를 준다. */
 .md-tabs {
-  background-color: var(--kb-bg-subtle);
+  background-color: var(--kb-bg);
   color: var(--kb-text-muted);
   border-bottom: 1px solid var(--kb-border);
   box-shadow: none;
@@ -513,10 +559,9 @@ body {
   padding: 0 0.6rem;
 }
 
-/* 활성 탭 밑줄은 링크의 border-bottom 으로 그린다.
- * 절대 위치 ::after 는 기준 박스가 어긋나면 글자 바로 아래에 떠버린다.
- * 링크를 아이템 높이만큼 늘리고 아래 테두리를 쓰면 위치가 확정되고,
- * 밑줄 너비도 글자 폭과 정확히 같아진다. */
+/* 활성 탭은 링크의 border-bottom 으로 그린 밑줄로 표시한다.
+ * 밑줄은 "지금 여기"라는 정보를 전달하고, 탭바 하단선과 같은 높이에 붙는다.
+ * 링크를 아이템 높이만큼 늘려야 밑줄 위치가 확정되고 너비도 글자 폭과 같아진다. */
 .md-tabs__link {
   display: flex;
   align-items: center;
@@ -526,22 +571,19 @@ body {
   margin-top: 0;
   font-size: 0.7rem;
   font-weight: 500;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   opacity: 1;
   color: var(--kb-text-muted);
   transition: color 0.15s var(--kb-ease), border-color 0.15s var(--kb-ease);
 }
 
-.md-tabs__item--active .md-tabs__link {
-  border-bottom-color: var(--kb-accent);
-}
-
 .md-tabs__link:hover {
-  color: var(--kb-text);
+  color: var(--kb-text-strong);
   opacity: 1;
 }
 
 .md-tabs__item--active .md-tabs__link {
+  border-bottom-color: var(--kb-text-strong);
   color: var(--kb-text-strong);
   font-weight: 600;
   opacity: 1;
@@ -573,8 +615,8 @@ body {
   align-items: center;
   gap: 0.3rem;
   margin: 0.05rem 0;
-  padding: 0.26rem 0.45rem;
-  border-radius: var(--kb-radius-md);
+  padding: 0.3rem 0.5rem;
+  border-radius: var(--kb-radius-sm);
   color: var(--kb-text-muted);
   transition: background-color 0.12s var(--kb-ease), color 0.12s var(--kb-ease);
 }
@@ -600,8 +642,10 @@ body {
  * 좌측 패딩을 0으로 두어 글자가 상단 탭바의 첫 탭과 같은 선에서 시작하게 한다. */
 .md-sidebar--primary .md-nav__item--section > .md-nav__link {
   background-color: transparent;
-  color: var(--kb-text-strong);
+  color: var(--kb-text-muted);
+  font-size: 0.65rem;
   font-weight: 600;
+  letter-spacing: 0.01em;
   padding-left: 0;
   padding-right: 0;
 }
@@ -648,18 +692,38 @@ body {
  * 7. 우측 목차(TOC)
  * ------------------------------------------------------------------------- */
 
+/* 본문 열을 1040px로 줄인 만큼 목차를 Material 기본 12.1rem(242px)에서 15rem(300px)으로 넓힌다.
+ * 한글 소제목이 길어 기본 폭에서는 대부분 2~3줄로 접혔다. */
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary {
+    width: 15rem;
+  }
+
+  /* Material은 사이드바 폭과 무관하게 내용 폭을 11.5rem(230px)으로 고정하려고
+   * .md-sidebar__inner 에 padding-right: calc(100% - 11.5rem) 을 건다.
+   * 그대로 두면 넓힌 폭이 전부 오른쪽 빈 공간이 되므로 패딩을 없앤다. */
+  [dir="ltr"] .md-sidebar--secondary .md-sidebar__inner {
+    padding-right: 0;
+  }
+}
+
+.md-sidebar--secondary .md-nav {
+  font-size: 0.66rem; /* 13.2px — 본문보다 확실히 작게 두어 보조 정보로 읽히게 한다 */
+  line-height: 1.45;
+}
+
 .md-sidebar--secondary .md-nav__title {
-  font-size: 0.62rem;
+  font-size: 0.65rem;
   font-weight: 600;
-  letter-spacing: 0;
+  letter-spacing: 0.01em;
   text-transform: none;
-  color: var(--kb-text-strong);
+  color: var(--kb-text-muted);
   padding-bottom: 0.4rem;
 }
 
 .md-sidebar--secondary .md-nav__link {
   display: block;
-  padding: 0.22rem 0 0.22rem 0.5rem;
+  padding: 0.24rem 0 0.24rem 0.6rem;
   margin-left: -1px;
   border-left: 2px solid transparent;
   color: var(--kb-text-muted);
@@ -679,7 +743,12 @@ body {
 }
 
 .md-sidebar--secondary .md-nav__list .md-nav__list .md-nav__link {
-  padding-left: 1rem;
+  padding-left: 1.2rem;
+}
+
+/* 목차 좌측에 연한 레일을 깔아 활성 바가 그 위를 움직이는 것처럼 보이게 한다 */
+.md-sidebar--secondary .md-nav--secondary > .md-nav__list {
+  border-left: 1px solid var(--kb-border);
 }
 
 /* ---------------------------------------------------------------------------
@@ -697,35 +766,38 @@ body {
   letter-spacing: -0.02em;
 }
 
+/* OpenAI식 디스플레이 제목 — 크고, 자간을 강하게 조이고, 행간을 좁힌다 */
 .md-typeset h1 {
-  font-size: 1.6rem; /* 32px */
-  line-height: 1.35;
-  margin: 0 0 0.5rem;
+  font-size: 2rem; /* 40px */
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  margin: 0.4rem 0 0.8rem;
 }
 
 .md-typeset h2 {
-  font-size: 1.2rem; /* 24px */
-  line-height: 1.4;
-  margin: 2.2rem 0 0.7rem;
+  font-size: 1.35rem; /* 27px */
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin: 2.8rem 0 0.8rem;
 }
 
 .md-typeset h3 {
-  font-size: 1rem; /* 20px */
-  line-height: 1.5;
-  margin: 1.6rem 0 0.5rem;
-  letter-spacing: -0.015em;
+  font-size: 1.05rem; /* 21px */
+  line-height: 1.45;
+  margin: 2rem 0 0.55rem;
+  letter-spacing: -0.02em;
 }
 
 .md-typeset h4 {
-  font-size: 0.85rem; /* 17px */
+  font-size: 0.9rem; /* 18px */
   line-height: 1.55;
-  margin: 1.2rem 0 0.4rem;
-  letter-spacing: -0.01em;
+  margin: 1.4rem 0 0.4rem;
+  letter-spacing: -0.012em;
 }
 
 .md-typeset h5,
 .md-typeset h6 {
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   text-transform: none;
   color: var(--kb-text);
   margin: 1rem 0 0.3rem;
@@ -743,10 +815,11 @@ body {
 
 /* 제목 바로 아래 첫 문단을 리드 문단으로 (참고 사이트의 부제 스타일) */
 .md-typeset h1 + p:first-of-type {
-  font-size: 0.88rem;
+  font-size: 0.95rem; /* 19px */
   color: var(--kb-text-muted);
   line-height: 1.65;
-  margin-bottom: 1.6rem;
+  letter-spacing: -0.012em;
+  margin-bottom: 2rem;
 }
 
 /* 링크 — 강조색 없이 본문색 + 밑줄 */
@@ -800,14 +873,14 @@ body {
 }
 
 .md-typeset blockquote {
-  border-left: 3px solid var(--kb-border-strong);
+  border-left: 2px solid var(--kb-border-strong);
   color: var(--kb-text-muted);
-  padding-left: 0.9rem;
+  padding-left: 1rem;
   margin-left: 0;
 }
 
 .md-typeset img {
-  border-radius: 0;
+  border-radius: var(--kb-radius-md);
   border: 1px solid var(--kb-border);
 }
 
@@ -886,9 +959,9 @@ body {
   border-radius: var(--kb-radius-md);
   background-color: var(--kb-bg-subtle);
   box-shadow: none;
-  font-size: 0.76rem;
-  padding: 0.75rem 0.9rem;
-  margin: 1.4rem 0;
+  font-size: 0.78rem;
+  padding: 0.9rem 1.1rem;
+  margin: 1.6rem 0;
 }
 
 /* 파란 포커스 글로우 제거 — Material은 (0,4,0)으로 선언한다 */
@@ -1029,28 +1102,36 @@ body {
   border: none;
   border-radius: 0;
   box-shadow: none;
-  font-size: 0.72rem;
+  font-size: 0.75rem; /* 15px */
+  font-variant-numeric: tabular-nums; /* 가격·수익률 열의 자릿수를 세로로 맞춘다 */
   display: table;
   width: 100%;
 }
 
+/* 머리글은 OpenAI 문서 표처럼 작고 흐린 라벨로 두어 데이터가 앞에 나오게 한다 */
 .md-typeset table:not([class]) th {
   background-color: transparent;
-  color: var(--kb-text-strong);
+  color: var(--kb-text-muted);
+  font-size: 0.68rem;
   font-weight: 600;
+  letter-spacing: 0.005em;
   border-bottom: 1px solid var(--kb-border-strong);
-  padding: 0.6rem 0.8rem 0.6rem 0;
+  padding: 0.55rem 0.9rem 0.55rem 0;
   white-space: nowrap;
 }
 
 .md-typeset table:not([class]) td {
   border-bottom: 1px solid var(--kb-border);
-  padding: 0.6rem 0.8rem 0.6rem 0;
+  padding: 0.65rem 0.9rem 0.65rem 0;
   vertical-align: top;
 }
 
-.md-typeset table:not([class]) tr:hover {
-  background-color: transparent;
+.md-typeset table:not([class]) tbody tr {
+  transition: background-color 0.12s var(--kb-ease);
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--kb-bg-subtle);
 }
 
 .md-typeset table:not([class]) tbody tr:last-child td {
@@ -1070,7 +1151,7 @@ body {
 }
 
 .md-typeset .tabbed-labels > label {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 500;
   color: var(--kb-text-muted);
   padding: 0.5rem 0.8rem;
@@ -1092,11 +1173,11 @@ body {
 /* --- 버튼 ---------------------------------------------------------------- */
 .md-typeset .md-button {
   border: 1px solid var(--kb-border-strong);
-  border-radius: var(--kb-radius-sm);
+  border-radius: var(--kb-radius-md);
   color: var(--kb-text-strong);
   font-size: 0.72rem;
   font-weight: 500;
-  padding: 0.4rem 0.95rem;
+  padding: 0.45rem 1rem;
   transition: background-color 0.15s var(--kb-ease), border-color 0.15s var(--kb-ease);
 }
 
@@ -1135,7 +1216,7 @@ body {
   gap: 0.75rem 1.5rem;
   border-top: 1px solid var(--kb-border);
   margin: 0;
-  padding: 0.85rem 0;
+  padding: 1rem 0;
 }
 
 .md-typeset .kb-directory > ul > li:last-child {
@@ -1229,7 +1310,7 @@ body {
 .md-top {
   background-color: var(--kb-bg);
   border: 1px solid var(--kb-border);
-  border-radius: var(--kb-radius-sm);
+  border-radius: var(--kb-radius-md);
   box-shadow: none;
   color: var(--kb-text);
   font-size: 0.68rem;
@@ -1247,7 +1328,7 @@ body {
 
 /* 텍스트 선택 */
 ::selection {
-  background-color: var(--kb-active);
+  background-color: color-mix(in srgb, var(--kb-text-strong) 14%, transparent);
   color: var(--kb-text-strong);
 }
 
@@ -1287,12 +1368,22 @@ body {
 }
 
 @media screen and (max-width: 44.9375em) {
+  .md-typeset {
+    font-size: 0.82rem; /* 16.4px — 모바일은 화면이 좁아 한 단계 낮춘다 */
+  }
+
   .md-typeset h1 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
   }
 
   .md-typeset h2 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    margin-top: 2.2rem;
+  }
+
+  .md-typeset h3 {
+    font-size: 0.95rem;
   }
 
   .md-content__inner {
@@ -1318,27 +1409,29 @@ body {
 }
 
 .kb-metric-card {
-  background-color: var(--kb-bg-subtle);
+  background-color: var(--kb-bg);
   border: 1px solid var(--kb-border);
   border-radius: var(--kb-radius-md);
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
 
 .kb-metric-card__label {
-  font-size: 0.68rem;
+  font-size: 0.66rem;
   color: var(--kb-text-muted);
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
 .kb-metric-card__value {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: var(--kb-text-strong);
-  line-height: 1.2;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
 }
 
 .kb-metric-card__sub {
@@ -1348,36 +1441,36 @@ body {
 
 /* 뱃지 & 태그 */
 .kb-badge {
+  --kb-badge-color: var(--kb-text-muted);
   display: inline-flex;
   align-items: center;
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 600;
-  padding: 0.1rem 0.4rem;
+  padding: 0.08rem 0.4rem;
   border-radius: var(--kb-radius-sm);
-  border: 1px solid var(--kb-border);
+  /* 상태는 글자("1차 매수", "익절")가 먼저 전달한다. 색은 글자에만 두고 테두리는 무채색 */
+  border: 1px solid var(--kb-border-strong);
   background-color: transparent;
-  line-height: 1.4;
+  color: var(--kb-badge-color);
+  line-height: 1.45;
+  letter-spacing: -0.005em;
   white-space: nowrap;
 }
 
 .kb-badge--buy {
-  color: var(--kb-sem-note);
-  border-color: var(--kb-sem-note);
+  --kb-badge-color: var(--kb-sem-note);
 }
 
 .kb-badge--sell {
-  color: var(--kb-sem-warn);
-  border-color: var(--kb-sem-warn);
+  --kb-badge-color: var(--kb-sem-warn);
 }
 
 .kb-badge--gain {
-  color: var(--kb-sem-tip);
-  border-color: var(--kb-sem-tip);
+  --kb-badge-color: var(--kb-sem-tip);
 }
 
 .kb-badge--loss {
-  color: var(--kb-sem-danger);
-  border-color: var(--kb-sem-danger);
+  --kb-badge-color: var(--kb-sem-danger);
 }
 
 /* 수직 시계열 타임라인 */
@@ -1385,7 +1478,7 @@ body {
   position: relative;
   margin: 1.4rem 0 2rem;
   padding-left: 1.6rem;
-  border-left: 1px solid var(--kb-border-strong);
+  border-left: 1px solid var(--kb-border);
 }
 
 .kb-timeline-item {
@@ -1398,26 +1491,28 @@ body {
 }
 
 .kb-timeline-marker {
+  --kb-marker-color: var(--kb-accent);
   position: absolute;
-  left: -2.05rem;
-  top: 0.35rem;
-  width: 0.75rem;
-  height: 0.75rem;
+  left: -1.93rem;
+  top: 0.42rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
-  background-color: var(--kb-bg);
-  border: 2px solid var(--kb-accent);
+  background-color: var(--kb-marker-color);
+  /* 배경색 링으로 세로선을 끊어 점과 선이 겹쳐 보이지 않게 한다 */
+  box-shadow: 0 0 0 3px var(--kb-bg);
 }
 
 .kb-timeline-marker--buy {
-  border-color: var(--kb-sem-note);
+  --kb-marker-color: var(--kb-sem-note);
 }
 
 .kb-timeline-marker--sell {
-  border-color: var(--kb-sem-warn);
+  --kb-marker-color: var(--kb-sem-warn);
 }
 
 .kb-timeline-marker--close {
-  border-color: var(--kb-sem-tip);
+  --kb-marker-color: var(--kb-sem-tip);
 }
 
 .kb-timeline-header {
@@ -1429,9 +1524,10 @@ body {
 }
 
 .kb-timeline-date {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--kb-text-muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .kb-timeline-title {
@@ -1442,10 +1538,10 @@ body {
 }
 
 .kb-timeline-body {
-  background-color: var(--kb-bg-subtle);
+  background-color: var(--kb-bg);
   border: 1px solid var(--kb-border);
   border-radius: var(--kb-radius-md);
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1.05rem;
 }
 
 .kb-timeline-table {
@@ -1454,6 +1550,7 @@ body {
   border-collapse: collapse;
   margin: 0 0 0.5rem;
   font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
 }
 
 .kb-timeline-table td {
@@ -1541,10 +1638,10 @@ body {
   padding: 0.45rem 1.2rem;
   border-radius: var(--kb-radius-md);
   border: 1px solid var(--kb-border-strong);
-  background-color: var(--kb-bg-subtle);
+  background-color: var(--kb-bg);
   color: var(--kb-text-strong);
   cursor: pointer;
-  transition: background-color 0.15s var(--kb-ease), border-color 0.15s var(--kb-ease), transform 0.1s var(--kb-ease);
+  transition: background-color 0.15s var(--kb-ease), border-color 0.15s var(--kb-ease);
 }
 
 .kb-timeline-more-btn:hover,
@@ -1553,15 +1650,9 @@ body {
   border-color: var(--kb-accent);
 }
 
-.kb-timeline-more-btn:active,
-.kb-table-more-btn:active {
-  transform: scale(0.98);
-}
-
 .kb-timeline-more-btn--collapse,
 .kb-table-more-btn--collapse {
   color: var(--kb-text-muted);
-  border-style: dashed;
 }
 
 /* ---------------------------------------------------------------------------
@@ -1570,63 +1661,81 @@ body {
 .kb-chart-container {
   margin: 1.5rem 0;
   padding: 1.25rem 1.5rem;
-  background: var(--kb-bg-subtle);
+  background: var(--kb-bg);
   border: 1px solid var(--kb-border);
   border-radius: var(--kb-radius-lg);
 }
 
+/* 카드 사이를 1px 헤어라인으로만 나누는 이음매 없는 패널.
+ * 카드마다 테두리를 두르면 선이 두 겹으로 겹쳐 보여서, 격자 간격(gap)을 1px로 두고
+ * 그 틈으로 배경색(테두리색)이 비치게 한다. */
 .kb-portfolio-metrics {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem;
-  margin-bottom: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1px;
+  margin: 1.2rem 0 1.25rem;
+  background-color: var(--kb-border);
+  border: 1px solid var(--kb-border);
+  border-radius: var(--kb-radius-lg);
+  overflow: hidden;
 }
 
 .kb-portfolio-metric-card {
-  padding: 0.85rem 1rem;
+  position: relative;
+  padding: 1rem 1.1rem 1.05rem;
   background: var(--kb-bg);
-  border: 1px solid var(--kb-border);
-  border-radius: var(--kb-radius-md);
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.35rem;
+  min-width: 0;
 }
 
 .kb-portfolio-metric-card .label {
-  font-size: 0.76rem;
+  font-size: 0.64rem;
   color: var(--kb-text-muted);
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
+/* 값이 카드 폭을 넘으면 줄을 바꾸지 않고 글자 크기를 줄인다.
+ * 원화 금액(21,794,000원)이 "약 / 21,794,000원"처럼 두 줄로 쪼개지는 것을 막는다. */
 .kb-portfolio-metric-card .value {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: clamp(0.9rem, 1.9vw, 1.1rem);
+  font-weight: 600;
+  line-height: 1.3;
   color: var(--kb-text-strong);
   font-variant-numeric: tabular-nums;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
 }
 
 .kb-portfolio-metric-card .sub {
-  font-size: 0.72rem;
+  font-size: 0.66rem;
+  line-height: 1.55;
   color: var(--kb-text-muted);
 }
 
-/* Vega 차트 테마 배경 투명화 및 다크/라이트 텍스트 대비 */
+/* Vega 차트 카드.
+ * 축·격자·글자색은 chart-theme.js 가 디자인 토큰으로 주입한다.
+ * 예전처럼 CSS로 svg text 의 fill 을 덮어쓰면 스펙이 지정한 글자색까지 한 색으로 뭉개지므로
+ * 여기서는 글꼴만 지정하고 색은 건드리지 않는다. */
 .vega-embed,
 vegachart {
   display: block !important;
   width: 100% !important;
   box-sizing: border-box;
   margin: 1rem 0 1.6rem;
-  background-color: var(--kb-bg-subtle) !important;
+  padding: 1.1rem 1.2rem 0.8rem;
+  background-color: var(--kb-bg) !important;
   border: 1px solid var(--kb-border);
   border-radius: var(--kb-radius-lg);
 }
 
-/* 렌더링 전 원본 JSON 텍스트가 화면에 노출(FOUC)되는 현상 방지 */
+/* 렌더링 전 원본 JSON 텍스트가 화면에 노출(FOUC)되는 현상 방지.
+ * 자리만 잡아 두어 차트가 그려질 때 아래 본문이 밀리지 않게 한다. */
 vegachart:not(.vega-embed) {
   display: block;
-  min-height: 240px;
+  min-height: 260px;
   color: transparent !important;
   user-select: none;
 }
@@ -1636,44 +1745,89 @@ vegachart:not(.vega-embed) {
   display: block;
   max-width: 100%;
   height: auto;
+  overflow: visible;
 }
 
 .vega-embed svg text {
   font-family: var(--md-text-font-family) !important;
+  letter-spacing: -0.01em;
 }
 
 .vega-embed svg rect.background {
   fill: transparent !important;
 }
 
-[data-md-color-scheme="default"] .vega-embed svg text {
-  fill: var(--kb-text, #2e2e2e);
+/* 모바일은 플롯 영역 한 픽셀이 아쉬우므로 카드 여백을 최소로 줄이고 본문 좌우 여백까지 쓴다 */
+@media screen and (max-width: 44.9375em) {
+  .vega-embed,
+  vegachart {
+    padding: 0.7rem 0.4rem 0.5rem;
+    margin-left: -0.4rem;
+    margin-right: -0.4rem;
+    width: calc(100% + 0.8rem) !important;
+    border-radius: var(--kb-radius-md);
+  }
 }
 
-[data-md-color-scheme="slate"] .vega-embed svg text {
-  fill: var(--kb-text, #d4d4d4);
+/* Vega 툴팁 — 떠 있는 카드. chart-theme.js 가 theme: "custom" 으로 지정한다 */
+#vg-tooltip-element.vg-tooltip {
+  font-family: var(--md-text-font-family);
+  font-size: 0.66rem;
+  line-height: 1.5;
+  max-width: 22rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--kb-radius-md);
+  border: 1px solid var(--kb-border);
+  background-color: var(--kb-bg);
+  color: var(--kb-text);
+  box-shadow: var(--md-shadow-z2);
+  pointer-events: none;
+  z-index: 9999;
 }
 
-[data-md-color-scheme="slate"] .vega-embed svg g.mark-text text {
-  fill: #f5f5f5 !important;
+#vg-tooltip-element.vg-tooltip h2 {
+  margin: 0 0 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--kb-text-strong);
 }
 
-[data-md-color-scheme="default"] .vega-embed svg g.mark-text text {
-  fill: #181818 !important;
+#vg-tooltip-element.vg-tooltip table {
+  border-collapse: collapse;
+  margin: 0;
+}
+
+#vg-tooltip-element.vg-tooltip td.key {
+  color: var(--kb-text-muted);
+  font-weight: 500;
+  padding: 0.12rem 0.8rem 0.12rem 0;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+#vg-tooltip-element.vg-tooltip td.value {
+  color: var(--kb-text-strong);
+  font-weight: 600;
+  padding: 0.12rem 0;
+  text-align: left;
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------------------------------------------------------------------------
  * 11. Mermaid 다이어그램 (Pretty Mermaid 시스템 & 모바일 가독성 최적화)
  * ------------------------------------------------------------------------- */
 
-/* 컨테이너 카드 액자 프레임 */
+/* 컨테이너 — 옅은 회색 바탕 위에 흰 노드가 놓이게 한다.
+ * 다이어그램 내부(노드·연결선·라벨)의 색은 Shadow DOM 경계 때문에
+ * 1장 디자인 토큰의 --md-mermaid-* 변수로만 바꿀 수 있다. */
 .mermaid {
   display: flex !important;
   justify-content: center;
   align-items: center;
   position: relative;
   margin: 1.75rem 0;
-  padding: 1.5rem 1.25rem;
+  padding: 1.75rem 1.25rem;
   background-color: var(--kb-mermaid-bg);
   border: 1px solid var(--kb-mermaid-border);
   border-radius: var(--kb-radius-lg);
@@ -1682,13 +1836,6 @@ vegachart:not(.vega-embed) {
   overscroll-behavior-x: contain;
   scrollbar-width: thin;
   scrollbar-color: var(--kb-border-strong) transparent;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  transition: border-color 0.2s var(--kb-ease), box-shadow 0.2s var(--kb-ease);
-}
-
-.mermaid:hover {
-  border-color: var(--kb-border-strong);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 /* 스크롤바 미려화 */
@@ -1703,108 +1850,6 @@ vegachart:not(.vega-embed) {
   border-radius: 9999px;
 }
 
-/* SVG 자체 크기 및 반응형 */
-.mermaid svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
-}
-
-/* 타이포그래피 통일 */
-.mermaid,
-.mermaid svg,
-.mermaid text,
-.mermaid .nodeLabel,
-.mermaid .edgeLabel,
-.mermaid .label,
-.mermaid .cluster-label {
-  font-family: var(--md-text-font-family) !important;
-  letter-spacing: -0.012em;
-}
-
-/* 노드 기본 스타일링 (모던 라운드 카드) */
-.mermaid .node rect,
-.mermaid .node circle,
-.mermaid .node ellipse,
-.mermaid .node polygon,
-.mermaid .node path {
-  fill: var(--kb-mermaid-node-fill);
-  stroke: var(--kb-mermaid-node-stroke);
-  stroke-width: 1.25px;
-}
-
-/* 일반 사각 노드 모서리 둥글게 */
-.mermaid .node rect:not([rx="15"]):not([rx="18.45"]):not([rx="20"]) {
-  rx: 6px !important;
-  ry: 6px !important;
-}
-
-/* 노드 텍스트 가독성 */
-.mermaid .node .label,
-.mermaid .node .nodeLabel,
-.mermaid .node foreignObject div,
-.mermaid .node text {
-  color: var(--kb-mermaid-node-text) !important;
-  fill: var(--kb-mermaid-node-text) !important;
-  font-size: 0.72rem !important;
-  line-height: 1.45 !important;
-  font-weight: 500 !important;
-  text-align: center;
-}
-
-/* 엣지 / 연결선 / 화살표 */
-.mermaid .edgePath .path,
-.mermaid .flowchart-link {
-  stroke: var(--kb-mermaid-edge-line) !important;
-  stroke-width: 1.5px !important;
-}
-
-.mermaid marker path,
-.mermaid marker polygon {
-  fill: var(--kb-mermaid-edge-arrow) !important;
-  stroke: var(--kb-mermaid-edge-arrow) !important;
-}
-
-/* 엣지 라벨 (말풍선 배지) */
-.mermaid .edgeLabel rect {
-  fill: var(--kb-mermaid-edge-label-bg) !important;
-  stroke: var(--kb-mermaid-border) !important;
-  stroke-width: 1px !important;
-  rx: 4px !important;
-  ry: 4px !important;
-}
-
-.mermaid .edgeLabel,
-.mermaid .edgeLabel span,
-.mermaid .edgeLabel text,
-.mermaid .edgeLabel foreignObject div {
-  background-color: var(--kb-mermaid-edge-label-bg) !important;
-  color: var(--kb-mermaid-edge-label-text) !important;
-  fill: var(--kb-mermaid-edge-label-text) !important;
-  font-size: 0.62rem !important;
-  font-weight: 500 !important;
-  padding: 2px 6px !important;
-  border-radius: 4px !important;
-}
-
-/* 서브그래프 / 클러스터 */
-.mermaid .cluster rect {
-  fill: var(--kb-mermaid-cluster-fill) !important;
-  stroke: var(--kb-mermaid-cluster-stroke) !important;
-  stroke-width: 1px !important;
-  rx: 8px !important;
-  ry: 8px !important;
-}
-
-.mermaid .cluster text,
-.mermaid .cluster-label span {
-  color: var(--kb-mermaid-cluster-text) !important;
-  fill: var(--kb-mermaid-cluster-text) !important;
-  font-weight: 600 !important;
-  font-size: 0.7rem !important;
-}
-
 /* --- 모바일 최적화 (@media screen and (max-width: 45em)) --- */
 @media screen and (max-width: 45em) {
   .mermaid {
@@ -1812,12 +1857,6 @@ vegachart:not(.vega-embed) {
     padding: 1.25rem 0.5rem;
     border-radius: var(--kb-radius-md);
     justify-content: flex-start; /* 가로 스크롤 시 좌측 기준 정렬 */
-  }
-
-  .mermaid svg {
-    /* 폰트가 극단적으로 축소되지 않도록 최소 폭을 보장하고 부드러운 가로 스크롤 허용 */
-    min-width: 300px;
-    max-width: none;
   }
 }
 

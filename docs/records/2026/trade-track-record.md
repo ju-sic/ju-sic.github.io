@@ -1,6 +1,203 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-29(목) 14:57
+- **업데이트** : 2026-10-29(목) 16:08
+
+
+## 일자별 총 평가금액 추이 (최근 3개월)
+
+<div class="kb-portfolio-metrics">
+  <div class="kb-portfolio-metric-card">
+    <span class="label">현재 총 평가금액</span>
+    <span class="value">약 21,794,000원</span>
+    <span class="sub">원금 약 21,515,000원 · 평가손익 +279,000원 (+1.30%)</span>
+  </div>
+  <div class="kb-portfolio-metric-card">
+    <span class="label">최근 3개월 최고 평가금액</span>
+    <span class="value">약 21,794,000원</span>
+    <span class="sub">2026-10-29 경신 (직전 고점 10/06 약 2,040만 원)</span>
+  </div>
+  <div class="kb-portfolio-metric-card">
+    <span class="label">현재 보유 포지션</span>
+    <span class="value">총 3개 종목</span>
+    <span class="sub">알파벳 A (43.9%) · HD현대일렉트릭 (28.6%) · HD현대 (27.5%)</span>
+  </div>
+  <div class="kb-portfolio-metric-card">
+    <span class="label">최근 3개월 누적 실현손익</span>
+    <span class="value">+1,956,200원</span>
+    <span class="sub">총 19건 청산 (익절 18건 · 손절 1건 · 승률 94.7%)</span>
+  </div>
+</div>
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "width": "container",
+  "height": 290,
+  "padding": {"top": 18, "bottom": 10, "left": 14, "right": 24},
+  "data": {
+    "values": [
+      {"date": "2026-09-08", "date_label": "2026-09-08 (화)", "cost_krw": 2011000, "eval_krw": 2035000, "cost_str": "약 2,011,000원 ($1,456.96)", "eval_str": "약 2,035,000원 ($1,474.24)", "pnl_str": "+24,000원 (+1.19%)", "status": "평가 수익", "note": "AVGO 1차 선발대 진입 (1종목)", "pin": "204만"},
+      {"date": "2026-09-09", "date_label": "2026-09-09 (수)", "cost_krw": 3545000, "eval_krw": 3560000, "cost_str": "약 3,545,000원 ($2,568.96)", "eval_str": "약 3,560,000원 ($2,579.96)", "pnl_str": "+15,000원 (+0.43%)", "status": "평가 수익", "note": "SYK 1차 선발대 진입 (2종목)", "pin": ""},
+      {"date": "2026-09-10", "date_label": "2026-09-10 (목)", "cost_krw": 3545000, "eval_krw": 3531000, "cost_str": "약 3,545,000원 ($2,568.96)", "eval_str": "약 3,531,000원 ($2,559.08)", "pnl_str": "-14,000원 (-0.38%)", "status": "평가 손실", "note": "AVGO·SYK 2종목 보유 유지", "pin": ""},
+      {"date": "2026-09-11", "date_label": "2026-09-11 (금)", "cost_krw": 4453000, "eval_krw": 4385000, "cost_str": "약 4,453,000원 ($3,226.72)", "eval_str": "약 4,385,000원 ($3,177.28)", "pnl_str": "-68,000원 (-1.53%)", "status": "평가 손실", "note": "ZS 1차 선발대 진입 (3종목)", "pin": ""},
+      {"date": "2026-09-12", "date_label": "2026-09-12 (토)", "cost_krw": 5358000, "eval_krw": 5336000, "cost_str": "약 5,358,000원 ($3,882.72)", "eval_str": "약 5,336,000원 ($3,866.52)", "pnl_str": "-22,000원 (-0.42%)", "status": "평가 손실", "note": "ZS 2차 추가 매수 (3종목)", "pin": ""},
+      {"date": "2026-09-14", "date_label": "2026-09-14 (월)", "cost_krw": 7567000, "eval_krw": 7608000, "cost_str": "약 7,567,000원 ($5,624.88)", "eval_str": "약 7,608,000원 ($5,655.24)", "pnl_str": "+41,000원 (+0.54%)", "status": "평가 수익", "note": "WDC 1차 선발대 진입 (4종목)", "pin": ""},
+      {"date": "2026-09-15", "date_label": "2026-09-15 (화)", "cost_krw": 10000000, "eval_krw": 9866000, "cost_str": "약 10,000,000원 ($7,389.00)", "eval_str": "약 9,866,000원 ($7,289.84)", "pnl_str": "-134,000원 (-1.34%)", "status": "평가 손실", "note": "ZS 전량 익절(+17.02%) · AVGO 추매 · AMAT 진입", "pin": ""},
+      {"date": "2026-09-16", "date_label": "2026-09-16 (수)", "cost_krw": 12923000, "eval_krw": 12624000, "cost_str": "약 12,923,000원 ($9,426.66)", "eval_str": "약 12,624,000원 ($9,208.30)", "pnl_str": "-299,000원 (-2.32%)", "status": "평가 손실", "note": "AVGO 3차 추가 매수 (4종목)", "pin": "1,262만"},
+      {"date": "2026-09-18", "date_label": "2026-09-18 (금)", "cost_krw": 15167000, "eval_krw": 15014000, "cost_str": "약 15,167,000원 ($10,990.66)", "eval_str": "약 15,014,000원 ($10,879.80)", "pnl_str": "-153,000원 (-1.01%)", "status": "평가 손실", "note": "AGX 1차 선발대 진입 (5종목)", "pin": ""},
+      {"date": "2026-09-19", "date_label": "2026-09-19 (토)", "cost_krw": 15233000, "eval_krw": 15537000, "cost_str": "약 15,233,000원 ($10,990.66)", "eval_str": "약 15,537,000원 ($11,210.14)", "pnl_str": "+304,000원 (+2.00%)", "status": "평가 수익", "note": "5종목 보유 유지 (평가 수익 전환)", "pin": ""},
+      {"date": "2026-09-22", "date_label": "2026-09-22 (화)", "cost_krw": 18375000, "eval_krw": 18851000, "cost_str": "약 18,375,000원 ($13,532.58)", "eval_str": "약 18,851,000원 ($13,883.08)", "pnl_str": "+476,000원 (+2.59%)", "status": "평가 수익", "note": "UNH·ETSY 1차 선발대 진입 (7종목)", "pin": ""},
+      {"date": "2026-09-23", "date_label": "2026-09-23 (수)", "cost_krw": 18340000, "eval_krw": 18948000, "cost_str": "약 18,340,000원 ($13,532.58)", "eval_str": "약 18,948,000원 ($13,980.92)", "pnl_str": "+608,000원 (+3.31%)", "status": "평가 수익", "note": "7종목 보유 유지", "pin": ""},
+      {"date": "2026-09-24", "date_label": "2026-09-24 (목)", "cost_krw": 18530000, "eval_krw": 18992000, "cost_str": "약 18,530,000원 ($13,532.58)", "eval_str": "약 18,992,000원 ($13,870.30)", "pnl_str": "+462,000원 (+2.50%)", "status": "평가 수익", "note": "7종목 보유 유지 (9월 평가액 고점)", "pin": "1,899만"},
+      {"date": "2026-09-25", "date_label": "2026-09-25 (금)", "cost_krw": 16030000, "eval_krw": 15839000, "cost_str": "약 16,030,000원 ($11,836.38)", "eval_str": "약 15,839,000원 ($11,695.28)", "pnl_str": "-191,000원 (-1.19%)", "status": "평가 손실", "note": "AMAT 전량 익절(+14.24%) 후 6종목 보유", "pin": ""},
+      {"date": "2026-09-26", "date_label": "2026-09-26 (토)", "cost_krw": 17550000, "eval_krw": 17468000, "cost_str": "약 17,550,000원 ($12,950.02)", "eval_str": "약 17,468,000원 ($12,889.66)", "pnl_str": "-82,000원 (-0.47%)", "status": "평가 손실", "note": "AON 1차 선발대 진입 (7종목)", "pin": ""},
+      {"date": "2026-09-29", "date_label": "2026-09-29 (화)", "cost_krw": 15240000, "eval_krw": 14931000, "cost_str": "약 15,240,000원 ($11,207.86)", "eval_str": "약 14,931,000원 ($10,980.66)", "pnl_str": "-309,000원 (-2.03%)", "status": "평가 손실", "note": "WDC 전량 익절(+3.92%) 후 6종목 보유", "pin": ""},
+      {"date": "2026-09-30", "date_label": "2026-09-30 (수)", "cost_krw": 16240000, "eval_krw": 16191000, "cost_str": "약 16,240,000원 ($11,978.98)", "eval_str": "약 16,191,000원 ($11,942.76)", "pnl_str": "-49,000원 (-0.30%)", "status": "평가 손실", "note": "BAC 1차 선발대 진입 (7종목)", "pin": ""},
+      {"date": "2026-10-01", "date_label": "2026-10-01 (목)", "cost_krw": 16980000, "eval_krw": 16829000, "cost_str": "약 16,980,000원 ($12,523.68)", "eval_str": "약 16,829,000원 ($12,412.60)", "pnl_str": "-151,000원 (-0.89%)", "status": "평가 손실", "note": "BAC 2차 추가 매수 (7종목)", "pin": ""},
+      {"date": "2026-10-02", "date_label": "2026-10-02 (금)", "cost_krw": 20410000, "eval_krw": 20092000, "cost_str": "약 20,410,000원 ($14,977.30)", "eval_str": "약 20,092,000원 ($14,744.16)", "pnl_str": "-318,000원 (-1.56%)", "status": "평가 손실", "note": "AVGO 4차 · BAC 3~4차 추가 매수 (7종목)", "pin": ""},
+      {"date": "2026-10-06", "date_label": "2026-10-06 (화)", "cost_krw": 20120000, "eval_krw": 20403000, "cost_str": "약 20,120,000원 ($14,977.30)", "eval_str": "약 20,403,000원 ($15,188.00)", "pnl_str": "+283,000원 (+1.41%)", "status": "평가 수익", "note": "7종목 보유 유지 (10월 초 고점)", "pin": "2,040만"},
+      {"date": "2026-10-07", "date_label": "2026-10-07 (수)", "cost_krw": 8100000, "eval_krw": 7953000, "cost_str": "약 8,100,000원 ($6,045.48)", "eval_str": "약 7,953,000원 ($5,936.08)", "pnl_str": "-147,000원 (-1.81%)", "status": "평가 손실", "note": "AVGO(+6.64%)·AGX(+7.24%)·SYK(+1.08%) 대거 익절", "pin": ""},
+      {"date": "2026-10-08", "date_label": "2026-10-08 (목)", "cost_krw": 6730000, "eval_krw": 6557000, "cost_str": "약 6,730,000원 ($5,017.32)", "eval_str": "약 6,557,000원 ($4,888.36)", "pnl_str": "-173,000원 (-2.57%)", "status": "평가 손실", "note": "ETSY 익절 청산 후 3종목 보유", "pin": ""},
+      {"date": "2026-10-09", "date_label": "2026-10-09 (금)", "cost_krw": 6730000, "eval_krw": 6641000, "cost_str": "약 6,730,000원 ($5,017.32)", "eval_str": "약 6,641,000원 ($4,951.12)", "pnl_str": "-89,000원 (-1.32%)", "status": "평가 손실", "note": "3종목 보유 유지", "pin": ""},
+      {"date": "2026-10-10", "date_label": "2026-10-10 (토)", "cost_krw": 4690000, "eval_krw": 4664000, "cost_str": "약 4,690,000원 ($3,503.56)", "eval_str": "약 4,664,000원 ($3,483.96)", "pnl_str": "-26,000원 (-0.56%)", "status": "평가 손실", "note": "UNH 익절 청산 후 2종목 보유", "pin": ""},
+      {"date": "2026-10-13", "date_label": "2026-10-13 (화)", "cost_krw": 0, "eval_krw": 0, "cost_str": "0원 (전량 현금)", "eval_str": "0원 (전량 현금화)", "pnl_str": "0원 (0.00%)", "status": "전량 현금", "note": "BAC·AON 전량 청산 완료 (100% 현금 관망)", "pin": "0원(현금화)"},
+      {"date": "2026-10-14", "date_label": "2026-10-14 (수)", "cost_krw": 0, "eval_krw": 0, "cost_str": "0원 (전량 현금)", "eval_str": "0원 (당일 단타 청산)", "pnl_str": "0원 (0.00%)", "status": "전량 현금", "note": "BAC 당일 매수·청산(+0.34%) 후 100% 현금", "pin": ""},
+      {"date": "2026-10-15", "date_label": "2026-10-15 (목)", "cost_krw": 8022000, "eval_krw": 8047000, "cost_str": "약 8,022,000원", "eval_str": "약 8,047,000원", "pnl_str": "+25,000원 (+0.31%)", "status": "평가 수익", "note": "SK하이닉스·BAC 1차 선발대 분할 진입 (2종목)", "pin": "805만"},
+      {"date": "2026-10-16", "date_label": "2026-10-16 (금)", "cost_krw": 0, "eval_krw": 0, "cost_str": "0원 (전량 현금)", "eval_str": "0원 (전량 현금화)", "pnl_str": "0원 (0.00%)", "status": "전량 현금", "note": "SK하이닉스(+0.58%)·BAC(+2.87%) 전량 익절", "pin": ""},
+      {"date": "2026-10-19", "date_label": "2026-10-19 (월)", "cost_krw": 4844000, "eval_krw": 5064000, "cost_str": "4,844,000원", "eval_str": "5,064,000원", "pnl_str": "+220,000원 (+4.54%)", "status": "평가 수익", "note": "SK하이닉스 1차 선발대 재진입 (1종목)", "pin": ""},
+      {"date": "2026-10-20", "date_label": "2026-10-20 (화)", "cost_krw": 7790000, "eval_krw": 7803000, "cost_str": "약 7,790,000원", "eval_str": "약 7,803,000원", "pnl_str": "+13,000원 (+0.17%)", "status": "평가 수익", "note": "BAC 1차 선발대 진입 (2종목)", "pin": "780만"},
+      {"date": "2026-10-21", "date_label": "2026-10-21 (수)", "cost_krw": 0, "eval_krw": 0, "cost_str": "0원 (전량 현금)", "eval_str": "0원 (전량 현금화)", "pnl_str": "0원 (0.00%)", "status": "전량 현금", "note": "SK하이닉스(+4.62%)·BAC(+0.40%) 전량 익절", "pin": ""},
+      {"date": "2026-10-22", "date_label": "2026-10-22 (목)", "cost_krw": 1758000, "eval_krw": 1786000, "cost_str": "약 1,758,000원 ($1,329.76)", "eval_str": "약 1,786,000원 ($1,351.20)", "pnl_str": "+28,000원 (+1.61%)", "status": "평가 수익", "note": "AVGO 1차 선발대 4주 분할 진입 완료", "pin": ""},
+      {"date": "2026-10-23", "date_label": "2026-10-23 (금)", "cost_krw": 3057000, "eval_krw": 2999000, "cost_str": "약 3,057,000원 ($2,306.08)", "eval_str": "약 2,999,000원 ($2,262.68)", "pnl_str": "-58,000원 (-1.88%)", "status": "평가 손실", "note": "현대차 당일 익절(+1.91%) · AVGO 2차 매수", "pin": ""},
+      {"date": "2026-10-24", "date_label": "2026-10-24 (토)", "cost_krw": 6056000, "eval_krw": 5962000, "cost_str": "약 6,056,000원 ($4,574.78)", "eval_str": "약 5,962,000원 ($4,503.52)", "pnl_str": "-94,000원 (-1.56%)", "status": "평가 손실", "note": "AVGO 3차 추가 매수 (총 14주)", "pin": ""},
+      {"date": "2026-10-26", "date_label": "2026-10-26 (월)", "cost_krw": 9301000, "eval_krw": 9151000, "cost_str": "약 9,301,000원", "eval_str": "약 9,151,000원", "pnl_str": "-150,000원 (-1.61%)", "status": "평가 손실", "note": "HD현대 1차 선발대 24주 진입 (2종목)", "pin": "915만"},
+      {"date": "2026-10-27", "date_label": "2026-10-27 (화)", "cost_krw": 7161000, "eval_krw": 7251000, "cost_str": "약 7,161,000원", "eval_str": "약 7,251,000원", "pnl_str": "+90,000원 (+1.26%)", "status": "평가 수익", "note": "AVGO 전량 익절 · HD현대 2차 매수 · LRCX 진입", "pin": ""},
+      {"date": "2026-10-29", "date_label": "2026-10-29 (목)", "cost_krw": 21515000, "eval_krw": 21794000, "cost_str": "약 21,515,000원", "eval_str": "약 21,794,000원", "pnl_str": "+279,000원 (+1.30%)", "status": "평가 수익", "note": "LRCX 익절(+7.11%) · GOOGL·HD현대일렉트릭 진입", "pin": "2,179만(현재)"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeDash": [4, 4],
+        "color": "#94a3b8",
+        "strokeWidth": 1.8,
+        "opacity": 0.85,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "scale": {"domain": ["2026-09-07", "2026-10-31"]},
+          "axis": {
+            "title": null,
+            "format": "%m/%d",
+            "tickCount": 9,
+            "labelAngle": 0,
+            "labelFontWeight": "bold",
+            "labelFontSize": 11,
+            "labelPadding": 8,
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "cost_krw",
+          "type": "quantitative",
+          "scale": {"domain": [0, 25000000]},
+          "axis": {
+            "title": "총 평가금액 (실선) vs 투자원금 (점선)",
+            "values": [0, 5000000, 10000000, 15000000, 20000000, 25000000],
+            "labelExpr": "datum.value == 0 ? '0원' : format(datum.value / 10000, ',.0f') + '만 원'",
+            "labelFontSize": 11,
+            "grid": true,
+            "gridDash": [2, 2]
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "line": {"color": "#2563eb", "strokeWidth": 2.5},
+        "color": {
+          "x1": 1,
+          "y1": 1,
+          "x2": 1,
+          "y2": 0,
+          "gradient": "linear",
+          "stops": [
+            {"offset": 0, "color": "rgba(37, 99, 235, 0.02)"},
+            {"offset": 1, "color": "rgba(37, 99, 235, 0.28)"}
+          ]
+        }
+      },
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": "eval_krw", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 78,
+        "stroke": "#ffffff",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": "eval_krw", "type": "quantitative"},
+        "color": {
+          "field": "status",
+          "type": "nominal",
+          "scale": {
+            "domain": ["평가 수익", "평가 손실", "전량 현금"],
+            "range": ["#16a34a", "#ea580c", "#64748b"]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top-right",
+            "direction": "horizontal",
+            "symbolSize": 80,
+            "labelFontSize": 11,
+            "labelFontWeight": "bold"
+          }
+        },
+        "tooltip": [
+          {"field": "date_label", "title": "기준 일자"},
+          {"field": "eval_str", "title": "총 평가금액"},
+          {"field": "cost_str", "title": "총 투자원금"},
+          {"field": "pnl_str", "title": "평가손익 (수익률)"},
+          {"field": "note", "title": "포지션 및 주요 매매"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.pin != ''"}],
+      "mark": {
+        "type": "text",
+        "dy": -13,
+        "fontWeight": "bold",
+        "fontSize": 11,
+        "color": "#2563eb"
+      },
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": "eval_krw", "type": "quantitative"},
+        "text": {"field": "pin", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}
+```
+
+> *실선은 일자별 보유 주식 **총 평가금액**, 회색 점선은 **총 투자원금**이며, 최근 3개월 이내의 운용 기록만 표시합니다. 각 포인트를 마우스로 가리키면 일자별 원금·평가액·수익률·매매 내역을 확인할 수 있습니다.*
+
+---
 
 
 ## 시계열 매매 타임라인
