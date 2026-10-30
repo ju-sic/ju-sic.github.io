@@ -217,6 +217,8 @@ nav:
   - 종목분석:
       - 2026년:
           - 10월:
+              - "아마존닷컴(AMZN)": stocks/2026/10/amazon.md
+              - "서비스나우(NOW)": stocks/2026/10/servicenow.md
               - "램 리서치(LRCX)": stocks/2026/10/lam-research.md
               - "HD현대(267250.KS)": stocks/2026/10/hd-hyundai.md
               - "HD현대중공업(329180.KS)": stocks/2026/10/hd-hyundai-heavy-industries.md
@@ -292,6 +294,7 @@ nav:
   - 블라인드 민심:
       - 2026년:
           - 10월:
+              - "30(금)": blind/2026/10/30.md
               - "29(목)": blind/2026/10/29.md
               - "24(토)": blind/2026/10/24.md
               - "22(목)": blind/2026/10/22.md
