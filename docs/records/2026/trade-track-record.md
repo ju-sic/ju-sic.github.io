@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-10-30(금) 09:28
+- **업데이트** : 2026-11-04(수) 10:05
 
 
 ## 일자별 총 평가금액 추이 (최근 3개월)
@@ -8,23 +8,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 26,880,000원</span>
-    <span class="sub">원금 약 27,380,000원 · 평가손익 -500,000원 (-1.83%)</span>
+    <span class="value">약 28,808,000원</span>
+    <span class="sub">원금 약 29,369,000원 · 평가손익 -561,000원 (-1.91%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 최고 평가금액</span>
-    <span class="value">약 26,880,000원</span>
-    <span class="sub">2026-10-30 경신 (직전 고점 10/29 약 2,179만 원)</span>
+    <span class="value">약 28,808,000원</span>
+    <span class="sub">2026-11-04 경신 (직전 고점 10/30 약 2,688만 원)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 보유 포지션</span>
-    <span class="value">총 2개 종목</span>
-    <span class="sub">알파벳 A (62.0%) · HD현대일렉트릭 (38.0%)</span>
+    <span class="value">총 3개 종목</span>
+    <span class="sub">알파벳 A (58.1%) · HD현대 (21.3%) · HD현대일렉트릭 (20.6%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 누적 실현손익</span>
-    <span class="value">+2,068,200원</span>
-    <span class="sub">총 20건 청산 (익절 19건 · 손절 1건 · 승률 95.0%)</span>
+    <span class="value">+2,216,950원</span>
+    <span class="sub">총 21건 청산 (익절 20건 · 손절 1건 · 승률 95.2%)</span>
   </div>
 </div>
 
@@ -74,7 +74,9 @@
       {"date": "2026-10-26", "date_label": "2026-10-26 (월)", "cost_krw": 9301000, "eval_krw": 9151000, "cost_str": "약 9,301,000원", "eval_str": "약 9,151,000원", "pnl_str": "-150,000원 (-1.61%)", "status": "평가 손실", "note": "HD현대 1차 선발대 24주 진입 (2종목)", "pin": "915만"},
       {"date": "2026-10-27", "date_label": "2026-10-27 (화)", "cost_krw": 7161000, "eval_krw": 7251000, "cost_str": "약 7,161,000원", "eval_str": "약 7,251,000원", "pnl_str": "+90,000원 (+1.26%)", "status": "평가 수익", "note": "AVGO 전량 익절 · HD현대 2차 매수 · LRCX 진입", "pin": ""},
       {"date": "2026-10-29", "date_label": "2026-10-29 (목)", "cost_krw": 21515000, "eval_krw": 21794000, "cost_str": "약 21,515,000원", "eval_str": "약 21,794,000원", "pnl_str": "+279,000원 (+1.30%)", "status": "평가 수익", "note": "LRCX 익절(+7.11%) · GOOGL·HD현대일렉트릭 진입", "pin": "2,179만"},
-      {"date": "2026-10-30", "date_label": "2026-10-30 (금)", "cost_krw": 27380000, "eval_krw": 26880000, "cost_str": "약 27,380,000원", "eval_str": "약 26,880,000원", "pnl_str": "-500,000원 (-1.83%)", "status": "평가 손실", "note": "HD현대 익절(+1.89%) · GOOGL·HD현대일렉트릭 추매", "pin": "2,688만(현재)"}
+      {"date": "2026-10-30", "date_label": "2026-10-30 (금)", "cost_krw": 27380000, "eval_krw": 26880000, "cost_str": "약 27,380,000원", "eval_str": "약 26,880,000원", "pnl_str": "-500,000원 (-1.83%)", "status": "평가 손실", "note": "HD현대 익절(+1.89%) · GOOGL·HD현대일렉트릭 추매", "pin": "2,688만"},
+      {"date": "2026-11-02", "date_label": "2026-11-02 (월)", "cost_krw": 23094000, "eval_krw": 22806000, "cost_str": "약 23,094,000원", "eval_str": "약 22,806,000원", "pnl_str": "-288,000원 (-1.25%)", "status": "평가 손실", "note": "HD현대일렉트릭 10주 분할 익절(+3.43%) 후 14주 보유", "pin": ""},
+      {"date": "2026-11-04", "date_label": "2026-11-04 (수)", "cost_krw": 29369000, "eval_krw": 28808000, "cost_str": "약 29,369,000원", "eval_str": "약 28,808,000원", "pnl_str": "-561,000원 (-1.91%)", "status": "평가 손실", "note": "HD현대 1차 선발대 44주 재진입 (3종목 보유)", "pin": "2,881만(현재)"}
     ]
   },
   "layer": [
@@ -91,7 +93,7 @@
         "x": {
           "field": "date",
           "type": "temporal",
-          "scale": {"domain": ["2026-09-07", "2026-11-01"]},
+          "scale": {"domain": ["2026-09-07", "2026-11-06"]},
           "axis": {
             "title": null,
             "format": "%m/%d",
@@ -204,6 +206,48 @@
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-04 (수)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대 (267250)</td>
+          <td><strong>체결 단가</strong>: 142,000원</td>
+          <td><strong>체결 수량</strong>: 44주</td>
+          <td><strong>투입 금액</strong>: 6,248,000원</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">바닥 같아서 1차 매수했다.</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-02 (월)</span>
+      <span class="kb-badge kb-badge--sell">분할 매도</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +148,750원 (+3.43%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대일렉트릭 (267260)</td>
+          <td><strong>체결 단가</strong>: 448,000원</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>정산 금액</strong>: 4,480,000원</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: 433,125원</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+148,750원</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 4일 (수익률 <strong>+3.43%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">부분 차익 실현했다.</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -1502,6 +1546,8 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **11-04** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 매수 (1차) | 142,000원 | 44주 | 6,248,000원 | — | (미실현) | — | — |
+| **11-02** | [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | 분할 매도 | 433,125원 | 10주 | 4,331,250원 | 448,000원 | **+148,750원** | **+3.43%** | **4일** |
 | **10-30** | [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | 매수 (2차) | 424,500원 | 10주 | 4,245,000원 | — | (미실현) | — | — |
 | **10-30** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 매도 (청산) | 134,655원 | 44주 | 5,924,800원 | 137,200원 | **+112,000원** | **+1.89%** | **4일** |
 | **10-30** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 매수 (2차) | $281.64 | 20주 | $5,632.80 | — | (미실현) | — | — |
@@ -1584,23 +1630,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 27,380,000원</span>
-    <span class="sub">해외 $12,698.16 + 국내 10,395,000원 (총 2개 종목)</span>
+    <span class="value">약 29,369,000원</span>
+    <span class="sub">해외 $12,698.16 + 국내 12,311,750원 (총 3개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">알파벳 A (62.0%)</span>
+    <span class="value">알파벳 A (58.1%)</span>
     <span class="sub">알파벳 A 44주 ($12,698.16)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">알파벳 A · HD현대일렉트릭</span>
-    <span class="sub">2026-10-29 진입 (1일차)</span>
+    <span class="sub">2026-10-29 진입 (6일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 26,880,000원</span>
-    <span class="sub">평가손익 약 -500,000원 (-1.83%)</span>
+    <span class="value">약 28,808,000원</span>
+    <span class="sub">평가손익 약 -561,000원 (-1.91%)</span>
   </div>
 </div>
 
@@ -1608,10 +1654,11 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **62.0%** | 2026-10-29 | 44주 | $288.59 | $283.82 | **-$210.08 (-1.65%)** |
-| [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | **38.0%** | 2026-10-29 | 24주 | 433,125원 | 424,000원 | **-219,000원 (-2.11%)** |
+| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **58.1%** | 2026-10-29 | 44주 | $288.59 | $280.03 | **-$376.84 (-2.97%)** |
+| [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | **21.3%** | 2026-11-04 | 44주 | 142,000원 | 138,100원 | **-171,600원 (-2.75%)** |
+| [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | **20.6%** | 2026-10-29 | 14주 | 433,125원 | 441,000원 | **+110,250원 (+1.82%)** |
 
-> *비중은 총 투자원금(약 27,380,000원, 환율 1,337.6원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 29,369,000원, 환율 1,343.3원 기준) 기준 비중입니다.*
 
 
 ---
@@ -1620,9 +1667,10 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **2026-11** | 2건 | 1건 | 0건 | 100% | +148,750원 | +3.43% |
 | **2026-10** | 55건 | 16건 | 1건 | 94.1% | +1,347,400원 | +2.40% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **72건** | **19건** | **1건** | **95.0%** | **+2,068,200원** | **+3.30%** |
+| **누적 합계** | **74건** | **20건** | **1건** | **95.2%** | **+2,216,950원** | **+3.31%** |
 
 ---
 
