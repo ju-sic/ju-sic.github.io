@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-11-11(수) 13:42
+- **업데이트** : 2026-11-13(금) 13:25
 
 
 ## 일자별 총 평가금액 추이 (최근 3개월)
@@ -8,8 +8,8 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 37,900,000원</span>
-    <span class="sub">원금 약 37,190,000원 · 평가손익 +710,000원 (+1.91%)</span>
+    <span class="value">약 21,000,000원</span>
+    <span class="sub">원금 약 19,650,000원 · 평가손익 +1,350,000원 (+6.86%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 최고 평가금액</span>
@@ -19,12 +19,12 @@
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 보유 포지션</span>
     <span class="value">총 3개 종목</span>
-    <span class="sub">HD현대일렉트릭 (66.1%) · 알파벳 A (24.7%) · HD현대 (9.2%)</span>
+    <span class="sub">HD현대일렉트릭 (47.0%) · 알파벳 A (27.2%) · 엔비디아 (25.8%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 누적 실현손익</span>
-    <span class="value">+2,504,850원</span>
-    <span class="sub">총 28건 청산 (익절 26건 · 손절 2건 · 승률 92.9%)</span>
+    <span class="value">+4,173,450원</span>
+    <span class="sub">총 34건 청산 (익절 31건 · 손절 3건 · 승률 91.2%)</span>
   </div>
 </div>
 
@@ -80,7 +80,8 @@
       {"date": "2026-11-05", "date_label": "2026-11-05 (목)", "cost_krw": 41479000, "eval_krw": 40427000, "cost_str": "약 41,479,000원", "eval_str": "약 40,427,000원", "pnl_str": "-1,051,000원 (-2.53%)", "status": "평가 손실", "note": "HD현대일렉트릭 4차 추매(20주)", "pin": "4,043만"},
       {"date": "2026-11-06", "date_label": "2026-11-06 (금)", "cost_krw": 63650000, "eval_krw": 61050000, "cost_str": "약 63,650,000원", "eval_str": "약 61,050,000원", "pnl_str": "-2,600,000원 (-4.09%)", "status": "평가 손실", "note": "HDE·GOOGL 추매 및 SMR 1차 매수 (4종목)", "pin": "6,105만"},
       {"date": "2026-11-07", "date_label": "2026-11-07 (토)", "cost_krw": 55700000, "eval_krw": 53330000, "cost_str": "약 55,700,000원", "eval_str": "약 53,330,000원", "pnl_str": "-2,370,000원 (-4.26%)", "status": "평가 손실", "note": "GOOGL 분할익절(+0.78%) · SMR 전량익절(+11.26%) 비중 축소", "pin": ""},
-      {"date": "2026-11-11", "date_label": "2026-11-11 (수)", "cost_krw": 37190000, "eval_krw": 37900000, "cost_str": "약 37,190,000원", "eval_str": "약 37,900,000원", "pnl_str": "+710,000원 (+1.91%)", "status": "평가 수익", "note": "GOOGL·HDE 분할익절 · NVDA 당일청산 · HD현대 분할매도", "pin": "3,790만(현재)"}
+      {"date": "2026-11-11", "date_label": "2026-11-11 (수)", "cost_krw": 37190000, "eval_krw": 37900000, "cost_str": "약 37,190,000원", "eval_str": "약 37,900,000원", "pnl_str": "+710,000원 (+1.91%)", "status": "평가 수익", "note": "GOOGL·HDE 분할익절 · NVDA 당일청산 · HD현대 분할매도", "pin": ""},
+      {"date": "2026-11-12", "date_label": "2026-11-12 (목)", "cost_krw": 19650000, "eval_krw": 21000000, "cost_str": "약 19,650,000원", "eval_str": "약 21,000,000원", "pnl_str": "+1,350,000원 (+6.86%)", "status": "평가 수익", "note": "HDE·GOOGL·NVDA 분할익절 · HD현대 청산 · NVDA 분할매수", "pin": "2,100만(현재)"}
     ]
   },
   "layer": [
@@ -97,7 +98,7 @@
         "x": {
           "field": "date",
           "type": "temporal",
-          "scale": {"domain": ["2026-09-07", "2026-11-13"]},
+          "scale": {"domain": ["2026-09-07", "2026-11-14"]},
           "axis": {
             "title": null,
             "format": "%m/%d",
@@ -210,6 +211,258 @@
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--sell">분할 매도</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$98.82 (+3.12%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $163.10</td>
+          <td><strong>체결 수량</strong>: 20주</td>
+          <td><strong>정산 금액</strong>: $3,262.00</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $158.16</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$98.82 (약 +132,100원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 0일 (수익률 <strong>+3.12%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--sell">분할 매도</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$150.22 (+4.75%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $165.67</td>
+          <td><strong>체결 수량</strong>: 20주</td>
+          <td><strong>정산 금액</strong>: $3,313.40</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $158.16</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$150.22 (약 +200,700원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 0일 (수익률 <strong>+4.75%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--sell">분할 매도</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$77.40 (+2.70%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 알파벳 A (GOOGL)</td>
+          <td><strong>체결 단가</strong>: $293.94</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>정산 금액</strong>: $2,939.40</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $286.20</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$77.40 (약 +103,400원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 14일 (수익률 <strong>+2.70%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--buy">6차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $154.44</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $1,544.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--buy">5차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $156.44</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $1,564.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--buy">4차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $157.44</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $1,574.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--buy">3차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $158.44</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $1,584.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $159.44</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $1,594.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 엔비디아 (NVDA)</td>
+          <td><strong>체결 단가</strong>: $161.44</td>
+          <td><strong>체결 수량</strong>: 14주</td>
+          <td><strong>투입 금액</strong>: $2,260.16</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--sell">분할 매도</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +843,400원 (+10.97%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대일렉트릭 (267260)</td>
+          <td><strong>체결 단가</strong>: 426,500원</td>
+          <td><strong>체결 수량</strong>: 20주</td>
+          <td><strong>정산 금액</strong>: 8,530,000원</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: 384,330원</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+843,400원</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 14일 (수익률 <strong>+10.97%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--loss">실현손익 -434,400원 (-12.75%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대 (267250)</td>
+          <td><strong>체결 단가</strong>: 123,900원</td>
+          <td><strong>체결 수량</strong>: 24주 (전량)</td>
+          <td><strong>정산 금액</strong>: 2,973,600원</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: 142,000원</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-danger);">-434,400원</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 8일 (수익률 <strong>-12.75%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-12 (목)</span>
+      <span class="kb-badge kb-badge--sell">분할 매도</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +823,400원 (+10.71%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: HD현대일렉트릭 (267260)</td>
+          <td><strong>체결 단가</strong>: 425,500원</td>
+          <td><strong>체결 수량</strong>: 20주</td>
+          <td><strong>정산 금액</strong>: 8,510,000원</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: 384,330원</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+823,400원</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 14일 (수익률 <strong>+10.71%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--sell"></div>
     <div class="kb-timeline-header">
@@ -1844,6 +2097,18 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 분할 매도 | $158.16 | 20주 | $3,163.18 | $163.10 | **+$98.82 (약 +132,100원)** | **+3.12%** | **0일** |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 분할 매도 | $158.16 | 20주 | $3,163.18 | $165.67 | **+$150.22 (약 +200,700원)** | **+4.75%** | **0일** |
+| **11-12** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 분할 매도 | $286.20 | 10주 | $2,862.00 | $293.94 | **+$77.40 (약 +103,400원)** | **+2.70%** | **14일** |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매수 (6차) | $154.44 | 10주 | $1,544.40 | — | (미실현) | — | — |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매수 (5차) | $156.44 | 10주 | $1,564.40 | — | (미실현) | — | — |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매수 (4차) | $157.44 | 10주 | $1,574.40 | — | (미실현) | — | — |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매수 (3차) | $158.44 | 10주 | $1,584.40 | — | (미실현) | — | — |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매수 (2차) | $159.44 | 10주 | $1,594.40 | — | (미실현) | — | — |
+| **11-12** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매수 (1차) | $161.44 | 14주 | $2,260.16 | — | (미실현) | — | — |
+| **11-12** | [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | 분할 매도 | 384,330원 | 20주 | 7,686,600원 | 426,500원 | **+843,400원** | **+10.97%** | **14일** |
+| **11-12** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 매도 (청산) | 142,000원 | 24주 | 3,408,000원 | 123,900원 | **-434,400원** | **-12.75%** | **8일** |
+| **11-12** | [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | 분할 매도 | 384,330원 | 20주 | 7,686,600원 | 425,500원 | **+823,400원** | **+10.71%** | **14일** |
 | **11-11** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 분할 매도 | $286.20 | 20주 | $5,724.00 | $291.60 | **+$108.00 (약 +144,400원)** | **+1.89%** | **13일** |
 | **11-11** | [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | 분할 매도 | 384,330원 | 20주 | 7,686,600원 | 404,000원 | **+393,400원** | **+5.12%** | **13일** |
 | **11-11** | [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | 분할 매도 | 142,000원 | 20주 | 2,840,000원 | 123,100원 | **-378,000원** | **-13.31%** | **7일** |
@@ -1942,23 +2207,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 37,190,000원</span>
-    <span class="sub">해외 $6,868.80 + 국내 28,005,120원 (총 3개 종목)</span>
+    <span class="value">약 19,650,000원</span>
+    <span class="sub">해외 $7,802.61 + 국내 9,223,920원 (총 3개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">HD현대일렉트릭 (66.1%)</span>
-    <span class="sub">HD현대일렉트릭 64주 (24,597,120원)</span>
+    <span class="value">HD현대일렉트릭 (47.0%)</span>
+    <span class="sub">HD현대일렉트릭 24주 (9,223,920원)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">알파벳 A · HD현대일렉트릭</span>
-    <span class="sub">2026-10-29 진입 (13일차)</span>
+    <span class="sub">2026-10-29 진입 (15일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 37,900,000원</span>
-    <span class="sub">평가손익 약 +710,000원 (+1.91%)</span>
+    <span class="value">약 21,000,000원</span>
+    <span class="sub">평가손익 약 +1,350,000원 (+6.86%)</span>
   </div>
 </div>
 
@@ -1966,11 +2231,11 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | **66.1%** | 2026-10-29 | 64주 | 384,330원 | 402,000원 | **+1,130,880원 (+4.60%)** |
-| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **24.7%** | 2026-10-29 | 24주 | $286.20 | $287.38 | **+$28.32 (+0.41%)** |
-| [HD현대 (`267250`)](../../stocks/2026/10/hd-hyundai.md) | **9.2%** | 2026-11-04 | 24주 | 142,000원 | 123,100원 | **-453,600원 (-13.31%)** |
+| [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | **47.0%** | 2026-10-29 | 24주 | 384,330원 | 420,000원 | **+856,080원 (+9.28%)** |
+| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **27.2%** | 2026-10-29 | 14주 | $286.20 | $298.70 | **+$175.00 (+4.37%)** |
+| [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | **25.8%** | 2026-11-12 | 24주 | $158.16 | $166.19 | **+$192.75 (+5.08%)** |
 
-> *비중은 총 투자원금(약 37,190,000원, 환율 1,336.8원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 19,650,000원, 환율 1,336.3원 기준) 기준 비중입니다.*
 
 
 ---
@@ -1979,10 +2244,10 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-11** | 16건 | 7건 | 1건 | 87.5% | +436,650원 | +1.05% |
+| **2026-11** | 28건 | 12건 | 2건 | 85.7% | +2,105,250원 | +2.90% |
 | **2026-10** | 55건 | 16건 | 1건 | 94.1% | +1,347,400원 | +2.40% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **88건** | **26건** | **2건** | **92.9%** | **+2,504,850원** | **+2.41%** |
+| **누적 합계** | **100건** | **31건** | **3건** | **91.2%** | **+4,173,450원** | **+3.09%** |
 
 ---
 
