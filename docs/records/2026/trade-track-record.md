@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-11-16(월) 10:55
+- **업데이트** : 2026-11-16(월) 19:15
 
 
 ## 일자별 총 평가금액 추이 (최근 3개월)
@@ -8,8 +8,8 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 6,420,000원</span>
-    <span class="sub">원금 약 6,270,000원 · 평가손익 +150,000원 (+2.39%)</span>
+    <span class="value">약 5,530,000원</span>
+    <span class="sub">원금 약 5,350,000원 · 평가손익 +179,000원 (+3.34%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 최고 평가금액</span>
@@ -18,13 +18,13 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 보유 포지션</span>
-    <span class="value">총 2개 종목</span>
-    <span class="sub">알파벳 A (85.3%) · 뉴스케일 파워 (14.7%)</span>
+    <span class="value">총 1개 종목</span>
+    <span class="sub">알파벳 A (100.0%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 누적 실현손익</span>
-    <span class="value">+5,237,236원</span>
-    <span class="sub">총 38건 청산 (익절 35건 · 손절 3건 · 승률 92.1%)</span>
+    <span class="value">+5,198,836원</span>
+    <span class="sub">총 39건 청산 (익절 35건 · 손절 4건 · 승률 89.7%)</span>
   </div>
 </div>
 
@@ -82,7 +82,8 @@
       {"date": "2026-11-07", "date_label": "2026-11-07 (토)", "cost_krw": 55700000, "eval_krw": 53330000, "cost_str": "약 55,700,000원", "eval_str": "약 53,330,000원", "pnl_str": "-2,370,000원 (-4.26%)", "status": "평가 손실", "note": "GOOGL 분할익절(+0.78%) · SMR 전량익절(+11.26%) 비중 축소", "pin": ""},
       {"date": "2026-11-11", "date_label": "2026-11-11 (수)", "cost_krw": 37190000, "eval_krw": 37900000, "cost_str": "약 37,190,000원", "eval_str": "약 37,900,000원", "pnl_str": "+710,000원 (+1.91%)", "status": "평가 수익", "note": "GOOGL·HDE 분할익절 · NVDA 당일청산 · HD현대 분할매도", "pin": ""},
       {"date": "2026-11-12", "date_label": "2026-11-12 (목)", "cost_krw": 19650000, "eval_krw": 21000000, "cost_str": "약 19,650,000원", "eval_str": "약 21,000,000원", "pnl_str": "+1,350,000원 (+6.86%)", "status": "평가 수익", "note": "HDE·GOOGL·NVDA 분할익절 · HD현대 청산 · NVDA 분할매수", "pin": ""},
-      {"date": "2026-11-13", "date_label": "2026-11-13 (금)", "cost_krw": 6270000, "eval_krw": 6420000, "cost_str": "약 6,270,000원 ($4,699.44)", "eval_str": "약 6,420,000원 ($4,811.82)", "pnl_str": "+150,000원 (+2.39%)", "status": "평가 수익", "note": "HDE·NVDA·NOW 전량익절 · SMR 재진입 (2종목 보유)", "pin": "642만(현재)"}
+      {"date": "2026-11-13", "date_label": "2026-11-13 (금)", "cost_krw": 6270000, "eval_krw": 6420000, "cost_str": "약 6,270,000원 ($4,699.44)", "eval_str": "약 6,420,000원 ($4,811.82)", "pnl_str": "+150,000원 (+2.39%)", "status": "평가 수익", "note": "HDE·NVDA·NOW 전량익절 · SMR 재진입 (2종목 보유)", "pin": ""},
+      {"date": "2026-11-16", "date_label": "2026-11-16 (월)", "cost_krw": 5350000, "eval_krw": 5530000, "cost_str": "약 5,350,000원 ($4,006.80)", "eval_str": "약 5,530,000원 ($4,140.78)", "pnl_str": "+179,000원 (+3.34%)", "status": "평가 수익", "note": "SMR 손절 청산 (-4.16%) · GOOGL 1종목 보유", "pin": "553만(현재)"}
     ]
   },
   "layer": [
@@ -99,7 +100,7 @@
         "x": {
           "field": "date",
           "type": "temporal",
-          "scale": {"domain": ["2026-09-07", "2026-11-16"]},
+          "scale": {"domain": ["2026-09-07", "2026-11-17"]},
           "axis": {
             "title": null,
             "format": "%m/%d",
@@ -212,6 +213,30 @@
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-16 (월)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--loss">실현손익 -$28.80 (-4.16%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 뉴스케일 파워 (SMR)</td>
+          <td><strong>체결 단가</strong>: $4.61</td>
+          <td><strong>체결 수량</strong>: 144주 (전량)</td>
+          <td><strong>정산 금액</strong>: $663.84</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $4.81</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-danger);">-$28.80 (약 -38,400원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 3일 (수익률 <strong>-4.16%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -2230,6 +2255,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **11-16** | **뉴스케일 파워 (`SMR`)** | 매도 (청산) | $4.81 | 144주 | $692.64 | $4.61 | **-$28.80 (약 -38,400원)** | **-4.16%** | **3일** |
 | **11-13** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매도 (청산) | $100.80 | 14주 | $1,411.20 | $102.45 | **+$23.10 (약 +30,800원)** | **+1.64%** | **0일** |
 | **11-13** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매도 (청산) | $158.16 | 24주 | $3,795.84 | $161.03 | **+$68.88 (약 +91,900원)** | **+1.81%** | **1일** |
 | **11-13** | [HD현대일렉트릭 (`267260`)](../../stocks/2026/10/hd-hyundai-electric.md) | 매도 (청산) | 384,330원 | 14주 | 5,380,620원 | 423,929원 | **+554,386원** | **+10.30%** | **15일** |
@@ -2346,12 +2372,12 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 6,270,000원</span>
-    <span class="sub">해외 $4,699.44 + 국내 0원 (총 2개 종목)</span>
+    <span class="value">약 5,350,000원</span>
+    <span class="sub">해외 $4,006.80 + 국내 0원 (총 1개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">알파벳 A (85.3%)</span>
+    <span class="value">알파벳 A (100.0%)</span>
     <span class="sub">알파벳 A 14주 ($4,006.80)</span>
   </div>
   <div class="kb-portfolio-metric-card">
@@ -2361,8 +2387,8 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 6,420,000원</span>
-    <span class="sub">평가손익 약 +150,000원 (+2.39%)</span>
+    <span class="value">약 5,530,000원</span>
+    <span class="sub">평가손익 약 +179,000원 (+3.34%)</span>
   </div>
 </div>
 
@@ -2370,10 +2396,9 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **85.3%** | 2026-10-29 | 14주 | $286.20 | $295.77 | **+$133.98 (+3.34%)** |
-| **뉴스케일 파워 (`SMR`)** | **14.7%** | 2026-11-13 | 144주 | $4.81 | $4.66 | **-$21.60 (-3.12%)** |
+| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **100.0%** | 2026-10-29 | 14주 | $286.20 | $295.77 | **+$133.98 (+3.34%)** |
 
-> *비중은 총 투자원금(약 6,270,000원, 환율 1,333.8원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 5,350,000원, 환율 1,334.8원 기준) 기준 비중입니다.*
 
 
 ---
@@ -2382,10 +2407,10 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-11** | 34건 | 16건 | 2건 | 88.9% | +3,169,036원 | +3.57% |
+| **2026-11** | 35건 | 16건 | 3건 | 84.2% | +3,130,636원 | +3.49% |
 | **2026-10** | 55건 | 16건 | 1건 | 94.1% | +1,347,400원 | +2.40% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **106건** | **35건** | **3건** | **92.1%** | **+5,237,236원** | **+3.46%** |
+| **누적 합계** | **107건** | **35건** | **4건** | **89.7%** | **+5,198,836원** | **+3.42%** |
 
 ---
 
