@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-11-16(월) 19:15
+- **업데이트** : 2026-11-18(수) 20:15
 
 
 ## 일자별 총 평가금액 추이 (최근 3개월)
@@ -8,8 +8,8 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 5,530,000원</span>
-    <span class="sub">원금 약 5,350,000원 · 평가손익 +179,000원 (+3.34%)</span>
+    <span class="value">약 10,670,000원</span>
+    <span class="sub">원금 약 10,920,000원 · 평가손익 -250,000원 (-2.27%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 최고 평가금액</span>
@@ -18,8 +18,8 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 보유 포지션</span>
-    <span class="value">총 1개 종목</span>
-    <span class="sub">알파벳 A (100.0%)</span>
+    <span class="value">총 2개 종목</span>
+    <span class="sub">서비스나우 (51.1%) · 알파벳 A (48.9%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 누적 실현손익</span>
@@ -83,7 +83,8 @@
       {"date": "2026-11-11", "date_label": "2026-11-11 (수)", "cost_krw": 37190000, "eval_krw": 37900000, "cost_str": "약 37,190,000원", "eval_str": "약 37,900,000원", "pnl_str": "+710,000원 (+1.91%)", "status": "평가 수익", "note": "GOOGL·HDE 분할익절 · NVDA 당일청산 · HD현대 분할매도", "pin": ""},
       {"date": "2026-11-12", "date_label": "2026-11-12 (목)", "cost_krw": 19650000, "eval_krw": 21000000, "cost_str": "약 19,650,000원", "eval_str": "약 21,000,000원", "pnl_str": "+1,350,000원 (+6.86%)", "status": "평가 수익", "note": "HDE·GOOGL·NVDA 분할익절 · HD현대 청산 · NVDA 분할매수", "pin": ""},
       {"date": "2026-11-13", "date_label": "2026-11-13 (금)", "cost_krw": 6270000, "eval_krw": 6420000, "cost_str": "약 6,270,000원 ($4,699.44)", "eval_str": "약 6,420,000원 ($4,811.82)", "pnl_str": "+150,000원 (+2.39%)", "status": "평가 수익", "note": "HDE·NVDA·NOW 전량익절 · SMR 재진입 (2종목 보유)", "pin": ""},
-      {"date": "2026-11-16", "date_label": "2026-11-16 (월)", "cost_krw": 5350000, "eval_krw": 5530000, "cost_str": "약 5,350,000원 ($4,006.80)", "eval_str": "약 5,530,000원 ($4,140.78)", "pnl_str": "+179,000원 (+3.34%)", "status": "평가 수익", "note": "SMR 손절 청산 (-4.16%) · GOOGL 1종목 보유", "pin": "553만(현재)"}
+      {"date": "2026-11-16", "date_label": "2026-11-16 (월)", "cost_krw": 7220000, "eval_krw": 7160000, "cost_str": "약 7,220,000원 ($5,404.56)", "eval_str": "약 7,160,000원 ($5,363.26)", "pnl_str": "-55,000원 (-0.76%)", "status": "평가 손실", "note": "SMR 손절 청산 (-4.16%) · NOW 1차 매수 (2종목 보유)", "pin": ""},
+      {"date": "2026-11-18", "date_label": "2026-11-18 (수)", "cost_krw": 10920000, "eval_krw": 10670000, "cost_str": "약 10,920,000원 ($8,196.06)", "eval_str": "약 10,670,000원 ($8,010.40)", "pnl_str": "-250,000원 (-2.27%)", "status": "평가 손실", "note": "NOW 2·3차 추가 매수 (2종목 보유)", "pin": "1,067만(현재)"}
     ]
   },
   "layer": [
@@ -100,7 +101,7 @@
         "x": {
           "field": "date",
           "type": "temporal",
-          "scale": {"domain": ["2026-09-07", "2026-11-17"]},
+          "scale": {"domain": ["2026-09-07", "2026-11-19"]},
           "axis": {
             "title": null,
             "format": "%m/%d",
@@ -213,6 +214,60 @@
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-18 (수)</span>
+      <span class="kb-badge kb-badge--buy">3차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 서비스나우 (NOW)</td>
+          <td><strong>체결 단가</strong>: $93.23</td>
+          <td><strong>체결 수량</strong>: 20주</td>
+          <td><strong>투입 금액</strong>: $1,864.60</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-18 (수)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 서비스나우 (NOW)</td>
+          <td><strong>체결 단가</strong>: $92.69</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $926.90</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-16 (월)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 서비스나우 (NOW)</td>
+          <td><strong>체결 단가</strong>: $99.84</td>
+          <td><strong>체결 수량</strong>: 14주</td>
+          <td><strong>투입 금액</strong>: $1,397.76</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--close"></div>
     <div class="kb-timeline-header">
@@ -2255,6 +2310,9 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **11-18** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매수 (3차) | $93.23 | 20주 | $1,864.60 | — | (미실현) | — | — |
+| **11-18** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매수 (2차) | $92.69 | 10주 | $926.90 | — | (미실현) | — | — |
+| **11-16** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매수 (1차) | $99.84 | 14주 | $1,397.76 | — | (미실현) | — | — |
 | **11-16** | **뉴스케일 파워 (`SMR`)** | 매도 (청산) | $4.81 | 144주 | $692.64 | $4.61 | **-$28.80 (약 -38,400원)** | **-4.16%** | **3일** |
 | **11-13** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매도 (청산) | $100.80 | 14주 | $1,411.20 | $102.45 | **+$23.10 (약 +30,800원)** | **+1.64%** | **0일** |
 | **11-13** | [엔비디아 (`NVDA`)](../../stocks/2026/09/nvidia.md) | 매도 (청산) | $158.16 | 24주 | $3,795.84 | $161.03 | **+$68.88 (약 +91,900원)** | **+1.81%** | **1일** |
@@ -2372,23 +2430,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 5,350,000원</span>
-    <span class="sub">해외 $4,006.80 + 국내 0원 (총 1개 종목)</span>
+    <span class="value">약 10,920,000원</span>
+    <span class="sub">해외 $8,196.06 + 국내 0원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">알파벳 A (100.0%)</span>
-    <span class="sub">알파벳 A 14주 ($4,006.80)</span>
+    <span class="value">서비스나우 (51.1%)</span>
+    <span class="sub">서비스나우 44주 ($4,189.26)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
     <span class="value">알파벳 A</span>
-    <span class="sub">2026-10-29 진입 (19일차)</span>
+    <span class="sub">2026-10-29 진입 (20일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 5,530,000원</span>
-    <span class="sub">평가손익 약 +179,000원 (+3.34%)</span>
+    <span class="value">약 10,670,000원</span>
+    <span class="sub">평가손익 약 -250,000원 (-2.27%)</span>
   </div>
 </div>
 
@@ -2396,9 +2454,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **100.0%** | 2026-10-29 | 14주 | $286.20 | $295.77 | **+$133.98 (+3.34%)** |
+| [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | **51.1%** | 2026-11-16 | 44주 | $95.21 | $92.90 | **-$101.66 (-2.43%)** |
+| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **48.9%** | 2026-10-29 | 14주 | $286.20 | $280.20 | **-$84.00 (-2.10%)** |
 
-> *비중은 총 투자원금(약 5,350,000원, 환율 1,334.8원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 10,920,000원, 환율 1,332.3원 기준) 기준 비중입니다.*
 
 
 ---
@@ -2407,10 +2466,10 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-11** | 35건 | 16건 | 3건 | 84.2% | +3,130,636원 | +3.49% |
+| **2026-11** | 38건 | 16건 | 3건 | 84.2% | +3,130,636원 | +3.49% |
 | **2026-10** | 55건 | 16건 | 1건 | 94.1% | +1,347,400원 | +2.40% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **107건** | **35건** | **4건** | **89.7%** | **+5,198,836원** | **+3.42%** |
+| **누적 합계** | **110건** | **35건** | **4건** | **89.7%** | **+5,198,836원** | **+3.42%** |
 
 ---
 
