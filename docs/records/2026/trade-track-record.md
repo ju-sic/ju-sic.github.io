@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-11-19(목) 09:05
+- **업데이트** : 2026-11-19(목) 21:28
 
 
 ## 일자별 총 평가금액 추이 (최근 3개월)
@@ -8,8 +8,8 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 11,250,000원</span>
-    <span class="sub">원금 약 11,570,000원 · 평가손익 -320,000원 (-2.80%)</span>
+    <span class="value">약 11,830,000원</span>
+    <span class="sub">원금 약 12,420,000원 · 평가손익 -590,000원 (-4.73%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 최고 평가금액</span>
@@ -18,13 +18,13 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 보유 포지션</span>
-    <span class="value">총 3개 종목</span>
-    <span class="sub">서비스나우 (48.1%) · 알파벳 A (46.0%) · TQQQ (5.9%)</span>
+    <span class="value">총 2개 종목</span>
+    <span class="sub">TQQQ (55.2%) · 서비스나우 (44.8%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 누적 실현손익</span>
-    <span class="value">+5,198,836원</span>
-    <span class="sub">총 39건 청산 (익절 35건 · 손절 4건 · 승률 89.7%)</span>
+    <span class="value">+5,262,736원</span>
+    <span class="sub">총 40건 청산 (익절 36건 · 손절 4건 · 승률 90.0%)</span>
   </div>
 </div>
 
@@ -84,8 +84,8 @@
       {"date": "2026-11-12", "date_label": "2026-11-12 (목)", "cost_krw": 19650000, "eval_krw": 21000000, "cost_str": "약 19,650,000원", "eval_str": "약 21,000,000원", "pnl_str": "+1,350,000원 (+6.86%)", "status": "평가 수익", "note": "HDE·GOOGL·NVDA 분할익절 · HD현대 청산 · NVDA 분할매수", "pin": ""},
       {"date": "2026-11-13", "date_label": "2026-11-13 (금)", "cost_krw": 6270000, "eval_krw": 6420000, "cost_str": "약 6,270,000원 ($4,699.44)", "eval_str": "약 6,420,000원 ($4,811.82)", "pnl_str": "+150,000원 (+2.39%)", "status": "평가 수익", "note": "HDE·NVDA·NOW 전량익절 · SMR 재진입 (2종목 보유)", "pin": ""},
       {"date": "2026-11-16", "date_label": "2026-11-16 (월)", "cost_krw": 7220000, "eval_krw": 7160000, "cost_str": "약 7,220,000원 ($5,404.56)", "eval_str": "약 7,160,000원 ($5,363.26)", "pnl_str": "-55,000원 (-0.76%)", "status": "평가 손실", "note": "SMR 손절 청산 (-4.16%) · NOW 1차 매수 (2종목 보유)", "pin": ""},
-      {"date": "2026-11-18", "date_label": "2026-11-18 (수)", "cost_krw": 10920000, "eval_krw": 10670000, "cost_str": "약 10,920,000원 ($8,196.06)", "eval_str": "약 10,670,000원 ($8,010.40)", "pnl_str": "-250,000원 (-2.27%)", "status": "평가 손실", "note": "NOW 2·3차 추가 매수 (2종목 보유)", "pin": ""},
-      {"date": "2026-11-19", "date_label": "2026-11-19 (목)", "cost_krw": 11570000, "eval_krw": 11250000, "cost_str": "약 11,570,000원 ($8,708.23)", "eval_str": "약 11,250,000원 ($8,464.52)", "pnl_str": "-320,000원 (-2.80%)", "status": "평가 손실", "note": "TQQQ 1차 선발대 10주 진입 (3종목 보유)", "pin": "1,125만(현재)"}
+      {"date": "2026-11-18", "date_label": "2026-11-18 (수)", "cost_krw": 11200000, "eval_krw": 10950000, "cost_str": "약 11,200,000원 ($8,409.02)", "eval_str": "약 10,950,000원 ($8,220.16)", "pnl_str": "-250,000원 (-2.25%)", "status": "평가 손실", "note": "NOW 2·3차 추가 매수 · TQQQ 1차 선발대 진입 (3종목 보유)", "pin": ""},
+      {"date": "2026-11-19", "date_label": "2026-11-19 (목)", "cost_krw": 12420000, "eval_krw": 11830000, "cost_str": "약 12,420,000원 ($9,357.79)", "eval_str": "약 11,830,000원 ($8,915.32)", "pnl_str": "-590,000원 (-4.73%)", "status": "평가 손실", "note": "GOOGL 전량 익절(+1.20%) · TQQQ 2~5차 추가 매수 (2종목)", "pin": "1,183만(현재)"}
     ]
   },
   "layer": [
@@ -219,7 +219,85 @@
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
       <span class="kb-timeline-date">2026-11-19 (목)</span>
-      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+      <span class="kb-badge kb-badge--buy">5차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: ProShares UltraPro QQQ (TQQQ)</td>
+          <td><strong>체결 단가</strong>: $55.44</td>
+          <td><strong>체결 수량</strong>: 50주</td>
+          <td><strong>투입 금액</strong>: $2,772.00</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-19 (목)</span>
+      <span class="kb-badge kb-badge--buy">4차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: ProShares UltraPro QQQ (TQQQ)</td>
+          <td><strong>체결 단가</strong>: $55.70</td>
+          <td><strong>체결 수량</strong>: 20주</td>
+          <td><strong>투입 금액</strong>: $1,114.00</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-19 (목)</span>
+      <span class="kb-badge kb-badge--buy">3차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: ProShares UltraPro QQQ (TQQQ)</td>
+          <td><strong>체결 단가</strong>: $55.74</td>
+          <td><strong>체결 수량</strong>: 10주</td>
+          <td><strong>투입 금액</strong>: $557.40</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--close"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-19 (목)</span>
+      <span class="kb-badge kb-badge--sell">전량 매도 (청산)</span>
+      <span class="kb-badge kb-badge--gain">실현손익 +$48.16 (+1.20%)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: 알파벳 A (GOOGL)</td>
+          <td><strong>체결 단가</strong>: $289.64</td>
+          <td><strong>체결 수량</strong>: 14주 (전량)</td>
+          <td><strong>정산 금액</strong>: $4,054.96</td>
+        </tr>
+        <tr>
+          <td><strong>평균 매수가</strong>: $286.20</td>
+          <td><strong>실현 손익</strong>: <strong style="color: var(--kb-sem-tip);">+$48.16 (약 +63,900원)</strong></td>
+          <td colspan="2"><strong>보유 기간</strong>: 21일 (수익률 <strong>+1.20%</strong>)</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-19 (목)</span>
+      <span class="kb-badge kb-badge--buy">2차 매수</span>
     </div>
     <div class="kb-timeline-body">
       <table class="kb-timeline-table">
@@ -264,6 +342,24 @@
           <td><strong>체결 단가</strong>: $92.69</td>
           <td><strong>체결 수량</strong>: 10주</td>
           <td><strong>투입 금액</strong>: $926.90</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-18 (수)</span>
+      <span class="kb-badge kb-badge--buy">1차 매수 (선발대)</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: ProShares UltraPro QQQ (TQQQ)</td>
+          <td><strong>체결 단가</strong>: $53.24</td>
+          <td><strong>체결 수량</strong>: 4주</td>
+          <td><strong>투입 금액</strong>: $212.96</td>
         </tr>
       </table>
       <p class="kb-timeline-desc">사유 미기재</p>
@@ -2329,9 +2425,14 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **11-19** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (1차) | $51.217 | 10주 | $512.17 | — | (미실현) | — | — |
+| **11-19** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (5차) | $55.44 | 50주 | $2,772.00 | — | (미실현) | — | — |
+| **11-19** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (4차) | $55.70 | 20주 | $1,114.00 | — | (미실현) | — | — |
+| **11-19** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (3차) | $55.74 | 10주 | $557.40 | — | (미실현) | — | — |
+| **11-19** | [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | 매도 (청산) | $286.20 | 14주 | $4,006.80 | $289.64 | **+$48.16 (약 +63,900원)** | **+1.20%** | **21일** |
+| **11-19** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (2차) | $51.217 | 10주 | $512.17 | — | (미실현) | — | — |
 | **11-18** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매수 (3차) | $93.23 | 20주 | $1,864.60 | — | (미실현) | — | — |
 | **11-18** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매수 (2차) | $92.69 | 10주 | $926.90 | — | (미실현) | — | — |
+| **11-18** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (1차) | $53.24 | 4주 | $212.96 | — | (미실현) | — | — |
 | **11-16** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매수 (1차) | $99.84 | 14주 | $1,397.76 | — | (미실현) | — | — |
 | **11-16** | **뉴스케일 파워 (`SMR`)** | 매도 (청산) | $4.81 | 144주 | $692.64 | $4.61 | **-$28.80 (약 -38,400원)** | **-4.16%** | **3일** |
 | **11-13** | [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | 매도 (청산) | $100.80 | 14주 | $1,411.20 | $102.45 | **+$23.10 (약 +30,800원)** | **+1.64%** | **0일** |
@@ -2450,23 +2551,23 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 11,570,000원</span>
-    <span class="sub">해외 $8,708.23 + 국내 0원 (총 3개 종목)</span>
+    <span class="value">약 12,420,000원</span>
+    <span class="sub">해외 $9,357.79 + 국내 0원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">서비스나우 (48.1%)</span>
-    <span class="sub">서비스나우 44주 ($4,189.26)</span>
+    <span class="value">TQQQ (55.2%)</span>
+    <span class="sub">TQQQ 94주 ($5,168.53)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
-    <span class="value">알파벳 A</span>
-    <span class="sub">2026-10-29 진입 (21일차)</span>
+    <span class="value">서비스나우</span>
+    <span class="sub">2026-11-16 진입 (4일차)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 11,250,000원</span>
-    <span class="sub">평가손익 약 -320,000원 (-2.80%)</span>
+    <span class="value">약 11,830,000원</span>
+    <span class="sub">평가손익 약 -590,000원 (-4.73%)</span>
   </div>
 </div>
 
@@ -2474,11 +2575,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | **48.1%** | 2026-11-16 | 44주 | $95.21 | $90.59 | **-$203.30 (-4.85%)** |
-| [알파벳 A (`GOOGL`)](../../stocks/2026/09/alphabet.md) | **46.0%** | 2026-10-29 | 14주 | $286.20 | $282.44 | **-$52.64 (-1.31%)** |
-| **ProShares UltraPro QQQ (`TQQQ`)** | **5.9%** | 2026-11-19 | 10주 | $51.217 | $52.44 | **+$12.23 (+2.39%)** |
+| **ProShares UltraPro QQQ (`TQQQ`)** | **55.2%** | 2026-11-18 | 94주 | $54.98 | $52.44 | **-$239.17 (-4.63%)** |
+| [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | **44.8%** | 2026-11-16 | 44주 | $95.21 | $90.59 | **-$203.30 (-4.85%)** |
 
-> *비중은 총 투자원금(약 11,570,000원, 환율 1,329.0원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 12,420,000원, 환율 1,327.2원 기준) 기준 비중입니다.*
 
 
 ---
@@ -2487,10 +2587,10 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-11** | 39건 | 16건 | 3건 | 84.2% | +3,130,636원 | +3.49% |
+| **2026-11** | 44건 | 17건 | 3건 | 85.0% | +3,194,536원 | +3.37% |
 | **2026-10** | 55건 | 16건 | 1건 | 94.1% | +1,347,400원 | +2.40% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **111건** | **35건** | **4건** | **89.7%** | **+5,198,836원** | **+3.42%** |
+| **누적 합계** | **116건** | **36건** | **4건** | **90.0%** | **+5,262,736원** | **+3.34%** |
 
 ---
 
