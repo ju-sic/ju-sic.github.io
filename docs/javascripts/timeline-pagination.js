@@ -79,7 +79,7 @@ function initTimelinePagination() {
  *
  * `#trade-log ~ table` 같은 후행 형제 선택자는 범위의 끝이 없어서, 체결 대장 헤딩
  * 뒤에 오는 '현재 보유 포지션'과 '월별 성과 요약' 표까지 함께 잡힌다. 지금은 두 표가
- * 14행 이하라 증상이 없지만, 월별 요약이 15행을 넘기면 그 표에도 '체결 대장 더보기'
+ * 초기 표시 행 수(4행) 이하라 증상이 없지만, 월별 요약이 이를 넘기면 그 표에도 '체결 대장 더보기'
  * 버튼이 붙는다.
  *
  * 그래서 선택자 대신 형제 순회로 섹션 경계를 명시한다.
@@ -116,12 +116,12 @@ function findTradeLogTables() {
 /**
  * 실전 체결 대장 (Trade Log) 페이징 (더보기) 스크립트
  *
- * - 초기 로드 시 최신 14개만 표시
+ * - 초기 로드 시 최신 4개만 표시
  * - '더보기' 클릭 시 10개씩 추가 렌더링
  * - Material for MkDocs SPA 네비게이션(navigation.instant) 호환
  */
 function initTradeLogPagination() {
-  const INITIAL_LIMIT = 14;
+  const INITIAL_LIMIT = 4;
   const BATCH_SIZE = 10;
 
   findTradeLogTables().forEach((table) => {
@@ -134,12 +134,12 @@ function initTradeLogPagination() {
 
     const rows = Array.from(tbody.querySelectorAll("tr"));
     if (rows.length <= INITIAL_LIMIT) {
-      return; // 14개 이하일 때는 더보기 버튼을 생성하지 않음
+      return; // 4개 이하일 때는 더보기 버튼을 생성하지 않음
     }
 
     let currentlyVisible = INITIAL_LIMIT;
 
-    // 14번째 초과 행 숨김 처리
+    // 4번째 초과 행 숨김 처리
     rows.forEach((row, index) => {
       if (index >= INITIAL_LIMIT) {
         row.classList.add("kb-table-row--hidden");
@@ -161,7 +161,7 @@ function initTradeLogPagination() {
         btn.textContent = `체결 대장 더보기 (+${nextBatch}개 / 잔여 ${remaining}개)`;
         btn.classList.remove("kb-table-more-btn--collapse");
       } else {
-        btn.textContent = "처음으로 접기 (최신 14개만 보기)";
+        btn.textContent = `처음으로 접기 (최신 ${INITIAL_LIMIT}개만 보기)`;
         btn.classList.add("kb-table-more-btn--collapse");
       }
     }

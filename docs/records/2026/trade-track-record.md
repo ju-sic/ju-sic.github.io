@@ -2629,31 +2629,6 @@
 
 ## 현재 보유 포지션 (Open Positions)
 
-### 총 투자 규모 및 요약
-
-<div class="kb-portfolio-metrics">
-  <div class="kb-portfolio-metric-card">
-    <span class="label">현재 총 투자원금</span>
-    <span class="value">약 22,030,000원</span>
-    <span class="sub">해외 $16,484.85 + 국내 0원 (총 2개 종목)</span>
-  </div>
-  <div class="kb-portfolio-metric-card">
-    <span class="label">최대 비중 종목</span>
-    <span class="value">TQQQ (74.6%)</span>
-    <span class="sub">TQQQ 244주 ($12,295.59)</span>
-  </div>
-  <div class="kb-portfolio-metric-card">
-    <span class="label">최장기 보유 종목</span>
-    <span class="value">서비스나우</span>
-    <span class="sub">2026-11-16 진입 (5일차)</span>
-  </div>
-  <div class="kb-portfolio-metric-card">
-    <span class="label">현재 총 평가금액</span>
-    <span class="value">약 21,210,000원</span>
-    <span class="sub">평가손익 약 -820,000원 (-3.74%)</span>
-  </div>
-</div>
-
 ### 보유종목 전체 세부정보
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
