@@ -23,9 +23,9 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **투자 트랙레코드** | ProShares UltraPro QQQ (`TQQQ`) | 2026-11-20 | [문서 열기](records/2026/trade-track-record.md) |
 | **주식투자 Q&A** | 미국 증시 급락 원인과 `TQQQ` '첫 급락 매수' 전략 정밀 검증 | 2026-11-20 | [문서 열기](questions/2026/11/us-market-selloff-and-tqqq-dip-buying-strategy.md) |
 | **종목분석** | 세일즈포스 (`CRM`) | 2026-11-20 | [문서 열기](stocks/2026/11/salesforce.md) |
-| **투자 트랙레코드** | ProShares UltraPro QQQ (`TQQQ`) | 2026-11-20 | [문서 열기](records/2026/trade-track-record.md) |
 | **낙폭과대** | 미국 낙폭과대 후보 64개 종목 정밀 검증 (Top Pick: `CRM`) | 2026-11-20 | [문서 열기](oversold/2026/11/20.md) |
 | **블라인드 민심** | 직장인 투자 커뮤니티 24시간 브리핑 | 2026-11-20 | [문서 열기](blind/2026/11/20.md) |
 | **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-20 | [문서 열기](news/2026/11/20.md) |

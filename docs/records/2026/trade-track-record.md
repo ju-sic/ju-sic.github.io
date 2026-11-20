@@ -1,6 +1,6 @@
 # 실전 매매일지 및 포트폴리오 트랙레코드
 
-- **업데이트** : 2026-11-20(금) 12:35
+- **업데이트** : 2026-11-20(금) 15:30
 
 
 ## 일자별 총 평가금액 추이 (최근 3개월)
@@ -8,8 +8,8 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 14,680,000원</span>
-    <span class="sub">원금 약 15,720,000원 · 평가손익 -1,040,000원 (-6.58%)</span>
+    <span class="value">약 21,210,000원</span>
+    <span class="sub">원금 약 22,030,000원 · 평가손익 -820,000원 (-3.74%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 최고 평가금액</span>
@@ -19,7 +19,7 @@
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 보유 포지션</span>
     <span class="value">총 2개 종목</span>
-    <span class="sub">TQQQ (64.3%) · 서비스나우 (35.7%)</span>
+    <span class="sub">TQQQ (74.6%) · 서비스나우 (25.4%)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최근 3개월 누적 실현손익</span>
@@ -86,7 +86,7 @@
       {"date": "2026-11-16", "date_label": "2026-11-16 (월)", "cost_krw": 7220000, "eval_krw": 7160000, "cost_str": "약 7,220,000원 ($5,404.56)", "eval_str": "약 7,160,000원 ($5,363.26)", "pnl_str": "-55,000원 (-0.76%)", "status": "평가 손실", "note": "SMR 손절 청산 (-4.16%) · NOW 1차 매수 (2종목 보유)", "pin": ""},
       {"date": "2026-11-18", "date_label": "2026-11-18 (수)", "cost_krw": 11200000, "eval_krw": 10950000, "cost_str": "약 11,200,000원 ($8,409.02)", "eval_str": "약 10,950,000원 ($8,220.16)", "pnl_str": "-250,000원 (-2.25%)", "status": "평가 손실", "note": "NOW 2·3차 추가 매수 · TQQQ 1차 선발대 진입 (3종목 보유)", "pin": ""},
       {"date": "2026-11-19", "date_label": "2026-11-19 (목)", "cost_krw": 11690000, "eval_krw": 11140000, "cost_str": "약 11,690,000원 ($8,807.95)", "eval_str": "약 11,140,000원 ($8,390.92)", "pnl_str": "-550,000원 (-4.73%)", "status": "평가 손실", "note": "GOOGL 전량 익절(+1.20%) · TQQQ 2~5차 매수·10주 분할익절 (2종목)", "pin": ""},
-      {"date": "2026-11-20", "date_label": "2026-11-20 (금)", "cost_krw": 15720000, "eval_krw": 14680000, "cost_str": "약 15,720,000원 ($11,740.85)", "eval_str": "약 14,680,000원 ($10,967.72)", "pnl_str": "-1,040,000원 (-6.58%)", "status": "평가 손실", "note": "TQQQ 6·7차 추가 매수 (총 144주 · 2종목)", "pin": "1,468만(현재)"}
+      {"date": "2026-11-20", "date_label": "2026-11-20 (금)", "cost_krw": 22030000, "eval_krw": 21210000, "cost_str": "약 22,030,000원 ($16,484.85)", "eval_str": "약 21,210,000원 ($15,868.72)", "pnl_str": "-820,000원 (-3.74%)", "status": "평가 손실", "note": "TQQQ 6~8차 추가 매수 (총 244주 · 2종목)", "pin": "2,121만(현재)"}
     ]
   },
   "layer": [
@@ -216,6 +216,24 @@
 ## 시계열 매매 타임라인
 
 <div class="kb-timeline">
+  <div class="kb-timeline-item">
+    <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
+    <div class="kb-timeline-header">
+      <span class="kb-timeline-date">2026-11-20 (금)</span>
+      <span class="kb-badge kb-badge--buy">8차 매수</span>
+    </div>
+    <div class="kb-timeline-body">
+      <table class="kb-timeline-table">
+        <tr>
+          <td><strong>종목명</strong>: ProShares UltraPro QQQ (TQQQ)</td>
+          <td><strong>체결 단가</strong>: $47.44</td>
+          <td><strong>체결 수량</strong>: 100주</td>
+          <td><strong>투입 금액</strong>: $4,744.00</td>
+        </tr>
+      </table>
+      <p class="kb-timeline-desc">사유 미기재</p>
+    </div>
+  </div>
   <div class="kb-timeline-item">
     <div class="kb-timeline-marker kb-timeline-marker--buy"></div>
     <div class="kb-timeline-header">
@@ -2486,6 +2504,7 @@
 
 | 체결일자 | 종목명 (티커) | 구분 | 체결단가 | 수량 | 체결총액 | 청산단가 | 실현손익 | 수익률 | 보유일 |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **11-20** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (8차) | $47.44 | 100주 | $4,744.00 | — | (미실현) | — | — |
 | **11-20** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (7차) | $48.17 | 50주 | $2,408.50 | — | (미실현) | — | — |
 | **11-20** | **ProShares UltraPro QQQ (`TQQQ`)** | 매수 (6차) | $52.44 | 10주 | $524.40 | — | (미실현) | — | — |
 | **11-19** | **ProShares UltraPro QQQ (`TQQQ`)** | 분할 매도 | $54.98 | 10주 | $549.84 | $55.74 | **+$7.56 (약 +10,100원)** | **+1.37%** | **1일** |
@@ -2615,13 +2634,13 @@
 <div class="kb-portfolio-metrics">
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 투자원금</span>
-    <span class="value">약 15,720,000원</span>
-    <span class="sub">해외 $11,740.85 + 국내 0원 (총 2개 종목)</span>
+    <span class="value">약 22,030,000원</span>
+    <span class="sub">해외 $16,484.85 + 국내 0원 (총 2개 종목)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최대 비중 종목</span>
-    <span class="value">TQQQ (64.3%)</span>
-    <span class="sub">TQQQ 144주 ($7,551.59)</span>
+    <span class="value">TQQQ (74.6%)</span>
+    <span class="sub">TQQQ 244주 ($12,295.59)</span>
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">최장기 보유 종목</span>
@@ -2630,8 +2649,8 @@
   </div>
   <div class="kb-portfolio-metric-card">
     <span class="label">현재 총 평가금액</span>
-    <span class="value">약 14,680,000원</span>
-    <span class="sub">평가손익 약 -1,040,000원 (-6.58%)</span>
+    <span class="value">약 21,210,000원</span>
+    <span class="sub">평가손익 약 -820,000원 (-3.74%)</span>
   </div>
 </div>
 
@@ -2639,10 +2658,10 @@
 
 | 종목명 (티커) | 비중 | 최초 진입일자 | 보유수량 | 평균매수가 | 현재가 | 평가손익 (수익률) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ProShares UltraPro QQQ (`TQQQ`)** | **64.3%** | 2026-11-18 | 144주 | $52.44 | $49.01 | **-$494.15 (-6.54%)** |
-| [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | **35.7%** | 2026-11-16 | 44주 | $95.21 | $88.87 | **-$278.98 (-6.66%)** |
+| **ProShares UltraPro QQQ (`TQQQ`)** | **74.6%** | 2026-11-18 | 244주 | $50.39 | $49.01 | **-$337.15 (-2.74%)** |
+| [서비스나우 (`NOW`)](../../stocks/2026/10/servicenow.md) | **25.4%** | 2026-11-16 | 44주 | $95.21 | $88.87 | **-$278.98 (-6.66%)** |
 
-> *비중은 총 투자원금(약 15,720,000원, 환율 1,338.7원 기준) 기준 비중입니다.*
+> *비중은 총 투자원금(약 22,030,000원, 환율 1,336.4원 기준) 기준 비중입니다.*
 
 
 ---
@@ -2651,10 +2670,10 @@
 
 | 운용 월 | 총 거래건수 | 익절 건수 | 손절 건수 | 승률 | 월간 실현손익 | 월간 수익률 (MWR) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2026-11** | 47건 | 18건 | 3건 | 85.7% | +3,204,636원 | +3.35% |
+| **2026-11** | 48건 | 18건 | 3건 | 85.7% | +3,204,636원 | +3.35% |
 | **2026-10** | 55건 | 16건 | 1건 | 94.1% | +1,347,400원 | +2.40% |
 | **2026-09** | 17건 | 3건 | 0건 | 100% | +720,800원 | +11.20% |
-| **누적 합계** | **119건** | **37건** | **4건** | **90.2%** | **+5,272,836원** | **+3.33%** |
+| **누적 합계** | **120건** | **37건** | **4건** | **90.2%** | **+5,272,836원** | **+3.33%** |
 
 ---
 
