@@ -1,22 +1,9 @@
-/* X·블라인드 전용 읽기 화면. 본문 외의 사이트 구성에는 적용하지 않는다. */
+/* X·블라인드: 여백, 활자, 정렬로 위계를 만드는 편집형 리포트. */
 .md-typeset .kb-briefing {
-  /* 구조는 남겨 두고 색으로 정보의 역할을 구분한다. */
-  --brief-accent: #244a78;
-  --brief-soft: #eef4fc;
-  --brief-line: #cbd9ed;
-  --brief-surface: #f7f9fc;
-  --brief-hero: #203b60;
-  --brief-hero-text: #f4f8ff;
-  --brief-hero-muted: #cad9ed;
-  --brief-discussion: #76508e;
-  --brief-discussion-soft: #f6f0fa;
-  --brief-discussion-line: #decee9;
-  --brief-caution: #85500b;
-  --brief-caution-soft: #fff7e6;
-  --brief-caution-line: #ebd5ad;
-  --brief-verified: #216750;
-  --brief-verified-soft: #eef8f3;
-  --brief-verified-line: #bcdccd;
+  --brief-ink: #202124;
+  --brief-muted: #66696d;
+  --brief-rule: #dfe0e2;
+  --brief-accent: #8a4b2a;
   min-width: 0;
   color: var(--kb-text);
   font-size: 0.84rem;
@@ -25,32 +12,20 @@
 }
 
 [data-md-color-scheme="slate"] .md-typeset .kb-briefing {
-  --brief-accent: #adcfff;
-  --brief-soft: #18283e;
-  --brief-line: #344967;
-  --brief-surface: #191e27;
-  --brief-hero: #233f65;
-  --brief-hero-text: #f4f8ff;
-  --brief-hero-muted: #cad9ed;
-  --brief-discussion: #d6b5ed;
-  --brief-discussion-soft: #2c2236;
-  --brief-discussion-line: #51405e;
-  --brief-caution: #f1c580;
-  --brief-caution-soft: #302719;
-  --brief-caution-line: #605035;
-  --brief-verified: #9edbc1;
-  --brief-verified-soft: #192e27;
-  --brief-verified-line: #36584a;
+  --brief-ink: #eeedef;
+  --brief-muted: #a6a5a9;
+  --brief-rule: #353438;
+  --brief-accent: #d6aa8c;
 }
 
 .md-typeset .kb-briefing > h1 {
-  margin-bottom: 1.8rem;
-  font-size: clamp(1.45rem, 3vw, 2rem);
+  margin: 0 0 2rem;
+  color: var(--brief-ink);
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
   font-weight: 750;
-  line-height: 1.5;
-  letter-spacing: -0.04em;
+  line-height: 1.4;
+  letter-spacing: -0.045em;
   text-wrap: pretty;
-  color: var(--brief-accent);
 }
 
 .md-typeset .kb-briefing p {
@@ -58,12 +33,13 @@
   word-break: normal;
 }
 
-/* 수집 정보는 본문과 분리한 작은 발행 정보판으로 표시한다. */
+/* 발행 정보는 작은 활자와 선만으로 본문과 구분한다. */
 .md-typeset .kb-briefing > .kb-points {
-  padding: 0.35rem 1.15rem;
-  border: 1px solid var(--brief-line);
-  border-radius: var(--kb-radius-lg);
-  background: var(--brief-soft);
+  padding: 0;
+  border-top: 1px solid var(--brief-rule);
+  border-bottom: 1px solid var(--brief-rule);
+  border-radius: 0;
+  background: transparent;
   font-size: 0.73rem;
 }
 
@@ -71,86 +47,87 @@
   border-bottom: 0;
 }
 
-/* 큰 절과 하위 주제의 구분을 서로 다른 두 단계로 만든다. */
+/* 큰 절은 넓은 쉼, 하위 주제는 얇은 분리선으로 읽는 속도를 조절한다. */
 .md-typeset .kb-briefing-section {
-  margin: 3.2rem 0;
   min-width: 0;
+  margin: 3.6rem 0;
 }
 
 .md-typeset .kb-briefing-section > h2 {
-  margin: 0 0 1.5rem;
-  padding: 1rem 1.1rem;
-  border-top: 3px solid var(--brief-accent);
-  border-bottom: 1px solid var(--brief-line);
-  border-radius: 0 0 var(--kb-radius-md) var(--kb-radius-md);
-  background: var(--brief-soft);
-  color: var(--brief-accent);
-  font-size: 1.3rem;
-  line-height: 1.55;
+  margin: 0 0 1.6rem;
+  padding: 1.15rem 0 0;
+  border-top: 1px solid var(--brief-ink);
+  border-bottom: 0;
+  background: transparent;
+  color: var(--brief-ink);
+  font-size: 1.36rem;
   font-weight: 750;
+  line-height: 1.55;
   letter-spacing: -0.035em;
   text-wrap: pretty;
 }
 
 .md-typeset .kb-briefing-section > p:first-of-type {
-  font-size: 0.92rem;
+  color: var(--brief-ink);
+  font-size: 0.93rem;
   line-height: 1.95;
-  color: var(--kb-text-strong);
 }
 
 .md-typeset .kb-briefing-topic {
-  margin: 1.6rem 0;
-  padding: 1.3rem 1.4rem;
-  border: 1px solid var(--brief-line);
-  border-radius: var(--kb-radius-lg);
-  background: var(--brief-surface);
   min-width: 0;
+  margin: 2.4rem 0;
+  padding: 1.4rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--brief-rule);
+  border-radius: 0;
+  background: transparent;
 }
 
 .md-typeset .kb-briefing-topic > h3 {
   margin: 0 0 1.15rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--brief-line);
-  color: var(--brief-accent);
-  font-size: 1.04rem;
-  font-weight: 750;
+  padding: 0;
+  color: var(--brief-ink);
+  font-size: 1.06rem;
+  font-weight: 700;
   line-height: 1.65;
   letter-spacing: -0.025em;
 }
 
 .md-typeset .kb-briefing h4 {
   margin: 1.8rem 0 0.9rem;
-  font-size: 0.9rem;
+  color: var(--brief-ink);
+  font-size: 0.91rem;
+  font-weight: 650;
   line-height: 1.7;
-  font-weight: 700;
-  color: var(--kb-text-strong);
 }
 
 .md-typeset .kb-briefing-topic > :last-child {
   margin-bottom: 0;
 }
 
-/* 대시보드 뒤의 바로가기는 숨김 없이 주요 절을 찾아가게 한다. */
+/* 바로가기는 버튼 묶음 대신 리포트의 목차처럼 표시한다. */
 .md-typeset .kb-briefing-nav {
-  margin: 2rem 0 3rem;
-  padding: 1.2rem 1.3rem;
-  background: var(--brief-soft);
-  border: 1px solid var(--brief-line);
-  border-radius: var(--kb-radius-lg);
+  margin: 2.4rem 0 3rem;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--brief-rule);
+  border-bottom: 1px solid var(--brief-rule);
+  background: transparent;
 }
 
 .md-typeset .kb-briefing-nav > p {
-  margin: 0 0 0.8rem;
-  font-size: 0.76rem;
-  color: var(--brief-accent);
+  margin: 0 0 0.7rem;
+  color: var(--brief-muted);
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
 }
 
 .md-typeset .kb-briefing-nav ul {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.55rem;
-  padding: 0;
+  column-gap: 1.6rem;
+  row-gap: 0.15rem;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -160,93 +137,114 @@
 
 .md-typeset .kb-briefing-nav a {
   display: block;
-  height: 100%;
-  padding: 0.65rem 0.8rem;
-  border: 1px solid var(--brief-line);
-  border-radius: var(--kb-radius-md);
-  background: var(--kb-bg);
-  color: var(--brief-accent);
+  padding: 0.55rem 0;
+  color: var(--brief-ink);
   font-size: 0.76rem;
-  font-weight: 600;
-  line-height: 1.6;
+  font-weight: 500;
+  line-height: 1.65;
   text-decoration: none;
 }
 
 .md-typeset .kb-briefing-nav a:hover {
-  border-color: var(--brief-accent);
-  background: var(--brief-soft);
+  color: var(--brief-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
 }
 
-.md-typeset .kb-briefing-nav a:focus-visible {
+.md-typeset .kb-briefing a:focus-visible {
   outline: 2px solid var(--brief-accent);
-  outline-offset: 3px;
+  outline-offset: 4px;
 }
 
-/* 긴 글은 한 열로 읽고, 짧은 심리 지표만 두 열로 비교한다. */
+/* 지표는 색 카드 대신 하나의 통계판으로 구성한다. */
 .md-typeset .kb-briefing .kb-portfolio-metrics {
+  display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin: 1.5rem 0;
+  gap: 0;
+  margin: 1.8rem 0;
+  border: 0;
+  border-top: 1px solid var(--brief-rule);
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .md-typeset .kb-briefing .kb-portfolio-metric-card {
   min-width: 0;
-  padding: 1.1rem;
-  border-color: var(--brief-line);
-  background: var(--brief-soft);
+  padding: 1.3rem 1.25rem;
+  border: 0;
+  border-bottom: 1px solid var(--brief-rule);
+  border-radius: 0;
+  background: transparent;
+}
+
+.md-typeset .kb-briefing .kb-portfolio-metric-card:nth-child(odd) {
+  padding-left: 0;
+  border-right: 1px solid var(--brief-rule);
+}
+
+.md-typeset .kb-briefing .kb-portfolio-metric-card:nth-child(even) {
+  padding-right: 0;
+}
+
+.md-typeset .kb-briefing .kb-portfolio-metric-card .label,
+.md-typeset .kb-briefing .kb-portfolio-metric-card .sub {
+  color: var(--brief-muted);
+  line-height: 1.7;
 }
 
 .md-typeset .kb-briefing .kb-portfolio-metric-card .value {
+  margin: 0.45rem 0;
+  color: var(--brief-ink);
   font-size: 1.12rem;
-  line-height: 1.5;
-  color: var(--brief-accent);
-}
-
-/* 첫 카드는 종합 지수의 위치를 강조한다. 공포·탐욕의 의미색은 차트에 유지한다. */
-.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child {
-  background: var(--brief-hero);
-  border-color: var(--brief-hero);
+  font-weight: 650;
+  line-height: 1.55;
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums;
 }
 
 .md-typeset .kb-briefing .kb-portfolio-metric-card:first-child .value {
-  color: var(--brief-hero-text);
+  color: var(--brief-accent);
+  font-size: 1.4rem;
 }
 
-.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child .label,
-.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child .sub {
-  color: var(--brief-hero-muted);
-}
-
+/* 원문 사례만 가는 테두리로 묶고, 바깥 주제에는 상자를 겹치지 않는다. */
 .md-typeset .kb-briefing .kb-feed {
   gap: 1rem;
   margin: 1rem 0 1.8rem;
 }
 
 .md-typeset .kb-briefing .kb-post {
-  padding: 1.2rem 1.3rem;
-  border-color: var(--kb-border-strong);
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--brief-rule);
+  border-radius: 4px;
+  background: transparent;
 }
 
 .md-typeset .kb-briefing .kb-post__title {
   margin: 0 0 0.6rem;
+  color: var(--brief-ink);
   font-size: 0.94rem;
-  font-weight: 700;
+  font-weight: 650;
   line-height: 1.65;
-  color: var(--brief-accent);
-}
-
-.md-typeset .kb-briefing .kb-chip {
-  color: var(--brief-accent);
-  background: var(--brief-soft);
-  border-color: var(--brief-line);
 }
 
 .md-typeset .kb-briefing .kb-post__meta {
-  padding-bottom: 0.8rem;
-  margin-bottom: 0.9rem;
-  border-bottom: 1px solid var(--kb-border);
-  gap: 0.4rem 0.65rem;
-  font-size: 0.7rem;
+  gap: 0.35rem 0.7rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+  color: var(--brief-muted);
+  font-size: 0.68rem;
+}
+
+.md-typeset .kb-briefing .kb-chip {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--brief-accent);
+  font-weight: 500;
 }
 
 .md-typeset .kb-briefing .kb-post p:not(.kb-post__title),
@@ -255,23 +253,25 @@
   line-height: 1.9;
 }
 
-/* 인용 반응은 본문 주장과 시각적으로 분리한다. */
+/* 인용과 댓글은 들여쓰기와 얇은 세로선으로 구분한다. */
 .md-typeset .kb-briefing .kb-reactions,
 .md-typeset .kb-briefing blockquote {
-  margin: 1rem 0;
-  padding: 0.9rem 1rem;
-  border: 1px solid var(--brief-discussion-line);
-  border-radius: var(--kb-radius-md);
-  background: var(--brief-discussion-soft);
+  margin: 1.2rem 0;
+  padding: 0.1rem 0 0.1rem 1rem;
+  border: 0;
+  border-left: 2px solid var(--brief-rule);
+  border-radius: 0;
+  background: transparent;
   color: var(--kb-text);
 }
 
-.md-typeset .kb-briefing .kb-reactions .kb-reactions__label {
+.md-typeset .kb-briefing .kb-reactions p.kb-reactions__label {
   margin: 0 0 0.6rem;
+  color: var(--brief-muted);
   font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: var(--brief-discussion);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .md-typeset .kb-briefing .kb-reactions > :last-child,
@@ -279,110 +279,126 @@
   margin-bottom: 0;
 }
 
-/* 종목의 상태·전망·행동은 행 제목과 충분한 간격으로 분리한다. */
 .md-typeset .kb-briefing .kb-point {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
+  border-bottom-color: var(--brief-rule);
 }
 
 .md-typeset .kb-briefing .kb-points--grid .kb-point {
   grid-template-columns: 5.6rem minmax(0, 1fr);
-  column-gap: 1.2rem;
+  column-gap: 1.5rem;
 }
 
 .md-typeset .kb-briefing .kb-point__label,
 .md-typeset .kb-briefing .kb-points--grid .kb-point > .kb-point__label {
-  font-size: 0.76rem;
-  font-weight: 700;
-  color: var(--kb-text-strong);
+  color: var(--brief-muted);
+  font-size: 0.74rem;
+  font-weight: 500;
 }
 
-.md-typeset .kb-briefing .kb-point > p:not(.kb-point__label):first-of-type {
-  margin-top: 0;
-}
-
+/* 신뢰도는 기존 의미색 라벨로 표현하고 검증 내용은 정렬로 분리한다. */
 .md-typeset .kb-briefing .kb-rumor {
   margin: 1rem 0;
-  border-color: var(--brief-caution-line);
+  border: 1px solid var(--brief-rule);
+  border-radius: 4px;
+  background: transparent;
 }
 
 .md-typeset .kb-briefing .kb-rumor__head {
   padding: 0.9rem 1.1rem;
-  font-size: 0.74rem;
-  color: var(--brief-caution);
-  background: var(--brief-caution-soft);
-  border-color: var(--brief-caution-line);
+  border-color: var(--brief-rule);
+  background: transparent;
+  color: var(--brief-muted);
+  font-size: 0.7rem;
 }
 
 .md-typeset .kb-briefing .kb-rumor__row {
   grid-template-columns: 5.6rem minmax(0, 1fr);
   padding: 1rem 1.1rem;
+  border-color: var(--brief-rule);
 }
 
 .md-typeset .kb-briefing .kb-rumor__label {
+  color: var(--brief-muted);
   font-size: 0.74rem;
 }
 
+.md-typeset .kb-briefing .kb-rumor__row--key {
+  background: transparent;
+}
+
+.md-typeset .kb-briefing .kb-rumor__row--key .kb-rumor__label {
+  color: var(--brief-accent);
+  font-weight: 600;
+}
+
+/* 표는 면 채색 없이 헤더의 굵기와 수평선으로 읽는다. */
 .md-typeset .kb-briefing .md-typeset__scrollwrap {
   max-width: 100%;
   margin: 1rem 0;
 }
 
 .md-typeset .kb-briefing table:not([class]) {
+  border: 0;
+  border-top: 1px solid var(--brief-ink);
+  border-bottom: 1px solid var(--brief-rule);
+  border-radius: 0;
+  background: transparent;
   font-size: 0.74rem;
   line-height: 1.75;
 }
 
 .md-typeset .kb-briefing table:not([class]) th,
 .md-typeset .kb-briefing table:not([class]) td {
-  padding: 0.8rem 0.9rem;
   min-width: 5rem;
-}
-
-.md-typeset .kb-briefing table:not([class]) tbody tr:nth-child(even) {
-  background: var(--brief-surface);
+  padding: 0.85rem 0.9rem;
+  border-bottom-color: var(--brief-rule);
 }
 
 .md-typeset .kb-briefing table:not([class]) th {
-  background: var(--brief-soft);
-  color: var(--brief-accent);
-  border-bottom-color: var(--brief-line);
+  background: transparent;
+  color: var(--brief-ink);
+  font-weight: 650;
 }
 
-.md-typeset .kb-briefing .kb-rumor[data-trust="high"] {
-  border-color: var(--brief-verified-line);
+.md-typeset .kb-briefing table:not([class]) tr,
+.md-typeset .kb-briefing table:not([class]) tbody tr:hover {
+  background: transparent;
 }
 
-.md-typeset .kb-briefing .kb-rumor[data-trust="high"] .kb-rumor__head {
-  color: var(--brief-verified);
-  background: var(--brief-verified-soft);
-  border-color: var(--brief-verified-line);
+.md-typeset .kb-briefing .kb-heading-detail {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--brief-muted);
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: -0.01em;
 }
 
-.md-typeset .kb-briefing .kb-rumor__row--key {
-  background: var(--brief-soft);
-}
-
-.md-typeset .kb-briefing .kb-rumor__row--key .kb-rumor__label {
-  color: var(--brief-accent);
+.md-typeset .kb-briefing > h1 .kb-heading-detail {
+  margin-top: 0.85rem;
+  color: var(--brief-muted);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.85;
+  letter-spacing: -0.02em;
 }
 
 @media screen and (max-width: 45em) {
   .md-typeset .kb-briefing-section {
-    margin: 2.4rem 0;
+    margin: 2.8rem 0;
   }
 
   .md-typeset .kb-briefing-section > h2 {
-    font-size: 1.14rem;
+    font-size: 1.2rem;
   }
 
   .md-typeset .kb-briefing-topic {
-    padding: 1rem 0.85rem;
-    margin: 1.3rem 0;
+    margin: 2rem 0;
   }
 
-  .md-typeset .kb-briefing .kb-post,
-  .md-typeset .kb-briefing-nav {
+  .md-typeset .kb-briefing .kb-post {
     padding: 1rem 0.85rem;
   }
 
@@ -393,6 +409,11 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
+  .md-typeset .kb-briefing .kb-portfolio-metric-card:nth-child(n) {
+    padding: 1.1rem 0;
+    border-right: 0;
+  }
+
   .md-typeset .kb-briefing .kb-point > .kb-point__label {
     margin-bottom: 0.5rem;
   }
@@ -401,10 +422,6 @@
     gap: 0.6rem;
     padding: 0.9rem;
   }
-
-  .md-typeset .kb-briefing .kb-reactions {
-    padding: 0.75rem;
-  }
 }
 
 @media print {
@@ -412,39 +429,9 @@
     display: none;
   }
 
-  .md-typeset .kb-briefing-topic,
-  .md-typeset .kb-briefing .kb-post,
-  .md-typeset .kb-briefing .kb-rumor {
-    box-shadow: none;
-    background: transparent;
-  }
-
   .md-typeset .kb-briefing h2,
   .md-typeset .kb-briefing h3,
   .md-typeset .kb-briefing h4 {
     break-after: avoid;
   }
-}
-
-/* 긴 제목의 부연과 종목별 언급 수는 본 제목 아래 보조 정보로 표시한다. */
-.md-typeset .kb-briefing .kb-heading-detail {
-  display: block;
-  margin-top: 0.35rem;
-  font-size: 0.78rem;
-  font-weight: 500;
-  line-height: 1.75;
-  letter-spacing: -0.01em;
-  color: var(--kb-text-muted);
-}
-
-.md-typeset .kb-briefing > h1 .kb-heading-detail {
-  margin-top: 0.7rem;
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: var(--kb-text);
-}
-
-.md-typeset .kb-briefing .kb-reactions p.kb-reactions__label {
-  font-size: 0.68rem;
-  line-height: 1.5;
 }
