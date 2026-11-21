@@ -1,10 +1,46 @@
 /* X·블라인드 전용 읽기 화면. 본문 외의 사이트 구성에는 적용하지 않는다. */
 .md-typeset .kb-briefing {
+  /* 구조는 남겨 두고 색으로 정보의 역할을 구분한다. */
+  --brief-accent: #244a78;
+  --brief-soft: #eef4fc;
+  --brief-line: #cbd9ed;
+  --brief-surface: #f7f9fc;
+  --brief-hero: #203b60;
+  --brief-hero-text: #f4f8ff;
+  --brief-hero-muted: #cad9ed;
+  --brief-discussion: #76508e;
+  --brief-discussion-soft: #f6f0fa;
+  --brief-discussion-line: #decee9;
+  --brief-caution: #85500b;
+  --brief-caution-soft: #fff7e6;
+  --brief-caution-line: #ebd5ad;
+  --brief-verified: #216750;
+  --brief-verified-soft: #eef8f3;
+  --brief-verified-line: #bcdccd;
   min-width: 0;
   color: var(--kb-text);
   font-size: 0.84rem;
   line-height: 1.9;
   overflow-wrap: anywhere;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .kb-briefing {
+  --brief-accent: #adcfff;
+  --brief-soft: #18283e;
+  --brief-line: #344967;
+  --brief-surface: #191e27;
+  --brief-hero: #233f65;
+  --brief-hero-text: #f4f8ff;
+  --brief-hero-muted: #cad9ed;
+  --brief-discussion: #d6b5ed;
+  --brief-discussion-soft: #2c2236;
+  --brief-discussion-line: #51405e;
+  --brief-caution: #f1c580;
+  --brief-caution-soft: #302719;
+  --brief-caution-line: #605035;
+  --brief-verified: #9edbc1;
+  --brief-verified-soft: #192e27;
+  --brief-verified-line: #36584a;
 }
 
 .md-typeset .kb-briefing > h1 {
@@ -14,6 +50,7 @@
   line-height: 1.5;
   letter-spacing: -0.04em;
   text-wrap: pretty;
+  color: var(--brief-accent);
 }
 
 .md-typeset .kb-briefing p {
@@ -24,9 +61,9 @@
 /* 수집 정보는 본문과 분리한 작은 발행 정보판으로 표시한다. */
 .md-typeset .kb-briefing > .kb-points {
   padding: 0.35rem 1.15rem;
-  border: 1px solid var(--kb-border);
+  border: 1px solid var(--brief-line);
   border-radius: var(--kb-radius-lg);
-  background: var(--kb-bg-subtle);
+  background: var(--brief-soft);
   font-size: 0.73rem;
 }
 
@@ -42,9 +79,12 @@
 
 .md-typeset .kb-briefing-section > h2 {
   margin: 0 0 1.5rem;
-  padding: 1rem 0 0.9rem;
-  border-top: 3px solid var(--kb-text-strong);
-  border-bottom: 1px solid var(--kb-border-strong);
+  padding: 1rem 1.1rem;
+  border-top: 3px solid var(--brief-accent);
+  border-bottom: 1px solid var(--brief-line);
+  border-radius: 0 0 var(--kb-radius-md) var(--kb-radius-md);
+  background: var(--brief-soft);
+  color: var(--brief-accent);
   font-size: 1.3rem;
   line-height: 1.55;
   font-weight: 750;
@@ -61,16 +101,17 @@
 .md-typeset .kb-briefing-topic {
   margin: 1.6rem 0;
   padding: 1.3rem 1.4rem;
-  border: 1px solid var(--kb-border-strong);
+  border: 1px solid var(--brief-line);
   border-radius: var(--kb-radius-lg);
-  background: var(--kb-bg-subtle);
+  background: var(--brief-surface);
   min-width: 0;
 }
 
 .md-typeset .kb-briefing-topic > h3 {
   margin: 0 0 1.15rem;
   padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--kb-border-strong);
+  border-bottom: 1px solid var(--brief-line);
+  color: var(--brief-accent);
   font-size: 1.04rem;
   font-weight: 750;
   line-height: 1.65;
@@ -93,15 +134,15 @@
 .md-typeset .kb-briefing-nav {
   margin: 2rem 0 3rem;
   padding: 1.2rem 1.3rem;
-  background: var(--kb-bg-subtle);
-  border: 1px solid var(--kb-border-strong);
+  background: var(--brief-soft);
+  border: 1px solid var(--brief-line);
   border-radius: var(--kb-radius-lg);
 }
 
 .md-typeset .kb-briefing-nav > p {
   margin: 0 0 0.8rem;
   font-size: 0.76rem;
-  color: var(--kb-text-muted);
+  color: var(--brief-accent);
 }
 
 .md-typeset .kb-briefing-nav ul {
@@ -121,10 +162,10 @@
   display: block;
   height: 100%;
   padding: 0.65rem 0.8rem;
-  border: 1px solid var(--kb-border);
+  border: 1px solid var(--brief-line);
   border-radius: var(--kb-radius-md);
   background: var(--kb-bg);
-  color: var(--kb-text-strong);
+  color: var(--brief-accent);
   font-size: 0.76rem;
   font-weight: 600;
   line-height: 1.6;
@@ -132,12 +173,12 @@
 }
 
 .md-typeset .kb-briefing-nav a:hover {
-  border-color: var(--kb-text-muted);
-  background: var(--kb-hover);
+  border-color: var(--brief-accent);
+  background: var(--brief-soft);
 }
 
 .md-typeset .kb-briefing-nav a:focus-visible {
-  outline: 2px solid var(--kb-text-strong);
+  outline: 2px solid var(--brief-accent);
   outline-offset: 3px;
 }
 
@@ -151,11 +192,29 @@
 .md-typeset .kb-briefing .kb-portfolio-metric-card {
   min-width: 0;
   padding: 1.1rem;
+  border-color: var(--brief-line);
+  background: var(--brief-soft);
 }
 
 .md-typeset .kb-briefing .kb-portfolio-metric-card .value {
   font-size: 1.12rem;
   line-height: 1.5;
+  color: var(--brief-accent);
+}
+
+/* 첫 카드는 종합 지수의 위치를 강조한다. 공포·탐욕의 의미색은 차트에 유지한다. */
+.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child {
+  background: var(--brief-hero);
+  border-color: var(--brief-hero);
+}
+
+.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child .value {
+  color: var(--brief-hero-text);
+}
+
+.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child .label,
+.md-typeset .kb-briefing .kb-portfolio-metric-card:first-child .sub {
+  color: var(--brief-hero-muted);
 }
 
 .md-typeset .kb-briefing .kb-feed {
@@ -173,7 +232,13 @@
   font-size: 0.94rem;
   font-weight: 700;
   line-height: 1.65;
-  color: var(--kb-text-strong);
+  color: var(--brief-accent);
+}
+
+.md-typeset .kb-briefing .kb-chip {
+  color: var(--brief-accent);
+  background: var(--brief-soft);
+  border-color: var(--brief-line);
 }
 
 .md-typeset .kb-briefing .kb-post__meta {
@@ -195,9 +260,9 @@
 .md-typeset .kb-briefing blockquote {
   margin: 1rem 0;
   padding: 0.9rem 1rem;
-  border: 1px solid var(--kb-border-strong);
+  border: 1px solid var(--brief-discussion-line);
   border-radius: var(--kb-radius-md);
-  background: var(--kb-bg-subtle);
+  background: var(--brief-discussion-soft);
   color: var(--kb-text);
 }
 
@@ -206,7 +271,7 @@
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: var(--kb-text-muted);
+  color: var(--brief-discussion);
 }
 
 .md-typeset .kb-briefing .kb-reactions > :last-child,
@@ -238,12 +303,15 @@
 
 .md-typeset .kb-briefing .kb-rumor {
   margin: 1rem 0;
-  border-color: var(--kb-border-strong);
+  border-color: var(--brief-caution-line);
 }
 
 .md-typeset .kb-briefing .kb-rumor__head {
   padding: 0.9rem 1.1rem;
   font-size: 0.74rem;
+  color: var(--brief-caution);
+  background: var(--brief-caution-soft);
+  border-color: var(--brief-caution-line);
 }
 
 .md-typeset .kb-briefing .kb-rumor__row {
@@ -272,7 +340,31 @@
 }
 
 .md-typeset .kb-briefing table:not([class]) tbody tr:nth-child(even) {
-  background: var(--kb-bg-subtle);
+  background: var(--brief-surface);
+}
+
+.md-typeset .kb-briefing table:not([class]) th {
+  background: var(--brief-soft);
+  color: var(--brief-accent);
+  border-bottom-color: var(--brief-line);
+}
+
+.md-typeset .kb-briefing .kb-rumor[data-trust="high"] {
+  border-color: var(--brief-verified-line);
+}
+
+.md-typeset .kb-briefing .kb-rumor[data-trust="high"] .kb-rumor__head {
+  color: var(--brief-verified);
+  background: var(--brief-verified-soft);
+  border-color: var(--brief-verified-line);
+}
+
+.md-typeset .kb-briefing .kb-rumor__row--key {
+  background: var(--brief-soft);
+}
+
+.md-typeset .kb-briefing .kb-rumor__row--key .kb-rumor__label {
+  color: var(--brief-accent);
 }
 
 @media screen and (max-width: 45em) {
