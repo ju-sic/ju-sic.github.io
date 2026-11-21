@@ -71,6 +71,7 @@ extra_css:
   # Pretendard Variable — 동적 서브셋(unicode-range 분할)이라 필요한 글자만 내려받음
   - https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css
   - stylesheets/extra.css
+  - stylesheets/community.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
