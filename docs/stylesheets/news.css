@@ -1,0 +1,690 @@
+/* 하루치 뉴스정리 전용 스타일시트: AI Slop 배제 · 에디토리얼 가독성 · 모바일 퍼스트 */
+.md-typeset .kb-news {
+  --n-ink: #17191c;
+  --n-muted: #5a6069;
+  --n-surface: #ffffff;
+  --n-hero-bg: #f4f4f5;
+  --n-hero-border: rgba(13, 13, 13, 0.08);
+  --n-hero-ink: #0d0d0d;
+  --n-hero-muted: #6b7280;
+  --n-pill-bg: #0d0d0d;
+  --n-pill-fg: #ffffff;
+  --n-bear: #dc2626;
+  --n-bear-soft: rgba(220, 38, 38, 0.08);
+  --n-bull: #15803d;
+  --n-bull-soft: rgba(21, 128, 61, 0.08);
+  --n-bond: #1d4ed8;
+  --n-caution: #ea580c;
+  --n-mark: rgba(250, 204, 21, 0.38);
+  min-width: 0;
+  container-type: inline-size;
+  color: var(--n-ink);
+  font-size: clamp(0.86rem, 0.81rem + 0.25vw, 0.96rem);
+  line-height: 1.78;
+  overflow-wrap: anywhere;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .kb-news {
+  --n-ink: #f0f2f5;
+  --n-muted: #9ca3af;
+  --n-surface: #1b1d22;
+  --n-hero-bg: #1e2026;
+  --n-hero-border: rgba(255, 255, 255, 0.09);
+  --n-hero-ink: #f7f7f8;
+  --n-hero-muted: #9ca3af;
+  --n-pill-bg: #f7f7f8;
+  --n-pill-fg: #0d0d0d;
+  --n-bear: #f87171;
+  --n-bear-soft: rgba(248, 113, 113, 0.12);
+  --n-bull: #4ade80;
+  --n-bull-soft: rgba(74, 222, 128, 0.12);
+  --n-bond: #60a5fa;
+  --n-caution: #fb923c;
+  --n-mark: rgba(250, 204, 21, 0.24);
+}
+
+.md-typeset .kb-news > * {
+  min-width: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 1. 히어로 카드 & 핵심 지표 4종 KPI 스트립                                  */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-news .n-hero {
+  margin: 0 0 1rem;
+  padding: clamp(1.65rem, 1.25rem + 1.6vw, 2.45rem) clamp(1.25rem, 0.95rem + 1.5vw, 2.2rem);
+  border: 1px solid var(--n-hero-border);
+  border-radius: 16px;
+  background: var(--n-hero-bg);
+}
+
+.md-typeset .kb-news .n-hero__date {
+  display: block;
+  margin: 0 0 0.75rem;
+  color: var(--n-hero-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-news .n-hero h1 {
+  margin: 0 0 1.2rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--n-hero-ink);
+  font-size: clamp(1.5rem, 1.15rem + 1.6vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.md-typeset .kb-news .n-hero__tape {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  margin: 0;
+  color: var(--n-hero-muted);
+  font-size: 0.77rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-news .n-hero__tape strong {
+  color: var(--n-hero-ink);
+  font-weight: 600;
+}
+
+.md-typeset .kb-news .n-tape--bear { color: var(--n-bear); font-weight: 600; }
+.md-typeset .kb-news .n-tape--bond { color: var(--n-bond); font-weight: 600; }
+
+.md-typeset .kb-news .n-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.35rem;
+}
+
+.md-typeset .kb-news .n-kpi {
+  padding: 0.9rem 1.05rem;
+  border: 1px solid var(--n-hero-border);
+  border-radius: 12px;
+  background: var(--n-surface);
+}
+
+.md-typeset .kb-news .n-kpi__label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--n-hero-muted);
+  font-size: 0.73rem;
+  font-weight: 600;
+}
+
+.md-typeset .kb-news .n-kpi__val {
+  display: block;
+  color: var(--n-hero-ink);
+  font-size: clamp(1.22rem, 1.05rem + 0.7vw, 1.52rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-news .n-kpi__val--bear { color: var(--n-bear); }
+.md-typeset .kb-news .n-kpi__val--bond { color: var(--n-bond); }
+
+.md-typeset .kb-news .n-kpi__note {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--n-muted);
+  font-size: 0.73rem;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+  word-break: keep-all;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 2. 에디토리얼 본문 · 헤딩 · 표 · 인용구                                    */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-news > p {
+  margin: 0 0 1.15rem;
+  color: var(--n-ink);
+  line-height: 1.8;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news > p strong {
+  color: var(--n-hero-ink);
+  font-weight: 700;
+}
+
+.md-typeset .kb-news mark.n-hl {
+  color: var(--n-hero-ink);
+  font-weight: 600;
+  padding: 0 0.14em;
+  border-radius: 2px;
+  background: transparent linear-gradient(transparent 62%, var(--n-mark) 62%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.md-typeset .kb-news > ul {
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.md-typeset .kb-news > ul > li {
+  position: relative;
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--n-ink);
+  font-size: 0.87rem;
+  line-height: 1.72;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news > ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--n-hero-muted);
+}
+
+.md-typeset .kb-news > ul > li strong {
+  color: var(--n-hero-ink);
+  font-weight: 700;
+}
+
+.md-typeset .kb-news > h2 {
+  margin: 2.35rem 0 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1.5px solid var(--n-hero-ink);
+  color: var(--n-hero-ink);
+  font-size: clamp(1.12rem, 0.98rem + 0.6vw, 1.4rem);
+  font-weight: 750;
+  line-height: 1.38;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset .kb-news > hr {
+  margin: 2.2rem 0;
+  border: 0;
+  border-top: 1px solid var(--n-hero-border);
+}
+
+.md-typeset .kb-news .md-typeset__scrollwrap {
+  margin: 1rem 0 1.4rem;
+}
+
+.md-typeset .kb-news .md-typeset__table {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.md-typeset .kb-news table:not([class]) {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--n-hero-border);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.81rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-news table:not([class]) th {
+  padding: 0.68rem 1rem;
+  background-color: var(--n-hero-bg);
+  color: var(--n-hero-ink);
+  font-weight: 700;
+  border-bottom: 1px solid var(--n-hero-border);
+}
+
+.md-typeset .kb-news table:not([class]) td {
+  padding: 0.72rem 1rem;
+  color: var(--n-ink);
+  line-height: 1.62;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news .n-quote {
+  margin: 1.35rem 0;
+  border: 1px solid var(--n-hero-border);
+  border-radius: 14px;
+  background: var(--n-surface);
+  overflow: hidden;
+}
+
+.md-typeset .kb-news .n-quote__head {
+  padding: 0.78rem 1.25rem;
+  border-bottom: 1px solid var(--n-hero-border);
+  background: var(--n-hero-bg);
+  color: var(--n-hero-ink);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.md-typeset .kb-news .n-quote__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .kb-news .n-quote__item {
+  margin: 0;
+  padding: 0.9rem 1.25rem;
+}
+
+.md-typeset .kb-news .n-quote__item + .n-quote__item {
+  border-top: 1px solid var(--n-hero-border);
+}
+
+.md-typeset .kb-news .n-quote__who {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.md-typeset .kb-news .n-quote__who strong {
+  color: var(--n-hero-ink);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.md-typeset .kb-news .n-quote__who span {
+  color: var(--n-hero-muted);
+  font-size: 0.74rem;
+  font-weight: 500;
+}
+
+.md-typeset .kb-news .n-quote__item p {
+  margin: 0;
+  color: var(--n-ink);
+  font-size: 0.84rem;
+  line-height: 1.68;
+  word-break: keep-all;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 3. 시장 4대 착시 2x2 검증 그리드                                           */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-news .n-illusion-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.95rem;
+  margin: 1rem 0 0;
+}
+
+.md-typeset .kb-news .n-illusion {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--n-hero-border);
+  border-radius: 14px;
+  background: var(--n-surface);
+  overflow: hidden;
+}
+
+.md-typeset .kb-news .n-illusion__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.38rem;
+  padding: 0.9rem 1.2rem;
+  border-bottom: 1px solid var(--n-hero-border);
+  background: var(--n-hero-bg);
+}
+
+.md-typeset .kb-news .n-illusion__tag {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 0.12rem 0.52rem;
+  border: 1px solid color-mix(in srgb, currentColor 45%, transparent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--n-bear);
+  font-size: 0.71rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.md-typeset .kb-news .n-illusion__head h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--n-hero-ink);
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news .n-illusion__body {
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 1rem 1.2rem 1.1rem;
+  color: var(--n-ink);
+  font-size: 0.84rem;
+  line-height: 1.7;
+  word-break: keep-all;
+}
+
+/* 착시 카드 개조식 본문: 빨간 점 불릿 */
+.md-typeset .kb-news .n-illusion__list {
+  flex: 1 1 auto;
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 1rem 1.2rem 1.1rem;
+  list-style: none;
+}
+
+.md-typeset .kb-news .n-illusion__list li {
+  position: relative;
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--n-ink);
+  font-size: 0.84rem;
+  line-height: 1.66;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news .n-illusion__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--n-hero-muted);
+}
+
+/* 교정 박스: 무채색 바탕 + 작은 초록 태그만 강조(민심 리포트의 색 절제 문법) */
+.md-typeset .kb-news .n-illusion__fix {
+  padding: 0.8rem 1.2rem 0.95rem;
+  border-top: 1px solid var(--n-hero-border);
+  background: var(--n-hero-bg);
+}
+
+.md-typeset .kb-news .n-illusion__fix-label {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.35rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid color-mix(in srgb, currentColor 45%, transparent);
+  border-radius: 6px;
+  color: var(--n-bull);
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.md-typeset .kb-news .n-illusion__fix p {
+  margin: 0;
+  color: var(--n-hero-ink);
+  font-size: 0.81rem;
+  font-weight: 600;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 4. 기관 자금 이동 3종 세로 카드                                            */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-news .n-flow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem 0 0;
+}
+
+.md-typeset .kb-news .n-flow__item {
+  border: 1px solid var(--n-hero-border);
+  border-radius: 14px;
+  background: var(--n-surface);
+  overflow: hidden;
+}
+
+.md-typeset .kb-news .n-flow__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  padding: 0.95rem 1.35rem;
+  border-bottom: 1px solid var(--n-hero-border);
+  background: var(--n-hero-bg);
+}
+
+.md-typeset .kb-news .n-flow__title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.md-typeset .kb-news .n-flow__tag {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 0.12rem 0.52rem;
+  border: 1px solid color-mix(in srgb, currentColor 45%, transparent);
+  border-radius: 6px;
+  background: transparent;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.md-typeset .kb-news .n-flow__tag--sec { color: var(--n-bond); }
+.md-typeset .kb-news .n-flow__tag--grid { color: var(--n-bull); }
+.md-typeset .kb-news .n-flow__tag--cash { color: var(--n-caution); }
+
+.md-typeset .kb-news .n-flow__item h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--n-hero-ink);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset .kb-news .n-flow__meta {
+  color: var(--n-hero-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-news .n-flow__list {
+  margin: 0;
+  padding: 1.1rem 1.35rem 1.25rem;
+  list-style: none;
+  display: grid;
+  gap: 0.68rem;
+}
+
+.md-typeset .kb-news .n-flow__list li {
+  position: relative;
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--n-ink);
+  font-size: 0.87rem;
+  line-height: 1.72;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news .n-flow__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--n-hero-muted);
+}
+
+.md-typeset .kb-news .n-flow__list strong {
+  color: var(--n-hero-ink);
+  font-weight: 700;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5. 번호형 행동 지침 & 핵심 결론 카드                                       */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-news .n-actions {
+  margin: 1rem 0 1rem;
+  padding: 0;
+  list-style: none;
+  border: 1px solid var(--n-hero-border);
+  border-radius: 14px;
+  background: var(--n-surface);
+  overflow: hidden;
+}
+
+.md-typeset .kb-news .n-action {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: start;
+  margin: 0;
+  padding: 1rem 1.3rem;
+}
+
+.md-typeset .kb-news .n-action + .n-action {
+  border-top: 1px solid var(--n-hero-border);
+}
+
+.md-typeset .kb-news .n-action__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-top: 0.1rem;
+  border-radius: 6px;
+  background: var(--n-pill-bg);
+  color: var(--n-pill-fg);
+  font-size: 0.76rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-news .n-action__body strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--n-hero-ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.42;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news .n-action__body p {
+  margin: 0;
+  color: var(--n-ink);
+  font-size: 0.84rem;
+  line-height: 1.68;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-news .n-takeaway {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.85rem;
+  padding: 1.05rem 1.3rem;
+  border: 1px solid var(--n-hero-border);
+  border-radius: 12px;
+  background: var(--n-hero-bg);
+}
+
+.md-typeset .kb-news .n-takeaway__label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.16rem 0.55rem;
+  border-radius: 6px;
+  background: var(--n-pill-bg);
+  color: var(--n-pill-fg);
+  font-size: 0.72rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.md-typeset .kb-news .n-takeaway p {
+  flex: 1 1 260px;
+  margin: 0;
+  color: var(--n-hero-ink);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.7;
+  word-break: keep-all;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 6. 모니터링 표: 행 구분선 + 안도·위험 헤더 글자색만 표시                   */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-news .n-watch table:not([class]) th:nth-child(2) { color: var(--n-bull); }
+.md-typeset .kb-news .n-watch table:not([class]) th:nth-child(3) { color: var(--n-bear); }
+
+.md-typeset .kb-news .n-watch table:not([class]) tr + tr td {
+  border-top: 1px solid var(--n-hero-border);
+}
+
+@container (min-width: 640px) {
+  .md-typeset .kb-news .n-kpi-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md-typeset .kb-news .n-illusion-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .md-typeset .kb-news .n-hero {
+    padding: 1.3rem 1.15rem;
+    border-radius: 12px;
+  }
+
+  .md-typeset .kb-news .n-kpi {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .md-typeset .kb-news .n-takeaway {
+    padding: 0.95rem 1.05rem;
+  }
+
+  .md-typeset .kb-news .n-quote__head,
+  .md-typeset .kb-news .n-quote__item,
+  .md-typeset .kb-news .n-illusion__head,
+  .md-typeset .kb-news .n-illusion__body,
+  .md-typeset .kb-news .n-illusion__list,
+  .md-typeset .kb-news .n-illusion__fix,
+  .md-typeset .kb-news .n-flow__head,
+  .md-typeset .kb-news .n-flow__list,
+  .md-typeset .kb-news .n-action {
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+  }
+}

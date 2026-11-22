@@ -72,6 +72,10 @@ extra_css:
   - https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css
   - stylesheets/extra.css
   - stylesheets/community.css
+  - stylesheets/sentiment.css
+  - stylesheets/news.css
+  - stylesheets/rumors.css
+  - stylesheets/stocks.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
@@ -308,35 +312,10 @@ nav:
               - "반도체 조정 국면과 대안 섹터 투자 전략": questions/2026/09/semiconductor-vs-other-sectors.md
           - 08월:
               - "브로드컴(AVGO) 비중 확대 및 분할 매수 전략": questions/2026/08/broadcom-position-strategy.md
-  - 블라인드 민심:
+  - 인터넷 민심:
       - 2026년:
           - 11월:
-              - "22(일)": blind/2026/11/22.md
-              - "21(토)": blind/2026/11/21.md
-              - "20(금)": blind/2026/11/20.md
-              - "19(목)": blind/2026/11/19.md
-              - "10(화)": blind/2026/11/10.md
-              - "08(일)": blind/2026/11/08.md
-              - "07(토)": blind/2026/11/07.md
-          - 10월:
-              - "30(금)": blind/2026/10/30.md
-              - "29(목)": blind/2026/10/29.md
-              - "24(토)": blind/2026/10/24.md
-              - "22(목)": blind/2026/10/22.md
-              - "21(수)": blind/2026/10/21.md
-              - "19(월)": blind/2026/10/19.md
-              - "18(일)": blind/2026/10/18.md
-      - 추세분석:
-          - "2026년 10월 3주차 (10.18~10.24)": blind/trend/2026-10-18-to-24.md
-  - X.com:
-      - 2026년:
-          - 11월:
-              - "22(일)": x/2026/11/22.md
-              - "21(토)": x/2026/11/21.md
-  - 스레드:
-      - 2026년:
-          - 11월:
-              - "22(일)": threads/2026/11/22.md
+              - "22(일)": sentiment/2026/11/22.md
   - 찌라시:
       - 2026년:
           - 11월:

@@ -1,0 +1,411 @@
+/* 개별 종목 리서치 전용 스타일시트: 뉴스·찌라시와 같은 무채색 카드 + 작은 의미색 태그 */
+.md-typeset .kb-stock {
+  --st-ink: #17191c;
+  --st-muted: #5a6069;
+  --st-surface: #ffffff;
+  --st-bg: #f4f4f5;
+  --st-border: rgba(13, 13, 13, 0.08);
+  --st-strong: #0d0d0d;
+  --st-soft: #6b7280;
+  --st-pill-bg: #0d0d0d;
+  --st-pill-fg: #ffffff;
+  --st-bull: #15803d;
+  --st-bear: #dc2626;
+  min-width: 0;
+  container-type: inline-size;
+  color: var(--st-ink);
+  overflow-wrap: anywhere;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .kb-stock {
+  --st-ink: #f0f2f5;
+  --st-muted: #9ca3af;
+  --st-surface: #1b1d22;
+  --st-bg: #1e2026;
+  --st-border: rgba(255, 255, 255, 0.09);
+  --st-strong: #f7f7f8;
+  --st-soft: #9ca3af;
+  --st-pill-bg: #f7f7f8;
+  --st-pill-fg: #0d0d0d;
+  --st-bull: #4ade80;
+  --st-bear: #f87171;
+}
+
+.md-typeset .kb-stock > * {
+  min-width: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 히어로 카드 & 4대 KPI                                                       */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-stock .st-hero {
+  margin: 0 0 1rem;
+  padding: clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem) clamp(1.25rem, 0.95rem + 1.5vw, 2.2rem);
+  border: 1px solid var(--st-border);
+  border-radius: 16px;
+  background: var(--st-bg);
+}
+
+.md-typeset .kb-stock .st-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.7rem;
+  margin: 0 0 0.85rem;
+  color: var(--st-soft);
+  font-size: 0.78rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-stock .st-hero__ticker {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.12rem 0.55rem;
+  border-radius: 6px;
+  background: var(--st-pill-bg);
+  color: var(--st-pill-fg);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset .kb-stock .st-hero h1 {
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+  color: var(--st-strong);
+  font-size: clamp(1.45rem, 1.1rem + 1.6vw, 2.1rem);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.035em;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-stock .st-hero__basis {
+  margin: 0;
+  color: var(--st-soft);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-stock .st-kpis {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 0 0 1.4rem;
+}
+
+.md-typeset .kb-stock .st-kpi {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.95rem 1.05rem;
+  border: 1px solid var(--st-border);
+  border-radius: 12px;
+  background: var(--st-surface);
+}
+
+.md-typeset .kb-stock .st-kpi__label {
+  color: var(--st-soft);
+  font-size: 0.74rem;
+  font-weight: 600;
+}
+
+/* 4열 배치에서 "-18.91%"의 % 기호만 다음 줄로 떨어지지 않도록 줄바꿈을 막고 크기를 맞춘다 */
+.md-typeset .kb-stock .st-kpi__val {
+  color: var(--st-strong);
+  font-size: clamp(1.15rem, 0.98rem + 0.7vw, 1.45rem);
+  white-space: nowrap;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 종목명처럼 글자로 된 값은 줄바꿈이 단어 중간에서 생기지 않도록 한 단계 작게 */
+.md-typeset .kb-stock .st-kpi__val--text {
+  font-size: clamp(1.05rem, 0.95rem + 0.5vw, 1.25rem);
+  white-space: normal;
+  line-height: 1.35;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-stock .st-kpi__val--bear {
+  color: var(--st-bear);
+}
+
+.md-typeset .kb-stock .st-kpi__note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--st-muted);
+  font-size: 0.74rem;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 판정 태그: 색은 이 작은 라벨에만 쓴다 */
+.md-typeset .kb-stock .st-tag {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 0.08rem 0.48rem;
+  border: 1px solid color-mix(in srgb, currentColor 45%, transparent);
+  border-radius: 6px;
+  color: var(--st-soft);
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.md-typeset .kb-stock .st-tag--bull { color: var(--st-bull); }
+.md-typeset .kb-stock .st-tag--bear { color: var(--st-bear); }
+
+/* -------------------------------------------------------------------------- */
+/* 표: 둥근 테두리 · 회색 머리글 · 행 구분선                                     */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-stock .md-typeset__scrollwrap {
+  margin: 1rem 0 1.3rem;
+}
+
+.md-typeset .kb-stock .md-typeset__table {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.md-typeset .kb-stock table:not([class]) {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--st-border);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-stock table:not([class]) th {
+  padding: 0.66rem 0.9rem;
+  border-bottom: 1px solid var(--st-border);
+  background-color: var(--st-bg);
+  color: var(--st-strong);
+  font-weight: 700;
+}
+
+.md-typeset .kb-stock table:not([class]) td {
+  padding: 0.7rem 0.9rem;
+  border-top: 0;
+  color: var(--st-ink);
+  line-height: 1.62;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-stock table:not([class]) tr + tr td {
+  border-top: 1px solid var(--st-border);
+}
+
+/* 래퍼의 overflow-wrap: anywhere 가 셀 최소 폭을 글자 1개로 줄여 첫 열이 글자 단위로 쪼개지는 것을 막는다.
+ * 폭이 모자라면 Material scrollwrap 이 가로 스크롤을 맡는다. */
+.md-typeset .kb-stock table:not([class]) th,
+.md-typeset .kb-stock table:not([class]) td {
+  overflow-wrap: normal;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-stock table:not([class]) th:first-child,
+.md-typeset .kb-stock table:not([class]) td:first-child {
+  min-width: 7.5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 2.2 시장의 의문 카드                                                        */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-stock .st-qa {
+  margin: 1rem 0;
+  padding: 1rem 1.25rem 0.2rem;
+  border: 1px solid var(--st-border);
+  border-radius: 14px;
+  background: var(--st-surface);
+}
+
+.md-typeset .kb-stock .st-qa .st-qa__q {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 0.7rem;
+  margin: -1rem -1.25rem 0.9rem;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid var(--st-border);
+  border-radius: 14px 14px 0 0;
+  background: var(--st-bg);
+  color: var(--st-strong);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-stock .st-qa__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--st-pill-bg);
+  color: var(--st-pill-fg);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.md-typeset .kb-stock .st-qa > p:not(.st-qa__q) {
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 스크리닝 문서 종목 카드: H4 제목 띠 + 불릿 본문                               */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-stock .st-pick {
+  margin: 0.9rem 0;
+  padding: 0 1.25rem 0.15rem;
+  border: 1px solid var(--st-border);
+  border-radius: 14px;
+  background: var(--st-surface);
+  overflow: hidden;
+}
+
+.md-typeset .kb-stock .st-pick > h4 {
+  margin: 0 -1.25rem 0.85rem;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid var(--st-border);
+  background: var(--st-bg);
+  color: var(--st-strong);
+  font-size: 0.93rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.015em;
+  word-break: keep-all;
+}
+
+/* 매수 대상 아님 카드는 제목을 한 단계 낮춰 통과 종목과 구분한다 */
+.md-typeset .kb-stock .st-pick--skip > h4 {
+  color: var(--st-muted);
+}
+
+/* 단 하나의 추천주: 테두리만 진하게 */
+.md-typeset .kb-stock .st-pick--top {
+  padding-top: 0.6rem;
+  border-color: color-mix(in srgb, var(--st-strong) 35%, transparent);
+}
+
+.md-typeset .kb-stock .st-pick ul {
+  margin: 0 0 0.85rem;
+}
+
+.md-typeset .kb-stock .st-pick li {
+  font-size: 0.87rem;
+  line-height: 1.72;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5.3 싼 면 vs 싸지 않은 면                                                   */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-stock .st-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin: 1rem 0 1.3rem;
+}
+
+.md-typeset .kb-stock .st-split__box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1rem 1.2rem 1.05rem;
+  border: 1px solid var(--st-border);
+  border-radius: 14px;
+  background: var(--st-surface);
+}
+
+.md-typeset .kb-stock .st-split__box p {
+  margin: 0;
+  color: var(--st-ink);
+  font-size: 0.86rem;
+  line-height: 1.7;
+  word-break: keep-all;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 최종 핵심 제언                                                             */
+/* -------------------------------------------------------------------------- */
+/* markdown="1" 이 라벨 span 을 별도 <p>로 감싸므로 flex 대신 세로 배치로 둔다 */
+.md-typeset .kb-stock .st-takeaway {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.4rem 0 0.5rem;
+  padding: 1.1rem 1.3rem;
+  border: 1px solid var(--st-border);
+  border-radius: 12px;
+  background: var(--st-bg);
+}
+
+.md-typeset .kb-stock .st-takeaway__label {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0.16rem 0.55rem;
+  border-radius: 6px;
+  background: var(--st-pill-bg);
+  color: var(--st-pill-fg);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.md-typeset .kb-stock .st-takeaway p {
+  margin: 0;
+  color: var(--st-strong);
+  font-size: 0.89rem;
+  font-weight: 600;
+  line-height: 1.72;
+  word-break: keep-all;
+}
+
+@container (min-width: 640px) {
+  .md-typeset .kb-stock .st-kpis {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md-typeset .kb-stock .st-split {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .md-typeset .kb-stock .st-hero {
+    padding: 1.3rem 1.15rem;
+    border-radius: 12px;
+  }
+
+  .md-typeset .kb-stock .st-kpi {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .md-typeset .kb-stock .st-qa {
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+  }
+
+  .md-typeset .kb-stock .st-qa .st-qa__q {
+    margin-left: -1.05rem;
+    margin-right: -1.05rem;
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+  }
+}
