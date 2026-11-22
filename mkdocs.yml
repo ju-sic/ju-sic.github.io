@@ -84,6 +84,8 @@ extra_javascript:
   # vegaEmbed를 감싸 사이트 디자인 토큰으로 만든 차트 테마를 주입한다 (vega-embed 바로 뒤에 둘 것)
   - javascripts/chart-theme.js
   - javascripts/timeline-pagination.js
+  # 종목 차트 링크(highchart-opal)를 새 탭으로 연다
+  - javascripts/chart-links.js
 
 extra:
   # Material 하단 "Made with Material for MkDocs" 문구 유지 여부
