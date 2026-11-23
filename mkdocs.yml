@@ -235,6 +235,7 @@ nav:
   - 종목분석:
       - 2026년:
           - 11월:
+              - "현대차(005380.KS)": stocks/2026/11/hyundai-motor.md
               - "세일즈포스(CRM)": stocks/2026/11/salesforce.md
               - "서비스나우(NOW)": stocks/2026/11/servicenow.md
               - "데이터도그(DDOG)": stocks/2026/11/datadog.md

@@ -13,12 +13,12 @@
 </div>
 <p class="kb-nav-card__desc">일자별 핵심 시장 뉴스 팩트 체크, 금리·매크로 변수 영향도, 시나리오 분석</p>
 </a>
-<a class="kb-nav-card" href="stocks/2026/11/salesforce/">
+<a class="kb-nav-card" href="stocks/2026/11/hyundai-motor/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">종목분석</span>
-<span class="kb-nav-card__meta">11.20 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">세일즈포스(CRM)·서비스나우(NOW)·데이터도그(DDOG) 재무·밸류 정밀 리서치</p>
+<p class="kb-nav-card__desc">현대차(005380)·세일즈포스(CRM)·서비스나우(NOW) 재무·밸류 정밀 리서치</p>
 </a>
 <a class="kb-nav-card" href="oversold/2026/11/20/">
 <div class="kb-nav-card__top">
@@ -218,10 +218,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **종목분석** | 현대차 (005380) 실전 재무 및 가치 분석 | 2026-11-23 | [문서 열기](stocks/2026/11/hyundai-motor.md) |
 | **찌라시** | 증안펀드·손정의 1조 달러 반전·앨리스 황 스파이·메모리 오더컷 팩트체크 | 2026-11-23 | [문서 열기](rumors/2026/11/23.md) |
 | **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 23점 (나스닥 선물 +3% vs 코스피 사이드카·성과급 전쟁) | 2026-11-23 | [문서 열기](sentiment/2026/11/23.md) |
 | **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-23 | [문서 열기](news/2026/11/23.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 16점 (야선 -7%·노후자금 고백 vs 과매도 반등) | 2026-11-22 | [문서 열기](sentiment/2026/11/22.md) |
 
 ---
 
