@@ -3,152 +3,229 @@
 글로벌 주식 투자 및 시장 리서치를 주제로 AI와 나눈 심도 있는 대화와 분석 기록을 체계적으로 아카이빙하는 공간입니다. 지속적으로 축적되는 정밀 데이터와 통찰을 투명하게 공유하여, 투자자 모두의 합리적인 의사결정에 기여하고자 합니다. (문의: godoil3170@gmail.com)<br><br>
 공신력 있는 글로벌 뉴스와 야후 파이낸스(Yahoo Finance)의 시장 데이터를 연계하여 할루시네이션(환각)을 최소화하고 데이터 신뢰도를 높이고 있습니다. 콘텐츠 작성과 교차 검증에는 Claude Code, CODEX, Antigravity를 유기적으로 활용합니다. 다만 AI 모델 역시 오류의 가능성이 상존하므로, 본 저장소의 모든 내용은 맹신하지 마시고 각자의 비판적 검증과 주체적인 판단을 위한 참고 자료로 활용하시기 바랍니다.
 
-## 요약
+## 메뉴 바로가기
 
-| 대분류 | 주요 다룸 분야 | 바로가기 |
-| :--- | :--- | :--- |
-| **하루치 뉴스정리** | 일자별 핵심 시장 뉴스 팩트 체크, 금리·매크로 변수 영향도, 시나리오 분석 | [뉴스 아카이브 이동](news/2026/11/21.md) |
-| **종목분석** | 선행 PER 11.5배·FCF 수익률 10%까지 하락한 세일즈포스(`CRM`), 4단계 공포 구간 진입한 서비스나우(`NOW`)·데이터도그(`DDOG`) 선발대 판정 | [종목 리서치 이동](stocks/2026/11/salesforce.md) |
-| **낙폭과대** | 미국 낙폭과대 후보 64개 종목 전수 검증(Top Pick 세일즈포스 `CRM`), 펀더멘털·현금흐름 기반 6개월 분할 매수 전략 | [낙폭과대 분석 이동](oversold/2026/11/20.md) |
-| **주식투자 Q&A** | 미국 증시 급락 원인과 `TQQQ` '첫 급락 매수' 전략 정밀 검증, 브로드컴 고평가 논란, 김영익 교수 신용위기 시나리오 진단 | [질문 아카이브 이동](questions/2026/11/us-market-selloff-and-tqqq-dip-buying-strategy.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 개미 공포·탐욕 지수, 전체 분위기, 명예의 전당, 다음 거래일 예상 및 종목·섹터별 민심 | [인터넷 민심 이동](sentiment/2026/11/22.md) |
-| **찌라시** | X.com·블라인드 기반 시장 루머·음모론 팩트체크 (숏 세력·앤트로픽 상장·엔비디아) | [찌라시 모음 이동](rumors/2026/11/21.md) |
-| **투자 트랙레코드** | 실전 체결가·청산 손익 시계열 기록, 포트폴리오 승률 및 누적 수익률, 종목별 매매 복기 | [트랙레코드 이동](records/2026/trade-track-record.md) |
+<div class="kb-nav-grid" aria-label="카테고리별 최신 리포트 바로가기">
+<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/23/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">하루치 뉴스정리</span>
+<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">일자별 핵심 시장 뉴스 팩트 체크, 금리·매크로 변수 영향도, 시나리오 분석</p>
+</a>
+<a class="kb-nav-card" href="stocks/2026/11/salesforce/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">종목분석</span>
+<span class="kb-nav-card__meta">11.20 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">세일즈포스(CRM)·서비스나우(NOW)·데이터도그(DDOG) 재무·밸류 정밀 리서치</p>
+</a>
+<a class="kb-nav-card" href="oversold/2026/11/20/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">낙폭과대</span>
+<span class="kb-nav-card__meta">11.20 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">미국 낙폭과대 64개 후보 전수 검증(Top Pick CRM) 및 분할 매수 전략</p>
+</a>
+<a class="kb-nav-card" href="questions/2026/11/us-market-selloff-and-tqqq-dip-buying-strategy/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">주식투자 Q&amp;A</span>
+<span class="kb-nav-card__meta">11.20 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
+</a>
+<a class="kb-nav-card" href="sentiment/2026/11/23/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">인터넷 민심</span>
+<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">블라인드·X.com·스레드 통합 공포·탐욕 지수, 명예의 전당 및 종목별 민심</p>
+</a>
+<a class="kb-nav-card" href="rumors/2026/11/23/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">찌라시</span>
+<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">증안펀드·손정의 1조 달러 반전·앨리스 황 스파이·메모리 오더컷 팩트체크</p>
+</a>
+<a class="kb-nav-card" href="records/2026/trade-track-record/">
+<div class="kb-nav-card__top">
+<span class="kb-nav-card__title">투자 트랙레코드</span>
+<span class="kb-nav-card__meta">11.21 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+</div>
+<p class="kb-nav-card__desc">실전 체결가·청산 손익 시계열, 포트폴리오 승률·누적 수익률 및 매매 복기</p>
+</a>
+</div>
 
+
+## 주요 시장 일정 (과거 2주 ~ 향후 2주)
+
+업데이트일(**2026-11-23**) 기준으로 직전 2주 핵심 이벤트와 향후 2주 휴장·거시·실적·수급 일정을 정리했습니다.
+
+<div class="kb-cal" aria-label="2026년 11월 9일 ~ 12월 13일 시장 주요 일정 달력">
+<div class="kb-cal__head">
+<span class="kb-cal__range">2026.11.09 ~ 12.13</span>
+<span class="kb-cal__meta">기준일 11.23 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
+</div>
+<div class="kb-cal__next" aria-label="임박한 주요 시장 분수령">
+<span class="kb-cal__next-item" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 상회 시 50bp 빅스텝 재점화"><span class="kb-cal__dday">D-2</span> 11/25 미 10월 PCE·3Q GDP</span>
+<span class="kb-cal__next-item" title="미국 추수감사절 휴장·27일 13시 조기 폐장, 한은 금리 인상 및 원화 발언 주시"><span class="kb-cal__dday">D-3</span> 11/26 미 휴장·한은 금통위</span>
+<span class="kb-cal__next-item" title="12월 FOMC 금리 결정 + 브로드컴 AI 매출($217억) + 마이크론 $351.6억 자사주 매입 개시"><span class="kb-cal__dday">D-16</span> 12/09 FOMC·AVGO·MU</span>
+</div>
+<div class="kb-cal__weekdays" aria-hidden="true">
+<span class="kb-cal__weekday">월</span>
+<span class="kb-cal__weekday">화</span>
+<span class="kb-cal__weekday">수</span>
+<span class="kb-cal__weekday">목</span>
+<span class="kb-cal__weekday">금</span>
+<span class="kb-cal__weekday">토</span>
+<span class="kb-cal__weekday">일</span>
+</div>
+<div class="kb-cal__grid">
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix kb-cal__m-prefix--keep">11/</span><span class="kb-cal__num">9</span><span class="kb-cal__dow">(월)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt">젠슨 황 스캔들 파문</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">10</span><span class="kb-cal__dow">(화)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">11</span><span class="kb-cal__dow">(수)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday">미 채권 휴장 (재향군인)</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">12</span><span class="kb-cal__dow">(목)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt">젠슨 황 CEO 퇴진</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">13</span><span class="kb-cal__dow">(금)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">14</span><span class="kb-cal__dow">(토)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">15</span><span class="kb-cal__dow">(일)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">16</span><span class="kb-cal__dow">(월)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt">미 BIS 대중 예외 폐쇄</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">17</span><span class="kb-cal__dow">(화)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt">엔비디아 3Q 실적</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">18</span><span class="kb-cal__dow">(수)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt"><a class="kb-cal__link" href="news/2026/11/18/">FOMC 의사록 (50bp 언급)</a></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">19</span><span class="kb-cal__dow">(목)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt"><a class="kb-cal__link" href="news/2026/11/19/">앤트로픽 나스닥 상장</a></span><span class="kb-cal__evt">선전 미·중 정상회담</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">20</span><span class="kb-cal__dow">(금)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt"><a class="kb-cal__link" href="news/2026/11/20/">나스닥 -5.3%·200일 이탈</a></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past kb-cal__day--wknd">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">21</span><span class="kb-cal__dow">(토)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt"><a class="kb-cal__link" href="news/2026/11/21/">대만 공매도 5대 통제</a></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--past kb-cal__day--wknd">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">22</span><span class="kb-cal__dow">(일)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt">한국 F4 증시대책 발표</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--today" aria-current="date">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">23</span><span class="kb-cal__dow">(월)</span></span><span class="kb-cal__today-badge">오늘</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday">일본 휴장 (근로감사)</span><span class="kb-cal__evt" title="공모가 $83 지지 및 개인 콜옵션 수급 첫 시험대"><a class="kb-cal__link" href="news/2026/11/23/">앤트로픽 옵션 개시</a></span><span class="kb-cal__evt" title="11월 S&amp;P 글로벌 제조·서비스업 PMI 예비치 · 윌리엄스 연은 총재 연설">미 11월 S&amp;P PMI</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">24</span><span class="kb-cal__dow">(화)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="상장기업 1일 자기주식 매수 한도 3개월 완화 시행">韓 자사주 한도 완화</span><span class="kb-cal__evt" title="델 테크놀로지스·HP·달러트리·오토데스크 실적 및 콘퍼런스보드 소비자신뢰지수">델·HP 실적 발표</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">25</span><span class="kb-cal__dow">(수)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 3분기 GDP 2차 +3.5% 예상">미 10월 PCE·3Q GDP</span><span class="kb-cal__evt" title="연준 12개 지역 경기동향 보고서 · 내구재 주문·신규주택 판매">연준 베이지북 공개</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">26</span><span class="kb-cal__dow">(목)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="추수감사절 뉴욕증시 휴장 · 연휴 주간 거래량 급감 주의">미국 휴장 (추수감사절)</span><span class="kb-cal__evt kb-cal__evt--major" title="기준금리 인상 및 원화 저평가 언급 여부 vs 증시 변동성 속도조절 주목">한국은행 금통위</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">27</span><span class="kb-cal__dow">(금)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="뉴욕증시 동부시간 오후 1시(한국시간 28일 새벽 3시) 조기 폐장">미국 조기 폐장 (13:00)</span><span class="kb-cal__evt" title="삼성전자 등 대기업 배당 역송금 수요 · 달러-원 환율 상방 압력 변수">삼성전자 배당 역송금</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">28</span><span class="kb-cal__dow">(토)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">29</span><span class="kb-cal__dow">(일)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">30</span><span class="kb-cal__dow">(월)</span></span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix kb-cal__m-prefix--keep">12/</span><span class="kb-cal__num">1</span><span class="kb-cal__dow">(화)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="미 하원 3개 위원회 젠슨 황 비공개 진술 및 러트닉 상무장관 증언 · 수출통제 분기점">젠슨 황·러트닉 증언</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">2</span><span class="kb-cal__dow">(수)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="고CapEx 대안 소프트웨어 대장주 CRM 분기 실적 및 AI 에이전트 수요 확인">세일즈포스(CRM) 실적</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">3</span><span class="kb-cal__dow">(목)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="젠슨 황 의회 청문회 후속 일정 · 대중 반도체 제재 강도 점검">젠슨 황 청문회 (2차)</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">4</span><span class="kb-cal__dow">(금)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="12월 FOMC 직전 마지막 비농업 고용·실업률 지표">미 11월 고용보고서</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">5</span><span class="kb-cal__dow">(토)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">6</span><span class="kb-cal__dow">(일)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">7</span><span class="kb-cal__dow">(월)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">8</span><span class="kb-cal__dow">(화)</span></span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">9</span><span class="kb-cal__dow">(수)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="25bp 인상 유력 속 케빈 워시 의장의 차기 회의 가이던스가 핵심">FOMC 금리 결정</span><span class="kb-cal__evt kb-cal__evt--major" title="브로드컴 AI 매출 $217억(+236%) 여부 + 마이크론 $351.6억 자사주 매입 개시(칩스법 2년 제한 해제)">AVGO 실적·MU 자사주</span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">10</span><span class="kb-cal__dow">(목)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">11</span><span class="kb-cal__dow">(금)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">12</span><span class="kb-cal__dow">(토)</span></span></div>
+</div>
+<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">13</span><span class="kb-cal__dow">(일)</span></span></div>
+</div>
+</div>
+</div>
 
 ---
 
-## 1. 최근 업데이트 (Recent Updates)
+## 최근 업데이트 (Recent Updates)
 
-지식저장소에 가장 최근 등록 및 갱신된 리서치와 브리핑입니다.
+지식저장소에 가장 최근 등록 및 갱신된 리서치와 브리핑입니다. (최신 4건 표시)
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **찌라시** | 증안펀드·손정의 1조 달러 반전·앨리스 황 스파이·메모리 오더컷 팩트체크 | 2026-11-23 | [문서 열기](rumors/2026/11/23.md) |
+| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 23점 (나스닥 선물 +3% vs 코스피 사이드카·성과급 전쟁) | 2026-11-23 | [문서 열기](sentiment/2026/11/23.md) |
+| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-23 | [문서 열기](news/2026/11/23.md) |
 | **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 16점 (야선 -7%·노후자금 고백 vs 과매도 반등) | 2026-11-22 | [문서 열기](sentiment/2026/11/22.md) |
-| **찌라시** | 숏 세력·앤트로픽 상장·엔비디아 찌라시 총정리 | 2026-11-21 | [문서 열기](rumors/2026/11/21.md) |
-| **투자 트랙레코드** | ProShares UltraPro QQQ (`TQQQ`) | 2026-11-21 | [문서 열기](records/2026/trade-track-record.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-21 | [문서 열기](news/2026/11/21.md) |
-| **주식투자 Q&A** | 미국 증시 급락 원인과 `TQQQ` '첫 급락 매수' 전략 정밀 검증 | 2026-11-20 | [문서 열기](questions/2026/11/us-market-selloff-and-tqqq-dip-buying-strategy.md) |
-| **종목분석** | 세일즈포스 (`CRM`) | 2026-11-20 | [문서 열기](stocks/2026/11/salesforce.md) |
-| **낙폭과대** | 미국 낙폭과대 후보 64개 종목 정밀 검증 (Top Pick: `CRM`) | 2026-11-20 | [문서 열기](oversold/2026/11/20.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-20 | [문서 열기](news/2026/11/20.md) |
-| **종목분석** | 서비스나우 (`NOW`) | 2026-11-19 | [문서 열기](stocks/2026/11/servicenow.md) |
-| **종목분석** | 데이터도그 (`DDOG`) | 2026-11-19 | [문서 열기](stocks/2026/11/datadog.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-19 | [문서 열기](news/2026/11/19.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-18 | [문서 열기](news/2026/11/18.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-10 | [문서 열기](news/2026/11/10.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-07 | [문서 열기](news/2026/11/07.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-04 | [문서 열기](news/2026/11/04.md) |
-| **종목분석** | 아마존닷컴 (`AMZN`) | 2026-10-30 | [문서 열기](stocks/2026/10/amazon.md) |
-| **종목분석** | 서비스나우 (`NOW`) | 2026-10-30 | [문서 열기](stocks/2026/10/servicenow.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-29 | [문서 열기](news/2026/10/29.md) |
-| **종목분석** | 램 리서치 (`LRCX`) | 2026-10-28 | [문서 열기](stocks/2026/10/lam-research.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-27 | [문서 열기](news/2026/10/27.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-26 | [문서 열기](news/2026/10/26.md) |
-| **종목분석** | HD현대 (`267250.KS`) | 2026-10-25 | [문서 열기](stocks/2026/10/hd-hyundai.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-23 | [문서 열기](news/2026/10/23.md) |
-| **주식투자 Q&A** | 브로드컴 (`AVGO`) | 2026-10-22 | [문서 열기](questions/2026/10/broadcom-valuation-overpriced-or-bargain.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-22 | [문서 열기](news/2026/10/22.md) |
-| **주식투자 Q&A** | 김영익 교수 저서 'AI 버블이 만드는 부채의 종말' 및 신용위기 시나리오 진단 | 2026-10-21 | [문서 열기](questions/2026/10/kim-young-ik-ai-bubble-and-end-of-debt.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-21 | [문서 열기](news/2026/10/21.md) |
-| **주식투자 Q&A** | 삼성전자 (`005930.KS`) | 2026-10-18 | [문서 열기](questions/2026/10/samsung-anthropic-rumor-and-stock-gift-analysis.md) |
-| **주식투자 Q&A** | SK하이닉스 (`000660.KS`) | 2026-10-17 | [문서 열기](questions/2026/10/sk-hynix-dram-cycle-and-support-levels.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-16 | [문서 열기](news/2026/10/16.md) |
-| **종목분석** | HD현대중공업 (`329180.KS`) | 2026-10-15 | [문서 열기](stocks/2026/10/hd-hyundai-heavy-industries.md) |
-| **종목분석** | 한화에어로스페이스 (`012450.KS`) | 2026-10-15 | [문서 열기](stocks/2026/10/hanwha-aerospace.md) |
-| **종목분석** | HD현대일렉트릭 (`267260.KS`) | 2026-10-15 | [문서 열기](stocks/2026/10/hd-hyundai-electric.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-15 | [문서 열기](news/2026/10/15.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-14 | [문서 열기](news/2026/10/14.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-13 | [문서 열기](news/2026/10/13.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-12 | [문서 열기](news/2026/10/12.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-10 | [문서 열기](news/2026/10/09.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-09 | [문서 열기](news/2026/10/08.md) |
-| **종목분석** | 삼성바이오로직스 (`207940.KS`) | 2026-10-08 | [문서 열기](stocks/2026/10/samsung-biologics.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-08 | [문서 열기](news/2026/10/07.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-06 | [문서 열기](news/2026/10/05.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-03 | [문서 열기](news/2026/10/02.md) |
-| **종목분석** | 리얼티 인컴 (`O`) | 2026-10-02 | [문서 열기](stocks/2026/10/realty-income.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-02 | [문서 열기](news/2026/10/01.md) |
-| **주식투자 Q&A** | 미국 장기금리 5%대 클라이맥스 진단과 대형 은행주(BAC·GS) 반등 시나리오 | 2026-10-01 | [문서 열기](questions/2026/10/us-10y-yield-peak-and-bank-stocks.md) |
-| **종목분석** | 애보트 래보라토리 (`ABT`) | 2026-10-01 | [문서 열기](stocks/2026/10/abbott.md) |
-| **종목분석** | 골드만삭스 (`GS`) | 2026-10-01 | [문서 열기](stocks/2026/10/goldman-sachs.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-10-01 | [문서 열기](news/2026/09/30.md) |
-| **종목분석** | 뱅크오브아메리카 (`BAC`) | 2026-09-30 | [문서 열기](stocks/2026/09/bank-of-america.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-30 | [문서 열기](news/2026/09/29.md) |
-| **종목분석** | 모건스탠리 (`MS`) | 2026-09-29 | [문서 열기](stocks/2026/09/morgan-stanley.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-28 | [문서 열기](news/2026/09/28.md) |
-| **주식투자 Q&A** | 2027년 코스피 1만 도달 가능성과 메모리 비주도 시나리오 | 2026-09-27 | [문서 열기](questions/2026/09/kospi-10000-in-2027.md) |
-| **낙폭과대** | 5대 낙폭과대주 정밀 검증 (ENVA, GEN, RSI 등) | 2026-09-27 | [문서 열기](oversold/2026/09/27.md) |
-| **종목분석** | 현대차 (`005380.KS`) | 2026-09-27 | [문서 열기](stocks/2026/09/hyundai-motor.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-26 | [문서 열기](news/2026/09/26.md) |
-| **종목분석** | 페덱스 (`FDX`) | 2026-09-25 | [문서 열기](stocks/2026/09/fedex.md) |
-| **종목분석** | CVS 헬스 (`CVS`) | 2026-09-25 | [문서 열기](stocks/2026/09/cvs-health.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-25 | [문서 열기](news/2026/09/25.md) |
-| **종목분석** | 에이온 (`AON`) | 2026-09-25 | [문서 열기](stocks/2026/09/aon.md) |
-| **종목분석** | 부킹 홀딩스 (`BKNG`) | 2026-09-25 | [문서 열기](stocks/2026/09/booking-holdings.md) |
-| **종목분석** | 올스테이트 (`ALL`) | 2026-09-25 | [문서 열기](stocks/2026/09/allstate.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-24 | [문서 열기](news/2026/09/24.md) |
-| **종목분석** | 오리온 (`271560.KS`) | 2026-09-23 | [문서 열기](stocks/2026/09/orion.md) |
-| **종목분석** | 제너럴 다이내믹스 (`GD`) | 2026-09-23 | [문서 열기](stocks/2026/09/general-dynamics.md) |
-| **주식투자 Q&A** | AI 전력주 호황 속 아간(`AGX`) 급락 원인과 2차 매수 전략 | 2026-09-23 | [문서 열기](questions/2026/09/argan-ai-power-drop-and-entry-strategy.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-23 | [문서 열기](news/2026/09/23.md) |
-| **종목분석** | 엣시 (`ETSY`) | 2026-09-22 | [문서 열기](stocks/2026/09/etsy.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-22 | [문서 열기](news/2026/09/22.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-19 | [문서 열기](news/2026/09/19.md) |
-| **종목분석** | 유나이티드헬스 그룹 (`UNH`) | 2026-09-19 | [문서 열기](stocks/2026/09/unitedhealth-group.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-18 | [문서 열기](news/2026/09/18.md) |
-| **종목분석** | LG이노텍 (`011070.KS`) | 2026-09-17 | [문서 열기](stocks/2026/09/lg-innotek.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-17 | [문서 열기](news/2026/09/17.md) |
-| **주식투자 Q&A** | 브로드컴 밸류에이션 매력과 NPU·추론 ASIC 대세론 | 2026-09-16 | [문서 열기](questions/2026/09/broadcom-valuation-and-npu-shift.md) |
-| **종목분석** | 버티브 (`VRT`) | 2026-09-16 | [문서 열기](stocks/2026/09/vertiv.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-16 | [문서 열기](news/2026/09/16.md) |
-| **종목분석** | GE 에어로스페이스 (`GE`) | 2026-09-16 | [문서 열기](stocks/2026/09/ge-aerospace.md) |
-| **종목분석** | 램 리서치 (`LRCX`) | 2026-09-15 | [문서 열기](stocks/2026/09/lam-research.md) |
-| **종목분석** | 아스테라 랩스 (`ALAB`) | 2026-09-15 | [문서 열기](stocks/2026/09/astera-labs.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-15 | [문서 열기](news/2026/09/15.md) |
-| **종목분석** | CDW (`CDW`) | 2026-09-14 | [문서 열기](stocks/2026/09/cdw.md) |
-| **주식투자 Q&A** | 스탠리 드러켄밀러 최신 13F 시장 진단 및 상승 확신 종목 | 2026-09-14 | [문서 열기](questions/2026/09/druckenmiller-13f-market-outlook.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-14 | [문서 열기](news/2026/09/14.md) |
-| **주식투자 Q&A** | 키미·딥시크 '가짜' 논란과 앤트로픽 증류 폭로 전모 | 2026-09-13 | [문서 열기](questions/2026/09/kimi-deepseek-anthropic-scandal.md) |
-| **종목분석** | 웨스턴 디지털 (`WDC`) | 2026-09-12 | [문서 열기](stocks/2026/09/western-digital.md) |
-| **종목분석** | 지스케일러 (`ZS`) | 2026-09-11 | [문서 열기](stocks/2026/09/zscaler.md) |
-| **주식투자 Q&A** | 젠슨 황 AI 사이버보안 수혜주 선별 (ZS, S, CSCO) | 2026-09-11 | [문서 열기](questions/2026/09/ai-cybersecurity-stocks.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-11 | [문서 열기](news/2026/09/11.md) |
-| **종목분석** | KLA (`KLAC`) | 2026-09-11 | [문서 열기](stocks/2026/09/kla.md) |
-| **종목분석** | 팔로알토 네트웍스 (`PANW`) | 2026-09-11 | [문서 열기](stocks/2026/09/palo-alto-networks.md) |
-| **낙폭과대** | 5대 낙폭과대주 정밀 검증 (DKS, CASY, AGX 등) | 2026-09-10 | [문서 열기](oversold/2026/09/10.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-10 | [문서 열기](news/2026/09/10.md) |
-| **종목분석** | 노바티스 (`NVS`) | 2026-09-10 | [문서 열기](stocks/2026/09/novartis.md) |
-| **종목분석** | 스트라이커 (`SYK`) | 2026-09-09 | [문서 열기](stocks/2026/09/stryker.md) |
-| **종목분석** | 케이든스 디자인 시스템 (`CDNS`) | 2026-09-09 | [문서 열기](stocks/2026/09/cadence-design-systems.md) |
-| **종목분석** | 하우멧 에어로스페이스 (`HWM`) | 2026-09-09 | [문서 열기](stocks/2026/09/howmet-aerospace.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-09 | [문서 열기](news/2026/09/09.md) |
-| **종목분석** | 크레도 테크놀로지 (`CRDO`) | 2026-09-08 | [문서 열기](stocks/2026/09/credo.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-08 | [문서 열기](news/2026/09/08.md) |
-| **종목분석** | 엔비디아 (`NVDA`) | 2026-09-07 | [문서 열기](stocks/2026/09/nvidia.md) |
-| **종목분석** | 알파벳 (`GOOGL`) | 2026-09-07 | [문서 열기](stocks/2026/09/alphabet.md) |
-| **종목분석** | 테슬라 (`TSLA`) | 2026-09-06 | [문서 열기](stocks/2026/09/tesla.md) |
-| **종목분석** | 토로 (`TTC`) | 2026-09-06 | [문서 열기](stocks/2026/09/toro.md) |
-| **종목분석** | 테이크-투 인터랙티브 (`TTWO`) | 2026-09-06 | [문서 열기](stocks/2026/09/take-two-interactive.md) |
-| **주식투자 Q&A** | 현금 100% 빈 계좌 첫 매수 선별 (AVGO vs AGX) | 2026-09-06 | [문서 열기](questions/2026/09/empty-account-first-stock.md) |
-| **낙폭과대** | 9대 낙폭과대주 정밀 검증 (AGX, DY, PCG 등) | 2026-09-06 | [문서 열기](oversold/2026/09/06.md) |
-| **종목분석** | SK하이닉스 (`000660.KS`) | 2026-09-05 | [문서 열기](stocks/2026/09/sk-hynix.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-05 | [문서 열기](news/2026/09/05.md) |
-| **종목분석** | 어플라이드 머티어리얼즈 (`AMAT`) | 2026-09-04 | [문서 열기](stocks/2026/09/applied-materials.md) |
-| **주식투자 Q&A** | 반도체 vs 대안 섹터 (AMAT, AVGO, AGX) | 2026-09-04 | [문서 열기](questions/2026/09/semiconductor-vs-other-sectors.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-04 | [문서 열기](news/2026/09/04.md) |
-| **종목분석** | 아간 (`AGX`) | 2026-09-03 | [문서 열기](stocks/2026/09/argan.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-03 | [문서 열기](news/2026/09/03.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-02 | [문서 열기](news/2026/09/02.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-09-01 | [문서 열기](news/2026/09/01.md) |
-| **주식투자 Q&A** | 브로드컴 (`AVGO`) | 2026-08-31 | [문서 열기](questions/2026/08/broadcom-position-strategy.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-08-31 | [문서 열기](news/2026/08/31.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-08-30 | [문서 열기](news/2026/08/30.md) |
-| **종목분석** | 브로드컴 (`AVGO`) | 2026-08-29 | [문서 열기](stocks/2026/08/broadcom.md) |
 
 ---
 
-## 2. 지식저장소 검색 및 탐색 안내
+## 지식저장소 검색 및 탐색 안내
 
 대규모 아카이브 문서를 빠르고 정확하게 탐색할 수 있도록 최적화된 검색 및 내비게이션 기능을 제공합니다.
 

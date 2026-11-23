@@ -593,6 +593,15 @@
   gap: 0.72rem;
 }
 
+.md-typeset .kb-sent .s-mood__item > p {
+  margin: 0;
+  padding: 1.15rem 1.4rem 1.3rem;
+  color: var(--s-ink);
+  font-size: 0.88rem;
+  line-height: 1.72;
+  word-break: keep-all;
+}
+
 .md-typeset .kb-sent .s-mood__list li {
   position: relative;
   margin: 0;

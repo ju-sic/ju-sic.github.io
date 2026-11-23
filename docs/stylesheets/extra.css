@@ -2105,3 +2105,366 @@ vegachart:not(.vega-embed) {
     grid-row: auto;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * 11. 홈 시장 일정 달력 (.kb-cal) — 무채색 헤어라인 에디토리얼 그리드
+ * ------------------------------------------------------------------------- */
+.md-typeset .kb-cal {
+  margin: 1rem 0 1.6rem;
+}
+
+.md-typeset .kb-cal__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1.5px solid var(--kb-text-strong);
+}
+
+.md-typeset .kb-cal__range {
+  color: var(--kb-text-strong);
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-cal__meta {
+  color: var(--kb-text-muted);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-cal__meta-holiday {
+  color: var(--kb-sem-danger);
+  font-weight: 600;
+}
+
+.md-typeset .kb-cal__next {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.25rem;
+  padding: 0.48rem 0;
+  border-bottom: 1px solid var(--kb-border-strong);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+
+.md-typeset .kb-cal__next-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.38rem;
+  color: var(--kb-text);
+}
+
+.md-typeset .kb-cal__next-item[title] {
+  cursor: help;
+}
+
+.md-typeset .kb-cal__dday {
+  color: var(--kb-text-strong);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-cal__weekdays {
+  display: none;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  border-bottom: 1px solid var(--kb-border-strong);
+}
+
+.md-typeset .kb-cal__weekday {
+  padding: 0.45rem 0.5rem;
+  color: var(--kb-text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.md-typeset .kb-cal__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.md-typeset .kb-cal__day {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  padding: 0.58rem 0.2rem;
+  border-bottom: 1px solid var(--kb-border);
+  min-width: 0;
+}
+
+.md-typeset .kb-cal__day--empty {
+  display: none;
+}
+
+.md-typeset .kb-cal__day--past {
+  opacity: 0.56;
+}
+
+.md-typeset .kb-cal__day--today {
+  opacity: 1;
+  background: var(--kb-bg-subtle);
+  box-shadow: inset 2.5px 0 0 0 var(--kb-text-strong);
+  padding-left: 0.65rem;
+  padding-right: 0.5rem;
+}
+
+.md-typeset .kb-cal__top {
+  display: flex;
+  align-items: center;
+  gap: 0.32rem;
+}
+
+.md-typeset .kb-cal__date {
+  color: var(--kb-text-strong);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.md-typeset .kb-cal__day--wknd .kb-cal__date,
+.md-typeset .kb-cal__day--past .kb-cal__date {
+  color: var(--kb-text-muted);
+}
+
+.md-typeset .kb-cal__day--today .kb-cal__date {
+  color: var(--kb-text-strong);
+}
+
+.md-typeset .kb-cal__day--today .kb-cal__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.45rem;
+  height: 1.45rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  background: var(--kb-accent);
+  color: var(--kb-accent-contrast);
+}
+
+.md-typeset .kb-cal__dow {
+  margin-left: 0.12rem;
+  font-weight: 500;
+  color: var(--kb-text-muted);
+}
+
+.md-typeset .kb-cal__today-badge {
+  color: var(--kb-text-strong);
+  font-size: 0.69rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .kb-cal__events {
+  display: flex;
+  flex-direction: column;
+  gap: 0.24rem;
+  min-width: 0;
+}
+
+.md-typeset .kb-cal__evt {
+  color: var(--kb-text);
+  font-size: 0.76rem;
+  font-weight: 400;
+  line-height: 1.42;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-cal__day--past .kb-cal__evt {
+  color: var(--kb-text-muted);
+}
+
+.md-typeset .kb-cal__day--today .kb-cal__evt {
+  color: var(--kb-text-strong);
+  font-weight: 500;
+}
+
+.md-typeset .kb-cal__evt--holiday {
+  color: var(--kb-sem-danger);
+  font-weight: 600;
+}
+
+.md-typeset .kb-cal__evt--major {
+  color: var(--kb-text-strong);
+  font-weight: 700;
+}
+
+.md-typeset .kb-cal__evt[title] {
+  cursor: help;
+  text-decoration: underline dotted var(--kb-border-strong);
+  text-underline-offset: 2px;
+}
+
+.md-typeset .kb-cal__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset .kb-cal__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media screen and (min-width: 48em) {
+  .md-typeset .kb-cal__weekdays {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)) repeat(2, minmax(0, 0.62fr));
+  }
+
+  .md-typeset .kb-cal__grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) repeat(2, minmax(0, 0.62fr));
+  }
+
+  .md-typeset .kb-cal__day {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    min-height: 82px;
+    padding: 0.45rem 0.5rem 0.55rem;
+  }
+
+  .md-typeset .kb-cal__day:not(:nth-child(7n)) {
+    border-right: 1px solid var(--kb-border);
+  }
+
+  .md-typeset .kb-cal__day--empty {
+    display: flex;
+  }
+
+  .md-typeset .kb-cal__day--today {
+    box-shadow: inset 0 2px 0 0 var(--kb-text-strong);
+    padding-left: 0.5rem;
+  }
+
+  .md-typeset .kb-cal__top {
+    justify-content: space-between;
+  }
+
+  .md-typeset .kb-cal__m-prefix {
+    display: none;
+  }
+
+  .md-typeset .kb-cal__m-prefix--keep {
+    display: inline;
+  }
+
+  .md-typeset .kb-cal__dow {
+    display: none;
+  }
+
+  .md-typeset .kb-cal__evt {
+    font-size: 0.69rem;
+    line-height: 1.38;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * 12. 홈 바로가기 메뉴 디렉터리 (.kb-nav-grid)
+ * ------------------------------------------------------------------------- */
+.md-typeset .kb-nav-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1px;
+  margin: 0.9rem 0 1.6rem;
+  border-top: 1.5px solid var(--kb-text-strong);
+  border-bottom: 1px solid var(--kb-border-strong);
+  background: var(--kb-border);
+}
+
+.md-typeset a.kb-nav-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.35rem;
+  padding: 0.9rem 1rem;
+  background: var(--kb-bg);
+  color: var(--kb-text);
+  text-decoration: none;
+  transition: background-color 0.14s var(--kb-ease);
+}
+
+.md-typeset a.kb-nav-card:hover {
+  background: var(--kb-hover);
+  color: var(--kb-text);
+  text-decoration: none;
+}
+
+.md-typeset a.kb-nav-card:focus-visible {
+  outline: 2px solid var(--kb-accent);
+  outline-offset: -2px;
+}
+
+.md-typeset .kb-nav-card__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.md-typeset .kb-nav-card__title {
+  color: var(--kb-text-strong);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.md-typeset .kb-nav-card__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--kb-text-muted);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.md-typeset .kb-nav-card__arrow {
+  transition: transform 0.14s var(--kb-ease), color 0.14s var(--kb-ease);
+}
+
+.md-typeset a.kb-nav-card:hover .kb-nav-card__arrow {
+  transform: translateX(3px);
+  color: var(--kb-text-strong);
+}
+
+.md-typeset .kb-nav-card__desc {
+  margin: 0;
+  color: var(--kb-text-muted);
+  font-size: 0.77rem;
+  line-height: 1.52;
+  word-break: keep-all;
+}
+
+@media screen and (min-width: 38em) {
+  .md-typeset .kb-nav-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md-typeset a.kb-nav-card--lead {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (min-width: 56em) {
+  .md-typeset .kb-nav-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md-typeset a.kb-nav-card--lead {
+    padding: 1.05rem 1.15rem;
+  }
+
+  .md-typeset a.kb-nav-card--lead .kb-nav-card__title {
+    font-size: 0.98rem;
+  }
+}

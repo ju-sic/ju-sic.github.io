@@ -86,6 +86,8 @@ extra_javascript:
   - javascripts/timeline-pagination.js
   # 종목 차트 링크(highchart-opal)를 새 탭으로 연다
   - javascripts/chart-links.js
+  # 주석 아이콘(.md-annotation)에 마우스 호버 툴팁을 연다
+  - javascripts/annotation-hover.js
 
 extra:
   # Material 하단 "Made with Material for MkDocs" 문구 유지 여부
@@ -177,6 +179,7 @@ nav:
   - 하루치 뉴스정리:
       - 2026년:
           - 11월:
+              - "23(월)": news/2026/11/23.md
               - "21(토)": news/2026/11/21.md
               - "20(금)": news/2026/11/20.md
               - "19(목)": news/2026/11/19.md
@@ -317,10 +320,12 @@ nav:
   - 인터넷 민심:
       - 2026년:
           - 11월:
+              - "23(월)": sentiment/2026/11/23.md
               - "22(일)": sentiment/2026/11/22.md
   - 찌라시:
       - 2026년:
           - 11월:
+              - "23(월) - 증안펀드·손정의·스파이·오더컷": rumors/2026/11/23.md
               - "21(토) - 숏 세력·앤트로픽·엔비디아": rumors/2026/11/21.md
   - 투자 트랙레코드:
       - 2026년:
