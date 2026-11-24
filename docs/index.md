@@ -51,7 +51,7 @@
 <a class="kb-nav-card" href="records/2026/trade-track-record/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">투자 트랙레코드</span>
-<span class="kb-nav-card__meta">11.21 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">실전 체결가·청산 손익 시계열, 포트폴리오 승률·누적 수익률 및 매매 복기</p>
 </a>
@@ -199,10 +199,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **투자 트랙레코드** | ProShares UltraPro QQQ (`TQQQ`) 전량 익절 청산 | 2026-11-24 | [문서 열기](records/2026/trade-track-record.md) |
 | **찌라시** | 젠슨 황 복귀·3.12억 달러 콜옵션·3배 숏 상폐·빅테크 20년 계약 팩트체크 | 2026-11-24 | [문서 열기](rumors/2026/11/24.md) |
 | **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 51점 (젠슨 황 복귀·나스닥 +6.5%·코스피 5,000 탈환) | 2026-11-24 | [문서 열기](sentiment/2026/11/24.md) |
 | **하루치 뉴스정리** | 젠슨 황 복귀와 반도체 급반등 · 옵션과 AI 임대료 | 2026-11-24 | [문서 열기](news/2026/11/24.md) |
-| **종목분석** | 현대차 (005380) 실전 재무 및 가치 분석 | 2026-11-23 | [문서 열기](stocks/2026/11/hyundai-motor.md) |
 
 ---
 
