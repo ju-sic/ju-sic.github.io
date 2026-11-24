@@ -6,10 +6,10 @@
 ## 메뉴 바로가기
 
 <div class="kb-nav-grid" aria-label="카테고리별 최신 리포트 바로가기">
-<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/23/">
+<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/24/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">하루치 뉴스정리</span>
-<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">일자별 핵심 시장 뉴스 팩트 체크, 금리·매크로 변수 영향도, 시나리오 분석</p>
 </a>
@@ -34,19 +34,19 @@
 </div>
 <p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
 </a>
-<a class="kb-nav-card" href="sentiment/2026/11/23/">
+<a class="kb-nav-card" href="sentiment/2026/11/24/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">인터넷 민심</span>
-<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">블라인드·X.com·스레드 통합 공포·탐욕 지수, 명예의 전당 및 종목별 민심</p>
 </a>
-<a class="kb-nav-card" href="rumors/2026/11/23/">
+<a class="kb-nav-card" href="rumors/2026/11/24/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">찌라시</span>
-<span class="kb-nav-card__meta">11.23 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">증안펀드·손정의 1조 달러 반전·앨리스 황 스파이·메모리 오더컷 팩트체크</p>
+<p class="kb-nav-card__desc">젠슨 황 복귀·3.12억 달러 콜옵션·3배 숏 상폐·빅테크 20년 계약 팩트체크</p>
 </a>
 <a class="kb-nav-card" href="records/2026/trade-track-record/">
 <div class="kb-nav-card__top">
@@ -60,17 +60,17 @@
 
 ## 주요 시장 일정 (과거 2주 ~ 향후 2주)
 
-업데이트일(**2026-11-23**) 기준으로 직전 2주 핵심 이벤트와 향후 2주 휴장·거시·실적·수급 일정을 정리했습니다.
+업데이트일(**2026-11-24**) 기준으로 직전 2주와 향후 2주의 주요 일정입니다. 미국 일정은 현지 날짜로 표시합니다.
 
-<div class="kb-cal" aria-label="2026년 11월 9일 ~ 12월 13일 시장 주요 일정 달력">
+<div class="kb-cal" aria-label="2026년 11월 10일 ~ 12월 8일 시장 주요 일정 달력">
 <div class="kb-cal__head">
-<span class="kb-cal__range">2026.11.09 ~ 12.13</span>
-<span class="kb-cal__meta">기준일 11.23 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
+<span class="kb-cal__range">2026.11.10 ~ 12.08</span>
+<span class="kb-cal__meta">기준일 11.24 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
 </div>
 <div class="kb-cal__next" aria-label="임박한 주요 시장 분수령">
-<span class="kb-cal__next-item" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 상회 시 50bp 빅스텝 재점화"><span class="kb-cal__dday">D-2</span> 11/25 미 10월 PCE·3Q GDP</span>
-<span class="kb-cal__next-item" title="미국 추수감사절 휴장·27일 13시 조기 폐장, 한은 금리 인상 및 원화 발언 주시"><span class="kb-cal__dday">D-3</span> 11/26 미 휴장·한은 금통위</span>
-<span class="kb-cal__next-item" title="12월 FOMC 금리 결정 + 브로드컴 AI 매출($217억) + 마이크론 $351.6억 자사주 매입 개시"><span class="kb-cal__dday">D-16</span> 12/09 FOMC·AVGO·MU</span>
+<span class="kb-cal__next-item" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 상회 시 50bp 빅스텝 재점화"><span class="kb-cal__dday">D-1</span> 11/25 미 10월 PCE·3Q GDP</span>
+<span class="kb-cal__next-item" title="미국 추수감사절 휴장·27일 13시 조기 폐장, 한은 금리 인상 및 원화 발언 주시"><span class="kb-cal__dday">D-2</span> 11/26 미 휴장·한은 금통위</span>
+<span class="kb-cal__next-item" title="추수감사절 다음 날 뉴욕증시 오후 1시 조기 폐장"><span class="kb-cal__dday">D-3</span> 11/27 미 조기 폐장</span>
 </div>
 <div class="kb-cal__weekdays" aria-hidden="true">
 <span class="kb-cal__weekday">월</span>
@@ -82,11 +82,7 @@
 <span class="kb-cal__weekday">일</span>
 </div>
 <div class="kb-cal__grid">
-<div class="kb-cal__day kb-cal__day--past">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix kb-cal__m-prefix--keep">11/</span><span class="kb-cal__num">9</span><span class="kb-cal__dow">(월)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt">젠슨 황 스캔들 파문</span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
+<div style="grid-column-start:2" class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">10</span><span class="kb-cal__dow">(화)</span></span></div>
 </div>
 <div class="kb-cal__day kb-cal__day--past">
@@ -134,13 +130,13 @@
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">22</span><span class="kb-cal__dow">(일)</span></span></div>
 <div class="kb-cal__events"><span class="kb-cal__evt">한국 F4 증시대책 발표</span></div>
 </div>
-<div class="kb-cal__day kb-cal__day--today" aria-current="date">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">23</span><span class="kb-cal__dow">(월)</span></span><span class="kb-cal__today-badge">오늘</span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday">일본 휴장 (근로감사)</span><span class="kb-cal__evt" title="공모가 $83 지지 및 개인 콜옵션 수급 첫 시험대"><a class="kb-cal__link" href="news/2026/11/23/">앤트로픽 옵션 개시</a></span><span class="kb-cal__evt" title="11월 S&amp;P 글로벌 제조·서비스업 PMI 예비치 · 윌리엄스 연은 총재 연설">미 11월 S&amp;P PMI</span></div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">23</span><span class="kb-cal__dow">(월)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday">일본 휴장 (근로감사)</span><span class="kb-cal__evt kb-cal__evt--major">젠슨 황 CEO 복귀</span><span class="kb-cal__evt" title="공모가 $83 지지 및 개인 콜옵션 수급 첫 시험대"><a class="kb-cal__link" href="news/2026/11/23/">앤트로픽 옵션 개시</a></span><span class="kb-cal__evt" title="11월 S&amp;P 글로벌 제조·서비스업 PMI 예비치 · 윌리엄스 연은 총재 연설">미 11월 S&amp;P PMI</span></div>
 </div>
-<div class="kb-cal__day">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">24</span><span class="kb-cal__dow">(화)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt" title="상장기업 1일 자기주식 매수 한도 3개월 완화 시행">韓 자사주 한도 완화</span><span class="kb-cal__evt" title="델 테크놀로지스·HP·달러트리·오토데스크 실적 및 콘퍼런스보드 소비자신뢰지수">델·HP 실적 발표</span></div>
+<div class="kb-cal__day kb-cal__day--today" aria-current="date">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">24</span><span class="kb-cal__dow">(화)</span></span><span class="kb-cal__today-badge">오늘</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="상장기업 1일 자기주식 매수 한도 3개월 완화 시행">韓 자사주 한도 완화</span><span class="kb-cal__evt" title="델 테크놀로지스·HP·달러트리·오토데스크 실적 및 콘퍼런스보드 소비자신뢰지수">델·HP 실적 발표</span><span class="kb-cal__evt">미 소비자신뢰·5년물 국채 입찰</span></div>
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">25</span><span class="kb-cal__dow">(수)</span></span></div>
@@ -165,15 +161,15 @@
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix kb-cal__m-prefix--keep">12/</span><span class="kb-cal__num">1</span><span class="kb-cal__dow">(화)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="미 하원 3개 위원회 젠슨 황 비공개 진술 및 러트닉 상무장관 증언 · 수출통제 분기점">젠슨 황·러트닉 증언</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="미 하원 3개 위원회 젠슨 황 비공개 진술 및 러트닉 상무장관 증언 · 수출통제 분기점">젠슨 황 하원 비공개 면담</span></div>
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">2</span><span class="kb-cal__dow">(수)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt" title="고CapEx 대안 소프트웨어 대장주 CRM 분기 실적 및 AI 에이전트 수요 확인">세일즈포스(CRM) 실적</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="고CapEx 대안 소프트웨어 대장주 CRM 분기 실적 및 AI 에이전트 수요 확인">세일즈포스(CRM) 실적</span><span class="kb-cal__evt">팀 테터 하원 면담 · 샤크닌자 지수 편입</span></div>
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">3</span><span class="kb-cal__dow">(목)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt" title="젠슨 황 의회 청문회 후속 일정 · 대중 반도체 제재 강도 점검">젠슨 황 청문회 (2차)</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="젠슨 황 의회 청문회 후속 일정 · 대중 반도체 제재 강도 점검">젠슨 황 상원 공개 청문회</span></div>
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">4</span><span class="kb-cal__dow">(금)</span></span></div>
@@ -188,24 +184,9 @@
 <div class="kb-cal__day kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">7</span><span class="kb-cal__dow">(월)</span></span></div>
 </div>
-<div class="kb-cal__day kb-cal__day--empty">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">8</span><span class="kb-cal__dow">(화)</span></span></div>
-</div>
 <div class="kb-cal__day">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">9</span><span class="kb-cal__dow">(수)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="25bp 인상 유력 속 케빈 워시 의장의 차기 회의 가이던스가 핵심">FOMC 금리 결정</span><span class="kb-cal__evt kb-cal__evt--major" title="브로드컴 AI 매출 $217억(+236%) 여부 + 마이크론 $351.6억 자사주 매입 개시(칩스법 2년 제한 해제)">AVGO 실적·MU 자사주</span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--empty">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">10</span><span class="kb-cal__dow">(목)</span></span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--empty">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">11</span><span class="kb-cal__dow">(금)</span></span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">12</span><span class="kb-cal__dow">(토)</span></span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">13</span><span class="kb-cal__dow">(일)</span></span></div>
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">8</span><span class="kb-cal__dow">(화)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major">FOMC 첫날 · 9일 금리 결정</span></div>
 </div>
 </div>
 </div>
@@ -218,10 +199,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **찌라시** | 젠슨 황 복귀·3.12억 달러 콜옵션·3배 숏 상폐·빅테크 20년 계약 팩트체크 | 2026-11-24 | [문서 열기](rumors/2026/11/24.md) |
+| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 51점 (젠슨 황 복귀·나스닥 +6.5%·코스피 5,000 탈환) | 2026-11-24 | [문서 열기](sentiment/2026/11/24.md) |
+| **하루치 뉴스정리** | 젠슨 황 복귀와 반도체 급반등 · 옵션과 AI 임대료 | 2026-11-24 | [문서 열기](news/2026/11/24.md) |
 | **종목분석** | 현대차 (005380) 실전 재무 및 가치 분석 | 2026-11-23 | [문서 열기](stocks/2026/11/hyundai-motor.md) |
-| **찌라시** | 증안펀드·손정의 1조 달러 반전·앨리스 황 스파이·메모리 오더컷 팩트체크 | 2026-11-23 | [문서 열기](rumors/2026/11/23.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 23점 (나스닥 선물 +3% vs 코스피 사이드카·성과급 전쟁) | 2026-11-23 | [문서 열기](sentiment/2026/11/23.md) |
-| **하루치 뉴스정리** | 지식저장소 데일리 | 2026-11-23 | [문서 열기](news/2026/11/23.md) |
 
 ---
 
