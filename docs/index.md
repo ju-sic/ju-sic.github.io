@@ -6,10 +6,10 @@
 ## 메뉴 바로가기
 
 <div class="kb-nav-grid" aria-label="카테고리별 최신 리포트 바로가기">
-<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/24/">
+<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/25/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">하루치 뉴스정리</span>
-<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.25 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">일자별 핵심 시장 뉴스 팩트 체크, 금리·매크로 변수 영향도, 시나리오 분석</p>
 </a>
@@ -34,19 +34,19 @@
 </div>
 <p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
 </a>
-<a class="kb-nav-card" href="sentiment/2026/11/24/">
+<a class="kb-nav-card" href="sentiment/2026/11/25/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">인터넷 민심</span>
-<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.25 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">블라인드·X.com·스레드 통합 공포·탐욕 지수, 명예의 전당 및 종목별 민심</p>
 </a>
-<a class="kb-nav-card" href="rumors/2026/11/24/">
+<a class="kb-nav-card" href="rumors/2026/11/25/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">찌라시</span>
-<span class="kb-nav-card__meta">11.24 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.25 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">젠슨 황 복귀·3.12억 달러 콜옵션·3배 숏 상폐·빅테크 20년 계약 팩트체크</p>
+<p class="kb-nav-card__desc">트럼프 엔비디아 지분·사면·BNP 마이크론·AMD 3.4억주·테슬라 합병 팩트체크</p>
 </a>
 <a class="kb-nav-card" href="records/2026/trade-track-record/">
 <div class="kb-nav-card__top">
@@ -57,20 +57,428 @@
 </a>
 </div>
 
+---
+
+## 개미 공포·탐욕 지수 추이
+
+<!-- SENTIMENT_CHART_START -->
+<div class="kb-fg-home" markdown="1">
+<div class="kb-fg-home__head">
+<div class="kb-fg-home__score-wrap">
+<span class="kb-fg-home__score" style="color:#ea580c">39</span>
+<span class="kb-fg-home__max">/ 100</span>
+<span class="kb-fg-home__badge" style="color:#ea580c">공포</span>
+<span class="kb-fg-home__delta">전일 대비 -12p</span>
+</div>
+<div class="kb-fg-home__meta"><span>2026.11.25 기준 · 3,155건</span><a class="kb-fg-home__link" href="sentiment/2026/11/25/">상세 리포트 →</a></div>
+</div>
+<div class="kb-fg-home__sub">
+<div class="kb-fg-home__zones"><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#dc2626"></span>극단적 공포 0 ~ 24</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#ea580c"></span>공포 25 ~ 44</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#64748b"></span>중립 45 ~ 55</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#16a34a"></span>탐욕 56 ~ 74</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#2563eb"></span>극단적 탐욕 75 ~ 100</span></div>
+<span class="kb-fg-home__sites">블라인드 41 · X.com 31 · 스레드 45</span>
+</div>
+
+```vegalite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "width": "container",
+  "height": 230,
+  "padding": {
+    "top": 18,
+    "bottom": 6,
+    "left": 6,
+    "right": 12
+  },
+  "data": {
+    "values": [
+      {
+        "date": "2026-11-22",
+        "date_short": "11/22",
+        "score": 16,
+        "grade": "극단적 공포",
+        "grade_color": "#dc2626",
+        "delta_str": "기준일",
+        "sites_str": "블라인드 23 · X.com 8 · 스레드 17",
+        "posts_str": "2,556건"
+      },
+      {
+        "date": "2026-11-23",
+        "date_short": "11/23",
+        "score": 23,
+        "grade": "극단적 공포",
+        "grade_color": "#dc2626",
+        "delta_str": "+7p",
+        "sites_str": "블라인드 36 · X.com 18 · 스레드 14",
+        "posts_str": "3,477건"
+      },
+      {
+        "date": "2026-11-24",
+        "date_short": "11/24",
+        "score": 51,
+        "grade": "중립",
+        "grade_color": "#64748b",
+        "delta_str": "+28p",
+        "sites_str": "블라인드 55 · X.com 43 · 스레드 54",
+        "posts_str": "3,993건"
+      },
+      {
+        "date": "2026-11-25",
+        "date_short": "11/25",
+        "score": 39,
+        "grade": "공포",
+        "grade_color": "#ea580c",
+        "delta_str": "-12p",
+        "sites_str": "블라인드 41 · X.com 31 · 스레드 45",
+        "posts_str": "3,155건"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "y0": 0,
+            "y1": 25,
+            "ymid": 12.5,
+            "shortLabel": "극단적 공포",
+            "rangeText": "0 ~ 24",
+            "bandColor": "#dc2626"
+          },
+          {
+            "y0": 25,
+            "y1": 45,
+            "ymid": 35,
+            "shortLabel": "공포",
+            "rangeText": "25 ~ 44",
+            "bandColor": "#ea580c"
+          },
+          {
+            "y0": 45,
+            "y1": 55,
+            "ymid": 50,
+            "shortLabel": "중립",
+            "rangeText": "45 ~ 55",
+            "bandColor": "#64748b"
+          },
+          {
+            "y0": 55,
+            "y1": 75,
+            "ymid": 65,
+            "shortLabel": "탐욕",
+            "rangeText": "56 ~ 74",
+            "bandColor": "#16a34a"
+          },
+          {
+            "y0": 75,
+            "y1": 100,
+            "ymid": 87.5,
+            "shortLabel": "극단적 탐욕",
+            "rangeText": "75 ~ 100",
+            "bandColor": "#2563eb"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "opacity": 0.05
+      },
+      "encoding": {
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "title": null,
+            "values": [
+              0,
+              25,
+              50,
+              75,
+              100
+            ],
+            "ticks": false,
+            "domain": false,
+            "labelFontSize": 10.5,
+            "labelPadding": 8,
+            "grid": true,
+            "gridDash": [
+              2,
+              3
+            ],
+            "gridOpacity": 0.25
+          }
+        },
+        "y2": {
+          "field": "y1"
+        },
+        "fill": {
+          "field": "bandColor",
+          "type": "nominal",
+          "scale": null
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "y0": 0,
+            "y1": 25,
+            "ymid": 12.5,
+            "shortLabel": "극단적 공포",
+            "rangeText": "0 ~ 24",
+            "bandColor": "#dc2626"
+          },
+          {
+            "y0": 25,
+            "y1": 45,
+            "ymid": 35,
+            "shortLabel": "공포",
+            "rangeText": "25 ~ 44",
+            "bandColor": "#ea580c"
+          },
+          {
+            "y0": 45,
+            "y1": 55,
+            "ymid": 50,
+            "shortLabel": "중립",
+            "rangeText": "45 ~ 55",
+            "bandColor": "#64748b"
+          },
+          {
+            "y0": 55,
+            "y1": 75,
+            "ymid": 65,
+            "shortLabel": "탐욕",
+            "rangeText": "56 ~ 74",
+            "bandColor": "#16a34a"
+          },
+          {
+            "y0": 75,
+            "y1": 100,
+            "ymid": 87.5,
+            "shortLabel": "극단적 탐욕",
+            "rangeText": "75 ~ 100",
+            "bandColor": "#2563eb"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "x": "width",
+        "align": "right",
+        "dx": -4,
+        "fontSize": 9.5,
+        "opacity": 0.52
+      },
+      "encoding": {
+        "y": {
+          "field": "ymid",
+          "type": "quantitative",
+          "axis": null
+        },
+        "text": {
+          "field": "shortLabel",
+          "type": "nominal"
+        },
+        "fill": {
+          "field": "bandColor",
+          "type": "nominal",
+          "scale": null
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "y": 50
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "strokeDash": [
+          3,
+          3
+        ],
+        "color": "#94a3b8",
+        "opacity": 0.45
+      },
+      "encoding": {
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "axis": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "line": {
+          "color": "#64748b",
+          "strokeWidth": 2.4
+        },
+        "color": {
+          "x1": 1,
+          "y1": 1,
+          "x2": 1,
+          "y2": 0,
+          "gradient": "linear",
+          "stops": [
+            {
+              "offset": 0,
+              "color": "rgba(100, 116, 139, 0.01)"
+            },
+            {
+              "offset": 1,
+              "color": "rgba(100, 116, 139, 0.16)"
+            }
+          ]
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "date_short",
+          "type": "ordinal",
+          "sort": null,
+          "scale": {
+            "padding": 0.35
+          },
+          "axis": {
+            "title": null,
+            "labelAngle": 0,
+            "labelOverlap": "parity",
+            "labelFontSize": 11,
+            "labelFontWeight": "bold",
+            "labelPadding": 8,
+            "ticks": false,
+            "domainOpacity": 0.25,
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "score",
+          "type": "quantitative",
+          "axis": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 115,
+        "stroke": "#ffffff",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "date_short",
+          "type": "ordinal",
+          "sort": null
+        },
+        "y": {
+          "field": "score",
+          "type": "quantitative",
+          "axis": null
+        },
+        "fill": {
+          "field": "grade_color",
+          "type": "nominal",
+          "scale": null
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "title": "날짜"
+          },
+          {
+            "field": "score",
+            "title": "통합 지수"
+          },
+          {
+            "field": "grade",
+            "title": "심리 구간"
+          },
+          {
+            "field": "delta_str",
+            "title": "전일 대비"
+          },
+          {
+            "field": "sites_str",
+            "title": "사이트별 점수"
+          },
+          {
+            "field": "posts_str",
+            "title": "분석 건수"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -14,
+        "fontWeight": "bold",
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "date_short",
+          "type": "ordinal",
+          "sort": null
+        },
+        "y": {
+          "field": "score",
+          "type": "quantitative",
+          "axis": null
+        },
+        "text": {
+          "field": "score",
+          "type": "quantitative"
+        },
+        "fill": {
+          "field": "grade_color",
+          "type": "nominal",
+          "scale": null
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
+```
+
+</div>
+<!-- SENTIMENT_CHART_END -->
+
+---
 
 ## 주요 시장 일정 (과거 2주 ~ 향후 2주)
 
-업데이트일(**2026-11-24**) 기준으로 직전 2주와 향후 2주의 주요 일정입니다. 미국 일정은 현지 날짜로 표시합니다.
+업데이트일(**2026-11-25**) 기준으로 직전 2주와 향후 2주의 주요 일정입니다. 미국 일정은 현지 날짜로 표시합니다.
 
-<div class="kb-cal" aria-label="2026년 11월 10일 ~ 12월 8일 시장 주요 일정 달력">
+<div class="kb-cal" aria-label="2026년 11월 11일 ~ 12월 9일 시장 주요 일정 달력">
 <div class="kb-cal__head">
-<span class="kb-cal__range">2026.11.10 ~ 12.08</span>
-<span class="kb-cal__meta">기준일 11.24 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
+<span class="kb-cal__range">2026.11.11 ~ 12.09</span>
+<span class="kb-cal__meta">기준일 11.25 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
 </div>
 <div class="kb-cal__next" aria-label="임박한 주요 시장 분수령">
-<span class="kb-cal__next-item" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 상회 시 50bp 빅스텝 재점화"><span class="kb-cal__dday">D-1</span> 11/25 미 10월 PCE·3Q GDP</span>
-<span class="kb-cal__next-item" title="미국 추수감사절 휴장·27일 13시 조기 폐장, 한은 금리 인상 및 원화 발언 주시"><span class="kb-cal__dday">D-2</span> 11/26 미 휴장·한은 금통위</span>
-<span class="kb-cal__next-item" title="추수감사절 다음 날 뉴욕증시 오후 1시 조기 폐장"><span class="kb-cal__dday">D-3</span> 11/27 미 조기 폐장</span>
+<span class="kb-cal__next-item" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 상회 시 50bp 빅스텝 재점화"><span class="kb-cal__dday">D-Day</span> 11/25 미 10월 PCE·3Q GDP</span>
+<span class="kb-cal__next-item" title="미국 추수감사절 휴장·27일 13시 조기 폐장, 한은 금리 인상 및 원화 발언 주시"><span class="kb-cal__dday">D-1</span> 11/26 미 휴장·한은 금통위</span>
+<span class="kb-cal__next-item" title="추수감사절 다음 날 뉴욕증시 오후 1시 조기 폐장 · 삼성전자 30조 원 배당 역송금 변수"><span class="kb-cal__dday">D-2</span> 11/27 미 조기 폐장·삼전 배당</span>
 </div>
 <div class="kb-cal__weekdays" aria-hidden="true">
 <span class="kb-cal__weekday">월</span>
@@ -82,10 +490,7 @@
 <span class="kb-cal__weekday">일</span>
 </div>
 <div class="kb-cal__grid">
-<div style="grid-column-start:2" class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">10</span><span class="kb-cal__dow">(화)</span></span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--past">
+<div style="grid-column-start:3" class="kb-cal__day kb-cal__day--past">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">11</span><span class="kb-cal__dow">(수)</span></span></div>
 <div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday">미 채권 휴장 (재향군인)</span></div>
 </div>
@@ -134,13 +539,13 @@
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">23</span><span class="kb-cal__dow">(월)</span></span></div>
 <div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday">일본 휴장 (근로감사)</span><span class="kb-cal__evt kb-cal__evt--major">젠슨 황 CEO 복귀</span><span class="kb-cal__evt" title="공모가 $83 지지 및 개인 콜옵션 수급 첫 시험대"><a class="kb-cal__link" href="news/2026/11/23/">앤트로픽 옵션 개시</a></span><span class="kb-cal__evt" title="11월 S&amp;P 글로벌 제조·서비스업 PMI 예비치 · 윌리엄스 연은 총재 연설">미 11월 S&amp;P PMI</span></div>
 </div>
-<div class="kb-cal__day kb-cal__day--today" aria-current="date">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">24</span><span class="kb-cal__dow">(화)</span></span><span class="kb-cal__today-badge">오늘</span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt" title="상장기업 1일 자기주식 매수 한도 3개월 완화 시행">韓 자사주 한도 완화</span><span class="kb-cal__evt" title="델 테크놀로지스·HP·달러트리·오토데스크 실적 및 콘퍼런스보드 소비자신뢰지수">델·HP 실적 발표</span><span class="kb-cal__evt">미 소비자신뢰·5년물 국채 입찰</span></div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">24</span><span class="kb-cal__dow">(화)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="필라델피아 반도체지수 -7.88% 반락, 헬스케어 +2.95% · 사노피 410억 달러 인수"><a class="kb-cal__link" href="news/2026/11/24/">필리 -7.9%·사노피 410억 딜</a></span><span class="kb-cal__evt" title="델 AI 수주잔고 1,323억 달러·자사주 250억 vs HP 메모리 BOM 40%">델 1,323억 수주·HP 실적</span><span class="kb-cal__evt" title="11월 CB 소비자신뢰 103.3(+11.4p), 상무부 메가스피드 등 7개사 블랙리스트">미 소비신뢰 103.3·7개사 제재</span></div>
 </div>
-<div class="kb-cal__day">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">25</span><span class="kb-cal__dow">(수)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 3분기 GDP 2차 +3.5% 예상">미 10월 PCE·3Q GDP</span><span class="kb-cal__evt" title="연준 12개 지역 경기동향 보고서 · 내구재 주문·신규주택 판매">연준 베이지북 공개</span></div>
+<div class="kb-cal__day kb-cal__day--today" aria-current="date">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">25</span><span class="kb-cal__dow">(수)</span></span><span class="kb-cal__today-badge">오늘</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="10월 PCE·근원 PCE 전월비 +0.3% 예상, 3분기 GDP 수정치 · 내구재·신규주택"><a class="kb-cal__link" href="news/2026/11/25/">미 10월 PCE·3Q GDP</a></span><span class="kb-cal__evt" title="연준 12개 지역 경기동향 보고서(한국시간 26일 새벽 4시)">연준 베이지북 공개</span></div>
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">26</span><span class="kb-cal__dow">(목)</span></span></div>
@@ -148,7 +553,7 @@
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">27</span><span class="kb-cal__dow">(금)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="뉴욕증시 동부시간 오후 1시(한국시간 28일 새벽 3시) 조기 폐장">미국 조기 폐장 (13:00)</span><span class="kb-cal__evt" title="삼성전자 등 대기업 배당 역송금 수요 · 달러-원 환율 상방 압력 변수">삼성전자 배당 역송금</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="뉴욕증시 동부시간 오후 1시(한국시간 28일 새벽 3시) 조기 폐장">미국 조기 폐장 (13:00)</span><span class="kb-cal__evt" title="삼성전자 30조 원 배당 지급 · 외국인 역송금 환전 수요 변수">삼성전자 30조 배당 역송금</span></div>
 </div>
 <div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">28</span><span class="kb-cal__dow">(토)</span></span></div>
@@ -186,7 +591,11 @@
 </div>
 <div class="kb-cal__day">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">8</span><span class="kb-cal__dow">(화)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major">FOMC 첫날 · 9일 금리 결정</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major">FOMC 회의 첫날</span></div>
+</div>
+<div class="kb-cal__day">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">9</span><span class="kb-cal__dow">(수)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--major" title="CME 페드워치 25bp 인상 확률 97%대 반영">FOMC 기준금리 결정</span></div>
 </div>
 </div>
 </div>
@@ -199,10 +608,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **하루치 뉴스정리** | 반도체지수 -7.88% 반락 · 델 수주잔고 1,323억 달러 · HP 메모리 원가 40% · 사노피 410억 빅딜 | 2026-11-25 | [문서 열기](news/2026/11/25.md) |
+| **찌라시** | 트럼프 엔비디아 지분·사면·BNP 마이크론·AMD 3.4억주·테슬라 합병 팩트체크 | 2026-11-25 | [문서 열기](rumors/2026/11/25.md) |
+| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 39점 (젠슨 황 복귀 1일 차 반락·반도체 급락) | 2026-11-25 | [문서 열기](sentiment/2026/11/25.md) |
 | **투자 트랙레코드** | ProShares UltraPro QQQ (`TQQQ`) 전량 익절 청산 | 2026-11-24 | [문서 열기](records/2026/trade-track-record.md) |
-| **찌라시** | 젠슨 황 복귀·3.12억 달러 콜옵션·3배 숏 상폐·빅테크 20년 계약 팩트체크 | 2026-11-24 | [문서 열기](rumors/2026/11/24.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 51점 (젠슨 황 복귀·나스닥 +6.5%·코스피 5,000 탈환) | 2026-11-24 | [문서 열기](sentiment/2026/11/24.md) |
-| **하루치 뉴스정리** | 젠슨 황 복귀와 반도체 급반등 · 옵션과 AI 임대료 | 2026-11-24 | [문서 열기](news/2026/11/24.md) |
 
 ---
 
