@@ -34,19 +34,19 @@
 </div>
 <p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
 </a>
-<a class="kb-nav-card" href="sentiment/2026/11/25/">
+<a class="kb-nav-card" href="sentiment/2026/11/26/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">인터넷 민심</span>
-<span class="kb-nav-card__meta">11.25 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.26 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">블라인드·X.com·스레드 통합 공포·탐욕 지수, 명예의 전당 및 종목별 민심</p>
 </a>
-<a class="kb-nav-card" href="rumors/2026/11/25/">
+<a class="kb-nav-card" href="rumors/2026/11/26/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">찌라시</span>
-<span class="kb-nav-card__meta">11.25 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.26 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">트럼프 엔비디아 지분·사면·BNP 마이크론·AMD 3.4억주·테슬라 합병 팩트체크</p>
+<p class="kb-nav-card__desc">엔비디아 SEC·S&amp;P 경고·301조 관세·스페이스X GPU·증안펀드 100조 팩트체크</p>
 </a>
 <a class="kb-nav-card" href="records/2026/trade-track-record/">
 <div class="kb-nav-card__top">
@@ -65,16 +65,16 @@
 <div class="kb-fg-home" markdown="1">
 <div class="kb-fg-home__head">
 <div class="kb-fg-home__score-wrap">
-<span class="kb-fg-home__score" style="color:#ea580c">39</span>
+<span class="kb-fg-home__score" style="color:#ea580c">26</span>
 <span class="kb-fg-home__max">/ 100</span>
 <span class="kb-fg-home__badge" style="color:#ea580c">공포</span>
-<span class="kb-fg-home__delta">전일 대비 -12p</span>
+<span class="kb-fg-home__delta">전일 대비 -13p</span>
 </div>
-<div class="kb-fg-home__meta"><span>2026.11.25 기준 · 3,155건</span><a class="kb-fg-home__link" href="sentiment/2026/11/25/">상세 리포트 →</a></div>
+<div class="kb-fg-home__meta"><span>2026.11.26 기준 · 4,171건</span><a class="kb-fg-home__link" href="sentiment/2026/11/26/">상세 리포트 →</a></div>
 </div>
 <div class="kb-fg-home__sub">
 <div class="kb-fg-home__zones"><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#dc2626"></span>극단적 공포 0 ~ 24</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#ea580c"></span>공포 25 ~ 44</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#64748b"></span>중립 45 ~ 55</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#16a34a"></span>탐욕 56 ~ 74</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#2563eb"></span>극단적 탐욕 75 ~ 100</span></div>
-<span class="kb-fg-home__sites">블라인드 41 · X.com 31 · 스레드 45</span>
+<span class="kb-fg-home__sites">블라인드 29 · X.com 24 · 스레드 26</span>
 </div>
 
 ```vegalite
@@ -130,6 +130,16 @@
         "delta_str": "-12p",
         "sites_str": "블라인드 41 · X.com 31 · 스레드 45",
         "posts_str": "3,155건"
+      },
+      {
+        "date": "2026-11-26",
+        "date_short": "11/26",
+        "score": 26,
+        "grade": "공포",
+        "grade_color": "#ea580c",
+        "delta_str": "-13p",
+        "sites_str": "블라인드 29 · X.com 24 · 스레드 26",
+        "posts_str": "4,171건"
       }
     ]
   },
@@ -608,10 +618,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **찌라시** | 엔비디아 SEC·S&amp;P 경고 · 301조 관세·한은 3.25% · 스페이스X GPU · 증안펀드 100조 팩트체크 | 2026-11-26 | [문서 열기](rumors/2026/11/26.md) |
+| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 26점 (코스피 4,701 급락·미장 V자 반등) | 2026-11-26 | [문서 열기](sentiment/2026/11/26.md) |
 | **하루치 뉴스정리** | 반도체지수 -7.88% 반락 · 델 수주잔고 1,323억 달러 · HP 메모리 원가 40% · 사노피 410억 빅딜 | 2026-11-25 | [문서 열기](news/2026/11/25.md) |
 | **찌라시** | 트럼프 엔비디아 지분·사면·BNP 마이크론·AMD 3.4억주·테슬라 합병 팩트체크 | 2026-11-25 | [문서 열기](rumors/2026/11/25.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 39점 (젠슨 황 복귀 1일 차 반락·반도체 급락) | 2026-11-25 | [문서 열기](sentiment/2026/11/25.md) |
-| **투자 트랙레코드** | ProShares UltraPro QQQ (`TQQQ`) 전량 익절 청산 | 2026-11-24 | [문서 열기](records/2026/trade-track-record.md) |
 
 ---
 
