@@ -6,10 +6,10 @@
 ## 메뉴 바로가기
 
 <div class="kb-nav-grid" aria-label="카테고리별 최신 리포트 바로가기">
-<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/26/">
+<a class="kb-nav-card kb-nav-card--lead" href="news/2026/11/27/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">하루치 뉴스정리</span>
-<span class="kb-nav-card__meta">11.26 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.27 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">일자별 핵심 시장 뉴스 팩트 체크, 금리·매크로 변수 영향도, 시나리오 분석</p>
 </a>
@@ -34,19 +34,19 @@
 </div>
 <p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
 </a>
-<a class="kb-nav-card" href="sentiment/2026/11/26/">
+<a class="kb-nav-card" href="sentiment/2026/11/27/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">인터넷 민심</span>
-<span class="kb-nav-card__meta">11.26 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.27 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">블라인드·X.com·스레드 통합 공포·탐욕 지수, 명예의 전당 및 종목별 민심</p>
 </a>
-<a class="kb-nav-card" href="rumors/2026/11/26/">
+<a class="kb-nav-card" href="rumors/2026/11/27/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">찌라시</span>
-<span class="kb-nav-card__meta">11.26 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.27 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">엔비디아 SEC·S&amp;P 경고·301조 관세·스페이스X GPU·증안펀드 100조 팩트체크</p>
+<p class="kb-nav-card__desc">AI 암호 해독설·NVDA 동남아 출하 중단·머스크-이재용 협상·국민연금 240조 팩트체크</p>
 </a>
 <a class="kb-nav-card" href="records/2026/trade-track-record/">
 <div class="kb-nav-card__top">
@@ -65,16 +65,16 @@
 <div class="kb-fg-home" markdown="1">
 <div class="kb-fg-home__head">
 <div class="kb-fg-home__score-wrap">
-<span class="kb-fg-home__score" style="color:#ea580c">26</span>
+<span class="kb-fg-home__score" style="color:#ea580c">33</span>
 <span class="kb-fg-home__max">/ 100</span>
 <span class="kb-fg-home__badge" style="color:#ea580c">공포</span>
-<span class="kb-fg-home__delta">전일 대비 -13p</span>
+<span class="kb-fg-home__delta">전일 대비 +7p</span>
 </div>
-<div class="kb-fg-home__meta"><span>2026.11.26 기준 · 4,171건</span><a class="kb-fg-home__link" href="sentiment/2026/11/26/">상세 리포트 →</a></div>
+<div class="kb-fg-home__meta"><span>2026.11.27 기준 · 2,679건</span><a class="kb-fg-home__link" href="sentiment/2026/11/27/">상세 리포트 →</a></div>
 </div>
 <div class="kb-fg-home__sub">
 <div class="kb-fg-home__zones"><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#dc2626"></span>극단적 공포 0 ~ 24</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#ea580c"></span>공포 25 ~ 44</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#64748b"></span>중립 45 ~ 55</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#16a34a"></span>탐욕 56 ~ 74</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#2563eb"></span>극단적 탐욕 75 ~ 100</span></div>
-<span class="kb-fg-home__sites">블라인드 29 · X.com 24 · 스레드 26</span>
+<span class="kb-fg-home__sites">블라인드 32 · X.com 29 · 스레드 38</span>
 </div>
 
 ```vegalite
@@ -140,6 +140,16 @@
         "delta_str": "-13p",
         "sites_str": "블라인드 29 · X.com 24 · 스레드 26",
         "posts_str": "4,171건"
+      },
+      {
+        "date": "2026-11-27",
+        "date_short": "11/27",
+        "score": 33,
+        "grade": "공포",
+        "grade_color": "#ea580c",
+        "delta_str": "+7p",
+        "sites_str": "블라인드 32 · X.com 29 · 스레드 38",
+        "posts_str": "2,679건"
       }
     ]
   },
@@ -478,17 +488,17 @@
 
 ## 주요 시장 일정 (과거 2주 ~ 향후 2주)
 
-업데이트일(**2026-11-26**) 기준으로 직전 2주와 향후 2주의 주요 일정입니다. 미국 일정은 현지 날짜로 표시합니다.
+업데이트일(**2026-11-27**) 기준으로 직전 2주와 향후 2주의 주요 일정입니다. 미국 일정은 현지 날짜로 표시합니다.
 
-<div class="kb-cal" aria-label="2026년 11월 12일 ~ 12월 10일 시장 주요 일정 달력">
+<div class="kb-cal" aria-label="2026년 11월 13일 ~ 12월 11일 시장 주요 일정 달력">
 <div class="kb-cal__head">
-<span class="kb-cal__range">2026.11.12 ~ 12.10</span>
-<span class="kb-cal__meta">기준일 11.26 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
+<span class="kb-cal__range">2026.11.13 ~ 12.11</span>
+<span class="kb-cal__meta">기준일 11.27 · <span class="kb-cal__meta-holiday">휴장·조기폐장</span> · <strong>핵심 분수령</strong></span>
 </div>
 <div class="kb-cal__next" aria-label="임박한 주요 시장 분수령">
-<span class="kb-cal__next-item" title="미국 추수감사절 휴장 · 한은 25bp 인상(3.25%)·성장률 전망·원화 발언 주시"><span class="kb-cal__dday">D-Day</span> 11/26 미 휴장·한은 금통위</span>
-<span class="kb-cal__next-item" title="추수감사절 다음 날 뉴욕증시 오후 1시·채권 2시 조기 폐장 · 삼성전자 30조 원 배당 역송금 변수"><span class="kb-cal__dday">D-1</span> 11/27 미 조기 폐장·삼전 배당</span>
-<span class="kb-cal__next-item" title="후티 사우디 피격 여파와 글로벌 공급과잉 우려 속 OPEC+ 2027년 생산 할당량 결정"><span class="kb-cal__dday">D-3</span> 11/29 OPEC+ 회의</span>
+<span class="kb-cal__next-item" title="추수감사절 다음 날 뉴욕증시 오후 1시·채권 2시 조기 폐장 · 삼성전자 30조 원 배당 역송금(~50억 달러) 변수"><span class="kb-cal__dday">D-Day</span> 11/27 미 조기 폐장·삼전 배당</span>
+<span class="kb-cal__next-item" title="후티 사우디 피격 여파와 글로벌 공급과잉 우려 속 OPEC+ 2027년 생산 할당량 결정"><span class="kb-cal__dday">D-2</span> 11/29 OPEC+ 회의</span>
+<span class="kb-cal__next-item" title="미 하원 3개 위원회 젠슨 황 비공개 진술 및 러트닉 상무장관 증언 · 수출통제 분기점"><span class="kb-cal__dday">D-4</span> 12/1 젠슨 황 하원 면담</span>
 </div>
 <div class="kb-cal__weekdays" aria-hidden="true">
 <span class="kb-cal__weekday">월</span>
@@ -500,11 +510,7 @@
 <span class="kb-cal__weekday">일</span>
 </div>
 <div class="kb-cal__grid">
-<div style="grid-column-start:4" class="kb-cal__day kb-cal__day--past">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">12</span><span class="kb-cal__dow">(목)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt">젠슨 황 CEO 퇴진</span></div>
-</div>
-<div class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
+<div style="grid-column-start:5" class="kb-cal__day kb-cal__day--past kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">13</span><span class="kb-cal__dow">(금)</span></span></div>
 </div>
 <div class="kb-cal__day kb-cal__day--past kb-cal__day--wknd kb-cal__day--empty">
@@ -553,13 +559,13 @@
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">25</span><span class="kb-cal__dow">(수)</span></span></div>
 <div class="kb-cal__events"><span class="kb-cal__evt" title="3Q GDP 잠정 4.3%·근원 PCE 3.3%(3년 최고) · S&amp;P 엔비디아 AA 부정적 관찰대상"><a class="kb-cal__link" href="news/2026/11/25/">미 3Q GDP 4.3%·근원 PCE 3.3%</a></span><span class="kb-cal__evt" title="무역법 301조 과잉생산 관세 한국 15%·불충분 시 25% 압박">USTR 301조 14개국 관세 예고</span></div>
 </div>
-<div class="kb-cal__day kb-cal__day--today" aria-current="date">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">26</span><span class="kb-cal__dow">(목)</span></span><span class="kb-cal__today-badge">오늘</span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="추수감사절 뉴욕증시·채권 휴장 · 연휴 주간 유동성 축소 주의">미국 휴장 (추수감사절)</span><span class="kb-cal__evt kb-cal__evt--major" title="기준금리 25bp 인상(3.25%) 및 수정 경제전망·원화 발언 주시"><a class="kb-cal__link" href="news/2026/11/26/">한국은행 금통위</a></span></div>
+<div class="kb-cal__day kb-cal__day--past">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">26</span><span class="kb-cal__dow">(목)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="추수감사절 뉴욕증시·채권 휴장 · 연휴 주간 유동성 축소 주의">미국 휴장 (추수감사절)</span><span class="kb-cal__evt kb-cal__evt--major" title="기준금리 25bp 인상(3.25%) · 올해/내년 성장률 3.9%·4.1% 상향"><a class="kb-cal__link" href="news/2026/11/26/">한국은행 3.25% 인상</a></span></div>
 </div>
-<div class="kb-cal__day">
-<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">27</span><span class="kb-cal__dow">(금)</span></span></div>
-<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="뉴욕증시 동부시간 오후 1시·채권 2시(한국시간 28일 새벽 3·4시) 조기 폐장">미국 조기 폐장 (13:00)</span><span class="kb-cal__evt" title="삼성전자 30조 원 배당 지급 · 외국인 역송금 환전 수요 변수">삼성전자 30조 배당 역송금</span></div>
+<div class="kb-cal__day kb-cal__day--today" aria-current="date">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">27</span><span class="kb-cal__dow">(금)</span></span><span class="kb-cal__today-badge">오늘</span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt kb-cal__evt--holiday" title="뉴욕증시 동부시간 오후 1시·채권 2시(한국시간 28일 새벽 3·4시) 조기 폐장">미국 조기 폐장 (13:00)</span><span class="kb-cal__evt kb-cal__evt--major" title="삼성전자 30조 원 배당 지급 · 외국인 역송금 약 50억 달러 환전 수요 변수"><a class="kb-cal__link" href="news/2026/11/27/">삼성전자 30조 배당 역송금</a></span></div>
 </div>
 <div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">11/</span><span class="kb-cal__num">28</span><span class="kb-cal__dow">(토)</span></span></div>
@@ -590,8 +596,9 @@
 <div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">5</span><span class="kb-cal__dow">(토)</span></span></div>
 </div>
-<div class="kb-cal__day kb-cal__day--wknd kb-cal__day--empty">
+<div class="kb-cal__day kb-cal__day--wknd">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">6</span><span class="kb-cal__dow">(일)</span></span></div>
+<div class="kb-cal__events"><span class="kb-cal__evt" title="나스닥 하루 23시간 거래체제 도입 · 글로벌 증시 거래시간 연장 경쟁 촉발">나스닥 23시간 거래 개시</span></div>
 </div>
 <div class="kb-cal__day kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">7</span><span class="kb-cal__dow">(월)</span></span></div>
@@ -607,6 +614,9 @@
 <div class="kb-cal__day kb-cal__day--empty">
 <div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">10</span><span class="kb-cal__dow">(목)</span></span></div>
 </div>
+<div class="kb-cal__day kb-cal__day--empty">
+<div class="kb-cal__top"><span class="kb-cal__date"><span class="kb-cal__m-prefix">12/</span><span class="kb-cal__num">11</span><span class="kb-cal__dow">(금)</span></span></div>
+</div>
 </div>
 </div>
 
@@ -618,10 +628,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **하루치 뉴스정리** | 젠슨 황 수사 부인·DPA 압박 · 오픈AI IPO 28% · 월가 S&amp;P 8,200 ~ 10,000 · 삼성 30조 배당 환율 | 2026-11-27 | [문서 열기](news/2026/11/27.md) |
+| **찌라시** | AI 암호 해독설 · NVDA 동남아 출하 중단 · 머스크-이재용 협상 · 국민연금 240조 팩트체크 | 2026-11-27 | [문서 열기](rumors/2026/11/27.md) |
+| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 33점 (미 휴장 선물 반등·코스피 윗꼬리) | 2026-11-27 | [문서 열기](sentiment/2026/11/27.md) |
 | **하루치 뉴스정리** | 장중 -8% 반도체 V자 반등 · S&amp;P 엔비디아 경고 · GDP 4.3%·근원 PCE 3.3% · USTR 301조 관세 | 2026-11-26 | [문서 열기](news/2026/11/26.md) |
-| **찌라시** | 엔비디아 SEC·S&amp;P 경고 · 301조 관세·한은 3.25% · 스페이스X GPU · 증안펀드 100조 팩트체크 | 2026-11-26 | [문서 열기](rumors/2026/11/26.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 26점 (코스피 4,701 급락·미장 V자 반등) | 2026-11-26 | [문서 열기](sentiment/2026/11/26.md) |
-| **하루치 뉴스정리** | 반도체지수 -7.88% 반락 · 델 수주잔고 1,323억 달러 · HP 메모리 원가 40% · 사노피 410억 빅딜 | 2026-11-25 | [문서 열기](news/2026/11/25.md) |
 
 ---
 
