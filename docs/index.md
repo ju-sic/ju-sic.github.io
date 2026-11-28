@@ -27,12 +27,12 @@
 </div>
 <p class="kb-nav-card__desc">미국 낙폭과대 64개 후보 전수 검증(Top Pick CRM) 및 분할 매수 전략</p>
 </a>
-<a class="kb-nav-card" href="questions/2026/11/us-market-selloff-and-tqqq-dip-buying-strategy/">
+<a class="kb-nav-card" href="questions/2026/11/jpmorgan-2027-crash-warning-and-ai-rebound-analysis/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">주식투자 Q&amp;A</span>
-<span class="kb-nav-card__meta">11.20 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.28 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
+<p class="kb-nav-card__desc">JP모건 2027년 재하락 경고·연말 AI 반등론 검증, TQQQ 전략, 신용위기 진단</p>
 </a>
 <a class="kb-nav-card" href="sentiment/2026/11/28/">
 <div class="kb-nav-card__top">
@@ -645,10 +645,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **주식투자 Q&A** | JP모건 2027년 재하락 경고와 연말 AI 반등론 검증 (약세장 3단계 · CDS · 김영익·드러켄밀러 교차 분석) | 2026-11-28 | [문서 열기](questions/2026/11/jpmorgan-2027-crash-warning-and-ai-rebound-analysis.md) |
 | **유튜브조사** | 스탠리 드러켄밀러 2026년 11월 전망 (시장 관망·자본 보존 · 구리 숏 · TSMC -94.5% · 금광주 편입) | 2026-11-28 | [문서 열기](youtube/stanley-druckenmiller/2026/11.md) |
 | **유튜브조사** | 김영익 교수 2026년 11월 증시 전망 (선행지수 하락 · 코스피 4,100 ~ 5,300 · 2027년 기회) | 2026-11-28 | [문서 열기](youtube/kim-young-ik/2026/11.md) |
 | **찌라시** | 상하이 블랙웰 발견 · 국민연금 202조 · 골드만 CTA 1,000억 · SK하이닉스 자사주 2배 팩트체크 | 2026-11-28 | [문서 열기](rumors/2026/11/28.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 52점 (코스닥 사이드카·미장 급반등·상하이 칩) | 2026-11-28 | [문서 열기](sentiment/2026/11/28.md) |
 
 ---
 
