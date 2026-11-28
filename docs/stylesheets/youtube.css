@@ -1,0 +1,280 @@
+/* 유튜브조사 전용 스타일시트: 지식저장소 무채색 디자인 시스템(extra.css / rumors.css)과 통일 */
+.md-typeset .kb-yt {
+  --y-ink: #17191c;
+  --y-muted: #5a6069;
+  --y-surface: #ffffff;
+  --y-bg: #f4f4f5;
+  --y-border: rgba(13, 13, 13, 0.08);
+  --y-border-strong: rgba(13, 13, 13, 0.16);
+  --y-strong: #0d0d0d;
+  --y-soft: #6b7280;
+  --y-pill-bg: #0d0d0d;
+  --y-pill-fg: #ffffff;
+  --y-bull: #15803d;
+  --y-bear: #dc2626;
+  --y-neutral: #c2410c;
+  --y-mark: rgba(250, 204, 21, 0.38);
+  min-width: 0;
+  container-type: inline-size;
+  color: var(--y-ink);
+  font-size: clamp(0.86rem, 0.81rem + 0.25vw, 0.96rem);
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .kb-yt {
+  --y-ink: #f0f2f5;
+  --y-muted: #9ca3af;
+  --y-surface: #1b1d22;
+  --y-bg: #1e2026;
+  --y-border: rgba(255, 255, 255, 0.09);
+  --y-border-strong: rgba(255, 255, 255, 0.18);
+  --y-strong: #f7f7f8;
+  --y-soft: #9ca3af;
+  --y-pill-bg: #f7f7f8;
+  --y-pill-fg: #0d0d0d;
+  --y-bull: #4ade80;
+  --y-bear: #f87171;
+  --y-neutral: #fb923c;
+  --y-mark: rgba(250, 204, 21, 0.24);
+}
+
+.md-typeset .kb-yt > * {
+  min-width: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 히어로 카드                                                                */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-yt .y-hero {
+  margin: 0 0 1.4rem;
+  padding: clamp(1.5rem, 1.15rem + 1.5vw, 2.25rem) clamp(1.2rem, 0.9rem + 1.4vw, 2rem);
+  border: 1px solid var(--y-border);
+  border-radius: 16px;
+  background: var(--y-bg);
+}
+
+.md-typeset .kb-yt .y-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.75rem;
+  margin: 0 0 0.75rem;
+  color: var(--y-soft);
+  font-size: 0.78rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .kb-yt .y-hero h1 {
+  margin: 0 0 0.85rem;
+  padding: 0;
+  border: 0;
+  color: var(--y-strong);
+  font-size: clamp(1.4rem, 1.05rem + 1.5vw, 2.05rem);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-yt .y-hero__summary {
+  margin: 0 0 1rem;
+  color: var(--y-ink);
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.md-typeset .kb-yt .y-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.md-typeset .kb-yt .y-hero__stats span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.65rem;
+  border: 1px solid var(--y-border);
+  border-radius: 999px;
+  background: var(--y-surface);
+  color: var(--y-strong);
+  font-size: 0.76rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 일자별 발언 카드                                                           */
+/* -------------------------------------------------------------------------- */
+.md-typeset .kb-yt .y-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.md-typeset .kb-yt .y-entry {
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--y-border);
+  border-radius: 12px;
+  background: var(--y-surface);
+}
+
+.md-typeset .kb-yt .y-entry__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.65rem;
+  margin: 0 0 0.65rem;
+}
+
+.md-typeset .kb-yt .y-date {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.14rem 0.58rem;
+  border-radius: 6px;
+  background: var(--y-pill-bg);
+  color: var(--y-pill-fg);
+  font-size: 0.76rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.md-typeset .kb-yt .y-stance {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.12rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.md-typeset .kb-yt .y-stance--bear {
+  color: var(--y-bear);
+}
+
+.md-typeset .kb-yt .y-stance--bull {
+  color: var(--y-bull);
+}
+
+.md-typeset .kb-yt .y-stance--neutral {
+  color: var(--y-neutral);
+}
+
+.md-typeset .kb-yt .y-entry__title {
+  margin: 0 0 0.6rem;
+  color: var(--y-strong);
+  font-size: 1.04rem;
+  font-weight: 750;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-yt .y-points {
+  margin: 0 0 0.9rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.md-typeset .kb-yt .y-points li {
+  position: relative;
+  margin: 0;
+  padding-left: 0.95rem;
+  word-break: keep-all;
+}
+
+.md-typeset .kb-yt .y-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--y-soft);
+}
+
+.md-typeset .kb-yt .y-key {
+  display: inline-block;
+  margin-right: 0.42rem;
+  padding: 0.04rem 0.42rem;
+  border-radius: 4px;
+  background: var(--y-bg);
+  border: 1px solid var(--y-border);
+  color: var(--y-strong);
+  font-size: 0.78em;
+  font-weight: 700;
+  vertical-align: 0.04em;
+}
+
+.md-typeset .kb-yt mark.y-hl {
+  color: var(--y-strong);
+  font-weight: 650;
+  padding: 0 0.14em;
+  border-radius: 2px;
+  background: transparent linear-gradient(transparent 62%, var(--y-mark) 62%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.md-typeset .kb-yt .y-sources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.55rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--y-border);
+  font-size: 0.79rem;
+  color: var(--y-muted);
+}
+
+.md-typeset .kb-yt .y-sources__label {
+  font-weight: 700;
+  color: var(--y-strong);
+}
+
+.md-typeset .kb-yt .y-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--y-border-strong);
+  border-radius: 6px;
+  background: var(--y-bg);
+  color: var(--y-strong);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.md-typeset .kb-yt .y-source-link:hover {
+  border-color: var(--y-strong);
+  text-decoration: underline;
+}
+
+.md-typeset .kb-yt .y-repeat-note {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.76rem;
+  color: var(--y-muted);
+}
+
+.md-typeset .kb-yt .y-repeat-note a {
+  color: var(--y-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@container (max-width: 560px) {
+  .md-typeset .kb-yt .y-entry {
+    padding: 1rem;
+  }
+}
