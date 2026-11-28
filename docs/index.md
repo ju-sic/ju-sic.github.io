@@ -34,19 +34,19 @@
 </div>
 <p class="kb-nav-card__desc">TQQQ 첫 급락 매수 전략 검증, 브로드컴 밸류, 신용위기 시나리오 진단</p>
 </a>
-<a class="kb-nav-card" href="sentiment/2026/11/27/">
+<a class="kb-nav-card" href="sentiment/2026/11/28/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">인터넷 민심</span>
-<span class="kb-nav-card__meta">11.27 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.28 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
 <p class="kb-nav-card__desc">블라인드·X.com·스레드 통합 공포·탐욕 지수, 명예의 전당 및 종목별 민심</p>
 </a>
-<a class="kb-nav-card" href="rumors/2026/11/27/">
+<a class="kb-nav-card" href="rumors/2026/11/28/">
 <div class="kb-nav-card__top">
 <span class="kb-nav-card__title">찌라시</span>
-<span class="kb-nav-card__meta">11.27 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
+<span class="kb-nav-card__meta">11.28 <span class="kb-nav-card__arrow" aria-hidden="true">→</span></span>
 </div>
-<p class="kb-nav-card__desc">AI 암호 해독설·NVDA 동남아 출하 중단·머스크-이재용 협상·국민연금 240조 팩트체크</p>
+<p class="kb-nav-card__desc">상하이 블랙웰 발견·국민연금 202조·CTA 1,000억 매도·자사주 2배 팩트체크</p>
 </a>
 <a class="kb-nav-card" href="records/2026/trade-track-record/">
 <div class="kb-nav-card__top">
@@ -65,16 +65,16 @@
 <div class="kb-fg-home" markdown="1">
 <div class="kb-fg-home__head">
 <div class="kb-fg-home__score-wrap">
-<span class="kb-fg-home__score" style="color:#ea580c">33</span>
+<span class="kb-fg-home__score" style="color:#64748b">52</span>
 <span class="kb-fg-home__max">/ 100</span>
-<span class="kb-fg-home__badge" style="color:#ea580c">공포</span>
-<span class="kb-fg-home__delta">전일 대비 +7p</span>
+<span class="kb-fg-home__badge" style="color:#64748b">중립</span>
+<span class="kb-fg-home__delta">전일 대비 +19p</span>
 </div>
-<div class="kb-fg-home__meta"><span>2026.11.27 기준 · 2,679건</span><a class="kb-fg-home__link" href="sentiment/2026/11/27/">상세 리포트 →</a></div>
+<div class="kb-fg-home__meta"><span>2026.11.28 기준 · 2,781건</span><a class="kb-fg-home__link" href="sentiment/2026/11/28/">상세 리포트 →</a></div>
 </div>
 <div class="kb-fg-home__sub">
 <div class="kb-fg-home__zones"><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#dc2626"></span>극단적 공포 0 ~ 24</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#ea580c"></span>공포 25 ~ 44</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#64748b"></span>중립 45 ~ 55</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#16a34a"></span>탐욕 56 ~ 74</span><span class="kb-fg-home__zone"><span class="kb-fg-home__dot" style="background:#2563eb"></span>극단적 탐욕 75 ~ 100</span></div>
-<span class="kb-fg-home__sites">블라인드 32 · X.com 29 · 스레드 38</span>
+<span class="kb-fg-home__sites">블라인드 47 · X.com 53 · 스레드 57</span>
 </div>
 
 ```vegalite
@@ -150,6 +150,16 @@
         "delta_str": "+7p",
         "sites_str": "블라인드 32 · X.com 29 · 스레드 38",
         "posts_str": "2,679건"
+      },
+      {
+        "date": "2026-11-28",
+        "date_short": "11/28",
+        "score": 52,
+        "grade": "중립",
+        "grade_color": "#64748b",
+        "delta_str": "+19p",
+        "sites_str": "블라인드 47 · X.com 53 · 스레드 57",
+        "posts_str": "2,781건"
       }
     ]
   },
@@ -628,10 +638,10 @@
 
 | 분류 | 대상 / 티커 | 작성일 | 바로가기 |
 | :--- | :--- | :--- | :--- |
+| **찌라시** | 상하이 블랙웰 발견 · 국민연금 202조 · 골드만 CTA 1,000억 · SK하이닉스 자사주 2배 팩트체크 | 2026-11-28 | [문서 열기](rumors/2026/11/28.md) |
+| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 52점 (코스닥 사이드카·미장 급반등·상하이 칩) | 2026-11-28 | [문서 열기](sentiment/2026/11/28.md) |
 | **하루치 뉴스정리** | 젠슨 황 수사 부인·DPA 압박 · 오픈AI IPO 28% · 월가 S&amp;P 8,200 ~ 10,000 · 삼성 30조 배당 환율 | 2026-11-27 | [문서 열기](news/2026/11/27.md) |
 | **찌라시** | AI 암호 해독설 · NVDA 동남아 출하 중단 · 머스크-이재용 협상 · 국민연금 240조 팩트체크 | 2026-11-27 | [문서 열기](rumors/2026/11/27.md) |
-| **인터넷 민심** | 블라인드·X.com·스레드 통합 민심 · 공포·탐욕 33점 (미 휴장 선물 반등·코스피 윗꼬리) | 2026-11-27 | [문서 열기](sentiment/2026/11/27.md) |
-| **하루치 뉴스정리** | 장중 -8% 반도체 V자 반등 · S&amp;P 엔비디아 경고 · GDP 4.3%·근원 PCE 3.3% · USTR 301조 관세 | 2026-11-26 | [문서 열기](news/2026/11/26.md) |
 
 ---
 
